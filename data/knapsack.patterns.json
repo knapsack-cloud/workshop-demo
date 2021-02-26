@@ -1,0 +1,64 @@
+{
+  "statusSets": [
+    {
+      "statuses": [
+        { "color": "#0C8FAC", "id": "needs-design", "title": "Needs Design" },
+        { "color": "#00b600", "id": "ready", "title": "Ready" },
+        { "color": "#6b51f7", "id": "needs-updated", "title": "Needs Update" }
+      ],
+      "id": "design",
+      "title": "Design"
+    },
+    {
+      "statuses": [
+        { "color": "#403e41", "id": "unset", "title": "Unset" },
+        { "color": "#0C8FAC", "id": "needs-dev", "title": "Needs Development" },
+        { "color": "#6b51f7", "id": "needs-updated", "title": "Needs Update" },
+        { "color": "#fc8a4b", "id": "needs-qa", "title": "Needs QA" },
+        {
+          "color": "#f0e034",
+          "id": "needs-approval",
+          "title": "Needs Approval"
+        },
+        { "color": "#00b600", "id": "ready", "title": "Ready" },
+        { "color": "#ededed", "id": "wont-build", "title": "Won't Build" }
+      ],
+      "id": "react",
+      "title": "React"
+    },
+    {
+      "statuses": [
+        { "color": "#403e41", "id": "unset", "title": "Unset" },
+        { "color": "#0C8FAC", "id": "needs-dev", "title": "Needs Development" },
+        { "color": "#6b51f7", "id": "needs-updated", "title": "Needs Update" },
+        { "color": "#fc8a4b", "id": "needs-qa", "title": "Needs QA" },
+        {
+          "color": "#f0e034",
+          "id": "needs-approval",
+          "title": "Needs Approval"
+        },
+        { "color": "#00b600", "id": "ready", "title": "Ready" },
+        { "color": "#ededed", "id": "wont-build", "title": "Won't Build" }
+      ],
+      "id": "web-components",
+      "title": "Web Components"
+    },
+    {
+      "statuses": [
+        { "color": "#403e41", "id": "unset", "title": "Unset" },
+        { "color": "#0C8FAC", "id": "needs-dev", "title": "Needs Development" },
+        { "color": "#6b51f7", "id": "needs-updated", "title": "Needs Update" },
+        { "color": "#fc8a4b", "id": "needs-qa", "title": "Needs QA" },
+        {
+          "color": "#f0e034",
+          "id": "needs-approval",
+          "title": "Needs Approval"
+        },
+        { "color": "#00b600", "id": "ready", "title": "Ready" },
+        { "color": "#ededed", "id": "wont-build", "title": "Won't Build" }
+      ],
+      "id": "twig",
+      "title": "Twig"
+    }
+  ]
+}

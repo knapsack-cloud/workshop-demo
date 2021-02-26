@@ -1,0 +1,364 @@
+{
+  "subPages": [
+    {
+      "slices": [
+        {
+          "data": {
+            "md": "Simple button pattern with a few options. Try manipulating the `HandleClick` property on one of the pattern template tabs (React, Web Comopnent, or Twig), where you can actually pass in a function from the schema form."
+          },
+          "blockId": "markdown-slice",
+          "id": "kJJeYn-tk"
+        },
+        {
+          "data": {
+            "variationId": "type",
+            "templateId": "react",
+            "demoId": "ClAfsmte1",
+            "patternId": "button"
+          },
+          "blockId": "pattern-variations",
+          "id": "GQPv3h1U2"
+        },
+        {
+          "data": {
+            "variationId": "size",
+            "templateId": "react",
+            "demoId": "ClAfsmte1",
+            "patternId": "button"
+          },
+          "blockId": "pattern-variations",
+          "id": "m_g-24BmU"
+        },
+        {
+          "data": { "md": "## Color Tokens Used" },
+          "blockId": "markdown-slice",
+          "id": "MLvXI6mJ3"
+        },
+        {
+          "data": {
+            "tokens": { "category": "color", "name": "p", "tags": [] },
+            "demo": { "id": "color-swatch" }
+          },
+          "blockId": "design-token-slice",
+          "id": "bPTRM9ENe"
+        },
+        {
+          "data": {
+            "tokens": { "category": "color", "name": "sec", "tags": [] },
+            "demo": { "id": "color-swatch" }
+          },
+          "blockId": "design-token-slice",
+          "id": "PrAYgtwC8"
+        }
+      ],
+      "id": "Overview",
+      "title": "Overview"
+    }
+  ],
+  "templates": [
+    {
+      "path": "../src/components/button/button.tsx",
+      "demos": ["primary", "UAsr_mdsK", "ClAfsmte1"],
+      "slices": [],
+      "demosById": {
+        "primary": {
+          "data": {
+            "slots": { "children": ["Primary"] },
+            "props": {
+              "outlined": false,
+              "handleClick": "() => alert('Hello world!')",
+              "size": "m",
+              "disabled": false,
+              "type": "primary"
+            }
+          },
+          "id": "primary",
+          "title": "Primary",
+          "type": "data",
+          "description": "The primary action on the page. Advances the user to the next logical step. One per page max."
+        },
+        "UAsr_mdsK": {
+          "data": {
+            "slots": { "children": ["Secondary"] },
+            "props": {
+              "handleClick": "() => alert('Hello world!')",
+              "size": "m",
+              "disabled": false,
+              "type": "secondary"
+            }
+          },
+          "id": "UAsr_mdsK",
+          "title": "Secondary",
+          "type": "data",
+          "description": "Standard button for general interactivity."
+        },
+        "ClAfsmte1": {
+          "data": {
+            "slots": { "children": ["Button"] },
+            "props": {
+              "outlined": false,
+              "handleClick": "() => alert('Hello world!')",
+              "size": "m",
+              "disabled": false,
+              "type": "secondary"
+            }
+          },
+          "id": "ClAfsmte1",
+          "title": "Button",
+          "type": "data",
+          "description": "This example is used for the Overview documentation."
+        }
+      },
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": { "children": { "title": "Children" } },
+        "props": {
+          "required": [],
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "title": "Button",
+          "type": "object",
+          "description": "A Button for clicking!",
+          "properties": {
+            "handleClick": {
+              "tsType": "() => void",
+              "description": "This is sick",
+              "typeof": "function"
+            },
+            "size": {
+              "default": "m",
+              "enumNames": ["Small", "Default", "Large"],
+              "title": "Size",
+              "type": "string",
+              "enum": ["s", "m", "l"]
+            },
+            "disabled": {
+              "default": false,
+              "title": "Disabled",
+              "type": "boolean"
+            },
+            "type": {
+              "default": "primary",
+              "enumNames": [
+                "Primary",
+                "Secondary",
+                "Success",
+                "Danger",
+                "Warning",
+                "Info",
+                "Light",
+                "Dark",
+                "Link"
+              ],
+              "title": "type",
+              "type": "string",
+              "enum": ["primary", "secondary"]
+            }
+          }
+        }
+      },
+      "id": "react",
+      "title": "React"
+    },
+    {
+      "path": "../src/components/button/button.twig",
+      "demos": ["primary", "9eiex1beA"],
+      "demosById": {
+        "primary": {
+          "data": {
+            "props": {
+              "outlined": false,
+              "style": "primary",
+              "size": "md",
+              "text": "Primary",
+              "disabled": false
+            }
+          },
+          "id": "primary",
+          "title": "Primary",
+          "type": "data",
+          "description": "The primary action on the page. Advances the user to the next logical step. One per page max."
+        },
+        "9eiex1beA": {
+          "data": {
+            "slots": {},
+            "props": {
+              "style": "secondary",
+              "size": "m",
+              "text": "Secondary",
+              "disabled": false
+            }
+          },
+          "id": "9eiex1beA",
+          "title": "Seconary",
+          "type": "data",
+          "description": "Standard button for general interactivity."
+        }
+      },
+      "alias": "@components/button.twig",
+      "templateLanguageId": "twig",
+      "spec": {
+        "slots": {},
+        "props": {
+          "required": ["text"],
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "title": "Button",
+          "type": "object",
+          "description": "A Button for clicking!",
+          "properties": {
+            "style": {
+              "default": "primary",
+              "enumNames": [
+                "Primary",
+                "Secondary",
+                "Success",
+                "Danger",
+                "Warning",
+                "Info",
+                "Light",
+                "Dark",
+                "Link"
+              ],
+              "title": "Style",
+              "type": "string",
+              "enum": ["primary", "secondary"]
+            },
+            "size": {
+              "default": "m",
+              "enumNames": ["Small", "Default", "Large"],
+              "title": "Size",
+              "type": "string",
+              "enum": ["s", "m", "l"]
+            },
+            "text": { "title": "Text", "type": "string" },
+            "disabled": {
+              "default": false,
+              "title": "Disabled",
+              "type": "boolean"
+            }
+          }
+        }
+      },
+      "id": "twig"
+    },
+    {
+      "path": "../src/components/button/button.wc.js",
+      "demos": ["main", "F5h2DwUlJ"],
+      "slices": [
+        {
+          "data": {
+            "templateId": "react",
+            "demoId": "primary",
+            "showSchemaForm": false,
+            "patternId": "button",
+            "demoSize": "landscape"
+          },
+          "blockId": "pattern-template-slice",
+          "id": "qwfqhASTx"
+        },
+        {
+          "data": {
+            "templateId": "web-component",
+            "demoId": "main",
+            "showSchemaForm": false,
+            "patternId": "button",
+            "demoSize": "landscape"
+          },
+          "blockId": "pattern-template-slice",
+          "id": "Te8FQoYKx"
+        }
+      ],
+      "demosById": {
+        "main": {
+          "data": {
+            "slots": { "default": ["Primary"] },
+            "props": {
+              "outlined": false,
+              "size": "m",
+              "disabled": false,
+              "type": "primary"
+            }
+          },
+          "id": "main",
+          "title": "Primary",
+          "type": "data",
+          "description": "Standard button for general interactivity."
+        },
+        "F5h2DwUlJ": {
+          "data": {
+            "slots": { "default": ["Secondary"] },
+            "props": {
+              "outlined": false,
+              "size": "m",
+              "disabled": false,
+              "type": "secondary"
+            }
+          },
+          "id": "F5h2DwUlJ",
+          "title": "Secondary",
+          "type": "data",
+          "description": "Standard button for general interactivity."
+        }
+      },
+      "alias": "ex-button",
+      "templateLanguageId": "web-components",
+      "spec": {
+        "slots": { "default": { "title": "Default" } },
+        "props": {
+          "required": [],
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "description": "An interactive element that transforms some property on a page, or otherwise submits a form.",
+          "properties": {
+            "size": {
+              "default": "m",
+              "type": "string",
+              "enum": ["s", "m", "l"],
+              "description": "Size of the button."
+            },
+            "disabled": {
+              "default": false,
+              "title": "Disabled",
+              "type": "boolean"
+            },
+            "type": {
+              "default": "primary",
+              "enumNames": [
+                "Primary",
+                "Secondary",
+                "Success",
+                "Danger",
+                "Warning",
+                "Info",
+                "Light",
+                "Dark",
+                "Link"
+              ],
+              "title": "Type",
+              "type": "string",
+              "enum": ["primary", "secondary"]
+            }
+          }
+        }
+      },
+      "id": "web-component",
+      "title": "Web Component"
+    }
+  ],
+  "tabs": [
+    { "id": "Overview", "type": "subPage" },
+    { "id": "react", "type": "template" },
+    { "id": "web-component", "type": "template" },
+    { "id": "twig", "type": "template" }
+  ],
+  "statuses": {
+    "react": "ready",
+    "design": "ready",
+    "twig": "ready",
+    "web-components": "ready"
+  },
+  "id": "button",
+  "title": "Button",
+  "demoWidths": [{ "width": 180 }],
+  "demoSize": "s",
+  "description": "An interactive element that transforms some property on a page, or otherwise submits a form."
+}

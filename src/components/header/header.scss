@@ -1,0 +1,21 @@
+.ex-header {
+  background-color: var(--color-layout-default-bg);
+  border-bottom: var(--spacing-xxs) solid var(--color-layout-border);
+  padding: var(--spacing-l) var(--spacing-xl);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    font-size: 1.2em;
+    margin: 0 var(--spacing-xl) 0 0;
+  }
+
+  &__nav {
+    white-space: nowrap;
+
+    a + a {
+      margin-left: var(--spacing-xl);
+    }
+  }
+}

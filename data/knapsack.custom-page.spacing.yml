@@ -1,0 +1,12 @@
+slices:
+  - data:
+      tokens:
+        category: spacing
+        tags: []
+      demo:
+        id: spacing
+    blockId: design-token-slice
+    id: zaqr2o47r
+id: spacing
+title: Spacing
+description: Spacing tokens. Find and modify them in ./src/design-tokens/spacing.js

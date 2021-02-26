@@ -1,0 +1,19 @@
+# https://devcenter.heroku.com/articles/build-docker-images-heroku-yml
+setup:
+  # addons:
+  #   - plan: heroku-postgresql
+  #     as: DATABASE
+  config:
+    FOO: bar
+build:
+  docker:
+    web: Dockerfile
+  config:
+    FOO: bar
+    CYPRESS_INSTALL_BINARY: 0
+run:
+  web: echo 'using heroku.yml' && yarn ks:serve
+release:
+  command:
+    - echo 'I am a release command'
+  image: web

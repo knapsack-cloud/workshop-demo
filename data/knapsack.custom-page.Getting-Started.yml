@@ -1,0 +1,155 @@
+id: Getting-Started
+title: Getting Started
+description: How to use your Knapsack workspace
+slices:
+  - id: ks-content-block-DHA-Mc-r0d
+    blockId: markdown-slice
+    data:
+      md: >-
+        ## Welcome
+
+        Welcome to your Knapsack workspace! As you get acclimated, follow the
+        guidance below to try out the key features available to you.
+
+
+        <br>
+
+        <br>
+
+
+        ### Step 1: Personalize your profile
+
+
+        Knapsack is all about cross functional collaboration around your code.
+        Personalizing your profile will help your team interact with you, so add
+        a profile picture and your display name.
+
+
+        <br>
+
+        <br>
+
+
+        ### Step 2: Set up to run Knapsack locally
+
+        [Use the documentation
+        here](https://help.knapsack.cloud/article/31-running-knapsack-locally)
+        for step-by-step instructions. 
+
+
+        *Not a developer? Take a look at Step 6 and onward. There are sample
+        patterns in this workspace to get you going even without developer
+        help.*
+
+
+        <br>
+
+        <br>
+
+
+        ### Step 3: Explore the connected code repository
+
+        We’ve set you up with a GitHub repository that has some starter patterns
+        to get you going: components, tokens and a page prototype example. Poke
+        around the repo and use these starter patterns to get comfortable with
+        how Knapsack works, then add your own code using Steps 4 and 5, below. 
+
+
+        To connect your workspace to a different repo, [contact Knapsack
+        Customer Success](mailto:help@knapsack.cloud).
+
+
+
+        <br>
+
+        <br>
+
+
+        ### Step 4: Add / Change design tokens
+
+        Once you have Knapsack running locally, navigate to the
+        /src/design-tokens/ directory, where you can find, modify and add to the
+        source design token files. Try modifying or adding token values to see
+        how they reflect in the Cloud UI.
+
+
+        Refer to the [Help documentation
+        here](https://help.knapsack.cloud/article/32-adding-changing-design-tokens)
+        for step by step instructions.
+
+
+        <br>
+
+        <br>
+
+
+        ### Step 5: Add your own components
+
+        Try adding a component of your own to see how you can work with it in
+        the Cloud UI. Don't have components handy? Try modifying the sample
+        comonents and see how the changes render in the Pattern Playground.
+
+
+        Refer to the [Help documentation
+        here](https://help.knapsack.cloud/article/20-connecting-code-templates-to-a-pattern-page)
+        for step-by-step instructions.
+
+
+        <br>
+
+        <br>
+
+
+        ### Step 6: Add / Change documentation
+
+        Test out some of the core uses cases and workflows available via your
+        Knapsack Cloud workspace:
+
+        * Add to and change navigation structure
+
+        * Add and change content via content blocks
+
+        * Create pattern example (using demo content if necessary)
+
+        <br>
+
+        <br>
+
+
+        Refer to the [Help documentation
+        here](https://help.knapsack.cloud/article/33-adding-a-documentation-page)
+        for step-by-step instructions.
+
+
+        <br>
+
+        <br>
+
+
+        ### Step 7: Propose a change (Cloud UI only)
+
+        The Propose Change feature - available from the gear icon - allows
+        non-technical team members to contribute changes made via the Cloud UI
+        to your design system in the form of a git pull request (PR). 
+
+
+        *Note: Developers working locally do not need to use the Propose Change
+        feature, as they are able to merge code edits (whether made manually or
+        via the local environment) directly into the git repo.*
+
+
+        Refer to the [Help documentation
+        here](https://help.knapsack.cloud/article/25-proposing-a-change) for
+        instructions. 
+
+
+        <br>
+
+        <br>
+
+
+        ### Step 8: Share, collaborate and grow!
+
+        Now that you're starting to make this workspace your own, add
+        collaborators and continue to build out your processes for working *on*
+        and *with* your design system using your Knapsack workspace.

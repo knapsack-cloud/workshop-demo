@@ -1,0 +1,10 @@
+.ex-page-flow-example {
+  &__body {}
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: var(--spacing-xl);
+    column-gap: var(--spacing-xl);
+  }
+}

@@ -1,0 +1,50 @@
+.ex-button {
+  background-color: transparent;
+  border: var(--spacing-xxs) solid transparent;
+  border-radius: var(--spacing-xs);
+  color: var(--color-text-default);
+  padding: calc(var(--spacing-s) - var(--spacing-xxs)) calc(var(--spacing-m) - var(--spacing-xxs));
+  line-height: 1.4;
+  font-size: 1rem;
+  cursor: pointer;
+  transition:
+    background-color 200ms ease,
+    color 200ms ease;
+  
+  &--primary {
+    border-color: var(--color-layout-primary);
+    background-color: var(--color-layout-primary);
+    color: var(--color-text-inverse);
+
+    &:hover,
+    &:focus {
+      background-color: var(--color-layout-primary-hover);
+    }
+  }
+
+  &--secondary {
+    border-color: var(--color-layout-secondary);
+
+    &:hover,
+    &:focus {
+      background-color: var(--color-layout-secondary);
+      color: var(--color-text-inverse);
+    }
+  }
+
+  &--size-s {
+    font-size: 0.85em;
+    padding: calc(var(--spacing-xs) - var(--spacing-xxs)) calc(var(--spacing-s) - var(--spacing-xxs));
+  }
+
+  &--size-l {
+    font-size: 1.2em;
+    padding: calc(var(--spacing-m) - var(--spacing-xxs)) calc(var(--spacing-l) - var(--spacing-xxs));
+  }
+
+  &--disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.5;
+  }
+}
