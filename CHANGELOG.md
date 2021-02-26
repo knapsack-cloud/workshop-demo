@@ -1,3 +1,10 @@
+# 1.0.0 (2021-02-26)
+
+
+### Features
+
+* setup workspace for the demo design system ([5630bcb](https://github.com/knapsack-cloud/demo-design-system/commit/5630bcb1c4b775ed0eab8916b9c20a5795dfdd8d))
+
 # 1.0.0 (2020-08-18)
 
 
