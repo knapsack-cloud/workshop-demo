@@ -57,8 +57,8 @@ module.exports = configureKnapsack({
     }),
   ],
   cloud: {
-    siteId: 'sandbox-starter',
-    repoName: 'sandbox-starter',
+    siteId: 'demo-design-system',
+    repoName: 'demo-design-system',
     repoOwner: 'knapsack-cloud',
     baseBranch: 'main',
   },
