@@ -8,12 +8,6 @@
       "parentId": "docs"
     },
     {
-      "id": "/pages/intro",
-      "name": "Intro",
-      "path": "/pages/intro",
-      "parentId": "docs"
-    },
-    {
       "id": "status-dashboard",
       "name": "Status Dashboard",
       "path": "/pages/status-dashboard",
@@ -24,36 +18,6 @@
       "name": "Components",
       "path": "",
       "parentId": "root"
-    },
-    {
-      "id": "header",
-      "name": "Header",
-      "path": "/pattern/header",
-      "parentId": "components-asdf"
-    },
-    {
-      "id": "footer",
-      "name": "Footer",
-      "path": "/pattern/footer",
-      "parentId": "components-asdf"
-    },
-    {
-      "id": "link",
-      "name": "Link",
-      "path": "/pattern/link",
-      "parentId": "components-asdf"
-    },
-    {
-      "id": "/pattern/button",
-      "name": "Button",
-      "path": "/pattern/button",
-      "parentId": "components-asdf"
-    },
-    {
-      "id": "/pattern/card",
-      "name": "Card",
-      "path": "/pattern/card/",
-      "parentId": "components-asdf"
     },
     {
       "id": "design-tokens",
@@ -84,12 +48,6 @@
       "name": "Prototyping",
       "path": "",
       "parentId": "root"
-    },
-    {
-      "id": "page-flow-example",
-      "name": "Page Flow Example",
-      "path": "/pattern/page-flow-example",
-      "parentId": "prototyping"
     }
   ],
   "primary": []
