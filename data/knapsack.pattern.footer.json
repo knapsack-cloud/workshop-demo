@@ -38,7 +38,7 @@
           "type": "data"
         }
       },
-      "assetSetIds": [],
+      "assetSetIds": ["default"],
       "templateLanguageId": "react",
       "spec": {},
       "id": "react",
