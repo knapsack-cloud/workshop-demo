@@ -20,6 +20,18 @@
       "parentId": "root"
     },
     {
+      "id": "author",
+      "name": "Author",
+      "path": "/pattern/author",
+      "parentId": "components-asdf"
+    },
+    {
+      "id": "card",
+      "name": "Card",
+      "path": "/pattern/card",
+      "parentId": "components-asdf"
+    },
+    {
       "id": "design-tokens",
       "name": "Design Tokens",
       "path": "",
@@ -48,6 +60,12 @@
       "name": "Prototyping",
       "path": "",
       "parentId": "root"
+    },
+    {
+      "id": "three-column-card",
+      "name": "Three Column Card",
+      "path": "/pattern/three-column-card",
+      "parentId": "prototyping"
     }
   ],
   "primary": []

@@ -1,0 +1,55 @@
+{
+  "id": "three-column-card",
+  "title": "Three Column Card",
+  "description": "",
+  "statuses": {
+    "design": "ready",
+    "react": "needs-dev",
+    "web-components": "wont-build",
+    "twig": "wont-build"
+  },
+  "templates": [
+    {
+      "id": "react",
+      "title": "react",
+      "path": "../src/prototyping/three-column-cards/three-column-cards.tsx",
+      "templateLanguageId": "react",
+      "spec": {},
+      "assetSetIds": ["default"],
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "data",
+          "data": { "props": {}, "slots": {} }
+        }
+      },
+      "demos": ["main"],
+      "slices": []
+    }
+  ],
+  "tabs": [
+    { "type": "subPage", "id": "overview" },
+    { "type": "template", "id": "react" }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "slices": [
+        {
+          "id": "ks-content-block-U0dPTBE612",
+          "blockId": "pattern-template-slice",
+          "data": {
+            "templateId": "react",
+            "demoSize": "landscape",
+            "showSchemaForm": false,
+            "patternId": "three-column-card",
+            "demoId": "main"
+          }
+        }
+      ]
+    }
+  ],
+  "demoSize": "portrait"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "card",
+  "title": "Card",
+  "description": "An extensible display component able to conform to many different modes of use.",
+  "statuses": {},
+  "templates": [
+    {
+      "id": "react",
+      "title": "react",
+      "path": "../src/components/card/card.tsx",
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": {
+          "children": {
+            "title": "children",
+            "disallowText": true,
+            "allowedPatternIds": ["author"]
+          }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "An extensible display component able to conform to many different modes of use.",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "imgSrc": { "type": "string" },
+            "label": { "type": "string", "title": "Label" },
+            "title": { "type": "string" },
+            "body": {
+              "type": "string",
+              "description": "Content to fill out ONE paragraph"
+            }
+          }
+        }
+      },
+      "assetSetIds": ["default"],
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "How To",
+          "type": "data",
+          "data": {
+            "props": {
+              "label": "How-to",
+              "imgSrc": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+              "title": "How to use search engine optimization to drive sales",
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium."
+            },
+            "slots": {
+              "children": [
+                {
+                  "patternId": "author",
+                  "templateId": "react",
+                  "demoId": "main"
+                }
+              ]
+            }
+          },
+          "description": "All options set. This example gives you the whole kitchen sink!"
+        }
+      },
+      "demos": ["main"],
+      "slices": []
+    }
+  ],
+  "tabs": [
+    { "type": "subPage", "id": "overview" },
+    { "type": "template", "id": "react" }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "slices": [
+        {
+          "id": "ks-content-block-rUU3CEQOYr",
+          "blockId": "pattern-template-slice",
+          "data": {
+            "templateId": "react",
+            "demoSize": "landscape",
+            "showSchemaForm": false,
+            "patternId": "card",
+            "demoId": "main"
+          }
+        }
+      ]
+    }
+  ]
+}
