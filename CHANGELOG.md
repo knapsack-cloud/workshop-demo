@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/knapsack-cloud/demo-design-system/compare/v1.0.0...v1.0.1) (2021-03-08)
+
+
+### Bug Fixes
+
+* missing asset set keys & update packages ([aa9cc7c](https://github.com/knapsack-cloud/demo-design-system/commit/aa9cc7ca2e3d8cf54e9611a3fcb1cff501bde8e3))
+
 # 1.0.0 (2021-02-26)
 
 
