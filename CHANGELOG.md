@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/knapsack-cloud/demo-design-system/compare/v1.1.0...v1.2.0) (2021-03-10)
+
+
+### Features
+
+* add dark mode ([f052c5c](https://github.com/knapsack-cloud/demo-design-system/commit/f052c5c7e3201e92bc6136bfaa6291db41cee603))
+
 # [1.1.0](https://github.com/knapsack-cloud/demo-design-system/compare/v1.0.1...v1.1.0) (2021-03-09)
 
 
