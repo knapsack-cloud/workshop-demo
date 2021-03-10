@@ -25,12 +25,12 @@ export const Author: React.FC<AuthorProps> = ({
         </a>
       </div>
       <div className="ml-3">
-        <p className="text-sm font-medium text-gray-900">
+        <p className="text-sm font-medium text-gray-900 dark:text-white">
           <a href="#" className="hover:underline">
             {children}
           </a>
         </p>
-        <div className="flex space-x-1 text-sm text-gray-500">
+        <div className="flex space-x-1 text-sm text-gray-500  dark:text-gray-400">
           {date && (
             <time datetime="2020-03-10">
               {date}

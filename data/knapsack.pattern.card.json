@@ -2,7 +2,7 @@
   "id": "card",
   "title": "Card",
   "description": "An extensible display component able to conform to many different modes of use.",
-  "statuses": {},
+  "statuses": { "design": "ready", "react": "needs-approval" },
   "templates": [
     {
       "id": "react",
@@ -33,7 +33,6 @@
           }
         }
       },
-      "assetSetIds": ["default"],
       "demosById": {
         "main": {
           "id": "main",
@@ -57,9 +56,31 @@
             }
           },
           "description": "All options set. This example gives you the whole kitchen sink!"
+        },
+        "W1Xbf7ez7T": {
+          "id": "W1Xbf7ez7T",
+          "title": "How To 2",
+          "type": "data",
+          "data": {
+            "props": {
+              "label": "How-to",
+              "title": "How to use search engine optimization to drive sales",
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium."
+            },
+            "slots": {
+              "children": [
+                {
+                  "patternId": "author",
+                  "templateId": "react",
+                  "demoId": "main"
+                }
+              ]
+            }
+          },
+          "description": "All options set. This example gives you the whole kitchen sink!"
         }
       },
-      "demos": ["main"],
+      "demos": ["main", "W1Xbf7ez7T"],
       "slices": []
     }
   ],
