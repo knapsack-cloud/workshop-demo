@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/knapsack-cloud/demo-design-system/compare/v1.0.1...v1.1.0) (2021-03-09)
+
+
+### Features
+
+* add first couple patterns ([8527897](https://github.com/knapsack-cloud/demo-design-system/commit/8527897c18b0f6db7cdae6d9408a540fd7b2cb95))
+
 ## [1.0.1](https://github.com/knapsack-cloud/demo-design-system/compare/v1.0.0...v1.0.1) (2021-03-08)
 
 
