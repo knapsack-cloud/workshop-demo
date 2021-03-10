@@ -12,6 +12,7 @@ export const Author: React.FC<AuthorProps> = ({
   const classes = cn(
     'flex',
     'items-center',
+    'dark:bg-gray-900',
     {'mt-6': topMargin}
   );
   return (
