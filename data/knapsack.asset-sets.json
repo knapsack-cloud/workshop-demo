@@ -1,5 +1,5 @@
 {
-  "globalAssetSetIds": ["default"],
+  "globalAssetSetIds": ["default", "dark"],
   "allAssetSets": {
     "default": {
       "id": "default",

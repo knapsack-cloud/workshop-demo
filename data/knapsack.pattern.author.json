@@ -24,7 +24,6 @@
           }
         }
       },
-      "assetSetIds": ["default"],
       "demosById": {
         "main": {
           "id": "main",
