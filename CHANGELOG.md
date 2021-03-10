@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/knapsack-cloud/demo-design-system/compare/v1.3.0...v1.4.0) (2021-03-10)
+
+
+### Features
+
+* add dark mode to three column cards prototype ([3eadc21](https://github.com/knapsack-cloud/demo-design-system/commit/3eadc21d44e3013b389642e324a5f7cc9249d2b7))
+
 # [1.3.0](https://github.com/knapsack-cloud/demo-design-system/compare/v1.2.0...v1.3.0) (2021-03-10)
 
 
