@@ -15,7 +15,6 @@
       "path": "../src/prototyping/three-column-cards/three-column-cards.tsx",
       "templateLanguageId": "react",
       "spec": {},
-      "assetSetIds": ["default"],
       "demosById": {
         "main": {
           "id": "main",
