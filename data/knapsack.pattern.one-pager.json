@@ -1,0 +1,89 @@
+{
+  "id": "one-pager",
+  "title": "One-Pager",
+  "description": "",
+  "statuses": { "design": "needs-design", "react": "needs-updated" },
+  "templates": [
+    {
+      "id": "react",
+      "title": "react",
+      "path": "../src/prototyping/page/page.tsx",
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": {
+          "children": {
+            "title": "children",
+            "allowedPatternIds": ["layout"],
+            "disallowText": true
+          }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": [],
+          "properties": {}
+        }
+      },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "One Page Card Demo",
+          "type": "data",
+          "data": {
+            "props": {},
+            "slots": {
+              "children": [
+                {
+                  "patternId": "layout",
+                  "templateId": "react",
+                  "demoId": "main"
+                },
+                {
+                  "patternId": "layout",
+                  "templateId": "react",
+                  "demoId": "aMFkBNIHU2"
+                },
+                {
+                  "patternId": "layout",
+                  "templateId": "react",
+                  "demoId": "eY-_KWUog4"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "demos": ["main"],
+      "slices": []
+    }
+  ],
+  "tabs": [
+    { "type": "subPage", "id": "Overview" },
+    { "type": "template", "id": "react" }
+  ],
+  "subPages": [
+    {
+      "title": "Overview",
+      "id": "Overview",
+      "slices": [
+        {
+          "id": "ks-content-block-fNWhYE9p7P",
+          "blockId": "pattern-template-slice",
+          "data": {
+            "templateId": "react",
+            "hideControls": false,
+            "playgroundUi": {
+              "showSchemaForm": false,
+              "demoSize": "landscape"
+            },
+            "showSchemaForm": false,
+            "demoSize": "landscape",
+            "patternId": "one-pager",
+            "demoId": "main"
+          }
+        }
+      ]
+    }
+  ]
+}

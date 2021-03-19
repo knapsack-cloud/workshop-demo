@@ -2,7 +2,7 @@
   "id": "card",
   "title": "Card",
   "description": "An extensible display component able to conform to many different modes of use.",
-  "statuses": { "design": "ready", "react": "needs-approval" },
+  "statuses": { "design": "ready", "react": "ready" },
   "templates": [
     {
       "id": "react",
@@ -36,13 +36,13 @@
       "demosById": {
         "main": {
           "id": "main",
-          "title": "How To",
+          "title": "Boost your conversion rate",
           "type": "data",
           "data": {
             "props": {
-              "label": "How-to",
-              "imgSrc": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-              "title": "How to use search engine optimization to drive sales",
+              "label": "Article",
+              "imgSrc": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+              "title": "Boost your conversion rate",
               "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium."
             },
             "slots": {
@@ -55,56 +55,59 @@
               ]
             }
           },
-          "description": "All options set. This example gives you the whole kitchen sink!"
+          "description": ""
         },
         "W1Xbf7ez7T": {
           "id": "W1Xbf7ez7T",
-          "title": "How To 2",
+          "title": "How to use search engine optimization to drive sales",
           "type": "data",
           "data": {
             "props": {
-              "label": "How-to",
+              "label": "Video",
               "title": "How to use search engine optimization to drive sales",
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium."
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
+              "imgSrc": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
             },
             "slots": {
               "children": [
                 {
                   "patternId": "author",
                   "templateId": "react",
-                  "demoId": "main"
+                  "demoId": "_nTCiQ1984"
                 }
               ]
             }
           },
-          "description": "All options set. This example gives you the whole kitchen sink!"
+          "description": ""
+        },
+        "3c9C95vaFP": {
+          "id": "3c9C95vaFP",
+          "title": "Improve your customer experience",
+          "description": "",
+          "type": "data",
+          "data": {
+            "props": {
+              "imgSrc": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+              "label": "Case Study",
+              "title": "Improve your customer experience",
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic."
+            },
+            "slots": {
+              "children": [
+                {
+                  "patternId": "author",
+                  "templateId": "react",
+                  "demoId": "hGfcj0Ksms"
+                }
+              ]
+            }
+          }
         }
       },
-      "demos": ["main", "W1Xbf7ez7T"],
+      "demos": ["main", "W1Xbf7ez7T", "3c9C95vaFP"],
       "slices": []
     }
   ],
-  "tabs": [
-    { "type": "subPage", "id": "overview" },
-    { "type": "template", "id": "react" }
-  ],
-  "subPages": [
-    {
-      "id": "overview",
-      "title": "Overview",
-      "slices": [
-        {
-          "id": "ks-content-block-rUU3CEQOYr",
-          "blockId": "pattern-template-slice",
-          "data": {
-            "templateId": "react",
-            "demoSize": "landscape",
-            "showSchemaForm": false,
-            "patternId": "card",
-            "demoId": "main"
-          }
-        }
-      ]
-    }
-  ]
+  "tabs": [{ "type": "template", "id": "react" }],
+  "subPages": []
 }

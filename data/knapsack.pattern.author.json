@@ -2,7 +2,7 @@
   "id": "author",
   "title": "Author",
   "description": "",
-  "statuses": { "design": "ready", "react": "needs-approval" },
+  "statuses": { "design": "ready", "react": "ready" },
   "templates": [
     {
       "id": "react",
@@ -27,7 +27,7 @@
       "demosById": {
         "main": {
           "id": "main",
-          "title": "Main",
+          "title": "Roel Aufderehar",
           "type": "data",
           "data": {
             "props": {
@@ -38,33 +38,42 @@
             },
             "slots": { "children": ["Roel Aufderehar"] }
           }
+        },
+        "_nTCiQ1984": {
+          "id": "_nTCiQ1984",
+          "title": "Brenna Goyette",
+          "description": "",
+          "type": "data",
+          "data": {
+            "props": {
+              "date": "Mar 10, 2020 ",
+              "read": "4 min read",
+              "imgSrc": "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+              "topMargin": true
+            },
+            "slots": { "children": ["Brenna Goyette"] }
+          }
+        },
+        "hGfcj0Ksms": {
+          "id": "hGfcj0Ksms",
+          "title": "Daniela Metz",
+          "description": "",
+          "type": "data",
+          "data": {
+            "props": {
+              "date": "Feb 12, 2020",
+              "read": "11 min read",
+              "imgSrc": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+              "topMargin": true
+            },
+            "slots": { "children": ["Daniela Metz"] }
+          }
         }
       },
-      "demos": ["main"],
+      "demos": ["main", "_nTCiQ1984", "hGfcj0Ksms"],
       "slices": []
     }
   ],
-  "tabs": [
-    { "type": "subPage", "id": "overview" },
-    { "type": "template", "id": "react" }
-  ],
-  "subPages": [
-    {
-      "id": "overview",
-      "title": "Overview",
-      "slices": [
-        {
-          "id": "ks-content-block-U_oHTM7RKe",
-          "blockId": "pattern-template-slice",
-          "data": {
-            "templateId": "react",
-            "demoSize": "landscape",
-            "showSchemaForm": false,
-            "patternId": "author",
-            "demoId": "main"
-          }
-        }
-      ]
-    }
-  ]
+  "tabs": [{ "type": "template", "id": "react" }],
+  "subPages": []
 }

@@ -1,5 +1,11 @@
 {
   "secondary": [
+    {
+      "id": "single-page",
+      "name": "Single Page",
+      "path": "/pattern/single-page",
+      "parentId": "root"
+    },
     { "id": "docs", "name": "Docs", "path": "", "parentId": "root" },
     {
       "id": "Getting-Started",
@@ -29,6 +35,12 @@
       "id": "card",
       "name": "Card",
       "path": "/pattern/card",
+      "parentId": "components-asdf"
+    },
+    {
+      "id": "layout",
+      "name": "Layout",
+      "path": "/pattern/layout",
       "parentId": "components-asdf"
     },
     {
@@ -62,9 +74,9 @@
       "parentId": "root"
     },
     {
-      "id": "three-column-card",
-      "name": "Three Column Card",
-      "path": "/pattern/three-column-card",
+      "id": "one-pager",
+      "name": "One-Pager",
+      "path": "/pattern/one-pager",
       "parentId": "prototyping"
     }
   ],
