@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/knapsack-cloud/demo-design-system/compare/v1.4.0...v1.5.0) (2021-03-19)
+
+
+### Features
+
+* added new layout & page component & multiple new demos ([e478a03](https://github.com/knapsack-cloud/demo-design-system/commit/e478a03ece885cc998bad207c174b9ace570e6cd))
+
 # [1.4.0](https://github.com/knapsack-cloud/demo-design-system/compare/v1.3.0...v1.4.0) (2021-03-10)
 
 
