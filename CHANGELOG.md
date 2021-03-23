@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/knapsack-cloud/demo-design-system/compare/v1.5.0...v1.6.0) (2021-03-23)
+
+
+### Features
+
+* new Top Nav & Hero components ([7682031](https://github.com/knapsack-cloud/demo-design-system/commit/76820315ce8dd9b15aadff1bf3065fc16e71d6ca))
+
 # [1.5.0](https://github.com/knapsack-cloud/demo-design-system/compare/v1.4.0...v1.5.0) (2021-03-19)
 
 
