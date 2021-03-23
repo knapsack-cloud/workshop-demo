@@ -2,7 +2,12 @@
   "id": "card",
   "title": "Card",
   "description": "An extensible display component able to conform to many different modes of use.",
-  "statuses": { "design": "ready", "react": "ready" },
+  "statuses": {
+    "design": "ready",
+    "react": "ready",
+    "web-components": "needs-dev",
+    "twig": "needs-dev"
+  },
   "templates": [
     {
       "id": "react",

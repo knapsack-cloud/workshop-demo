@@ -13,7 +13,7 @@
         "slots": {
           "children": {
             "title": "children",
-            "allowedPatternIds": ["layout"],
+            "allowedPatternIds": ["layout", "hero"],
             "disallowText": true
           }
         },
@@ -52,9 +52,37 @@
               ]
             }
           }
+        },
+        "jIkrNzJ0cO": {
+          "id": "jIkrNzJ0cO",
+          "title": "Hero Page",
+          "description": "",
+          "type": "data",
+          "data": {
+            "props": {},
+            "slots": {
+              "children": [
+                {
+                  "patternId": "hero",
+                  "templateId": "react",
+                  "demoId": "main"
+                },
+                {
+                  "patternId": "layout",
+                  "templateId": "react",
+                  "demoId": "eY-_KWUog4"
+                },
+                {
+                  "patternId": "layout",
+                  "templateId": "react",
+                  "demoId": "aMFkBNIHU2"
+                }
+              ]
+            }
+          }
         }
       },
-      "demos": ["main"],
+      "demos": ["main", "jIkrNzJ0cO"],
       "slices": []
     }
   ],

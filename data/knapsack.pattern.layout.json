@@ -2,7 +2,12 @@
   "id": "layout",
   "title": "Layout",
   "description": "An extensible pattern meant to provide layout flexibility",
-  "statuses": { "design": "ready", "react": "ready" },
+  "statuses": {
+    "design": "ready",
+    "react": "ready",
+    "web-components": "needs-dev",
+    "twig": "needs-dev"
+  },
   "templates": [
     {
       "id": "react",

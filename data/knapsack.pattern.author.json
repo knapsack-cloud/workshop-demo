@@ -2,7 +2,12 @@
   "id": "author",
   "title": "Author",
   "description": "",
-  "statuses": { "design": "ready", "react": "ready" },
+  "statuses": {
+    "design": "ready",
+    "react": "ready",
+    "web-components": "needs-dev",
+    "twig": "needs-dev"
+  },
   "templates": [
     {
       "id": "react",

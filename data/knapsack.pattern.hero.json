@@ -1,0 +1,95 @@
+{
+  "id": "hero",
+  "title": "Hero",
+  "description": "",
+  "statuses": {
+    "design": "ready",
+    "react": "needs-updated",
+    "web-components": "needs-dev",
+    "twig": "needs-dev"
+  },
+  "templates": [
+    {
+      "id": "react",
+      "title": "react",
+      "path": "../src/components/hero/hero.tsx",
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": {
+          "header": {
+            "title": "header",
+            "disallowText": true,
+            "allowedPatternIds": ["top-nav"],
+            "isRequired": false,
+            "description": "Space for an optional Top Nav component"
+          }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "showBackground": {
+              "title": "Show Background?",
+              "type": "boolean",
+              "default": true
+            },
+            "headlineOne": { "type": "string", "title": "Headline Line 1" },
+            "headlineTwo": {
+              "type": "string",
+              "title": "Headline Line 2",
+              "description": "Will show in indigo!"
+            },
+            "paragraph": {
+              "type": "string",
+              "title": "Paragraph",
+              "description": "Content to go within the hero paragraph (do not include <p></p>)"
+            },
+            "buttonOne": {
+              "type": "string",
+              "title": "Button One",
+              "description": "[URL]|[TITLE] — for example: http://google.com|Google"
+            },
+            "buttonTwo": {
+              "type": "string",
+              "title": "Button Two",
+              "description": "[URL]|[TITLE] — for example: http://google.com|Google"
+            }
+          }
+        }
+      },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "props": {
+              "showBackground": true,
+              "headlineOne": "Data to enrich your",
+              "headlineTwo": "online business",
+              "paragraph": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+              "buttonOne": "#getting-started|Get started",
+              "buttonTwo": "#live-demo|Live Demo"
+            },
+            "slots": {
+              "header": [
+                {
+                  "patternId": "top-nav",
+                  "templateId": "react",
+                  "demoId": "main"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "demos": ["main"],
+      "slices": []
+    }
+  ],
+  "tabs": [{ "type": "template", "id": "react" }],
+  "subPages": [],
+  "demoSize": "portrait"
+}
