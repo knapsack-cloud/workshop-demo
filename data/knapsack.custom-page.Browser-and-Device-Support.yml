@@ -1,0 +1,72 @@
+id: Browser-and-Device-Support
+title: Browser & Device Support
+slices:
+  - id: ks-content-block-oKbPTulgJu
+    blockId: markdown-slice
+    data:
+      md: >-
+        We aim to accommodate all modern browsers and  devices so users
+        experience the distinctly NSW look and feel and benefit from our
+        accessibility standards and guidelines.   
+
+
+        This list outlines common browsers, devices and screen sizes and is the
+        basis for cross browser testing when building for our design system.
+
+
+        #### Latest versions of the following browsers:
+
+        * Chrome (on Mac)
+
+        * Firefox (on Mac)
+
+        * Safari (on Mac)
+
+        * Edge (on Windows 10)
+
+        * Internet Explorer 11 (On Windows 7)
+
+        <br>
+
+        </br>
+
+
+        *NOTE: We consider Internet Explorer 11 a legacy browser and make our
+        best efforts to ensure the user can benefit from as much functionality
+        as possible with graceful degradation in mind, in that, it may not
+        always look perfect.*
+
+        <br>
+
+        </br>
+
+
+        #### Latest versions of the following device operating systems/browsers:
+
+        * iOS Safari (on an iPhone)
+
+        * Android Chrome (through Browserstack)
+
+        <br>
+
+        </br>
+
+
+        #### Common screen resolutions for each device/browser where applicable:
+
+        * Desktop resolutions
+
+        * Tablet resolutions
+
+        * Mobile resolutions
+
+        * Minimum of 320x480 device size
+
+
+
+        <br>
+
+        </br>
+
+
+        **Last updated** 16 Mar 2020

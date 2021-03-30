@@ -1,0 +1,45 @@
+id: Introduction
+title: Introduction
+description: Welcome to the Demo Design System
+slices:
+  - id: ks-content-block-l4aCpoWIvo
+    blockId: markdown-slice
+    data:
+      md: >+
+        ### What is it?
+
+        The **Demo Design System** provides a way for teams to design products
+        and services that are distinctly for demonstration purposes. It’s a
+        toolkit to help you create consistent, user-focused experiences for your
+        users.
+
+
+        <br>
+
+        </br>
+
+
+        ### Who's it for?
+
+        * Individuals or teams who seek direction and guidance to achieve a
+        desired outcome. You’re eager to up-skill your teams in user-centred
+        design to a level of confidence. You would like to work with others to
+        avoid mistakes. 
+
+
+        * Teams with digital maturity who want to know the mandatory and minimum
+        requirements. You want to reduce development time and cost, deliver a
+        consistent whole experience, and share what you learn with the
+        community. 
+
+
+        * Contractors and suppliers who need to know what’s mandatory to deliver
+        products and services for dmonstrations. You need to know about styles
+        and UI patterns to design a distinctly demo-focused product. 
+
+
+        We're always asking for input from demo experts across industries, so
+        that our system is best practice and relevant. Please never hesitate to
+        [propose your
+        ideas](https://help.knapsack.cloud/article/25-proposing-a-change) via
+        this platform.
