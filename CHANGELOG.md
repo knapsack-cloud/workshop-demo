@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/knapsack-cloud/demo-design-system/compare/v1.6.1...v1.7.0) (2021-03-30)
+
+
+### Bug Fixes
+
+* build order ([4b3ab49](https://github.com/knapsack-cloud/demo-design-system/commit/4b3ab49b29f7b4911bdb0223b04177479db078ca))
+
+
+### Features
+
+* new button pattern ([4d11e9b](https://github.com/knapsack-cloud/demo-design-system/commit/4d11e9b21a256dd59239345cf14332e3316ddb09))
+
 ## [1.6.1](https://github.com/knapsack-cloud/demo-design-system/compare/v1.6.0...v1.6.1) (2021-03-30)
 
 
