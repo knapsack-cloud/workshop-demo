@@ -1,0 +1,101 @@
+id: Contribution-Guidelines
+title: Contribution Guidelines
+slices:
+  - id: ks-content-block-6s7Zs9VUb1
+    blockId: markdown-slice
+    data:
+      md: >-
+        ## Creating a New Component
+
+        Websites have different user needs and the Design System is constantly
+        changing. To meet these user needs you may have to create your own
+        components.
+
+
+        When creating new components it is important to use the inbuilt
+        functionality and core distinctly Demo look and feel of the Design
+        System. The components, grid system, variables and functions have been
+        created to help to simplify this process. Using the inbuilt
+        functionality ensures changes to the system and changes you make will
+        naturally flow into your own custom components.  Another key benefit of
+        leveraging existing code standards is maintaining a high level of
+        accessibility required for all demonstration digital products and
+        services.
+
+        <br>
+
+        </br>
+
+        ### Do the research first
+
+        If you are in the process of making a new component make sure it is
+        something your user needs. Often times simple solutions are the most
+        usable.
+
+
+        We like to ask these questions before making new components:
+
+        * Is it possible to use an existing component?
+
+        * Is it possible to meet this user need by customising an existing
+        component?
+
+
+        If you can't use or modify an existing component we ask:
+
+        * Is it possible to use components that exist to make this ( grid,
+        buttons, responsive-media, body )?
+
+        * Can we build this component in a way that other products can benefit
+        from it in the future?
+
+        * Is there research or discussion about similar patterns on the
+        community?
+
+        * What existing functions and variables can I use in this component?
+
+
+        <br>
+
+        </br>
+
+
+        ### Make a contribution
+         
+        We welcome any contributions from the community and beyond to help
+        improve our services.  You can find a comprehensive guide to making
+        contributions on our github site. In summary, we ask the following for
+        all contributions:
+
+        *  **Useful** - It addresses a user need that’s shared by multiple
+        services or products.
+
+        *  **Unique** - It doesn’t duplicate something which already exists in
+        the design system, unless it’s intended to replace it.
+
+        *  **Distinctly Demo** - Suggested patterns and components must be
+        aligned to the distinctly Demo look and feel. Download the latest
+        [Design System Figma UI
+        kit](https://app.knapsack.cloud/site/ks-demo-bootstrap/latest/pages/Design-System-Figma-UI-kit)
+        from our site.
+
+        *  **Usable** - It’s been tested and shown to work with a representative
+        sample of users, including those with disabilities.
+
+        *  **Consistent** - It uses existing styles and components in the design
+        system where relevant.
+
+        *  **Versatile** - It can be easily applied in different contexts.
+
+        *  **Tested** - It’s been tested and shown to work with a range of
+        browsers, assistive technologies and devices.
+
+        *  **Considered** - Documentation and rationale have been provided.
+
+
+        <br>
+
+        </br>
+
+
+        **Last updated** 9 Dec 2020

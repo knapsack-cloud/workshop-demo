@@ -1,95 +1,95 @@
 {
-  "id": "hero",
-  "title": "Hero",
-  "description": "",
-  "statuses": {
-    "design": "ready",
-    "react": "needs-updated",
-    "web-components": "needs-dev",
-    "twig": "needs-dev"
-  },
+  "subPages": [],
   "templates": [
     {
-      "id": "react",
-      "title": "react",
       "path": "../src/components/hero/hero.tsx",
+      "demos": ["main"],
+      "slices": [],
+      "demosById": {
+        "main": {
+          "data": {
+            "slots": {
+              "header": [
+                {
+                  "templateId": "react",
+                  "demoId": "main",
+                  "patternId": "top-nav"
+                }
+              ]
+            },
+            "props": {
+              "buttonOne": "#getting-started|Get started",
+              "headlineOne": "Data to enrich your",
+              "buttonTwo": "#live-demo|Live Demo",
+              "headlineTwo": "online business",
+              "paragraph": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+              "showBackground": true
+            }
+          },
+          "id": "main",
+          "title": "Main",
+          "type": "data"
+        }
+      },
       "templateLanguageId": "react",
       "spec": {
         "slots": {
           "header": {
-            "title": "header",
             "disallowText": true,
-            "allowedPatternIds": ["top-nav"],
+            "title": "header",
             "isRequired": false,
+            "allowedPatternIds": ["top-nav"],
             "description": "Space for an optional Top Nav component"
           }
         },
         "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "",
-          "type": "object",
           "required": [],
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "type": "object",
+          "description": "",
           "properties": {
-            "showBackground": {
-              "title": "Show Background?",
-              "type": "boolean",
-              "default": true
-            },
-            "headlineOne": { "type": "string", "title": "Headline Line 1" },
-            "headlineTwo": {
+            "buttonOne": {
+              "title": "Button One",
               "type": "string",
+              "description": "[URL]|[TITLE] — for example: http://google.com|Google"
+            },
+            "headlineOne": { "title": "Headline Line 1", "type": "string" },
+            "buttonTwo": {
+              "title": "Button Two",
+              "type": "string",
+              "description": "[URL]|[TITLE] — for example: http://google.com|Google"
+            },
+            "headlineTwo": {
               "title": "Headline Line 2",
+              "type": "string",
               "description": "Will show in indigo!"
             },
             "paragraph": {
-              "type": "string",
               "title": "Paragraph",
+              "type": "string",
               "description": "Content to go within the hero paragraph (do not include <p></p>)"
             },
-            "buttonOne": {
-              "type": "string",
-              "title": "Button One",
-              "description": "[URL]|[TITLE] — for example: http://google.com|Google"
-            },
-            "buttonTwo": {
-              "type": "string",
-              "title": "Button Two",
-              "description": "[URL]|[TITLE] — for example: http://google.com|Google"
+            "showBackground": {
+              "default": true,
+              "title": "Show Background?",
+              "type": "boolean"
             }
           }
         }
       },
-      "demosById": {
-        "main": {
-          "id": "main",
-          "title": "Main",
-          "type": "data",
-          "data": {
-            "props": {
-              "showBackground": true,
-              "headlineOne": "Data to enrich your",
-              "headlineTwo": "online business",
-              "paragraph": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
-              "buttonOne": "#getting-started|Get started",
-              "buttonTwo": "#live-demo|Live Demo"
-            },
-            "slots": {
-              "header": [
-                {
-                  "patternId": "top-nav",
-                  "templateId": "react",
-                  "demoId": "main"
-                }
-              ]
-            }
-          }
-        }
-      },
-      "demos": ["main"],
-      "slices": []
+      "id": "react",
+      "title": "react"
     }
   ],
-  "tabs": [{ "type": "template", "id": "react" }],
-  "subPages": [],
-  "demoSize": "portrait"
+  "tabs": [{ "id": "react", "type": "template" }],
+  "statuses": {
+    "react": "needs-updated",
+    "design": "ready",
+    "twig": "needs-dev",
+    "web-components": "needs-dev"
+  },
+  "id": "hero",
+  "title": "Hero",
+  "demoSize": "portrait",
+  "description": ""
 }

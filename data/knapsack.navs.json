@@ -1,23 +1,107 @@
 {
   "secondary": [
-    { "id": "docs", "name": "Docs", "path": "", "parentId": "root" },
     {
-      "id": "Getting-Started",
-      "name": "Getting Started",
-      "path": "/pages/Getting-Started",
+      "id": "Introduction",
+      "name": "Introduction",
+      "path": "/pages/Introduction",
+      "parentId": "root"
+    },
+    { "id": "docs", "name": "Getting Started", "path": "", "parentId": "root" },
+    {
+      "id": "Starting-and-Scaling",
+      "name": "Starting and Scaling",
+      "path": "/pages/Starting-and-Scaling",
       "parentId": "docs"
     },
     {
-      "id": "status-dashboard",
-      "name": "Status Dashboard",
-      "path": "/pages/status-dashboard",
+      "id": "Contribution-Guidelines",
+      "name": "Contribution Guidelines",
+      "path": "/pages/Contribution-Guidelines",
       "parentId": "docs"
+    },
+    {
+      "id": "Browser-and-Device-Support",
+      "name": "Browser & Device Support",
+      "path": "/pages/Browser-and-Device-Support",
+      "parentId": "docs"
+    },
+    {
+      "id": "For-Designers",
+      "name": "For Designers",
+      "path": "",
+      "parentId": "docs"
+    },
+    {
+      "id": "Figma-UI-Kit",
+      "name": "Figma UI Kit",
+      "path": "/pages/Figma-UI-Kit",
+      "parentId": "For-Designers"
+    },
+    {
+      "id": "For-Developers",
+      "name": "For Developers",
+      "path": "",
+      "parentId": "docs"
+    },
+    {
+      "id": "npm-Installation",
+      "name": "npm Installation",
+      "path": "/pages/npm-Installation",
+      "parentId": "For-Developers"
+    },
+    {
+      "id": "Local-Set-Up",
+      "name": "Local Set Up",
+      "path": "/pages/Local-Set-Up",
+      "parentId": "For-Developers"
+    },
+    {
+      "id": "HTML-Starter-Kit",
+      "name": "HTML Starter Kit",
+      "path": "/pages/HTML-Starter-Kit",
+      "parentId": "For-Developers"
+    },
+    {
+      "id": "design-tokens",
+      "name": "Design Tokens",
+      "path": "",
+      "parentId": "root"
+    },
+    {
+      "id": "all-tokens",
+      "name": "All Tokens",
+      "path": "/pages/all-tokens",
+      "parentId": "design-tokens"
+    },
+    {
+      "id": "Breakpoints",
+      "name": "Breakpoints",
+      "path": "/pages/Breakpoints",
+      "parentId": "design-tokens"
+    },
+    {
+      "id": "/pages/colors",
+      "name": "Colors",
+      "path": "/pages/colors",
+      "parentId": "design-tokens"
+    },
+    {
+      "id": "/pages/spacing",
+      "name": "Spacing",
+      "path": "/pages/spacing",
+      "parentId": "design-tokens"
     },
     {
       "id": "components-asdf",
       "name": "Components",
       "path": "",
       "parentId": "root"
+    },
+    {
+      "id": "Components-Overview",
+      "name": "Components Overview",
+      "path": "/pages/Components-Overview",
+      "parentId": "components-asdf"
     },
     {
       "id": "author",
@@ -56,36 +140,6 @@
       "parentId": "components-asdf"
     },
     {
-      "id": "design-tokens",
-      "name": "Design Tokens",
-      "path": "",
-      "parentId": "root"
-    },
-    {
-      "id": "all-tokens",
-      "name": "All Tokens",
-      "path": "/pages/all-tokens",
-      "parentId": "design-tokens"
-    },
-    {
-      "id": "Breakpoints",
-      "name": "Breakpoints",
-      "path": "/pages/Breakpoints",
-      "parentId": "design-tokens"
-    },
-    {
-      "id": "/pages/colors",
-      "name": "Colors",
-      "path": "/pages/colors",
-      "parentId": "design-tokens"
-    },
-    {
-      "id": "/pages/spacing",
-      "name": "Spacing",
-      "path": "/pages/spacing",
-      "parentId": "design-tokens"
-    },
-    {
       "id": "prototyping",
       "name": "Prototyping",
       "path": "",
@@ -96,6 +150,36 @@
       "name": "One-Pager",
       "path": "/pattern/one-pager",
       "parentId": "prototyping"
+    },
+    {
+      "id": "Docs-and-Guidelines",
+      "name": "Docs & Guidelines",
+      "path": "",
+      "parentId": "root"
+    },
+    {
+      "id": "Accessibility",
+      "name": "Accessibility",
+      "path": "/pages/Accessibility",
+      "parentId": "Docs-and-Guidelines"
+    },
+    {
+      "id": "Delivery-Manual",
+      "name": "Delivery Manual",
+      "path": "/pages/Delivery-Manual",
+      "parentId": "Docs-and-Guidelines"
+    },
+    {
+      "id": "Research",
+      "name": "Research",
+      "path": "/pages/Research",
+      "parentId": "Docs-and-Guidelines"
+    },
+    {
+      "id": "Roadmap",
+      "name": "Roadmap",
+      "path": "/pages/Roadmap",
+      "parentId": "Docs-and-Guidelines"
     }
   ],
   "primary": []

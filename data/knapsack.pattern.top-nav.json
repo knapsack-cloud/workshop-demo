@@ -1,89 +1,89 @@
 {
-  "id": "top-nav",
-  "title": "Top Nav",
-  "description": "",
-  "statuses": {
-    "design": "ready",
-    "react": "needs-updated",
-    "web-components": "needs-dev",
-    "twig": "needs-dev"
-  },
+  "subPages": [],
   "templates": [
     {
-      "id": "react",
-      "title": "react",
       "path": "../src/components/top-nav/top-nav.tsx",
+      "demos": ["main", "sQTUm4r36f", "o7iL4YT_dA"],
+      "slices": [],
+      "demosById": {
+        "sQTUm4r36f": {
+          "data": {
+            "slots": {},
+            "props": {
+              "button": "#login|Login",
+              "links": ["#1|Product", "#2|Features", "Marketplace", "Company"]
+            }
+          },
+          "id": "sQTUm4r36f",
+          "title": "No Logo Top Nav w/ Button",
+          "type": "data",
+          "description": "This Top Nav variation contains links and a button."
+        },
+        "main": {
+          "data": {
+            "slots": {},
+            "props": {
+              "button": "#login|Login",
+              "links": ["#1|Product", "#2|Features", "Marketplace", "Company"],
+              "logo": "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+            }
+          },
+          "id": "main",
+          "title": "Full Featured Top Nav w/ Button",
+          "type": "data",
+          "description": "This Top Nav variation contains a logo, links, and a button."
+        },
+        "o7iL4YT_dA": {
+          "data": {
+            "slots": {},
+            "props": {
+              "links": ["#1|Product", "#2|Features", "Marketplace", "Company"],
+              "logo": "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+            }
+          },
+          "id": "o7iL4YT_dA",
+          "title": "No Button Top Nav",
+          "type": "data",
+          "description": "This Top Nav variation contains a logo and links."
+        }
+      },
       "templateLanguageId": "react",
       "spec": {
         "slots": {},
         "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "",
-          "type": "object",
           "required": [],
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "type": "object",
+          "description": "",
           "properties": {
-            "logo": { "type": "string", "title": "Logo" },
-            "links": {
-              "title": "Links",
-              "type": "array",
-              "items": { "type": "string" },
+            "button": {
+              "title": "Button",
+              "type": "string",
               "description": "[URL]|[TITLE] — for example: http://google.com|Google"
             },
-            "button": {
-              "type": "string",
-              "title": "Button",
+            "links": {
+              "items": { "type": "string" },
+              "title": "Links",
+              "type": "array",
               "description": "[URL]|[TITLE] — for example: http://google.com|Google"
-            }
+            },
+            "logo": { "title": "Logo", "type": "string" }
           }
         }
       },
-      "demosById": {
-        "main": {
-          "id": "main",
-          "title": "Full Featured Top Nav w/ Button",
-          "type": "data",
-          "data": {
-            "props": {
-              "logo": "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg",
-              "links": ["#1|Product", "#2|Features", "Marketplace", "Company"],
-              "button": "#login|Login"
-            },
-            "slots": {}
-          },
-          "description": "This Top Nav variation contains a logo, links, and a button."
-        },
-        "sQTUm4r36f": {
-          "id": "sQTUm4r36f",
-          "title": "No Logo Top Nav w/ Button",
-          "type": "data",
-          "data": {
-            "props": {
-              "links": ["#1|Product", "#2|Features", "Marketplace", "Company"],
-              "button": "#login|Login"
-            },
-            "slots": {}
-          },
-          "description": "This Top Nav variation contains links and a button."
-        },
-        "o7iL4YT_dA": {
-          "id": "o7iL4YT_dA",
-          "title": "No Button Top Nav",
-          "type": "data",
-          "data": {
-            "props": {
-              "logo": "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg",
-              "links": ["#1|Product", "#2|Features", "Marketplace", "Company"]
-            },
-            "slots": {}
-          },
-          "description": "This Top Nav variation contains a logo and links."
-        }
-      },
-      "demos": ["main", "sQTUm4r36f", "o7iL4YT_dA"],
-      "slices": []
+      "id": "react",
+      "title": "react"
     }
   ],
-  "tabs": [{ "type": "template", "id": "react" }],
-  "subPages": [],
-  "demoSize": "portrait"
+  "tabs": [{ "id": "react", "type": "template" }],
+  "statuses": {
+    "react": "needs-updated",
+    "design": "ready",
+    "twig": "needs-dev",
+    "web-components": "needs-dev"
+  },
+  "id": "top-nav",
+  "title": "Top Nav",
+  "demoSize": "portrait",
+  "description": ""
 }

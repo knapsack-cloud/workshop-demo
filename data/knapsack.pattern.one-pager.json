@@ -1,117 +1,117 @@
 {
-  "id": "one-pager",
-  "title": "One-Pager",
-  "description": "",
-  "statuses": { "design": "needs-design", "react": "needs-updated" },
-  "templates": [
-    {
-      "id": "react",
-      "title": "react",
-      "path": "../src/prototyping/page/page.tsx",
-      "templateLanguageId": "react",
-      "spec": {
-        "slots": {
-          "children": {
-            "title": "children",
-            "allowedPatternIds": ["layout", "hero"],
-            "disallowText": true
-          }
-        },
-        "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "",
-          "type": "object",
-          "required": [],
-          "properties": {}
-        }
-      },
-      "demosById": {
-        "main": {
-          "id": "main",
-          "title": "One Page Card Demo",
-          "type": "data",
-          "data": {
-            "props": {},
-            "slots": {
-              "children": [
-                {
-                  "patternId": "layout",
-                  "templateId": "react",
-                  "demoId": "main"
-                },
-                {
-                  "patternId": "layout",
-                  "templateId": "react",
-                  "demoId": "aMFkBNIHU2"
-                },
-                {
-                  "patternId": "layout",
-                  "templateId": "react",
-                  "demoId": "eY-_KWUog4"
-                }
-              ]
-            }
-          }
-        },
-        "jIkrNzJ0cO": {
-          "id": "jIkrNzJ0cO",
-          "title": "Hero Page",
-          "description": "",
-          "type": "data",
-          "data": {
-            "props": {},
-            "slots": {
-              "children": [
-                {
-                  "patternId": "hero",
-                  "templateId": "react",
-                  "demoId": "main"
-                },
-                {
-                  "patternId": "layout",
-                  "templateId": "react",
-                  "demoId": "eY-_KWUog4"
-                },
-                {
-                  "patternId": "layout",
-                  "templateId": "react",
-                  "demoId": "aMFkBNIHU2"
-                }
-              ]
-            }
-          }
-        }
-      },
-      "demos": ["main", "jIkrNzJ0cO"],
-      "slices": []
-    }
-  ],
-  "tabs": [
-    { "type": "subPage", "id": "Overview" },
-    { "type": "template", "id": "react" }
-  ],
   "subPages": [
     {
-      "title": "Overview",
-      "id": "Overview",
       "slices": [
         {
-          "id": "ks-content-block-fNWhYE9p7P",
-          "blockId": "pattern-template-slice",
           "data": {
-            "templateId": "react",
             "hideControls": false,
             "playgroundUi": {
               "showSchemaForm": false,
               "demoSize": "landscape"
             },
+            "templateId": "react",
+            "demoId": "main",
             "showSchemaForm": false,
-            "demoSize": "landscape",
             "patternId": "one-pager",
-            "demoId": "main"
-          }
+            "demoSize": "landscape"
+          },
+          "blockId": "pattern-template-slice",
+          "id": "ks-content-block-fNWhYE9p7P"
         }
-      ]
+      ],
+      "id": "Overview",
+      "title": "Overview"
     }
-  ]
+  ],
+  "templates": [
+    {
+      "path": "../src/prototyping/page/page.tsx",
+      "demos": ["main", "jIkrNzJ0cO"],
+      "slices": [],
+      "demosById": {
+        "main": {
+          "data": {
+            "slots": {
+              "children": [
+                {
+                  "templateId": "react",
+                  "demoId": "main",
+                  "patternId": "layout"
+                },
+                {
+                  "templateId": "react",
+                  "demoId": "aMFkBNIHU2",
+                  "patternId": "layout"
+                },
+                {
+                  "templateId": "react",
+                  "demoId": "eY-_KWUog4",
+                  "patternId": "layout"
+                }
+              ]
+            },
+            "props": {}
+          },
+          "id": "main",
+          "title": "One Page Card Demo",
+          "type": "data"
+        },
+        "jIkrNzJ0cO": {
+          "data": {
+            "slots": {
+              "children": [
+                {
+                  "templateId": "react",
+                  "demoId": "main",
+                  "patternId": "hero"
+                },
+                {
+                  "templateId": "react",
+                  "demoId": "eY-_KWUog4",
+                  "patternId": "layout"
+                },
+                {
+                  "templateId": "react",
+                  "demoId": "aMFkBNIHU2",
+                  "patternId": "layout"
+                }
+              ]
+            },
+            "props": {}
+          },
+          "id": "jIkrNzJ0cO",
+          "title": "Hero Page",
+          "type": "data",
+          "description": ""
+        }
+      },
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": {
+          "children": {
+            "disallowText": true,
+            "title": "children",
+            "allowedPatternIds": ["layout", "hero"]
+          }
+        },
+        "props": {
+          "required": [],
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "type": "object",
+          "description": "",
+          "properties": {}
+        }
+      },
+      "id": "react",
+      "title": "react"
+    }
+  ],
+  "tabs": [
+    { "id": "Overview", "type": "subPage" },
+    { "id": "react", "type": "template" }
+  ],
+  "statuses": { "react": "needs-updated", "design": "needs-design" },
+  "id": "one-pager",
+  "title": "One-Pager",
+  "description": ""
 }
