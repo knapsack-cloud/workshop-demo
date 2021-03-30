@@ -1,118 +1,118 @@
 {
-  "id": "card",
-  "title": "Card",
-  "description": "An extensible display component able to conform to many different modes of use.",
-  "statuses": {
-    "design": "ready",
-    "react": "ready",
-    "web-components": "needs-dev",
-    "twig": "needs-dev"
-  },
+  "subPages": [],
   "templates": [
     {
-      "id": "react",
-      "title": "react",
       "path": "../src/components/card/card.tsx",
+      "demos": ["main", "W1Xbf7ez7T", "3c9C95vaFP"],
+      "slices": [],
+      "demosById": {
+        "main": {
+          "data": {
+            "slots": {
+              "children": [
+                {
+                  "templateId": "react",
+                  "demoId": "main",
+                  "patternId": "author"
+                }
+              ]
+            },
+            "props": {
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
+              "imgSrc": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+              "title": "Boost your conversion rate",
+              "label": "Article"
+            }
+          },
+          "id": "main",
+          "title": "Boost your conversion rate",
+          "type": "data",
+          "description": ""
+        },
+        "3c9C95vaFP": {
+          "data": {
+            "slots": {
+              "children": [
+                {
+                  "templateId": "react",
+                  "demoId": "hGfcj0Ksms",
+                  "patternId": "author"
+                }
+              ]
+            },
+            "props": {
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
+              "imgSrc": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+              "title": "Improve your customer experience",
+              "label": "Case Study"
+            }
+          },
+          "id": "3c9C95vaFP",
+          "title": "Improve your customer experience",
+          "type": "data",
+          "description": ""
+        },
+        "W1Xbf7ez7T": {
+          "data": {
+            "slots": {
+              "children": [
+                {
+                  "templateId": "react",
+                  "demoId": "_nTCiQ1984",
+                  "patternId": "author"
+                }
+              ]
+            },
+            "props": {
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
+              "imgSrc": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+              "title": "How to use search engine optimization to drive sales",
+              "label": "Video"
+            }
+          },
+          "id": "W1Xbf7ez7T",
+          "title": "How to use search engine optimization to drive sales",
+          "type": "data",
+          "description": ""
+        }
+      },
       "templateLanguageId": "react",
       "spec": {
         "slots": {
           "children": {
-            "title": "children",
             "disallowText": true,
+            "title": "children",
             "allowedPatternIds": ["author"]
           }
         },
         "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "An extensible display component able to conform to many different modes of use.",
-          "type": "object",
           "required": [],
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "type": "object",
+          "description": "An extensible display component able to conform to many different modes of use.",
           "properties": {
-            "imgSrc": { "type": "string" },
-            "label": { "type": "string", "title": "Label" },
-            "title": { "type": "string" },
             "body": {
               "type": "string",
               "description": "Content to fill out ONE paragraph"
-            }
+            },
+            "imgSrc": { "type": "string" },
+            "title": { "type": "string" },
+            "label": { "title": "Label", "type": "string" }
           }
         }
       },
-      "demosById": {
-        "main": {
-          "id": "main",
-          "title": "Boost your conversion rate",
-          "type": "data",
-          "data": {
-            "props": {
-              "label": "Article",
-              "imgSrc": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-              "title": "Boost your conversion rate",
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium."
-            },
-            "slots": {
-              "children": [
-                {
-                  "patternId": "author",
-                  "templateId": "react",
-                  "demoId": "main"
-                }
-              ]
-            }
-          },
-          "description": ""
-        },
-        "W1Xbf7ez7T": {
-          "id": "W1Xbf7ez7T",
-          "title": "How to use search engine optimization to drive sales",
-          "type": "data",
-          "data": {
-            "props": {
-              "label": "Video",
-              "title": "How to use search engine optimization to drive sales",
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
-              "imgSrc": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
-            },
-            "slots": {
-              "children": [
-                {
-                  "patternId": "author",
-                  "templateId": "react",
-                  "demoId": "_nTCiQ1984"
-                }
-              ]
-            }
-          },
-          "description": ""
-        },
-        "3c9C95vaFP": {
-          "id": "3c9C95vaFP",
-          "title": "Improve your customer experience",
-          "description": "",
-          "type": "data",
-          "data": {
-            "props": {
-              "imgSrc": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-              "label": "Case Study",
-              "title": "Improve your customer experience",
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic."
-            },
-            "slots": {
-              "children": [
-                {
-                  "patternId": "author",
-                  "templateId": "react",
-                  "demoId": "hGfcj0Ksms"
-                }
-              ]
-            }
-          }
-        }
-      },
-      "demos": ["main", "W1Xbf7ez7T", "3c9C95vaFP"],
-      "slices": []
+      "id": "react",
+      "title": "react"
     }
   ],
-  "tabs": [{ "type": "template", "id": "react" }],
-  "subPages": []
+  "tabs": [{ "id": "react", "type": "template" }],
+  "statuses": {
+    "react": "ready",
+    "design": "ready",
+    "twig": "needs-dev",
+    "web-components": "needs-dev"
+  },
+  "id": "card",
+  "title": "Card",
+  "description": "An extensible display component able to conform to many different modes of use."
 }
