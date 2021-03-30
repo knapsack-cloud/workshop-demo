@@ -8,17 +8,19 @@
     "clean": "rm -rf ./ks-public/dist ./dist",
     "ui:watch": "yarn ui:build -w",
     "ui:build": "rollup -c ./rollup.config.js",
-    "build": "NODE_ENV=production yarn ui:build && yarn tailwind:build && yarn ks:build",
+    "build": "NODE_ENV=production run-s ui:build tailwind:build sd:build ks:build",
     "ks:build": "NODE_ENV=production knapsack build",
     "ks:serve": "NODE_ENV=production KNAPSACK_PORT=${PORT} knapsack serve",
     "ks:test": "knapsack test",
     "ks:start": "knapsack start",
-    "prep": "[ -f ./ks-public/dist/index.css ] || yarn ui:build",
+    "prep": "([ -f ./ks-public/dist/index.css ] || yarn ui:build) && yarn sd:build",
     "prep:tailwind": "[ -f ./ks-public/dist/tailwind.min.css ] || yarn tailwind:build",
     "start": "run-s prep prep:tailwind && run-p *:watch ks:start",
     "watch": "run-p ui:watch",
     "test": "run-s --print-name *:test",
-    "tailwind:build": "cp ./node_modules/tailwindcss/dist/tailwind.min.css ./node_modules/tailwindcss/dist/tailwind-dark.min.css ./ks-public/dist"
+    "tailwind:build": "cp ./node_modules/tailwindcss/dist/tailwind.min.css ./node_modules/tailwindcss/dist/tailwind-dark.min.css ./ks-public/dist",
+    "sd:build": "style-dictionary build --config ./style-dictionary.config.js",
+    "sd:watch": "nodemon --watch './src/design-tokens' --exec 'yarn sd:build'"
   },
   "dependencies": {
     "@babel/cli": "^7.13.0",
