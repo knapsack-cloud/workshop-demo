@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/knapsack-cloud/demo-design-system/compare/v1.6.0...v1.6.1) (2021-03-30)
+
+
+### Bug Fixes
+
+* Demo Content Updates ([4f6a42a](https://github.com/knapsack-cloud/demo-design-system/commit/4f6a42a7eb42c2d9a75ca89a34d81fe9956deb99)), closes [#2](https://github.com/knapsack-cloud/demo-design-system/issues/2)
+
 # [1.6.0](https://github.com/knapsack-cloud/demo-design-system/compare/v1.5.0...v1.6.0) (2021-03-23)
 
 
