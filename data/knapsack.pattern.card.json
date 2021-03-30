@@ -19,7 +19,7 @@
           "children": {
             "title": "children",
             "disallowText": true,
-            "allowedPatternIds": ["author"]
+            "allowedPatternIds": ["author", "button"]
           }
         },
         "props": {

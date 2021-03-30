@@ -1,0 +1,132 @@
+{
+  "id": "button",
+  "title": "Button",
+  "description": "",
+  "statuses": { "design": "ready", "react": "needs-qa" },
+  "templates": [
+    {
+      "id": "react",
+      "title": "react",
+      "path": "../src/components/button/button.tsx",
+      "alias": "Button",
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": { "children": { "title": "children", "isRequired": true } },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "size": {
+              "title": "Size",
+              "type": "string",
+              "enum": ["small", "medium", "large"]
+            },
+            "url": {
+              "type": "string",
+              "title": "URL",
+              "description": "[URL]|[TITLE] — for example: http://google.com|Google"
+            },
+            "type": {
+              "title": "Button Type",
+              "type": "string",
+              "enum": ["solid", "outline"],
+              "default": "solid"
+            },
+            "mode": {
+              "title": "Button Mode",
+              "type": "string",
+              "enum": [
+                "success",
+                "info",
+                "warning",
+                "danger",
+                "alert",
+                "special"
+              ]
+            }
+          }
+        }
+      },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Solid (info)",
+          "type": "data",
+          "data": {
+            "props": {
+              "type": "solid",
+              "size": "medium",
+              "url": "#url",
+              "mode": "info"
+            },
+            "slots": { "children": ["Button"] }
+          }
+        },
+        "2CXfLJgtaC": {
+          "id": "2CXfLJgtaC",
+          "title": "Outline (special)",
+          "type": "data",
+          "data": {
+            "props": {
+              "type": "outline",
+              "size": "medium",
+              "url": "#url",
+              "mode": "special"
+            },
+            "slots": { "children": ["Button"] }
+          }
+        }
+      },
+      "demos": ["main", "2CXfLJgtaC"],
+      "slices": []
+    }
+  ],
+  "tabs": [
+    { "type": "subPage", "id": "Overview" },
+    { "type": "template", "id": "react" }
+  ],
+  "subPages": [
+    {
+      "title": "Overview",
+      "id": "Overview",
+      "slices": [
+        {
+          "id": "ks-content-block-bVvafRW0b7",
+          "blockId": "pattern-variations",
+          "data": {
+            "size": "s",
+            "patternId": "button",
+            "templateId": "react",
+            "demoId": "main",
+            "variationId": "mode"
+          }
+        },
+        {
+          "id": "ks-content-block-7k3m8UcvWD",
+          "blockId": "pattern-variations",
+          "data": {
+            "size": "s",
+            "patternId": "button",
+            "templateId": "react",
+            "demoId": "main",
+            "variationId": "size"
+          }
+        },
+        {
+          "id": "ks-content-block-41tmlwo8LF",
+          "blockId": "pattern-variations",
+          "data": {
+            "size": "s",
+            "patternId": "button",
+            "templateId": "react",
+            "demoId": "2CXfLJgtaC",
+            "variationId": "type"
+          }
+        }
+      ]
+    }
+  ],
+  "demoSize": "portrait"
+}

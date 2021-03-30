@@ -1,11 +1,5 @@
 {
   "secondary": [
-    {
-      "id": "single-page",
-      "name": "Single Page",
-      "path": "/pattern/single-page",
-      "parentId": "root"
-    },
     { "id": "docs", "name": "Docs", "path": "", "parentId": "root" },
     {
       "id": "Getting-Started",
@@ -29,6 +23,12 @@
       "id": "author",
       "name": "Author",
       "path": "/pattern/author",
+      "parentId": "components-asdf"
+    },
+    {
+      "id": "button",
+      "name": "Button",
+      "path": "/pattern/button",
       "parentId": "components-asdf"
     },
     {
@@ -65,6 +65,12 @@
       "id": "all-tokens",
       "name": "All Tokens",
       "path": "/pages/all-tokens",
+      "parentId": "design-tokens"
+    },
+    {
+      "id": "Breakpoints",
+      "name": "Breakpoints",
+      "path": "/pages/Breakpoints",
       "parentId": "design-tokens"
     },
     {
