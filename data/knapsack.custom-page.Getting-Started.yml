@@ -1,10 +1,5 @@
-id: Getting-Started
-title: Getting Started
-description: How to use your Knapsack workspace
 slices:
-  - id: ks-content-block-DHA-Mc-r0d
-    blockId: markdown-slice
-    data:
+  - data:
       md: >-
         ## Welcome
 
@@ -153,3 +148,8 @@ slices:
         Now that you're starting to make this workspace your own, add
         collaborators and continue to build out your processes for working *on*
         and *with* your design system using your Knapsack workspace.
+    blockId: markdown-slice
+    id: ks-content-block-DHA-Mc-r0d
+id: Getting-Started
+title: Getting Started
+description: How to use your Knapsack workspace

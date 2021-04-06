@@ -1,9 +1,5 @@
-id: Local-Set-Up
-title: Local Set Up
 slices:
-  - id: ks-content-block-kVtixGefZP
-    blockId: markdown-slice
-    data:
+  - data:
       md: >-
         ### Development set up
 
@@ -83,3 +79,7 @@ slices:
 
 
         **Last updated** 14 Jan 2021
+    blockId: markdown-slice
+    id: ks-content-block-kVtixGefZP
+id: Local-Set-Up
+title: Local Set Up

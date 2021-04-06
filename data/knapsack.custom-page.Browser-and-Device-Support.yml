@@ -1,9 +1,5 @@
-id: Browser-and-Device-Support
-title: Browser & Device Support
 slices:
-  - id: ks-content-block-oKbPTulgJu
-    blockId: markdown-slice
-    data:
+  - data:
       md: >-
         We aim to accommodate all modern browsers and  devices so users
         experience the distinctly NSW look and feel and benefit from our
@@ -70,3 +66,7 @@ slices:
 
 
         **Last updated** 16 Mar 2020
+    blockId: markdown-slice
+    id: ks-content-block-oKbPTulgJu
+id: Browser-and-Device-Support
+title: Browser & Device Support

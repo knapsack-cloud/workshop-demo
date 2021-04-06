@@ -1,7 +1,7 @@
+slices:
+  - blockId: pattern-list-block
+    id: ks-content-block-7SN_q5M25U
+  - blockId: pattern-status-table-block
+    id: ks-content-block-CnE1-DkYRu
 id: Components-Overview
 title: Components Overview
-slices:
-  - id: ks-content-block-7SN_q5M25U
-    blockId: pattern-list-block
-  - id: ks-content-block-CnE1-DkYRu
-    blockId: pattern-status-table-block

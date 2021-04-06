@@ -1,9 +1,5 @@
-id: Starting-and-Scaling
-title: Starting & Scaling
 slices:
-  - id: ks-content-block-xplioKgLOW
-    blockId: markdown-slice
-    data:
+  - data:
       md: >+
         The Demo Design System is new to many and is always evolving. We
         encourage you to use this time to become familiar with it. Ask your
@@ -121,4 +117,8 @@ slices:
         **Last updated** 21 Dec 2020
 
 
+    blockId: markdown-slice
+    id: ks-content-block-xplioKgLOW
+id: Starting-and-Scaling
+title: Starting & Scaling
 description: How to start using the Demo Design System

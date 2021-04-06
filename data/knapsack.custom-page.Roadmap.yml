@@ -1,9 +1,5 @@
-id: Roadmap
-title: Roadmap
 slices:
-  - id: ks-content-block-movibjJseW
-    blockId: markdown-slice
-    data:
+  - data:
       md: >-
         ### Strategic roadmap
 
@@ -33,3 +29,7 @@ slices:
 
 
         **Last updated** 21 May 2020
+    blockId: markdown-slice
+    id: ks-content-block-movibjJseW
+id: Roadmap
+title: Roadmap
