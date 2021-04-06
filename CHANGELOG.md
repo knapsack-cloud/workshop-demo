@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/knapsack-cloud/demo-design-system/compare/v1.7.0...v1.7.1) (2021-04-06)
+
+
+### Bug Fixes
+
+* Added Component Docs ([8962d74](https://github.com/knapsack-cloud/demo-design-system/commit/8962d7468275a788809228919ef9a7d17e7ec004)), closes [#4](https://github.com/knapsack-cloud/demo-design-system/issues/4)
+
 # [1.7.0](https://github.com/knapsack-cloud/demo-design-system/compare/v1.6.1...v1.7.0) (2021-03-30)
 
 
