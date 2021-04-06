@@ -1,9 +1,5 @@
-id: Research
-title: Research
 slices:
-  - id: ks-content-block-xSWK6S5HCa
-    blockId: markdown-slice
-    data:
+  - data:
       md: >-
         A lot of exciting research projects are happening across the Product
         Demo field, but there’s currently no easy way for teams to share their
@@ -57,3 +53,7 @@ slices:
         If you’ve got your own research repository, are thinking about
         establishing one, or just love user research and want to chat with
         likeminded people, get in touch with us, we’d love to hear from you.
+    blockId: markdown-slice
+    id: ks-content-block-xSWK6S5HCa
+id: Research
+title: Research

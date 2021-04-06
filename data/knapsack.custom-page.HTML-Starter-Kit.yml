@@ -1,9 +1,5 @@
-id: HTML-Starter-Kit
-title: HTML Starter Kit
 slices:
-  - id: ks-content-block-wL9zew9fie
-    blockId: markdown-slice
-    data:
+  - data:
       md: >
         We have provided a compiled version of the Design System that can be run
         from your file system. This allows lower capability teams to quickly
@@ -298,3 +294,7 @@ slices:
 
 
         **Last updated** 12 Jan 2021
+    blockId: markdown-slice
+    id: ks-content-block-wL9zew9fie
+id: HTML-Starter-Kit
+title: HTML Starter Kit

@@ -1,9 +1,5 @@
-id: Accessibility
-title: Accessibility
 slices:
-  - id: ks-content-block-hZ1198f0DI
-    blockId: markdown-slice
-    data:
+  - data:
       md: >-
         A brief overviews of Bootstrap’s features and limitations for the
         creation of accessible content.
@@ -103,3 +99,7 @@ slices:
         - Colour Contrast Analyser (CCA)
 
         - “HTML Codesniffer” bookmarklet for identifying accessibility issues
+    blockId: markdown-slice
+    id: ks-content-block-hZ1198f0DI
+id: Accessibility
+title: Accessibility

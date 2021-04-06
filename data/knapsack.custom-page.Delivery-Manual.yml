@@ -1,9 +1,5 @@
-id: Delivery-Manual
-title: Delivery Manual
 slices:
-  - id: ks-content-block-nqOdRS3iNn
-    blockId: markdown-slice
-    data:
+  - data:
       md: >-
         ### Changing how we design services
 
@@ -103,3 +99,7 @@ slices:
 
 
         **Last updated** 6 Oct 2020
+    blockId: markdown-slice
+    id: ks-content-block-nqOdRS3iNn
+id: Delivery-Manual
+title: Delivery Manual
