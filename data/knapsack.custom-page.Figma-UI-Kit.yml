@@ -1,9 +1,5 @@
-id: Figma-UI-Kit
-title: Figma UI Kit
 slices:
-  - id: ks-content-block-CIu3a1-sIk
-    blockId: markdown-slice
-    data:
+  - data:
       md: >-
         ### A distinctly Demo Design System
 
@@ -233,3 +229,7 @@ slices:
 
 
         **Last updated** 22 Dec 2020
+    blockId: markdown-slice
+    id: ks-content-block-CIu3a1-sIk
+id: Figma-UI-Kit
+title: Figma UI Kit

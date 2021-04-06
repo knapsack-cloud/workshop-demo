@@ -1,184 +1,184 @@
 {
   "secondary": [
     {
-      "id": "Introduction",
-      "name": "Introduction",
       "path": "/pages/Introduction",
+      "name": "Introduction",
+      "id": "Introduction",
       "parentId": "root"
     },
-    { "id": "docs", "name": "Getting Started", "path": "", "parentId": "root" },
+    { "path": "", "name": "Getting Started", "id": "docs", "parentId": "root" },
     {
-      "id": "Starting-and-Scaling",
-      "name": "Starting and Scaling",
       "path": "/pages/Starting-and-Scaling",
+      "name": "Starting and Scaling",
+      "id": "Starting-and-Scaling",
       "parentId": "docs"
     },
     {
-      "id": "Contribution-Guidelines",
-      "name": "Contribution Guidelines",
       "path": "/pages/Contribution-Guidelines",
+      "name": "Contribution Guidelines",
+      "id": "Contribution-Guidelines",
       "parentId": "docs"
     },
     {
-      "id": "Browser-and-Device-Support",
-      "name": "Browser & Device Support",
       "path": "/pages/Browser-and-Device-Support",
+      "name": "Browser & Device Support",
+      "id": "Browser-and-Device-Support",
       "parentId": "docs"
     },
     {
-      "id": "For-Designers",
-      "name": "For Designers",
       "path": "",
+      "name": "For Designers",
+      "id": "For-Designers",
       "parentId": "docs"
     },
     {
-      "id": "Figma-UI-Kit",
-      "name": "Figma UI Kit",
       "path": "/pages/Figma-UI-Kit",
+      "name": "Figma UI Kit",
+      "id": "Figma-UI-Kit",
       "parentId": "For-Designers"
     },
     {
-      "id": "For-Developers",
-      "name": "For Developers",
       "path": "",
+      "name": "For Developers",
+      "id": "For-Developers",
       "parentId": "docs"
     },
     {
-      "id": "npm-Installation",
-      "name": "npm Installation",
       "path": "/pages/npm-Installation",
+      "name": "npm Installation",
+      "id": "npm-Installation",
       "parentId": "For-Developers"
     },
     {
-      "id": "Local-Set-Up",
-      "name": "Local Set Up",
       "path": "/pages/Local-Set-Up",
+      "name": "Local Set Up",
+      "id": "Local-Set-Up",
       "parentId": "For-Developers"
     },
     {
-      "id": "HTML-Starter-Kit",
-      "name": "HTML Starter Kit",
       "path": "/pages/HTML-Starter-Kit",
+      "name": "HTML Starter Kit",
+      "id": "HTML-Starter-Kit",
       "parentId": "For-Developers"
     },
     {
-      "id": "design-tokens",
+      "path": "",
       "name": "Design Tokens",
-      "path": "",
+      "id": "design-tokens",
       "parentId": "root"
     },
     {
-      "id": "all-tokens",
-      "name": "All Tokens",
       "path": "/pages/all-tokens",
+      "name": "All Tokens",
+      "id": "all-tokens",
       "parentId": "design-tokens"
     },
     {
-      "id": "Breakpoints",
-      "name": "Breakpoints",
       "path": "/pages/Breakpoints",
+      "name": "Breakpoints",
+      "id": "Breakpoints",
       "parentId": "design-tokens"
     },
     {
-      "id": "/pages/colors",
-      "name": "Colors",
       "path": "/pages/colors",
+      "name": "Colors",
+      "id": "/pages/colors",
       "parentId": "design-tokens"
     },
     {
-      "id": "/pages/spacing",
-      "name": "Spacing",
       "path": "/pages/spacing",
+      "name": "Spacing",
+      "id": "/pages/spacing",
       "parentId": "design-tokens"
     },
     {
-      "id": "components-asdf",
+      "path": "",
       "name": "Components",
-      "path": "",
+      "id": "components-asdf",
       "parentId": "root"
     },
     {
-      "id": "Components-Overview",
-      "name": "Components Overview",
       "path": "/pages/Components-Overview",
+      "name": "Components Overview",
+      "id": "Components-Overview",
       "parentId": "components-asdf"
     },
     {
-      "id": "author",
-      "name": "Author",
       "path": "/pattern/author",
+      "name": "Author",
+      "id": "author",
       "parentId": "components-asdf"
     },
     {
-      "id": "button",
-      "name": "Button",
       "path": "/pattern/button",
+      "name": "Button",
+      "id": "button",
       "parentId": "components-asdf"
     },
     {
-      "id": "card",
-      "name": "Card",
       "path": "/pattern/card",
+      "name": "Card",
+      "id": "card",
       "parentId": "components-asdf"
     },
     {
-      "id": "hero",
-      "name": "Hero",
       "path": "/pattern/hero",
+      "name": "Hero",
+      "id": "hero",
       "parentId": "components-asdf"
     },
     {
-      "id": "layout",
-      "name": "Layout",
       "path": "/pattern/layout",
+      "name": "Layout",
+      "id": "layout",
       "parentId": "components-asdf"
     },
     {
-      "id": "top-nav",
-      "name": "Top Nav",
       "path": "/pattern/top-nav",
+      "name": "Top Nav",
+      "id": "top-nav",
       "parentId": "components-asdf"
     },
     {
-      "id": "prototyping",
-      "name": "Prototyping",
       "path": "",
+      "name": "Prototyping",
+      "id": "prototyping",
       "parentId": "root"
     },
     {
-      "id": "one-pager",
-      "name": "One-Pager",
       "path": "/pattern/one-pager",
+      "name": "One-Pager",
+      "id": "one-pager",
       "parentId": "prototyping"
     },
     {
-      "id": "Docs-and-Guidelines",
-      "name": "Docs & Guidelines",
       "path": "",
+      "name": "Docs & Guidelines",
+      "id": "Docs-and-Guidelines",
       "parentId": "root"
     },
     {
-      "id": "Accessibility",
-      "name": "Accessibility",
       "path": "/pages/Accessibility",
+      "name": "Accessibility",
+      "id": "Accessibility",
       "parentId": "Docs-and-Guidelines"
     },
     {
-      "id": "Delivery-Manual",
-      "name": "Delivery Manual",
       "path": "/pages/Delivery-Manual",
+      "name": "Delivery Manual",
+      "id": "Delivery-Manual",
       "parentId": "Docs-and-Guidelines"
     },
     {
-      "id": "Research",
-      "name": "Research",
       "path": "/pages/Research",
+      "name": "Research",
+      "id": "Research",
       "parentId": "Docs-and-Guidelines"
     },
     {
-      "id": "Roadmap",
-      "name": "Roadmap",
       "path": "/pages/Roadmap",
+      "name": "Roadmap",
+      "id": "Roadmap",
       "parentId": "Docs-and-Guidelines"
     }
   ],

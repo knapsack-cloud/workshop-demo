@@ -1,5 +1,76 @@
 {
-  "subPages": [],
+  "subPages": [
+    {
+      "title": "Accessibility",
+      "id": "Usage",
+      "slices": [
+        {
+          "id": "ks-content-block-Uxbmqcpqyd",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "### The card component has been tested against the latest [W3C Web Content Accessibility Guidelines (WCAG) 2.1 Level A and AA success criteria](https://www.w3.org/TR/WCAG21/) and violations have been identified as high priority issues. This document will be updated when these accessibility issues are resolved."
+          }
+        },
+        {
+          "id": "PrcTK8PHfv",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## Accessibility considerations\n1. Labels should be clear and concise.\n2. Users should be warned if selecting a card call-to-action will cause a change in context.\n3. Components should be used to create the content that displays within each tile"
+          }
+        },
+        {
+          "id": "2dXev5f8Tb",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## Resources\n* [W3C WAI-ARIA Authoring Practices Checkbox Design Pattern](https://www.w3.org/TR/wai-aria-practices/examples/checkbox/checkbox-1/checkbox-1.html) covers the usage of ARIA names, state and roles, as well as the expected keyboard interactions.\n* [W3C WAI-ARIA: Using aria-expanded to indicate the state of a collapsible element](https://www.w3.org/WAI/GL/wiki/Using_aria-expanded_to_indicate_the_state_of_a_collapsible_element)\n* Best In Class Example: [IBM Accessibility Requirements](https://www.ibm.com/able/requirements/requirements/)"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Usage",
+      "id": "Usage-89pbQtWi4R",
+      "slices": [
+        {
+          "id": "ks-content-block-LPzawDhw8z",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## Overview\nUse card layouts to present a high-level summary of content related to a single topic. \n\n### Do:\n* Consider and choose text and visual elements carefully. Test your cards with the minimal content and only add additional content or graphics where they give needed context to the user\n* Use headlines that set clear expectations about the content being linked to\n* Use one style of card per module, don't mix and match\n* Feature one piece of information per card\n* Outline the main idea with the minimal possible information, don't overload with information as the card links to more detail\n\n### Do not:\n* Mix card styles within the same module\n* Overload with information as the card links to more detail\n* Add inline text links, the card itself is clickable and should link to a single piece of information, consider using content blocks in this instance \n\n"
+          }
+        },
+        {
+          "id": "ks-content-block-_Cp8MiBqed",
+          "blockId": "pattern-template-slice",
+          "data": {
+            "templateId": "react",
+            "hideControls": false,
+            "playgroundUi": {
+              "showSchemaForm": false,
+              "demoSize": "landscape"
+            },
+            "showSchemaForm": false,
+            "demoSize": "landscape",
+            "patternId": "card",
+            "demoId": "W1Xbf7ez7T"
+          }
+        },
+        {
+          "id": "ks-content-block-Q6KlIya2LR",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "### When to avoid\nCards should only display enough information to give a user context. Do not use a card layout:\n* to highlight a solo piece of information\n* when the content requires in-line or multiple links, consider content blocks\n* when a large amount of text is needed to give users context \n\n### Keep content concise\nCards allow users to scan content in order to find their required information quickly, therefore it is important to make the content concise. Ensure the headlines are brief and explicit about the content the cards link to. Intuitive headlines and copy help the user build a clear mental model of the content."
+          }
+        },
+        {
+          "id": "ks-content-block-IZyJXBNSqS",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "### Content Elements\nConsider and choose content elements carefully. Test your cards with the minimal content and only add additional content where they give needed context to the user. Content types in cards include:\n\n* **Headline** - Provides snapshot of the content.\n* **Copy** - Provides further details where the headline alone may not be sufficient.\n* **Label** - Indicates the category of a topic or theme when a user needs to further group content. For example, departments, agencies or services.\n* **Date** - Indicates how old the content is when this information is important to the user.\n\n### Images\nUsing an image allows for different content to stand out and provide additional context. It helps users visualise different pieces of information and quickly distinguish between content to find information easily.\n\nTest your visual elements carefully:\n* only use images where it supports and re-enforces the content to the user\n* only use images when they can clearly show the difference between content and can be easily identified\n* do not use for decorative purposes only"
+          }
+        }
+      ]
+    }
+  ],
   "templates": [
     {
       "path": "../src/components/card/card.tsx",
@@ -105,7 +176,11 @@
       "title": "react"
     }
   ],
-  "tabs": [{ "id": "react", "type": "template" }],
+  "tabs": [
+    { "type": "subPage", "id": "Usage-89pbQtWi4R" },
+    { "type": "subPage", "id": "Usage" },
+    { "id": "react", "type": "template" }
+  ],
   "statuses": {
     "react": "ready",
     "design": "ready",
@@ -114,5 +189,5 @@
   },
   "id": "card",
   "title": "Card",
-  "description": "An extensible display component able to conform to many different modes of use."
+  "description": "Cards contain content and actions about a single subject."
 }

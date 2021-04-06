@@ -1,9 +1,5 @@
-id: npm-Installation
-title: npm Installation
 slices:
-  - id: ks-content-block-lGRi326ciW
-    blockId: markdown-slice
-    data:
+  - data:
       md: >-
         How you use the Demo Design System depends on your team's capabilities.
         We recommend using <code>npm</code> but also provide a CDN and a
@@ -184,3 +180,7 @@ slices:
 
 
         **Last updated** 12 Jan 2021
+    blockId: markdown-slice
+    id: ks-content-block-lGRi326ciW
+id: npm-Installation
+title: npm Installation

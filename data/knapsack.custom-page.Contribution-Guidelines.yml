@@ -1,9 +1,5 @@
-id: Contribution-Guidelines
-title: Contribution Guidelines
 slices:
-  - id: ks-content-block-6s7Zs9VUb1
-    blockId: markdown-slice
-    data:
+  - data:
       md: >-
         ## Creating a New Component
 
@@ -99,3 +95,7 @@ slices:
 
 
         **Last updated** 9 Dec 2020
+    blockId: markdown-slice
+    id: ks-content-block-6s7Zs9VUb1
+id: Contribution-Guidelines
+title: Contribution Guidelines

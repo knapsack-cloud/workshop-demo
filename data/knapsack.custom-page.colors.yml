@@ -1,46 +1,46 @@
 slices:
-  - id: ks-content-block-rECAtiYDF5
-    blockId: markdown-slice
-    data:
+  - data:
       md: '## Base Colors (Light)'
-  - id: ks-content-block-pLsXITvcnV
-    blockId: design-token-slice
-    data:
+    blockId: markdown-slice
+    id: ks-content-block-rECAtiYDF5
+  - data:
       tokens:
+        category: color
+        name: ''
         tags:
           - light
-        category: color
-        name: ''
       demo:
         id: color-swatch
-  - id: ks-content-block-d-cFrRn_I_
-    blockId: markdown-slice
-    data:
-      md: '## Base Colors'
-  - id: ks-content-block-JPht_kWZ73
     blockId: design-token-slice
-    data:
+    id: ks-content-block-pLsXITvcnV
+  - data:
+      md: '## Base Colors'
+    blockId: markdown-slice
+    id: ks-content-block-d-cFrRn_I_
+  - data:
       tokens:
+        category: color
+        name: ''
         tags:
           - base
-        category: color
-        name: ''
       demo:
         id: color-swatch
-  - id: ks-content-block-iN9IeQx_rY
-    blockId: markdown-slice
-    data:
-      md: '## Base Colors (Dark)'
-  - id: ks-content-block-X0mnHIdWC4
     blockId: design-token-slice
-    data:
+    id: ks-content-block-JPht_kWZ73
+  - data:
+      md: '## Base Colors (Dark)'
+    blockId: markdown-slice
+    id: ks-content-block-iN9IeQx_rY
+  - data:
       tokens:
+        category: color
+        name: ''
         tags:
           - dark
-        category: color
-        name: ''
       demo:
         id: color-swatch
+    blockId: design-token-slice
+    id: ks-content-block-X0mnHIdWC4
   - data:
       md: '## Layout'
     blockId: markdown-slice
