@@ -1,5 +1,19 @@
 {
-  "subPages": [],
+  "subPages": [
+    {
+      "title": "Usage",
+      "id": "Usage",
+      "slices": [
+        {
+          "id": "ks-content-block-oRj5bPXKGK",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## Understanding Layout\nLayouts encourage consistency across platforms, environments, and screen sizes by using uniform elements and spacing.\n\n\n### Principles\n![](https://knapsack.imgix.net/site/demo-design-system/screen-shot-2021-04-07-at-1.41.50-pm-avdsbwzjkf.png?w=775&auto=compress)\n\n\n### Responsive Grid Layout\nThe responsive layout grid is an overarching guide to the placement of components and elements. The responsive layout grid adapts to screen sizes and orientation, ensuring consistency across layouts.\n\n![](https://knapsack.imgix.net/site/demo-design-system/unnamed-ruvo-wyfiv.png?w=532&auto=compress)\n\n1. Columns\n2. Gutters\n3. Margins"
+          }
+        }
+      ]
+    }
+  ],
   "templates": [
     {
       "path": "../src/components/layout/layout.tsx",
@@ -105,7 +119,10 @@
       "title": "react"
     }
   ],
-  "tabs": [{ "id": "react", "type": "template" }],
+  "tabs": [
+    { "type": "subPage", "id": "Usage" },
+    { "id": "react", "type": "template" }
+  ],
   "statuses": {
     "react": "ready",
     "design": "ready",
