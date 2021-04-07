@@ -3,6 +3,13 @@
     {
       "slices": [
         {
+          "id": "ks-content-block-FwOxANR3h1",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## Full Page Prototype Example\n\nUse the React pattern playground to assemple patterns into a custom, static page prototype example. Use the available public link to share with stakeholders or run through live testing platforms for accessibility or performance."
+          }
+        },
+        {
           "data": {
             "hideControls": false,
             "playgroundUi": {
@@ -10,7 +17,7 @@
               "demoSize": "landscape"
             },
             "templateId": "react",
-            "demoId": "main",
+            "demoId": "jIkrNzJ0cO",
             "showSchemaForm": false,
             "patternId": "one-pager",
             "demoSize": "landscape"
@@ -26,7 +33,7 @@
   "templates": [
     {
       "path": "../src/prototyping/page/page.tsx",
-      "demos": ["main", "jIkrNzJ0cO"],
+      "demos": ["jIkrNzJ0cO", "main"],
       "slices": [],
       "demosById": {
         "main": {
@@ -110,7 +117,7 @@
     { "id": "Overview", "type": "subPage" },
     { "id": "react", "type": "template" }
   ],
-  "statuses": { "react": "needs-updated", "design": "needs-design" },
+  "statuses": { "react": "ready", "design": "ready", "twig": "needs-dev" },
   "id": "one-pager",
   "title": "One-Pager",
   "description": ""

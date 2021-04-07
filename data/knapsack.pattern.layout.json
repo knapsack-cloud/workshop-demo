@@ -12,6 +12,30 @@
           }
         }
       ]
+    },
+    {
+      "title": "Figma",
+      "id": "Figma",
+      "slices": [
+        {
+          "id": "ks-content-block-ioZ1o07etm",
+          "blockId": "figma-slice",
+          "data": {
+            "clickToInteract": false,
+            "height": "700",
+            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=671%3A177"
+          }
+        },
+        {
+          "id": "ks-content-block-A5hE6bHlVM",
+          "blockId": "figma-slice",
+          "data": {
+            "clickToInteract": false,
+            "height": "900",
+            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=671%3A48"
+          }
+        }
+      ]
     }
   ],
   "templates": [
@@ -121,6 +145,7 @@
   ],
   "tabs": [
     { "type": "subPage", "id": "Usage" },
+    { "type": "subPage", "id": "Figma" },
     { "id": "react", "type": "template" }
   ],
   "statuses": {
