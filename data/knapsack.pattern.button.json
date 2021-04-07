@@ -65,7 +65,7 @@
         },
         {
           "data": {
-            "md": "## Related\n- Link component\n- Modal component\n- Form pattern\n\n\n## References\n* Mehmet Goktürk, [The Glossary of Human Computer Interaction, Chapter 37](https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/fitts-s-law) (The Interaction Design Foundation)\n* Jakob Nielsen, [OK-Cancel or Cancel-OK? The Trouble With Button](https://www.nngroup.com/articles/ok-cancel-or-cancel-ok/)s (Nielsen Norman Group, 2008)\n* Artem Syzonenko [Buttons on the web: placement and order](https://uxdesign.cc/buttons-placement-and-order-bb1c4abadfcb) (UX Collective, 2019)\n\n\n## Feedback\nHelp us improve this component by providing feedback, asking questions, and leaving any other comments on [GitHub](https://github.com/knapsack-cloud/demo-design-system/).\n\n"
+            "md": "## Related\n- [Author pattern](https://app.knapsack.cloud/site/demo-design-system/latest/pattern/author)\n- [Card pattern](https://app.knapsack.cloud/site/demo-design-system/latest/pattern/card)\n\n\n## References\n* Mehmet Goktürk, [The Glossary of Human Computer Interaction, Chapter 37](https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/fitts-s-law) (The Interaction Design Foundation)\n* Jakob Nielsen, [OK-Cancel or Cancel-OK? The Trouble With Button](https://www.nngroup.com/articles/ok-cancel-or-cancel-ok/)s (Nielsen Norman Group, 2008)\n* Artem Syzonenko [Buttons on the web: placement and order](https://uxdesign.cc/buttons-placement-and-order-bb1c4abadfcb) (UX Collective, 2019)\n\n\n## Feedback\nHelp us improve this component by providing feedback, asking questions, and leaving any other comments on [GitHub](https://github.com/knapsack-cloud/demo-design-system/).\n\n"
           },
           "blockId": "markdown-slice",
           "id": "ks-content-block-Rb3vcOUm7O"
@@ -100,6 +100,30 @@
       ],
       "id": "Accessibility",
       "title": "Accessibility"
+    },
+    {
+      "title": "Figma",
+      "id": "Figma",
+      "slices": [
+        {
+          "id": "ks-content-block-QeMvjftggE",
+          "blockId": "figma-slice",
+          "data": {
+            "clickToInteract": false,
+            "height": "800",
+            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=752%3A32"
+          }
+        },
+        {
+          "id": "ks-content-block-0mMEm8c9QU",
+          "blockId": "figma-slice",
+          "data": {
+            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=172%3A4447",
+            "height": "480",
+            "clickToInteract": false
+          }
+        }
+      ]
     }
   ],
   "templates": [
@@ -185,6 +209,7 @@
   "tabs": [
     { "id": "Overview", "type": "subPage" },
     { "id": "Accessibility", "type": "subPage" },
+    { "type": "subPage", "id": "Figma" },
     { "id": "react", "type": "template" }
   ],
   "statuses": { "react": "ready", "design": "ready", "twig": "needs-dev" },

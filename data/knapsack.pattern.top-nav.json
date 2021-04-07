@@ -1,21 +1,5 @@
 {
-  "subPages": [
-    {
-      "title": "Figma",
-      "id": "Figma",
-      "slices": [
-        {
-          "id": "ks-content-block-NB17bhL995",
-          "blockId": "figma-slice",
-          "data": {
-            "clickToInteract": false,
-            "height": "700",
-            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=699%3A19588"
-          }
-        }
-      ]
-    }
-  ],
+  "subPages": [],
   "templates": [
     {
       "path": "../src/components/top-nav/top-nav.tsx",
@@ -91,15 +75,12 @@
       "title": "react"
     }
   ],
-  "tabs": [
-    { "type": "subPage", "id": "Figma" },
-    { "id": "react", "type": "template" }
-  ],
+  "tabs": [{ "id": "react", "type": "template" }],
   "statuses": {
-    "react": "ready",
+    "react": "needs-updated",
     "design": "ready",
     "twig": "needs-dev",
-    "web-components": "wont-build"
+    "web-components": "needs-dev"
   },
   "id": "top-nav",
   "title": "Top Nav",

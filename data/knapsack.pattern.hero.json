@@ -5,11 +5,11 @@
       "id": "Figma",
       "slices": [
         {
-          "id": "ks-content-block-R3hD4G-vw7",
+          "id": "ks-content-block-LHXeS-wF5j",
           "blockId": "figma-slice",
           "data": {
-            "clickToInteract": false,
-            "height": "1000",
+            "clickToInteract": true,
+            "height": "700",
             "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=739%3A496"
           }
         }
@@ -34,12 +34,12 @@
               ]
             },
             "props": {
-              "showBackground": true,
               "buttonOne": "#getting-started|Get started",
-              "headlineOne": "Data to enrich your ",
+              "headlineOne": "Data to enrich your",
               "buttonTwo": "#live-demo|Live Demo",
               "headlineTwo": "online business",
-              "paragraph": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua."
+              "paragraph": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+              "showBackground": true
             }
           },
           "id": "main",

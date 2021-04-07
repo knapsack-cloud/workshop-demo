@@ -69,6 +69,21 @@
       ],
       "id": "Usage-89pbQtWi4R",
       "title": "Usage"
+    },
+    {
+      "title": "Figma",
+      "id": "Figma",
+      "slices": [
+        {
+          "id": "ks-content-block-xvcrMTUxpt",
+          "blockId": "figma-slice",
+          "data": {
+            "clickToInteract": false,
+            "height": "800",
+            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=665%3A1128"
+          }
+        }
+      ]
     }
   ],
   "templates": [
@@ -179,6 +194,7 @@
   "tabs": [
     { "id": "Usage-89pbQtWi4R", "type": "subPage" },
     { "id": "Usage", "type": "subPage" },
+    { "type": "subPage", "id": "Figma" },
     { "id": "react", "type": "template" }
   ],
   "statuses": {
