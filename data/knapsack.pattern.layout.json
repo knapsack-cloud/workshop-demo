@@ -1,14 +1,25 @@
 {
   "subPages": [
     {
-      "title": "Usage",
-      "id": "Usage",
+      "title": "Figma",
+      "id": "Figma",
       "slices": [
         {
-          "id": "ks-content-block-oRj5bPXKGK",
-          "blockId": "markdown-slice",
+          "id": "ks-content-block-ioZ1o07etm",
+          "blockId": "figma-slice",
           "data": {
-            "md": "## Understanding Layout\nLayouts encourage consistency across platforms, environments, and screen sizes by using uniform elements and spacing.\n\n\n### Principles\n![](https://knapsack.imgix.net/site/demo-design-system/screen-shot-2021-04-07-at-1.41.50-pm-avdsbwzjkf.png?w=775&auto=compress)\n\n\n### Responsive Grid Layout\nThe responsive layout grid is an overarching guide to the placement of components and elements. The responsive layout grid adapts to screen sizes and orientation, ensuring consistency across layouts.\n\n![](https://knapsack.imgix.net/site/demo-design-system/unnamed-ruvo-wyfiv.png?w=532&auto=compress)\n\n1. Columns\n2. Gutters\n3. Margins"
+            "clickToInteract": false,
+            "height": "700",
+            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=671%3A177"
+          }
+        },
+        {
+          "id": "ks-content-block-A5hE6bHlVM",
+          "blockId": "figma-slice",
+          "data": {
+            "clickToInteract": false,
+            "height": "900",
+            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=671%3A48"
           }
         }
       ]
@@ -120,7 +131,7 @@
     }
   ],
   "tabs": [
-    { "type": "subPage", "id": "Usage" },
+    { "type": "subPage", "id": "Figma" },
     { "id": "react", "type": "template" }
   ],
   "statuses": {
