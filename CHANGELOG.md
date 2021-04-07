@@ -1,3 +1,10 @@
+## [1.7.4](https://github.com/knapsack-cloud/demo-design-system/compare/v1.7.3...v1.7.4) (2021-04-07)
+
+
+### Bug Fixes
+
+* Demo Content Refinements ([64787bd](https://github.com/knapsack-cloud/demo-design-system/commit/64787bdb1ec9289bb92238534884d4aaac1ce5be)), closes [#7](https://github.com/knapsack-cloud/demo-design-system/issues/7)
+
 ## [1.7.3](https://github.com/knapsack-cloud/demo-design-system/compare/v1.7.2...v1.7.3) (2021-04-07)
 
 

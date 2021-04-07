@@ -1,7 +1,7 @@
 {
   "name": "@knapsack-cloud/demo-design-system",
   "private": true,
-  "version": "1.7.3",
+  "version": "1.7.4",
   "description": "Knapsack workspace for the demo design system",
   "license": "UNLICENSED",
   "scripts": {
