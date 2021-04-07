@@ -1,3 +1,10 @@
+## [1.7.3](https://github.com/knapsack-cloud/demo-design-system/compare/v1.7.2...v1.7.3) (2021-04-07)
+
+
+### Bug Fixes
+
+* Design Assets + Token Docs ([3abb595](https://github.com/knapsack-cloud/demo-design-system/commit/3abb5956a05cc4aeb33f3340d950089c1d637566)), closes [#6](https://github.com/knapsack-cloud/demo-design-system/issues/6)
+
 ## [1.7.2](https://github.com/knapsack-cloud/demo-design-system/compare/v1.7.1...v1.7.2) (2021-04-06)
 
 
