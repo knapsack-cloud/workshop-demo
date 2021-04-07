@@ -1,3 +1,10 @@
+## [1.7.5](https://github.com/knapsack-cloud/demo-design-system/compare/v1.7.4...v1.7.5) (2021-04-07)
+
+
+### Bug Fixes
+
+* restoring data changes from PR [#7](https://github.com/knapsack-cloud/demo-design-system/issues/7) ([2202a87](https://github.com/knapsack-cloud/demo-design-system/commit/2202a875588346a5b2d0a652c8c625a02afb9fed)), closes [#8](https://github.com/knapsack-cloud/demo-design-system/issues/8)
+
 ## [1.7.4](https://github.com/knapsack-cloud/demo-design-system/compare/v1.7.3...v1.7.4) (2021-04-07)
 
 
