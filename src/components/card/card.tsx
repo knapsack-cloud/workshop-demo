@@ -39,7 +39,11 @@ const Card: React.FC<CardProps> = ({
             </a>
           )}
         </div>
-        {children}
+        {children && (
+          <div className="ks-card-child-wrapper">
+            {children}
+          </div>
+        )}
       </div>
     </div>
   );

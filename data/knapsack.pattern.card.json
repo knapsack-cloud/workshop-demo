@@ -97,9 +97,14 @@
             "slots": {
               "children": [
                 {
+                  "patternId": "author",
                   "templateId": "react",
-                  "demoId": "main",
-                  "patternId": "author"
+                  "demoId": "_nTCiQ1984"
+                },
+                {
+                  "patternId": "button",
+                  "templateId": "react",
+                  "demoId": "main"
                 }
               ]
             },
@@ -168,14 +173,14 @@
           "children": {
             "disallowText": true,
             "title": "children",
-            "allowedPatternIds": ["author"]
+            "allowedPatternIds": ["author", "button"]
           }
         },
         "props": {
-          "required": [],
           "$schema": "http://json-schema.org/draft-07/schema",
-          "type": "object",
           "description": "An extensible display component able to conform to many different modes of use.",
+          "type": "object",
+          "required": [],
           "properties": {
             "body": {
               "type": "string",
