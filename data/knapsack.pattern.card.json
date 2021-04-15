@@ -89,7 +89,7 @@
   "templates": [
     {
       "path": "../src/components/card/card.tsx",
-      "demos": ["main", "W1Xbf7ez7T", "3c9C95vaFP"],
+      "demos": ["main", "W1Xbf7ez7T", "3c9C95vaFP", "WXcBdSXuE9"],
       "slices": [],
       "demosById": {
         "main": {
@@ -165,6 +165,21 @@
           "title": "How to use search engine optimization to drive sales",
           "type": "data",
           "description": ""
+        },
+        "WXcBdSXuE9": {
+          "data": {
+            "slots": { "children": [] },
+            "props": {
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
+              "imgSrc": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+              "title": "Improve your customer experience",
+              "label": "Case Study"
+            }
+          },
+          "id": "WXcBdSXuE9",
+          "title": "Simple",
+          "type": "data",
+          "description": ""
         }
       },
       "templateLanguageId": "react",
@@ -194,13 +209,57 @@
       },
       "id": "react",
       "title": "react"
+    },
+    {
+      "id": "twig",
+      "title": "twig",
+      "path": "../src/components/card/card.twig",
+      "alias": "@components/card.twig",
+      "templateLanguageId": "twig",
+      "spec": {
+        "slots": { "children": { "disallowText": true, "title": "children" } },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "An extensible display component able to conform to many different modes of use.",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "body": {
+              "type": "string",
+              "description": "Content to fill out ONE paragraph"
+            },
+            "imgSrc": { "type": "string" },
+            "title": { "type": "string" },
+            "label": { "title": "Label", "type": "string" }
+          }
+        }
+      },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Boost your conversion rate",
+          "type": "data",
+          "data": {
+            "props": {
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
+              "imgSrc": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&amp;ixqx=exTPH5Vqg4&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1679&amp;q=80",
+              "title": "Boost your conversion rate",
+              "label": "Case Study"
+            },
+            "slots": {}
+          }
+        }
+      },
+      "demos": ["main"],
+      "slices": []
     }
   ],
   "tabs": [
     { "id": "Usage-89pbQtWi4R", "type": "subPage" },
     { "id": "Usage", "type": "subPage" },
     { "type": "subPage", "id": "Figma" },
-    { "id": "react", "type": "template" }
+    { "id": "react", "type": "template" },
+    { "type": "template", "id": "twig" }
   ],
   "statuses": {
     "react": "ready",
