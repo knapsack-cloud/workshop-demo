@@ -1,3 +1,17 @@
+# [1.8.0](https://github.com/knapsack-cloud/demo-design-system/compare/v1.7.5...v1.8.0) (2021-04-15)
+
+
+### Bug Fixes
+
+* card children margins ([3ecce30](https://github.com/knapsack-cloud/demo-design-system/commit/3ecce306398a0f6cc3b699a0190e8191fe55d24c))
+
+
+### Features
+
+* add button twig template ([5396fd8](https://github.com/knapsack-cloud/demo-design-system/commit/5396fd8a34107ea6702152a92397fe4948f191f1))
+* add card twig template ([8f42699](https://github.com/knapsack-cloud/demo-design-system/commit/8f4269915a7987021c92473d0a9ddc4b55713d37))
+* added author twig template ([ae1c627](https://github.com/knapsack-cloud/demo-design-system/commit/ae1c627156f69b03af8a8fe50eb8a250e9bbb5e2))
+
 ## [1.7.5](https://github.com/knapsack-cloud/demo-design-system/compare/v1.7.4...v1.7.5) (2021-04-07)
 
 
