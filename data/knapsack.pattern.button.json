@@ -204,13 +204,96 @@
       },
       "id": "react",
       "title": "react"
+    },
+    {
+      "id": "twig",
+      "title": "twig",
+      "path": "../src/components/button/button.twig",
+      "alias": "@components/button.twig",
+      "templateLanguageId": "twig",
+      "spec": {
+        "slots": {},
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "size": {
+              "title": "Size",
+              "type": "string",
+              "enum": ["small", "medium", "large"]
+            },
+            "mode": {
+              "title": "Button Mode",
+              "type": "string",
+              "enum": [
+                "success",
+                "info",
+                "warning",
+                "danger",
+                "alert",
+                "special"
+              ]
+            },
+            "url": {
+              "title": "URL",
+              "type": "string",
+              "description": "[URL]|[TITLE] — for example: http://google.com|Google"
+            },
+            "type": {
+              "default": "solid",
+              "title": "Button Type",
+              "type": "string",
+              "enum": ["solid", "outline"]
+            },
+            "text": { "type": "string", "title": "Button Text" }
+          }
+        }
+      },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Solid (info)",
+          "type": "data",
+          "data": {
+            "props": {
+              "type": "solid",
+              "url": "https://www.knapsack.cloud",
+              "text": "Button",
+              "size": "medium",
+              "mode": "info"
+            },
+            "slots": { "children": [] }
+          }
+        },
+        "0vOGmvkSqR": {
+          "id": "0vOGmvkSqR",
+          "title": "Outline (special)",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": {
+              "type": "outline",
+              "size": "medium",
+              "mode": "special",
+              "text": "Button",
+              "url": "https://www.knapsack.cloud"
+            },
+            "slots": {}
+          }
+        }
+      },
+      "demos": ["main", "0vOGmvkSqR"],
+      "slices": []
     }
   ],
   "tabs": [
     { "id": "Overview", "type": "subPage" },
     { "id": "Accessibility", "type": "subPage" },
     { "type": "subPage", "id": "Figma" },
-    { "id": "react", "type": "template" }
+    { "id": "react", "type": "template" },
+    { "type": "template", "id": "twig" }
   ],
   "statuses": { "react": "ready", "design": "ready", "twig": "needs-dev" },
   "id": "button",

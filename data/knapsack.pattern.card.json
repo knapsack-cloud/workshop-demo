@@ -221,7 +221,7 @@
           "children": {
             "disallowText": true,
             "title": "children",
-            "allowedPatternIds": ["author"]
+            "allowedPatternIds": ["author", "button"]
           }
         },
         "props": {
@@ -256,6 +256,11 @@
               "children": [
                 {
                   "patternId": "author",
+                  "templateId": "twig",
+                  "demoId": "main"
+                },
+                {
+                  "patternId": "button",
                   "templateId": "twig",
                   "demoId": "main"
                 }
