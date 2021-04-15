@@ -11,7 +11,6 @@
             "slots": { "children": ["Roel Aufderehar"] },
             "props": {
               "read": "6 min read",
-              "topMargin": true,
               "imgSrc": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
               "date": "Mar 16, 2020"
             }
@@ -25,7 +24,6 @@
             "slots": { "children": ["Brenna Goyette"] },
             "props": {
               "read": "4 min read",
-              "topMargin": true,
               "imgSrc": "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
               "date": "Mar 10, 2020 "
             }
@@ -40,7 +38,6 @@
             "slots": { "children": ["Daniela Metz"] },
             "props": {
               "read": "11 min read",
-              "topMargin": true,
               "imgSrc": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
               "date": "Feb 12, 2020"
             }
@@ -61,7 +58,6 @@
           "description": "",
           "properties": {
             "read": { "type": "string" },
-            "topMargin": { "title": "Top Margin", "type": "boolean" },
             "imgSrc": { "type": "string" },
             "date": { "type": "string" }
           }
@@ -69,9 +65,76 @@
       },
       "id": "react",
       "title": "react"
+    },
+    {
+      "id": "twig",
+      "title": "twig",
+      "path": "../src/components/author/author.twig",
+      "alias": "@components/author.twig",
+      "templateLanguageId": "twig",
+      "spec": {
+        "slots": { "children": { "title": "children" } },
+        "props": {
+          "required": [],
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "type": "object",
+          "description": "",
+          "properties": {
+            "read": { "type": "string" },
+            "imgSrc": { "type": "string" },
+            "date": { "type": "string" }
+          }
+        }
+      },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Roel Aufderehar",
+          "type": "data",
+          "data": {
+            "props": {
+              "imgSrc": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80",
+              "read": "6 min read",
+              "date": "Mar 16, 2020"
+            },
+            "slots": { "children": ["Roel Aufderehar"] }
+          }
+        },
+        "rIe-TLgUz_": {
+          "id": "rIe-TLgUz_",
+          "title": "Brenna Goyette",
+          "type": "data",
+          "data": {
+            "props": {
+              "imgSrc": "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+              "read": "4 min read",
+              "date": "Mar 10, 2020 "
+            },
+            "slots": { "children": ["Brenna Goyette"] }
+          }
+        },
+        "wjUatmNukU": {
+          "id": "wjUatmNukU",
+          "title": "Daniela Metz",
+          "type": "data",
+          "data": {
+            "props": {
+              "imgSrc": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+              "read": "11 min read",
+              "date": "Feb 12, 2020"
+            },
+            "slots": { "children": ["Daniela Metz"] }
+          }
+        }
+      },
+      "demos": ["main", "rIe-TLgUz_", "wjUatmNukU"],
+      "slices": []
     }
   ],
-  "tabs": [{ "id": "react", "type": "template" }],
+  "tabs": [
+    { "id": "react", "type": "template" },
+    { "type": "template", "id": "twig" }
+  ],
   "statuses": {
     "react": "ready",
     "design": "ready",

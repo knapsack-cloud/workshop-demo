@@ -6,14 +6,12 @@ export const Author: React.FC<AuthorProps> = ({
   imgSrc,
   date,
   read,
-  topMargin,
   children
 }: AuthorProps) => {
   const classes = cn(
     'flex',
     'items-center',
     'dark:bg-gray-900',
-    {'mt-6': topMargin}
   );
   return (
     <div className={classes}>

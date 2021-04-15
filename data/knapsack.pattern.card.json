@@ -217,7 +217,13 @@
       "alias": "@components/card.twig",
       "templateLanguageId": "twig",
       "spec": {
-        "slots": { "children": { "disallowText": true, "title": "children" } },
+        "slots": {
+          "children": {
+            "disallowText": true,
+            "title": "children",
+            "allowedPatternIds": ["author"]
+          }
+        },
         "props": {
           "$schema": "http://json-schema.org/draft-07/schema",
           "description": "An extensible display component able to conform to many different modes of use.",
@@ -246,7 +252,15 @@
               "title": "Boost your conversion rate",
               "label": "Case Study"
             },
-            "slots": {}
+            "slots": {
+              "children": [
+                {
+                  "patternId": "author",
+                  "templateId": "twig",
+                  "demoId": "main"
+                }
+              ]
+            }
           }
         }
       },
