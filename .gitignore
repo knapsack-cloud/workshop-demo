@@ -3,3 +3,5 @@ vendor
 dist
 knapsack-dist
 .idea
+.DS_Store
+yarn-error.log
