@@ -1,9 +1,0 @@
-slices:
-  - data:
-      md: adfdf
-    blockId: pattern-status-table-block
-    id: AfFgN5yVn
-    sliceWidth: l
-id: status-dashboard
-title: Component Status
-description: Manage and track the status and maturity of your patterns.

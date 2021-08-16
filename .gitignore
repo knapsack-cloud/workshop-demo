@@ -3,5 +3,7 @@ vendor
 dist
 knapsack-dist
 .idea
-.DS_Store
+.vscode
 yarn-error.log
+.env
+.DS_Store
