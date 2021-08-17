@@ -1,0 +1,218 @@
+{
+  "id": "card",
+  "title": "Card",
+  "description": "",
+  "statuses": {
+    "design": "ready",
+    "angular": "ready",
+    "twig": "ready",
+    "html": "ready",
+    "react": "ready",
+    "web-components": "needs-dev",
+    "vue": "ready"
+  },
+  "templates": [
+    {
+      "id": "angular",
+      "title": "angular",
+      "path": "../packages/angular/src/lib/card/card.component.ts",
+      "alias": "CardComponent",
+      "templateLanguageId": "angular",
+      "spec": {
+        "slots": {},
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "img": { "type": "string", "title": "Image Src" },
+            "title": { "type": "string", "title": "Title" },
+            "subtitle": { "type": "string", "title": "Subtitle" },
+            "cardBody": { "type": "string", "title": "Card Body" }
+          }
+        }
+      },
+      "assetSetIds": null,
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "props": {
+              "title": "Eleifend donec dolor",
+              "subtitle": "Ac eget diam curabitur litora",
+              "cardBody": "<p>Donec eu pulvinar lorem nec phasellus bibendum dignissim pellentesque, venenatis netus natoque mauris conubia risus dis cras, tristique cubilia commodo sociosqu per augue placerat.</p>",
+              "img": "https://placeimg.com/640/240/any"
+            },
+            "slots": {}
+          },
+          "description": ""
+        }
+      },
+      "demos": ["main"],
+      "slices": []
+    },
+    {
+      "id": "twig",
+      "title": "twig",
+      "path": "../packages/twig/src/card/card.twig",
+      "alias": "@components/card.twig",
+      "templateLanguageId": "twig",
+      "spec": {
+        "slots": {},
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "img": { "type": "string", "title": "Image Src" },
+            "title": { "type": "string", "title": "Title" },
+            "subtitle": { "type": "string", "title": "Subtitle" },
+            "cardBody": { "type": "string", "title": "Card Body" }
+          }
+        }
+      },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "props": {
+              "img": "https://placeimg.com/640/240/any",
+              "title": "Eleifend donec dolor",
+              "subtitle": "Ac eget diam curabitur litora",
+              "cardBody": "<p>Donec eu pulvinar lorem nec phasellus bibendum dignissim pellentesque, venenatis netus natoque mauris conubia risus dis cras, tristique cubilia commodo sociosqu per augue placerat.</p>"
+            },
+            "slots": {}
+          }
+        }
+      },
+      "demos": ["main"],
+      "slices": []
+    },
+    {
+      "id": "html",
+      "title": "html",
+      "path": "../packages/html/card/card.html",
+      "templateLanguageId": "html",
+      "spec": {},
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "template",
+          "templateInfo": { "path": "../packages/html/card/card.html" }
+        }
+      },
+      "demos": ["main"],
+      "slices": []
+    },
+    {
+      "id": "react",
+      "title": "react",
+      "path": "@knapsack-cloud/demo-design-system-react",
+      "alias": "Card",
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": { "children": { "title": "children" } },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "img": { "type": "string", "title": "Image Src" },
+            "title": { "type": "string", "title": "Title" },
+            "subtitle": { "type": "string", "title": "Subtitle" }
+          }
+        }
+      },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "props": {
+              "img": "https://placeimg.com/640/240/any",
+              "title": "Eleifend donec dolor",
+              "subtitle": "Ac eget diam curabitur litora"
+            },
+            "slots": {
+              "children": [
+                "<p>Donec eu pulvinar lorem nec phasellus bibendum dignissim pellentesque, venenatis netus natoque mauris conubia risus dis cras, tristique cubilia commodo sociosqu per augue placerat.</p>"
+              ]
+            }
+          }
+        }
+      },
+      "demos": ["main"],
+      "slices": []
+    },
+    {
+      "id": "vue",
+      "title": "vue",
+      "path": "@knapsack-cloud/demo-design-system-vue/src/card.vue",
+      "templateLanguageId": "vue",
+      "spec": { "isInferred": true },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "props": {
+              "title": "Eleifend donec dolor",
+              "subtitle": "Ac eget diam curabitur litora",
+              "imgSrc": "https://placeimg.com/640/240/any"
+            },
+            "slots": {
+              "default": [
+                "<p>Donec eu pulvinar lorem nec phasellus bibendum dignissim pellentesque, venenatis netus natoque mauris conubia risus dis cras, tristique cubilia commodo sociosqu per augue placerat.</p>"
+              ],
+              "footer": []
+            }
+          }
+        }
+      },
+      "demos": ["main"],
+      "slices": []
+    }
+  ],
+  "tabs": [
+    { "type": "subPage", "id": "Overview" },
+    { "type": "template", "id": "angular" },
+    { "type": "template", "id": "twig" },
+    { "type": "template", "id": "html" },
+    { "type": "template", "id": "react" },
+    { "type": "template", "id": "vue" }
+  ],
+  "subPages": [
+    {
+      "title": "Overview",
+      "id": "Overview",
+      "slices": [
+        {
+          "id": "ks-content-block-TiRbKzo9jV",
+          "blockId": "pattern-template-slice",
+          "data": {
+            "templateId": "angular",
+            "hideControls": false,
+            "playgroundUi": {
+              "showSchemaForm": false,
+              "demoSize": "landscape"
+            },
+            "showSchemaForm": false,
+            "demoSize": "landscape",
+            "patternId": "card",
+            "demoId": "main"
+          }
+        }
+      ]
+    }
+  ]
+}

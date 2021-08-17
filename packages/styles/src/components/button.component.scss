@@ -1,0 +1,92 @@
+.ex-button {
+  background-color: transparent;
+  border: var(--spacing-1) solid transparent;
+  border-radius: 3px;
+  color: var(--color-text-default);
+  padding: calc(var(--spacing-s) - var(--spacing-xxs))
+    calc(var(--spacing-m) - var(--spacing-xxs));
+  line-height: 1.4;
+  cursor: pointer;
+  transition: background-color 200ms ease, color 200ms ease;
+
+  &--primary {
+    border-color: var(--color-blue-medium);
+    background-color: var(--color-blue-medium);
+    color: var(--color-text-white);
+
+    &:hover,
+    &:focus {
+      border-color: var(--color-blue-rich);
+      background-color: var(--color-blue-rich);
+      color: var(--color-text-white);
+    }
+  }
+
+  &--secondary {
+    background-color: var(--color-purple-medium);
+    border-color: var(--color-purple-medium);
+    color: var(--color-text-white);
+
+    &:hover,
+    &:focus {
+      border-color: var(--color-purple-rich);
+      background-color: var(--color-purple-rich);
+      color: var(--color-text-white);
+    }
+  }
+  &--success {
+    border-color: var(--color-green-medium);
+    background-color: var(--color-green-medium);
+    color: var(--color-text-white);
+
+    &:hover,
+    &:focus {
+      border-color: var(--color-green-rich);
+      background-color: var(--color-green-rich);
+      color: var(--color-text-white);
+    }
+  }
+  &--danger {
+    border-color: var(--color-red-medium);
+    background-color: var(--color-red-medium);
+    color: var(--color-text-white);
+
+    &:hover,
+    &:focus {
+      border-color: var(--color-red-deep);
+      background-color: var(--color-red-deep);
+      color: var(--color-text-white);
+    }
+  }
+  &--outline-primary {
+    border-color: var(--color-blue-rich);
+    background-color: var(--color-text-white);
+    color: var(--color-blue-rich);
+    &:hover,
+    &:focus {
+      border-color: var(--color-blue-medium);
+      background-color: var(--color-text-white);
+      color: var(--color-blue-medium);
+    }
+  }
+  
+  &--size-s {
+    font-size: 12px;
+    padding: calc(var(--spacing-xs) - var(--spacing-xxs))
+      calc(var(--spacing-s) - var(--spacing-xxs));
+  }
+  &--size-m {
+    font-size: 16px;
+  }
+  &--size-l {
+    font-size: 20px;
+    padding: calc(var(--spacing-m) - var(--spacing-xxs))
+      calc(var(--spacing-l) - var(--spacing-xxs));
+  }
+
+  &--disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.5;
+  }
+}

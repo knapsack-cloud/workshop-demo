@@ -1,0 +1,191 @@
+id: intro
+title: Getting Started
+slices:
+  - id: cyfuu27gD
+    blockId: markdown-slice
+    data:
+      md: >-
+        ## Introduction
+
+        Getting value from a design system isn't about crafting and releasing
+        the perfect, complete library into the wild. It's about starting to work
+        in a more systematic way **today**. 
+
+
+        Knapsack provides a place to document your design system - through
+        dynamic connections to the source - as you design and build. This means
+        you can organically build and start using your system without constantly
+        trying to carve out time for a separate work stream.
+
+
+        See below for recommendations on where to start:
+
+        * [For
+        Engineers](https://app.knapsack.cloud/site/workspace-starter/latest/pages/intro#engineers)
+
+        * [For
+        Designers](https://app.knapsack.cloud/site/workspace-starter/latest/pages/intro#designers)
+
+        * [For Cross-Functional
+        Teams](https://app.knapsack.cloud/site/workspace-starter/latest/pages/intro#cross-functional-workflow-example)
+
+
+        We've also included some [sample design tokens and
+        components](https://app.knapsack.cloud/site/workspace-starter/latest/pages/intro#sample-patterns)
+        for reference as you get started.
+    sliceWidth: l
+  - id: ks-content-block-ZtURMeMSgr
+    blockId: markdown-slice
+    data:
+      md: >
+        ## Engineers
+
+
+        ### Connect Design Tokens
+
+
+        Knapsack provides both dynamic documentation and cross-platform
+        transforms for your design tokens, making it a turnkey solution for many
+        of your token management needs. To get started quickly, add or modify
+        tokens to start building out your core styles.
+
+
+        Once your tokens are connected: 
+
+
+        - Engineers across web and native platforms will be able to leverage the
+        tokens and any styles you create to power their products immediately.
+
+        - Designers and other non-engineers will be able to review, copy, and
+        even propose changes to token values and metadata using the web UI.
+
+
+        ### Connect the Components You Build
+
+
+        Each time you build or reference a component for a UI you're building,
+        ensure it is connected to Knapsack for reference and reuse.
+
+
+        If a component isn't yet documented connect it using the following
+        steps: (working locally)
+
+
+        1. **Find or Add a Page** – Find the existing Pattern Page with the
+        design asset. If it doesn't exist, add a new Pattern Page to Knapsack.
+
+        2. **Add Usage Guidelines** – Add Engineering Usage Guidelines using the
+        Markdown content block.
+
+        3. **Add a Code Tab** – Add a Code Tab to the page, selecting the proper
+        renderer.
+
+        4. **Connect the Source Template** – Add the package path and namespace
+        for the pattern.
+
+        5. **Define the API** – Infer or document the pattern API spec
+
+        5. **Update Statuses** – Adjust the statuses to reflect the components
+        current status
+
+        6. **Commit the Change** – Merge your code / submit a PR for the Design
+        System team to review
+
+
+        As your team builds the library in Knapsack, you'll have a central place
+        to reference what exists in both design and code, making the Knapsack
+        workspace a great place to start your engineering planning.
+  - id: ks-content-block-2jnwMMMOxf
+    blockId: markdown-slice
+    data:
+      md: >-
+        ## Designers
+
+
+        ### Document the Component You Use
+
+
+        Each time you have a UI design ready for hand-off to engineering, go
+        through and ensure each design system element is documented in
+        Knapsack. 
+
+
+        If a component is already documented, include a link to the Knapsack
+        page for your engineer to reference or contribute to.
+
+
+        If a component isn't yet documented, add the page using the following
+        steps:
+
+
+        1. **Find or Add a Page** – Find the existing Pattern Page with the
+        coded pattern. If it doesn't exist, add a new Pattern Page to Knapsack.
+
+        2. **Locate Source Design Asset** – Copy the 'share link' for the design
+        component (e.g. Figma component). If you use a platform that doesn't
+        support live embeds, provide a link or directions to where the source
+        file can be found, along with an image showing how it appears for
+        designers.
+
+        3. **Add Design Asset** – Add the relevant 'Embed' content block (e.g.
+        Figma, Xd, Framer, Abstract) or a generic iFrame embed and adjust the
+        settings for proper display.
+
+        4. **Add Guidelines** – Add Design Usage Guidelines using the Markdown
+        content block
+
+        5. **Update Statuses** – Adjust the statuses to reflect the components
+        current status
+
+        6. **Propose a Change** – Submit the update as a PR for the Design
+        System team to review
+
+
+        As your team builds the library in Knapsack, you'll have a central place
+        to reference what exists in both design and code, making the Knapsack
+        workspace a great place to start your design planning.
+  - id: ks-content-block-lpOa8uENmc
+    blockId: markdown-slice
+    data:
+      md: >-
+        ## Cross-Functional Workflow Example
+
+
+        ### **Centering Workflow Around a Component (e.g. Button)**
+
+
+        1. **Create a Page** – Design creates page in Knapsack
+
+        2. **Add Designs & Guidelines** – Design adds designs (e.g. Figma asset)
+        + usage guidelines; proposes a change
+
+        3. **Define Design Tokens (optional)** – Engineering defines tokens in
+        Knapsack
+
+        4. **Build Component** – Engineering builds component, incorporating
+        system-provided tokens + styles (if defined)
+
+        5. **Connect Component** – Engineering connects component to Knapsack,
+        configures props
+
+        6. **Create Examples** – Design creates coded variations using Knapsack
+        playground
+
+        7. **Publish the System** – Engineering publishes npm package of system
+        contents + docs for product engineers to leverage
+  - id: DOlHdlP0N3
+    blockId: markdown-slice
+    data:
+      md: '## Sample Patterns'
+  - id: ZDKAB4IfW
+    blockId: pattern-list-block
+  - id: ks-content-block-tzTWCZ4UcY
+    blockId: design-token-slice
+    data:
+      tokens:
+        tags: []
+        category: ''
+        name: ''
+      demo:
+        id: color-swatch
+description: Getting to value with Knapsack in one day

@@ -1,0 +1,38 @@
+{
+  "name": "@knapsack-cloud/demo-design-system-styles",
+  "description": "Knapsack Demo Design System Styles",
+  "version": "0.0.0",
+  "main": "styles.js",
+  "style": "dist/styles.css",
+  "scripts": {
+    "build": "yarn build:styles",
+    "build:styles": "rollup --config",
+    "watch:styles": "nodemon --watch 'src/**/*' --ext 'scss' --exec 'yarn build:styles' -w",
+    "start": "run-s watch:*",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@knapsack-cloud/demo-design-system-design-tokens": "0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "normalize-scss": "^7.0.1",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^2.45.2",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-styles": "^3.14.1",
+    "sass": "^1.32.12"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "url": "https://github.com/knapsack-cloud/demo-design-system",
+    "directory": "packages/styles"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@knapsack-cloud/demo-design-system-vue",
+  "description": "Knapsack Demo Design System Vue Components",
+  "version": "0.0.0",
+  "dependencies": {
+    "@knapsack-cloud/demo-design-system-design-tokens": "0.0.0",
+    "@knapsack-cloud/demo-design-system-styles": "0.0.0"
+  },
+  "files": [
+    "src/*"
+  ],
+  "repository": {
+    "url": "https://github.com/knapsack-cloud/demo-design-system",
+    "directory": "packages/vue"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  }
+}

@@ -1,0 +1,41 @@
+.ex-card {
+  line-height: 1.4;
+  font-size: 1rem;
+  background-color: var(--color-layout-default-bg);
+  border: var(--spacing-xxs) solid var(--color-layout-border);
+  border-radius: var(--spacing-s);
+  color: var(--color-text-default);
+  font-size: 1rem;
+  overflow: hidden;
+
+  &_img {
+    width: 100%;
+  }
+
+  &_body {
+    padding: var(--spacing-m);
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &_title {
+    color: var(--color-blue-rich);
+    margin: 0;
+    font-size: 1.2em;
+  }
+
+  &_subtitle {
+    margin: var(--spacing-s) 0 0;
+  }
+
+  &_text {
+    line-height: 1.4;
+  }
+
+  &_content {
+    + * {
+      margin-top: var(--spacing-m);
+    }
+  }
+}

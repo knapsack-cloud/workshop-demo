@@ -1,0 +1,8 @@
+<button
+  [ngClass]="['ex-button', 'ex-button--' + style, 'ex-button--size-' + size]"
+  [disabled]="disabled"
+  (click)="onClick($event)"
+  (keydown)="onKeydown($event)"
+>
+  {{ text }}
+</button>

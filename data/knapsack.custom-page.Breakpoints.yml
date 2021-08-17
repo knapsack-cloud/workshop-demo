@@ -1,0 +1,15 @@
+id: Breakpoints
+title: Breakpoints
+slices:
+  - id: ks-content-block-26WskgYN2R
+    blockId: design-token-slice
+    data:
+      tokens:
+        tags:
+          - width
+          - media-query
+        category: breakpoint
+        name: ''
+      demo:
+        id: media-query
+description: Breakpoint Tokens

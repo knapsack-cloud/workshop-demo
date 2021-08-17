@@ -1,0 +1,13 @@
+id: all-tokens
+title: All Tokens
+description: ''
+slices:
+  - id: muVg2G5Vr
+    blockId: design-token-slice
+    data:
+      tokens:
+        tags: []
+        category: ''
+        name: ''
+      demo:
+        id: table-list

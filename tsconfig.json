@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "include": ["packages", "projects"],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2015",
+    "module": "es2020",
+    "preserveSymlinks": true,
+    "lib": ["es2018", "dom"],
+    "paths": {
+      "@knapsack-cloud/demo-design-system-angular": ["packages/angular/dist"]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true,
+    "enableIvy": false
+  }
+}

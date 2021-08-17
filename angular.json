@@ -1,0 +1,67 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "defaultProject": "knapsack-renderer-angular-app",
+  "projects": {
+    "knapsack-renderer-angular-app": {
+      "projectType": "application",
+      "schematics": {},
+      "root": "projects/knapsack-renderer-angular-app",
+      "sourceRoot": "projects/knapsack-renderer-angular-app/src",
+      "prefix": "my-ds",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "node_modules/.cache/@knapsack/app/knapsack-renderer-angular",
+            "index": "projects/knapsack-renderer-angular-app/src/index.html",
+            "main": "projects/knapsack-renderer-angular-app/src/main.ts",
+            "polyfills": "projects/knapsack-renderer-angular-app/src/polyfills.ts",
+            "tsConfig": "projects/knapsack-renderer-angular-app/tsconfig.app.json",
+            "aot": true,
+            "assets": [
+              "projects/knapsack-renderer-angular-app/src/favicon.ico",
+              "projects/knapsack-renderer-angular-app/src/assets"
+            ],
+            "styles": ["projects/knapsack-renderer-angular-app/src/styles.css"],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "projects/knapsack-renderer-angular-app/src/environments/environment.ts",
+                  "with": "projects/knapsack-renderer-angular-app/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": false
+  }
+}

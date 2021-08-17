@@ -1,0 +1,12 @@
+@import '~normalize-scss/sass/normalize/import-now'; // Pull in normalizer
+@import '~@knapsack-cloud/demo-design-system-design-tokens'; // Pull in our SASS design tokens
+
+@import './scss/globals.scss'; // Setup scaffolding for globals/mixins
+
+body {
+  font-family: sans-serif;
+}
+
+// Add stylesheets below
+@import './components/button.component.scss';
+@import './components/card.component.scss';

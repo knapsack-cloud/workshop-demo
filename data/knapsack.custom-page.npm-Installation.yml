@@ -1,0 +1,185 @@
+id: npm-Installation
+title: npm Installation
+slices:
+  - id: ks-content-block-DI5_HVA6AE
+    blockId: markdown-slice
+    data:
+      md: >-
+        ### Installing with NPM
+
+        <code>npm</code> is a package manager for Node-based projects. We
+        recommend <code>npm</code> packages because it makes it easy to update
+        and install the design system from the command line.
+
+
+        1. Install <code>Node/npm</code>. More information can be found via the
+        nodejs Installation guides
+
+        2. Generate a <code>package.json</code> file using the <code>npm
+        init</code> command in the terminal. You will be prompted to enter
+        several pieces of information, like the name of your application,
+        version, description, etc.
+
+        3. Add <code>demo-design-system</code> to your project’s
+        <code>package.json</code>:
+
+
+
+        ````html
+            npm install *--save demo-design-system*
+        ````
+
+
+        The Demo Design System is now installed as a dependency of your project,
+        check out how to import styles and javascript into your project build.
+
+
+        <br>
+
+        </br>
+
+
+        ### Importing styles into your project
+
+        The Demo Design System styles need to be added to the main Sass file in
+        your project.
+
+        Use the below snippet to import the Demo Design System (ideally placed
+        before any other imports or sass):
+
+
+        ````html
+
+        @import 'node_modules/nsw-design-system/src/main';
+
+        ````
+
+
+        <br>
+
+        </br>
+
+
+        ### Adding the font
+
+        In your main html document add this line of code inside the <code> <
+        head > </code> tag
+
+        ````html
+          <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+        ````
+
+
+        <br>
+
+        </br>
+
+
+        ### Using the icons
+
+        ````html
+          <script>
+            // SVG Sprite Loader
+            var svgAjax = new XMLHttpRequest();
+            svgAjax.open("GET", "https://cdn.jsdelivr.net/npm/nsw-design-system/dist/assets/svg/sprite.svg", true);
+            svgAjax.send();
+            svgAjax.onload = function(e) {
+              var fragment = document.createRange().createContextualFragment(svgAjax.responseText);
+              var svg = fragment.querySelector('svg')
+              svg.setAttribute('aria-hidden', true);
+              svg.style.cssText = 'position: absolute; width: 0; height: 0; overflow: hidden;'
+              document.body.insertBefore(fragment, document.body.childNodes[0]);
+            };
+          </script>
+        ````
+
+          <br>
+          </br>
+
+
+          
+          
+        ### Importing javascript into your project
+
+        Some of the Demo Design System components require javascript to provide
+        advanced functionality. To ensure the page is ready for javascript to
+        run, include the following script tags at the end of the html document.
+
+        ````html
+
+        <script src="path/to/main.js"></script>
+            <script>window.DDS.initSite()</script>
+          </body>
+        </html>
+
+        ````
+
+
+        Depending on your project setup, you might wish to copy the file into
+        your project from <code>node_modules</code> or add the reference to your
+        build workflow.
+
+
+        <br>
+
+        </br>
+
+
+
+        ### Jusing JSDelivr CDN
+
+        The bundled CSS and js files are hosted in JSDelivr.
+
+
+        You can add the files to your main html document
+
+        ````html
+
+        <html>
+          <head>
+            ...
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nsw-design-system@2/dist/css/main.css">
+          </head>
+          <body>
+            ...
+            <script src="https://cdn.jsdelivr.net/npm/nsw-design-system@2/dist/js/main.min.js"></script>
+            <script>window.NSW.initSite()</script>
+          </body>
+        </html>
+
+        ````
+
+
+        <br>
+
+        </br>
+
+
+        ### Download starter kit
+
+        You can download the compiled design system assets (HTML, CSS,
+        JavaScript) in the HTMLStarterkit zip file from the latest release.
+
+
+        <br>
+
+        </br>
+
+
+        ### Getting Updates
+
+        To be notified when there's a new release, you can either join the [Demo
+        Design System community](https://knapsack.cloud) or watch the [Demo
+        Design System Github](https://knapsack.cloud).
+
+
+        <br>
+
+        </br>
+
+
+        **Last updated** 12 Jan 2021
+description: >-
+  How you use the Demo Design System depends on your team's capabilities. We
+  recommend using <code>npm</code> but also provide a CDN and a downloadable
+  starter kit which includes all the compiled assets.

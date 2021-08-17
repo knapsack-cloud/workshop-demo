@@ -1,0 +1,1 @@
+# Important Note: You must add your React components to /src/index.ts in order for Knapsack to find them in it's manifest

@@ -1,0 +1,8 @@
+<div class="ex-card">
+  {% if img %}<img src="{{ img }}" class="ex-card_img" alt="">{% endif %}
+  <div class="ex-card_body">
+    {% if title %}<h4 class="ex-card_title">{{ title }}</h4>{% endif %}
+    {% if subtitle %}<h6 class="ex-card_subtitle">{{ subtitle }}</h6>{% endif %}
+    {% if cardBody %}<div>{{ cardBody }}</div>{% endif %}
+  </div>
+</div>

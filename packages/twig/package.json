@@ -1,0 +1,21 @@
+{
+  "name": "@knapsack-cloud/demo-design-system-twig",
+  "description": "Knapsack Demo Design System Twig Templates",
+  "version": "0.0.0",
+  "repository": {
+    "url": "https://github.com/knapsack-cloud/demo-design-system",
+    "directory": "packages/twig"
+  },
+  "files": [
+    "src/**/*"
+  ],
+  "dependencies": {
+    "@knapsack-cloud/demo-design-system-design-tokens": "0.0.0",
+    "@knapsack-cloud/demo-design-system-styles": "0.0.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  }
+}

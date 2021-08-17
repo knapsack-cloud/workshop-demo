@@ -1,0 +1,606 @@
+{
+  "id": "button",
+  "title": "Button",
+  "description": "",
+  "statuses": {
+    "design": "ready",
+    "angular": "ready",
+    "twig": "ready",
+    "react": "ready",
+    "html": "ready",
+    "web-components": "ready",
+    "vue": "ready"
+  },
+  "demoSize": "s",
+  "demoWidths": [{ "width": 180 }],
+  "templates": [
+    {
+      "id": "angular",
+      "title": "angular",
+      "path": "../packages/angular/src/lib/button/button.component.ts",
+      "alias": "ButtonComponent",
+      "templateLanguageId": "angular",
+      "spec": {
+        "slots": {},
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "An interactive element that transforms some property on a page, or otherwise submits a form.",
+          "type": "object",
+          "required": ["text"],
+          "properties": {
+            "text": { "type": "string" },
+            "style": {
+              "type": "string",
+              "enum": [
+                "primary",
+                "outline-primary",
+                "secondary",
+                "success",
+                "danger"
+              ],
+              "default": "primary",
+              "title": "Style"
+            },
+            "size": {
+              "type": "string",
+              "enum": ["s", "m", "l"],
+              "enumNames": ["Small", "Default", "Large"],
+              "default": "m"
+            },
+            "disabled": { "type": "boolean", "default": false }
+          }
+        }
+      },
+      "assetSetIds": null,
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Primary",
+          "type": "data",
+          "data": {
+            "props": {
+              "style": "primary",
+              "size": "m",
+              "disabled": false,
+              "text": "Button"
+            },
+            "slots": {}
+          },
+          "description": "The primary action on the page. Advances the user to the next logical step. One per page max."
+        },
+        "Ftu0Efvn34": {
+          "id": "Ftu0Efvn34",
+          "title": "Secondary",
+          "description": "Standard button for general interactivity.",
+          "type": "data",
+          "data": {
+            "props": {
+              "style": "secondary",
+              "size": "m",
+              "disabled": false,
+              "text": "Secondary"
+            },
+            "slots": {}
+          }
+        },
+        "XbBVS_lZQ-": {
+          "id": "XbBVS_lZQ-",
+          "title": "Outline Primary",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": {
+              "style": "outline-primary",
+              "size": "m",
+              "disabled": false,
+              "text": "Outline Primary"
+            },
+            "slots": {}
+          }
+        },
+        "7jMOevUONk": {
+          "id": "7jMOevUONk",
+          "title": "Success",
+          "type": "data",
+          "data": {
+            "props": {
+              "style": "success",
+              "size": "m",
+              "disabled": false,
+              "text": "Success"
+            },
+            "slots": {}
+          },
+          "description": ""
+        },
+        "06SDjJib-k": {
+          "id": "06SDjJib-k",
+          "title": "Danger",
+          "type": "data",
+          "data": {
+            "props": {
+              "style": "danger",
+              "size": "m",
+              "disabled": false,
+              "text": "Danger"
+            },
+            "slots": {}
+          },
+          "description": "The primary action on the page. Advances the user to the next logical step. One per page max."
+        }
+      },
+      "demos": ["main", "XbBVS_lZQ-", "Ftu0Efvn34", "7jMOevUONk", "06SDjJib-k"],
+      "slices": []
+    },
+    {
+      "id": "twig",
+      "title": "twig",
+      "path": "../packages/twig/src/button/button.twig",
+      "alias": "@components/button.twig",
+      "templateLanguageId": "twig",
+      "spec": {
+        "slots": {},
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "An interactive element that transforms some property on a page, or otherwise submits a form.",
+          "type": "object",
+          "required": ["text"],
+          "properties": {
+            "text": { "type": "string" },
+            "style": {
+              "type": "string",
+              "enum": [
+                "primary",
+                "outline-primary",
+                "secondary",
+                "success",
+                "danger"
+              ],
+              "default": "primary",
+              "title": "Style"
+            },
+            "size": {
+              "type": "string",
+              "enum": ["s", "m", "l"],
+              "enumNames": ["Small", "Default", "Large"],
+              "default": "m"
+            },
+            "disabled": { "type": "boolean", "default": false }
+          }
+        }
+      },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Primary",
+          "type": "data",
+          "data": {
+            "props": {
+              "style": "primary",
+              "size": "m",
+              "disabled": false,
+              "text": "Button"
+            },
+            "slots": {}
+          }
+        },
+        "WxUfuOXds8": {
+          "id": "WxUfuOXds8",
+          "title": "Outline Primary",
+          "type": "data",
+          "data": {
+            "props": {
+              "style": "outline-primary",
+              "size": "m",
+              "disabled": false,
+              "text": "Outline Primary"
+            },
+            "slots": {}
+          }
+        },
+        "ZI_TFONpqC": {
+          "id": "ZI_TFONpqC",
+          "title": "Secondary",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": {
+              "style": "secondary",
+              "size": "m",
+              "disabled": false,
+              "text": "Secondary"
+            },
+            "slots": {}
+          }
+        },
+        "gmB0D2yf5k": {
+          "id": "gmB0D2yf5k",
+          "title": "Success",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": {
+              "style": "success",
+              "size": "m",
+              "disabled": false,
+              "text": "Success"
+            },
+            "slots": {}
+          }
+        },
+        "lGf6lqiitO": {
+          "id": "lGf6lqiitO",
+          "title": "Danger",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": {
+              "style": "danger",
+              "size": "m",
+              "disabled": false,
+              "text": "Danger"
+            },
+            "slots": {}
+          }
+        }
+      },
+      "demos": ["main", "WxUfuOXds8", "ZI_TFONpqC", "gmB0D2yf5k", "lGf6lqiitO"],
+      "slices": []
+    },
+    {
+      "id": "html",
+      "title": "html",
+      "path": "../packages/html/button/button.html",
+      "templateLanguageId": "html",
+      "spec": {},
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "template",
+          "templateInfo": { "path": "../packages/html/button/button.html" }
+        },
+        "xzMEVAzl9H": {
+          "id": "xzMEVAzl9H",
+          "title": "New Template Example",
+          "type": "template",
+          "templateInfo": {
+            "path": "../packages/html/button/button-outline.html"
+          }
+        },
+        "3tixeHrBzd": {
+          "id": "3tixeHrBzd",
+          "title": "New Template Example",
+          "type": "template",
+          "templateInfo": {
+            "path": "../packages/html/button/button-secondary.html"
+          }
+        },
+        "gS6q4yIzQX": {
+          "id": "gS6q4yIzQX",
+          "title": "New Template Example",
+          "type": "template",
+          "templateInfo": {
+            "path": "../packages/html/button/button-success.html"
+          }
+        },
+        "VRc7nkWqHZ": {
+          "id": "VRc7nkWqHZ",
+          "title": "New Template Example",
+          "type": "template",
+          "templateInfo": {
+            "path": "../packages/html/button/button-danger.html"
+          }
+        }
+      },
+      "demos": ["main", "xzMEVAzl9H", "3tixeHrBzd", "gS6q4yIzQX", "VRc7nkWqHZ"],
+      "slices": []
+    },
+    {
+      "id": "react",
+      "title": "react",
+      "path": "@knapsack-cloud/demo-design-system-react",
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": { "children": { "title": "children" } },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "An interactive element that transforms some property on a page, or otherwise submits a form.",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "style": {
+              "type": "string",
+              "enum": [
+                "primary",
+                "outline-primary",
+                "secondary",
+                "success",
+                "danger"
+              ],
+              "default": "primary",
+              "title": "Style"
+            },
+            "size": {
+              "type": "string",
+              "enum": ["s", "m", "l"],
+              "enumNames": ["Small", "Default", "Large"],
+              "default": "m"
+            },
+            "disabled": { "type": "boolean", "default": false }
+          }
+        }
+      },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "props": { "style": "primary", "size": "m", "disabled": false },
+            "slots": { "children": ["Primary"] }
+          }
+        },
+        "q6LA73UFRB": {
+          "id": "q6LA73UFRB",
+          "title": "Outline Primary",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": {
+              "style": "outline-primary",
+              "size": "m",
+              "disabled": false
+            },
+            "slots": { "children": ["Outline Primary"] }
+          }
+        },
+        "wLUQA_PJF9": {
+          "id": "wLUQA_PJF9",
+          "title": "Secondary",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": { "style": "secondary", "size": "m", "disabled": false },
+            "slots": { "children": ["Secondary"] }
+          }
+        },
+        "L-qQUJO_pU": {
+          "id": "L-qQUJO_pU",
+          "title": "Success",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": { "style": "success", "size": "m", "disabled": false },
+            "slots": { "children": ["Success"] }
+          }
+        },
+        "dgW908ciIX": {
+          "id": "dgW908ciIX",
+          "title": "Danger",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": { "style": "danger", "size": "m", "disabled": false },
+            "slots": { "children": ["Danger"] }
+          }
+        }
+      },
+      "demos": ["main", "q6LA73UFRB", "wLUQA_PJF9", "L-qQUJO_pU", "dgW908ciIX"],
+      "slices": [],
+      "alias": "Button"
+    },
+    {
+      "id": "web-components",
+      "title": "web-components",
+      "path": "@knapsack-cloud/demo-design-system-web-components",
+      "alias": "bs-button",
+      "templateLanguageId": "web-components",
+      "spec": {
+        "slots": { "default": { "title": "Default" } },
+        "props": {
+          "required": [],
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "outlined": {
+              "default": false,
+              "title": "Outlined",
+              "type": "boolean"
+            },
+            "size": {
+              "type": "string",
+              "enum": ["s", "m", "l"],
+              "enumNames": ["Small", "Default", "Large"],
+              "default": "m"
+            },
+            "disabled": {
+              "default": false,
+              "title": "Disabled",
+              "type": "boolean"
+            },
+            "type": {
+              "default": "primary",
+              "enumNames": ["Primary", "Secondary", "Success", "Danger"],
+              "title": "Type",
+              "type": "string",
+              "enum": ["primary", "secondary", "success", "danger"]
+            }
+          }
+        }
+      },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "props": {
+              "outlined": false,
+              "size": "m",
+              "disabled": false,
+              "type": "primary"
+            },
+            "slots": { "default": ["Primary"] }
+          }
+        },
+        "CKoewGl9QX": {
+          "id": "CKoewGl9QX",
+          "title": "Outline Primary",
+          "type": "data",
+          "data": {
+            "props": {
+              "outlined": true,
+              "size": "m",
+              "disabled": false,
+              "type": "primary"
+            },
+            "slots": { "default": ["Outline Primary"] }
+          }
+        },
+        "vp8wauWAUj": {
+          "id": "vp8wauWAUj",
+          "title": "Secondary",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": {
+              "outlined": false,
+              "size": "m",
+              "disabled": false,
+              "type": "secondary"
+            },
+            "slots": { "default": ["Secondary"] }
+          }
+        },
+        "I8DHs6jZI1": {
+          "id": "I8DHs6jZI1",
+          "title": "Success",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": {
+              "outlined": false,
+              "size": "m",
+              "disabled": false,
+              "type": "success"
+            },
+            "slots": { "default": ["Success"] }
+          }
+        },
+        "G6sHJxoYqs": {
+          "id": "G6sHJxoYqs",
+          "title": "Danger",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": {
+              "outlined": false,
+              "size": "m",
+              "disabled": false,
+              "type": "danger"
+            },
+            "slots": { "default": ["Danger"] }
+          }
+        }
+      },
+      "demos": ["main", "CKoewGl9QX", "vp8wauWAUj", "I8DHs6jZI1", "G6sHJxoYqs"],
+      "slices": []
+    },
+    {
+      "id": "vue",
+      "title": "vue",
+      "path": "@knapsack-cloud/demo-design-system-vue/src/button.vue",
+      "templateLanguageId": "vue",
+      "spec": { "isInferred": true },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "props": { "type": "primary", "size": "m", "disabled": false },
+            "slots": { "default": ["Primary"] }
+          }
+        },
+        "1zaR5ehY9A": {
+          "id": "1zaR5ehY9A",
+          "title": "Outline Primary",
+          "type": "data",
+          "data": {
+            "props": { "type": "outline-primary", "size": "m" },
+            "slots": { "default": ["Outline Primary"] }
+          }
+        },
+        "3KxjN76Jr1": {
+          "id": "3KxjN76Jr1",
+          "title": "Secondary",
+          "type": "data",
+          "data": {
+            "props": { "type": "secondary", "size": "m" },
+            "slots": { "default": ["Secondary"] }
+          }
+        },
+        "t6nVprXZMO": {
+          "id": "t6nVprXZMO",
+          "title": "Danger",
+          "type": "data",
+          "data": {
+            "props": { "type": "danger", "size": "m" },
+            "slots": { "default": ["Danger"] }
+          }
+        },
+        "0cTofNLmOr": {
+          "id": "0cTofNLmOr",
+          "title": "Success",
+          "type": "data",
+          "data": {
+            "props": { "type": "success", "size": "m" },
+            "slots": { "default": ["Success"] }
+          }
+        }
+      },
+      "demos": ["main", "1zaR5ehY9A", "3KxjN76Jr1", "0cTofNLmOr", "t6nVprXZMO"],
+      "slices": []
+    }
+  ],
+  "subPages": [
+    {
+      "title": "Overview",
+      "id": "Overview",
+      "slices": [
+        {
+          "id": "m_g-24BmU",
+          "blockId": "pattern-variations",
+          "data": {
+            "size": "s",
+            "templateId": "angular",
+            "patternId": "button",
+            "demoId": "main",
+            "variationId": "style"
+          }
+        },
+        {
+          "id": "xlOFTgWW8w",
+          "blockId": "pattern-variations",
+          "data": {
+            "size": "s",
+            "templateId": "angular",
+            "patternId": "button",
+            "demoId": "main",
+            "variationId": "size"
+          }
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    { "type": "subPage", "id": "Overview" },
+    { "type": "template", "id": "angular" },
+    { "type": "template", "id": "twig" },
+    { "type": "template", "id": "html" },
+    { "type": "template", "id": "react" },
+    { "type": "template", "id": "web-components" },
+    { "type": "template", "id": "vue" }
+  ]
+}

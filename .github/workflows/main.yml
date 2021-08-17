@@ -1,0 +1,58 @@
+# Helpful Doc Links
+# Workflow syntax - https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions
+# Context and expression syntax - https://help.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions
+
+name: Main
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build & Deploy
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          # Number of commits to fetch. 0 indicates all history for all branches and tags - needed for `auto`
+          # Default: 1
+          fetch-depth: 0
+
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      # - name: Get yarn cache directory path
+      #   id: yarn-cache-dir-path
+      #   run: echo "::set-output name=dir::$(yarn cache dir)"
+      - name: Cache
+        uses: actions/cache@v2
+        # https://github.com/actions/cache/blob/master/examples.md#node---lerna
+        id: cache # use this to check for `cache-hit` (`steps.cache.outputs.cache-hit != 'true'`)
+        with:
+          path: |
+            node_modules
+            **/node_modules
+            ~/.cache/yarn
+          key: node-deps-${{ hashFiles('yarn.lock') }}
+          # restore-keys: node-deps-
+
+      - name: Install Deps
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn install --cache-folder ~/.cache/yarn --prefer-offline --frozen-lockfile
+        env:
+          CYPRESS_INSTALL_BINARY: 0 # skipping big Cypress binary download. may cause problems later & need to remove or handle other ways. trying to keep CI speedy
+
+      - run: yarn build
+
+      - run: yarn test
+
+      - run: git checkout ./data # temp fix
+
+      - name: Release
+        run: yarn auto shipit
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GH_TOKEN }}
+  # END: `build` --------
