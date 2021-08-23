@@ -1,0 +1,111 @@
+{
+  "id": "top-nav",
+  "title": "Top Nav",
+  "description": "",
+  "statuses": {
+    "design": "ready",
+    "angular": "needs-dev",
+    "twig": "needs-dev",
+    "html": "needs-dev",
+    "vue": "needs-dev",
+    "web-components": "needs-dev",
+    "react": "ready"
+  },
+  "templates": [
+    {
+      "id": "react",
+      "title": "react",
+      "path": "@knapsack-cloud/demo-design-system-react",
+      "alias": "TopNav",
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": {},
+        "props": {
+          "required": [],
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "type": "object",
+          "description": "",
+          "properties": {
+            "button": {
+              "title": "Button",
+              "type": "string",
+              "description": "[URL]|[TITLE] — for example: http://google.com|Google"
+            },
+            "links": {
+              "items": { "type": "string" },
+              "title": "Links",
+              "type": "array",
+              "description": "[URL]|[TITLE] — for example: http://google.com|Google"
+            },
+            "logo": { "title": "Logo", "type": "string" }
+          }
+        }
+      },
+      "demosById": {
+        "sQTUm4r36f": {
+          "data": {
+            "slots": {},
+            "props": {
+              "button": "#login|Login",
+              "links": ["#1|Product", "#2|Features", "Marketplace", "Company"]
+            }
+          },
+          "id": "sQTUm4r36f",
+          "title": "No Logo Top Nav w/ Button",
+          "type": "data",
+          "description": "This Top Nav variation contains links and a button."
+        },
+        "main": {
+          "data": {
+            "slots": {},
+            "props": {
+              "button": "#login|Login",
+              "links": ["#1|Product", "#2|Features", "Marketplace", "Company"],
+              "logo": "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+            }
+          },
+          "id": "main",
+          "title": "Full Featured Top Nav w/ Button",
+          "type": "data",
+          "description": "This Top Nav variation contains a logo, links, and a button."
+        },
+        "o7iL4YT_dA": {
+          "data": {
+            "slots": {},
+            "props": {
+              "links": ["#1|Product", "#2|Features", "Marketplace", "Company"],
+              "logo": "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+            }
+          },
+          "id": "o7iL4YT_dA",
+          "title": "No Button Top Nav",
+          "type": "data",
+          "description": "This Top Nav variation contains a logo and links."
+        }
+      },
+      "demos": ["main", "sQTUm4r36f", "o7iL4YT_dA"],
+      "slices": []
+    }
+  ],
+  "tabs": [
+    { "type": "subPage", "id": "overview" },
+    { "type": "template", "id": "react" }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Figma",
+      "slices": [
+        {
+          "id": "ks-content-block-9bVy_rzlTP",
+          "blockId": "figma-slice",
+          "data": {
+            "clickToInteract": false,
+            "height": "700",
+            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=699%3A19588"
+          }
+        }
+      ]
+    }
+  ]
+}

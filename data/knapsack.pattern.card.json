@@ -222,7 +222,7 @@
           "id": "ks-content-block-1zsHlF6chs",
           "blockId": "pattern-template-slice",
           "data": {
-            "templateId": "twig",
+            "templateId": "react",
             "hideControls": false,
             "playgroundUi": {
               "showSchemaForm": false,
