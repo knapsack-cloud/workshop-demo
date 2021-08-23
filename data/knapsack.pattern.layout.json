@@ -1,0 +1,164 @@
+{
+  "id": "layout",
+  "title": "Layout",
+  "description": "An extensible pattern meant to provide layout flexibility",
+  "statuses": {
+    "design": "ready",
+    "angular": "needs-dev",
+    "twig": "needs-dev",
+    "html": "needs-dev",
+    "vue": "needs-dev",
+    "web-components": "needs-dev",
+    "react": "ready"
+  },
+  "templates": [
+    {
+      "id": "react",
+      "title": "react",
+      "path": "@knapsack-cloud/demo-design-system-react",
+      "alias": "Layout",
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": {
+          "children": {
+            "disallowText": true,
+            "title": "children",
+            "allowedPatternIds": ["author", "card"]
+          }
+        },
+        "props": {
+          "required": [],
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "type": "object",
+          "description": "An extensible pattern meant to provide layout flexibility",
+          "properties": {
+            "bandContent": { "title": "Band Content", "type": "string" },
+            "bandTitle": { "title": "Band Title", "type": "string" }
+          }
+        }
+      },
+      "demosById": {
+        "main": {
+          "data": {
+            "slots": {
+              "children": [
+                { "templateId": "react", "demoId": "main", "patternId": "card" }
+              ]
+            },
+            "props": {
+              "bandContent": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.",
+              "bandTitle": "One Card Layout Example"
+            }
+          },
+          "id": "main",
+          "title": "1-Column Card Example",
+          "type": "data",
+          "description": "For this example — a column will be added for every \"child\" item you include within the \"children\" slot."
+        },
+        "eY-_KWUog4": {
+          "data": {
+            "slots": {
+              "children": [
+                {
+                  "templateId": "react",
+                  "demoId": "main",
+                  "patternId": "card"
+                },
+                {
+                  "templateId": "react",
+                  "demoId": "W1Xbf7ez7T",
+                  "patternId": "card"
+                },
+                {
+                  "templateId": "react",
+                  "demoId": "3c9C95vaFP",
+                  "patternId": "card"
+                }
+              ]
+            },
+            "props": {
+              "bandContent": "Facilisis tristique id habitant dis augue interdum sagittis morbi et fusce, taciti erat maecenas ad auctor ipsum pulvinar luctus varius, massa diam blandit ridiculus potenti aptent feugiat risus primis.",
+              "bandTitle": "Three Card Layout Example"
+            }
+          },
+          "id": "eY-_KWUog4",
+          "title": "3-Column Card Example",
+          "type": "data",
+          "description": "A description"
+        },
+        "aMFkBNIHU2": {
+          "data": {
+            "slots": {
+              "children": [
+                {
+                  "templateId": "react",
+                  "demoId": "main",
+                  "patternId": "card"
+                },
+                {
+                  "templateId": "react",
+                  "demoId": "W1Xbf7ez7T",
+                  "patternId": "card"
+                }
+              ]
+            },
+            "props": {
+              "bandContent": "Tempor adipiscing libero volutpat luctus integer phasellus curae, habitant tempus vel interdum augue aliquam, varius feugiat nulla suscipit magnis hac.",
+              "bandTitle": "Two Card Layout Example"
+            }
+          },
+          "id": "aMFkBNIHU2",
+          "title": "2-Column Card Example",
+          "type": "data",
+          "description": ""
+        }
+      },
+      "demos": ["main", "aMFkBNIHU2", "eY-_KWUog4"],
+      "slices": []
+    }
+  ],
+  "tabs": [
+    { "type": "subPage", "id": "overview" },
+    { "type": "subPage", "id": "Figma" },
+    { "type": "template", "id": "react" }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Usage",
+      "slices": [
+        {
+          "id": "ks-content-block-QwwSct6Lxc",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## Understanding Layout\nLayouts encourage consistency across platforms, environments, and screen sizes by using uniform elements and spacing.\n\n\n### Principles\n![](https://knapsack.imgix.net/site/demo-design-system/screen-shot-2021-04-07-at-1.41.50-pm-avdsbwzjkf.png?w=775&auto=compress)\n\n\n### Responsive Grid Layout\nThe responsive layout grid is an overarching guide to the placement of components and elements. The responsive layout grid adapts to screen sizes and orientation, ensuring consistency across layouts.\n\n![](https://knapsack.imgix.net/site/demo-design-system/unnamed-ruvo-wyfiv.png?w=532&auto=compress)\n\n1. Columns\n2. Gutters\n3. Margins"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Figma",
+      "id": "Figma",
+      "slices": [
+        {
+          "id": "ks-content-block-YEkgV9IhxW",
+          "blockId": "figma-slice",
+          "data": {
+            "clickToInteract": false,
+            "height": "700",
+            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=671%3A177"
+          }
+        },
+        {
+          "id": "ks-content-block-kKTr9MvIOY",
+          "blockId": "figma-slice",
+          "data": {
+            "clickToInteract": false,
+            "height": "900",
+            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=671%3A48"
+          }
+        }
+      ]
+    }
+  ]
+}

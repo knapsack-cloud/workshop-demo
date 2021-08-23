@@ -1,6 +1,6 @@
 {
   "include": [
-    "src", "utils"
+    "src", "utils", "prototype"
   ],
   "compilerOptions": {
     "allowJs": true,
