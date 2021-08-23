@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { CardProps } from '../../../dist/meta/react';
+import { CardProps } from '@knapsack-cloud/demo-design-system-shared-types';
 
-const Card: React.FC<CardProps> = ({
+export const Card: React.FC<CardProps> = ({
   label,
   title,
   body,

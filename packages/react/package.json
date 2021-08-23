@@ -2,8 +2,8 @@
   "name": "@knapsack-cloud/demo-design-system-react",
   "description": "Knapsack Demo Design System React Components",
   "version": "0.0.0",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "module": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",

@@ -6,7 +6,7 @@
     "design": "ready",
     "angular": "unset",
     "twig": "ready",
-    "react": "needs-approval",
+    "react": "needs-dev",
     "html": "unset",
     "web-components": "unset",
     "vue": "unset"
@@ -94,11 +94,89 @@
       },
       "demos": ["main", "j00gCMBwhY"],
       "slices": []
+    },
+    {
+      "id": "react",
+      "title": "react",
+      "path": "@knapsack-cloud/demo-design-system-react",
+      "alias": "Button",
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": { "children": { "title": "children", "isRequired": true } },
+        "props": {
+          "required": [],
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "type": "object",
+          "description": "",
+          "properties": {
+            "size": {
+              "title": "Size",
+              "type": "string",
+              "enum": ["small", "medium", "large"]
+            },
+            "mode": {
+              "title": "Button Mode",
+              "type": "string",
+              "enum": [
+                "success",
+                "info",
+                "warning",
+                "danger",
+                "alert",
+                "special"
+              ]
+            },
+            "url": {
+              "title": "URL",
+              "type": "string",
+              "description": "[URL]|[TITLE] — for example: http://google.com|Google"
+            },
+            "type": {
+              "default": "solid",
+              "title": "Button Type",
+              "type": "string",
+              "enum": ["solid", "outline"]
+            }
+          }
+        }
+      },
+      "demosById": {
+        "main": {
+          "data": {
+            "slots": { "children": ["Button"] },
+            "props": {
+              "size": "medium",
+              "mode": "info",
+              "url": "#url",
+              "type": "solid"
+            }
+          },
+          "id": "main",
+          "title": "Solid (info)",
+          "type": "data"
+        },
+        "2CXfLJgtaC": {
+          "data": {
+            "slots": { "children": ["Button"] },
+            "props": {
+              "size": "medium",
+              "mode": "special",
+              "url": "#url",
+              "type": "outline"
+            }
+          },
+          "id": "2CXfLJgtaC",
+          "title": "Outline (special)",
+          "type": "data"
+        }
+      },
+      "demos": ["main", "2CXfLJgtaC"],
+      "slices": []
     }
   ],
   "subPages": [
     {
-      "title": "Overview",
+      "title": "Usage",
       "id": "Overview",
       "slices": [
         {
@@ -170,10 +248,64 @@
           }
         }
       ]
+    },
+    {
+      "title": "Accessibility",
+      "id": "Accessibility",
+      "slices": [
+        {
+          "id": "ks-content-block-nFepVH2iK2",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## How it works\nThe Button component is used to trigger an action or event, such as submitting a form, opening a modal, canceling an action, or performing an add or delete operation. Almost all interactions in the Carbon Design System are implemented using the native <code>button</code> element.\n\nBy default, interactive elements like <code>button</code> are included in the tab order of the document. When a button has focus, both the Space and Enter keys will activate the button. If the button is disabled, then the disabled attribute is provided.\n\nThe label for a button can be computed by the contents of the underlying <code>button</code>, or provided by the aria-label or aria-labelledby attributes. Additional information about the button may be supplied by the aria-describedby attribute."
+          }
+        },
+        {
+          "id": "ks-content-block-9SdC5V2SSU",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## Accessibility considerations\nThis component has been validated to meet the [WCAG 2.1 AA](https://www.w3.org/TR/WCAG21/) and [Section 508](http://www.section508.gov/) accessibility guidelines, however changes made by the content owner can affect accessibility compliance. Be sure to review and follow the guidance in this section when updating or adding new content to this component.\n\n1. The button can be activated using both the Space or Enter key.\n2. The button should have text or label that accurately describes the action of the button.\n3. If a description of the button’s function is present, the button element should have an <code>aria-describedby</code> set to the ID of the element containing the description.\n4. After the button is activated ensure the focus is set correctly based on the type of action the button performs. See [W3C WAI-ARIA Authoring Practices Button Design Pattern](https://www.w3.org/TR/wai-aria-practices-1.1/#button) for a list of examples."
+          }
+        },
+        {
+          "id": "ks-content-block-KILApugMxg",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## Resources\n* [W3C WAI-ARIA Authoring Practices Button Design Pattern](https://www.w3.org/TR/wai-aria-practices-1.1/#button) covers the usage of ARIA names, state and roles, as well as the expected keyboard interactions.\n* Best In Class Example: [IBM Accessibility Requirements](https://www.ibm.com/able/requirements/requirements/)"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Figma",
+      "id": "Figma",
+      "slices": [
+        {
+          "id": "ks-content-block-5IKy6auf0k",
+          "blockId": "figma-slice",
+          "data": {
+            "clickToInteract": false,
+            "height": "800",
+            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=752%3A32"
+          }
+        },
+        {
+          "id": "ks-content-block-_quWnLXCar",
+          "blockId": "figma-slice",
+          "data": {
+            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=172%3A4447",
+            "height": "480",
+            "clickToInteract": false
+          }
+        }
+      ]
     }
   ],
   "tabs": [
     { "type": "subPage", "id": "Overview" },
+    { "type": "subPage", "id": "Accessibility" },
+    { "type": "subPage", "id": "Figma" },
+    { "type": "template", "id": "react" },
     { "type": "template", "id": "twig" }
   ]
 }

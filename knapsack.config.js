@@ -53,7 +53,7 @@ module.exports = configureKnapsack({
       webpackConfig: {},
       webpack,
       babelConfig,
-      demoWrapperPath: join(__dirname, './packages/react/dist/demo-wrapper.js'),
+      demoWrapperPath: join(__dirname, './packages/react/dist/src/demo-wrapper.js'),
     }),
     new HTMLRenderer(),
     new TwigRenderer({

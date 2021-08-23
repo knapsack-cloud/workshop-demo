@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ButtonProps } from '../../../dist/meta/react';
+import { ButtonProps } from '@knapsack-cloud/demo-design-system-shared-types';
 
 export const Button: React.FC<ButtonProps> = ({
   children,
