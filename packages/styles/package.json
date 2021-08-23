@@ -5,10 +5,12 @@
   "main": "styles.js",
   "style": "dist/styles.css",
   "scripts": {
-    "build": "yarn build:styles",
+    "build": "yarn tailwind:prep && yarn build:styles",
     "build:styles": "rollup --config",
     "watch:styles": "nodemon --watch 'src/**/*' --ext 'scss' --exec 'yarn build:styles' -w",
     "start": "run-s watch:*",
+    "tailwind:prep": "[ -f ./dist/tailwind.min.css ] || mkdir -p './dist' && yarn tailwind:build",
+    "tailwind:build": "cp ../../node_modules/tailwindcss/dist/tailwind.min.css ../../node_modules/tailwindcss/dist/tailwind-dark.min.css ./dist",
     "clean": "rm -rf dist"
   },
   "dependencies": {
@@ -21,7 +23,8 @@
     "rollup": "^2.45.2",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-styles": "^3.14.1",
-    "sass": "^1.32.12"
+    "sass": "^1.32.12",
+    "tailwindcss": "^2.2.7"
   },
   "files": [
     "dist/*"

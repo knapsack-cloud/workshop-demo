@@ -1,0 +1,100 @@
+// Helper function for getting nested mapped data
+@function map-deep-get($map, $keys...) {
+  @each $key in $keys {
+      $map: map-get($map, $key);
+  }
+  @return $map;
+}
+
+@mixin tokens-to-classes($preClass: '', $attribute: '', $key: '', $key2: '') {
+  $att: map-deep-get($tokens, $key, $key2);
+  @each $name, $val in $att {
+    &#{$preClass}#{$key}-#{$key2}-#{$name} {
+      #{$attribute}: $val;
+    }
+  }
+}
+
+// Button Classes
+@mixin tokens-to-classes--bg($key: 'color', $type: '') {
+  $att: map-deep-get($tokens, $key, $type);
+  $attLight: map-deep-get($tokens, $key, 'light');
+  $attDark: map-deep-get($tokens, $key, 'dark');
+
+  @if ($type == 'base') {
+
+    @each $name, $val in $att {
+      &bg-#{$key}-#{$name} {
+        background: $val;
+      }
+      &bg-#{$key}-#{$name}:hover {
+        background: map-get($attDark, $name);
+      }
+      &bg-#{$key}-#{$name}.ks\:bg-outline {
+        background: white;
+        border-color: $val;
+        color: $val;
+      }
+      &bg-#{$key}-#{$name}.ks\:bg-outline:hover {
+        background: map-get($attDark, $name);
+        border-color: map-get($attDark, $name);
+        color: white;
+      }
+      // Dark mode
+      .dark &bg-#{$key}-#{$name} {
+        background: map-get($attDark, $name);
+      }
+      .dark &bg-#{$key}-#{$name}:hover {
+        background: $val;
+      }
+      .dark &bg-#{$key}-#{$name}.ks\:bg-outline {
+        background: white;
+        border-color: map-get($attDark, $name);
+        color: map-get($attDark, $name);
+      }
+      .dark &bg-#{$key}-#{$name}.ks\:bg-outline:hover {
+        background: map-get($attDark, $name);
+        color: white;
+      }
+      
+    }
+
+  } @else {
+
+    @each $name, $val in $att {
+      &bg-#{$key}-#{$type}-#{$name} {
+        background: $val;
+      }
+      &bg-#{$key}-#{$type}-#{$name}:hover {
+        background: map-get($att, $name);
+      }
+      &bg-#{$key}-#{$type}-#{$name}.ks\:bg-outline {
+        background: white;
+        border-color: $val;
+        color: $val;
+      }
+      &bg-#{$key}-#{$type}-#{$name}.ks\:bg-outline:hover {
+        background: $val;
+        border-color: $val;
+        color: white;
+      }
+    }
+
+  }
+}
+
+// Tailwind style colors!
+.ks\: {
+  // Background colors
+  @include tokens-to-classes--bg($type: 'base');
+  @include tokens-to-classes--bg($type: 'light');
+  @include tokens-to-classes--bg($type: 'dark');
+  // Background types
+  &bg-solid {
+    // Here if needed. It's an option we allow so leaving here for future use.
+  }
+  &bg-outline {
+    background: none;
+    border: 2px solid;
+  }
+}

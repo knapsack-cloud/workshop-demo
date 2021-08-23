@@ -79,7 +79,7 @@
     },
     {
       "id": "vue",
-      "title": "vue",
+      "title": "Vue",
       "statuses": [
         { "id": "unset", "title": "Unset", "color": "#403e41" },
         { "id": "needs-dev", "title": "Needs Development", "color": "#0C8FAC" },

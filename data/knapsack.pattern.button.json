@@ -1,137 +1,19 @@
 {
   "id": "button",
   "title": "Button",
-  "description": "",
+  "description": "Buttons are used to initialize an action. Button labels express what action will occur when the user interacts with it.",
   "statuses": {
     "design": "ready",
-    "angular": "ready",
+    "angular": "unset",
     "twig": "ready",
-    "react": "ready",
-    "html": "ready",
-    "web-components": "ready",
-    "vue": "ready"
+    "react": "needs-approval",
+    "html": "unset",
+    "web-components": "unset",
+    "vue": "unset"
   },
   "demoSize": "s",
   "demoWidths": [{ "width": 180 }],
   "templates": [
-    {
-      "id": "angular",
-      "title": "angular",
-      "path": "../packages/angular/src/lib/button/button.component.ts",
-      "alias": "ButtonComponent",
-      "templateLanguageId": "angular",
-      "spec": {
-        "slots": {},
-        "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "An interactive element that transforms some property on a page, or otherwise submits a form.",
-          "type": "object",
-          "required": ["text"],
-          "properties": {
-            "text": { "type": "string" },
-            "style": {
-              "type": "string",
-              "enum": [
-                "primary",
-                "outline-primary",
-                "secondary",
-                "success",
-                "danger"
-              ],
-              "default": "primary",
-              "title": "Style"
-            },
-            "size": {
-              "type": "string",
-              "enum": ["s", "m", "l"],
-              "enumNames": ["Small", "Default", "Large"],
-              "default": "m"
-            },
-            "disabled": { "type": "boolean", "default": false }
-          }
-        }
-      },
-      "assetSetIds": null,
-      "demosById": {
-        "main": {
-          "id": "main",
-          "title": "Primary",
-          "type": "data",
-          "data": {
-            "props": {
-              "style": "primary",
-              "size": "m",
-              "disabled": false,
-              "text": "Button"
-            },
-            "slots": {}
-          },
-          "description": "The primary action on the page. Advances the user to the next logical step. One per page max."
-        },
-        "Ftu0Efvn34": {
-          "id": "Ftu0Efvn34",
-          "title": "Secondary",
-          "description": "Standard button for general interactivity.",
-          "type": "data",
-          "data": {
-            "props": {
-              "style": "secondary",
-              "size": "m",
-              "disabled": false,
-              "text": "Secondary"
-            },
-            "slots": {}
-          }
-        },
-        "XbBVS_lZQ-": {
-          "id": "XbBVS_lZQ-",
-          "title": "Outline Primary",
-          "description": "A description",
-          "type": "data",
-          "data": {
-            "props": {
-              "style": "outline-primary",
-              "size": "m",
-              "disabled": false,
-              "text": "Outline Primary"
-            },
-            "slots": {}
-          }
-        },
-        "7jMOevUONk": {
-          "id": "7jMOevUONk",
-          "title": "Success",
-          "type": "data",
-          "data": {
-            "props": {
-              "style": "success",
-              "size": "m",
-              "disabled": false,
-              "text": "Success"
-            },
-            "slots": {}
-          },
-          "description": ""
-        },
-        "06SDjJib-k": {
-          "id": "06SDjJib-k",
-          "title": "Danger",
-          "type": "data",
-          "data": {
-            "props": {
-              "style": "danger",
-              "size": "m",
-              "disabled": false,
-              "text": "Danger"
-            },
-            "slots": {}
-          },
-          "description": "The primary action on the page. Advances the user to the next logical step. One per page max."
-        }
-      },
-      "demos": ["main", "XbBVS_lZQ-", "Ftu0Efvn34", "7jMOevUONk", "06SDjJib-k"],
-      "slices": []
-    },
     {
       "id": "twig",
       "title": "twig",
@@ -142,425 +24,75 @@
         "slots": {},
         "props": {
           "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "An interactive element that transforms some property on a page, or otherwise submits a form.",
+          "description": "",
           "type": "object",
-          "required": ["text"],
+          "required": [],
           "properties": {
-            "text": { "type": "string" },
-            "style": {
+            "size": {
+              "title": "Size",
+              "type": "string",
+              "enum": ["small", "medium", "large"]
+            },
+            "mode": {
+              "title": "Button Mode",
               "type": "string",
               "enum": [
-                "primary",
-                "outline-primary",
-                "secondary",
                 "success",
-                "danger"
-              ],
-              "default": "primary",
-              "title": "Style"
+                "info",
+                "warning",
+                "danger",
+                "alert",
+                "special"
+              ]
             },
-            "size": {
+            "url": {
+              "title": "URL",
               "type": "string",
-              "enum": ["s", "m", "l"],
-              "enumNames": ["Small", "Default", "Large"],
-              "default": "m"
+              "description": "[URL]|[TITLE] — for example: http://google.com|Google"
             },
-            "disabled": { "type": "boolean", "default": false }
+            "type": {
+              "default": "solid",
+              "title": "Button Type",
+              "type": "string",
+              "enum": ["solid", "outline"]
+            },
+            "text": { "type": "string", "title": "Button Text" }
           }
         }
       },
       "demosById": {
         "main": {
           "id": "main",
-          "title": "Primary",
+          "title": "Solid (info)",
           "type": "data",
           "data": {
             "props": {
-              "style": "primary",
-              "size": "m",
-              "disabled": false,
+              "type": "solid",
+              "size": "medium",
+              "mode": "info",
+              "url": "https://www.knapsack.cloud",
               "text": "Button"
             },
             "slots": {}
           }
         },
-        "WxUfuOXds8": {
-          "id": "WxUfuOXds8",
-          "title": "Outline Primary",
+        "j00gCMBwhY": {
+          "id": "j00gCMBwhY",
+          "title": "Outline (special)",
           "type": "data",
           "data": {
             "props": {
-              "style": "outline-primary",
-              "size": "m",
-              "disabled": false,
-              "text": "Outline Primary"
-            },
-            "slots": {}
-          }
-        },
-        "ZI_TFONpqC": {
-          "id": "ZI_TFONpqC",
-          "title": "Secondary",
-          "description": "A description",
-          "type": "data",
-          "data": {
-            "props": {
-              "style": "secondary",
-              "size": "m",
-              "disabled": false,
-              "text": "Secondary"
-            },
-            "slots": {}
-          }
-        },
-        "gmB0D2yf5k": {
-          "id": "gmB0D2yf5k",
-          "title": "Success",
-          "description": "A description",
-          "type": "data",
-          "data": {
-            "props": {
-              "style": "success",
-              "size": "m",
-              "disabled": false,
-              "text": "Success"
-            },
-            "slots": {}
-          }
-        },
-        "lGf6lqiitO": {
-          "id": "lGf6lqiitO",
-          "title": "Danger",
-          "description": "A description",
-          "type": "data",
-          "data": {
-            "props": {
-              "style": "danger",
-              "size": "m",
-              "disabled": false,
-              "text": "Danger"
+              "type": "outline",
+              "size": "medium",
+              "mode": "special",
+              "url": "https://www.knapsack.cloud",
+              "text": "Button"
             },
             "slots": {}
           }
         }
       },
-      "demos": ["main", "WxUfuOXds8", "ZI_TFONpqC", "gmB0D2yf5k", "lGf6lqiitO"],
-      "slices": []
-    },
-    {
-      "id": "html",
-      "title": "html",
-      "path": "../packages/html/button/button.html",
-      "templateLanguageId": "html",
-      "spec": {},
-      "demosById": {
-        "main": {
-          "id": "main",
-          "title": "Main",
-          "type": "template",
-          "templateInfo": { "path": "../packages/html/button/button.html" }
-        },
-        "xzMEVAzl9H": {
-          "id": "xzMEVAzl9H",
-          "title": "New Template Example",
-          "type": "template",
-          "templateInfo": {
-            "path": "../packages/html/button/button-outline.html"
-          }
-        },
-        "3tixeHrBzd": {
-          "id": "3tixeHrBzd",
-          "title": "New Template Example",
-          "type": "template",
-          "templateInfo": {
-            "path": "../packages/html/button/button-secondary.html"
-          }
-        },
-        "gS6q4yIzQX": {
-          "id": "gS6q4yIzQX",
-          "title": "New Template Example",
-          "type": "template",
-          "templateInfo": {
-            "path": "../packages/html/button/button-success.html"
-          }
-        },
-        "VRc7nkWqHZ": {
-          "id": "VRc7nkWqHZ",
-          "title": "New Template Example",
-          "type": "template",
-          "templateInfo": {
-            "path": "../packages/html/button/button-danger.html"
-          }
-        }
-      },
-      "demos": ["main", "xzMEVAzl9H", "3tixeHrBzd", "gS6q4yIzQX", "VRc7nkWqHZ"],
-      "slices": []
-    },
-    {
-      "id": "react",
-      "title": "react",
-      "path": "@knapsack-cloud/demo-design-system-react",
-      "templateLanguageId": "react",
-      "spec": {
-        "slots": { "children": { "title": "children" } },
-        "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "An interactive element that transforms some property on a page, or otherwise submits a form.",
-          "type": "object",
-          "required": [],
-          "properties": {
-            "style": {
-              "type": "string",
-              "enum": [
-                "primary",
-                "outline-primary",
-                "secondary",
-                "success",
-                "danger"
-              ],
-              "default": "primary",
-              "title": "Style"
-            },
-            "size": {
-              "type": "string",
-              "enum": ["s", "m", "l"],
-              "enumNames": ["Small", "Default", "Large"],
-              "default": "m"
-            },
-            "disabled": { "type": "boolean", "default": false }
-          }
-        }
-      },
-      "demosById": {
-        "main": {
-          "id": "main",
-          "title": "Main",
-          "type": "data",
-          "data": {
-            "props": { "style": "primary", "size": "m", "disabled": false },
-            "slots": { "children": ["Primary"] }
-          }
-        },
-        "q6LA73UFRB": {
-          "id": "q6LA73UFRB",
-          "title": "Outline Primary",
-          "description": "A description",
-          "type": "data",
-          "data": {
-            "props": {
-              "style": "outline-primary",
-              "size": "m",
-              "disabled": false
-            },
-            "slots": { "children": ["Outline Primary"] }
-          }
-        },
-        "wLUQA_PJF9": {
-          "id": "wLUQA_PJF9",
-          "title": "Secondary",
-          "description": "A description",
-          "type": "data",
-          "data": {
-            "props": { "style": "secondary", "size": "m", "disabled": false },
-            "slots": { "children": ["Secondary"] }
-          }
-        },
-        "L-qQUJO_pU": {
-          "id": "L-qQUJO_pU",
-          "title": "Success",
-          "description": "A description",
-          "type": "data",
-          "data": {
-            "props": { "style": "success", "size": "m", "disabled": false },
-            "slots": { "children": ["Success"] }
-          }
-        },
-        "dgW908ciIX": {
-          "id": "dgW908ciIX",
-          "title": "Danger",
-          "description": "A description",
-          "type": "data",
-          "data": {
-            "props": { "style": "danger", "size": "m", "disabled": false },
-            "slots": { "children": ["Danger"] }
-          }
-        }
-      },
-      "demos": ["main", "q6LA73UFRB", "wLUQA_PJF9", "L-qQUJO_pU", "dgW908ciIX"],
-      "slices": [],
-      "alias": "Button"
-    },
-    {
-      "id": "web-components",
-      "title": "web-components",
-      "path": "@knapsack-cloud/demo-design-system-web-components",
-      "alias": "bs-button",
-      "templateLanguageId": "web-components",
-      "spec": {
-        "slots": { "default": { "title": "Default" } },
-        "props": {
-          "required": [],
-          "$schema": "http://json-schema.org/draft-07/schema#",
-          "type": "object",
-          "properties": {
-            "outlined": {
-              "default": false,
-              "title": "Outlined",
-              "type": "boolean"
-            },
-            "size": {
-              "type": "string",
-              "enum": ["s", "m", "l"],
-              "enumNames": ["Small", "Default", "Large"],
-              "default": "m"
-            },
-            "disabled": {
-              "default": false,
-              "title": "Disabled",
-              "type": "boolean"
-            },
-            "type": {
-              "default": "primary",
-              "enumNames": ["Primary", "Secondary", "Success", "Danger"],
-              "title": "Type",
-              "type": "string",
-              "enum": ["primary", "secondary", "success", "danger"]
-            }
-          }
-        }
-      },
-      "demosById": {
-        "main": {
-          "id": "main",
-          "title": "Main",
-          "type": "data",
-          "data": {
-            "props": {
-              "outlined": false,
-              "size": "m",
-              "disabled": false,
-              "type": "primary"
-            },
-            "slots": { "default": ["Primary"] }
-          }
-        },
-        "CKoewGl9QX": {
-          "id": "CKoewGl9QX",
-          "title": "Outline Primary",
-          "type": "data",
-          "data": {
-            "props": {
-              "outlined": true,
-              "size": "m",
-              "disabled": false,
-              "type": "primary"
-            },
-            "slots": { "default": ["Outline Primary"] }
-          }
-        },
-        "vp8wauWAUj": {
-          "id": "vp8wauWAUj",
-          "title": "Secondary",
-          "description": "A description",
-          "type": "data",
-          "data": {
-            "props": {
-              "outlined": false,
-              "size": "m",
-              "disabled": false,
-              "type": "secondary"
-            },
-            "slots": { "default": ["Secondary"] }
-          }
-        },
-        "I8DHs6jZI1": {
-          "id": "I8DHs6jZI1",
-          "title": "Success",
-          "description": "A description",
-          "type": "data",
-          "data": {
-            "props": {
-              "outlined": false,
-              "size": "m",
-              "disabled": false,
-              "type": "success"
-            },
-            "slots": { "default": ["Success"] }
-          }
-        },
-        "G6sHJxoYqs": {
-          "id": "G6sHJxoYqs",
-          "title": "Danger",
-          "description": "A description",
-          "type": "data",
-          "data": {
-            "props": {
-              "outlined": false,
-              "size": "m",
-              "disabled": false,
-              "type": "danger"
-            },
-            "slots": { "default": ["Danger"] }
-          }
-        }
-      },
-      "demos": ["main", "CKoewGl9QX", "vp8wauWAUj", "I8DHs6jZI1", "G6sHJxoYqs"],
-      "slices": []
-    },
-    {
-      "id": "vue",
-      "title": "vue",
-      "path": "@knapsack-cloud/demo-design-system-vue/src/button.vue",
-      "templateLanguageId": "vue",
-      "spec": { "isInferred": true },
-      "demosById": {
-        "main": {
-          "id": "main",
-          "title": "Main",
-          "type": "data",
-          "data": {
-            "props": { "type": "primary", "size": "m", "disabled": false },
-            "slots": { "default": ["Primary"] }
-          }
-        },
-        "1zaR5ehY9A": {
-          "id": "1zaR5ehY9A",
-          "title": "Outline Primary",
-          "type": "data",
-          "data": {
-            "props": { "type": "outline-primary", "size": "m" },
-            "slots": { "default": ["Outline Primary"] }
-          }
-        },
-        "3KxjN76Jr1": {
-          "id": "3KxjN76Jr1",
-          "title": "Secondary",
-          "type": "data",
-          "data": {
-            "props": { "type": "secondary", "size": "m" },
-            "slots": { "default": ["Secondary"] }
-          }
-        },
-        "t6nVprXZMO": {
-          "id": "t6nVprXZMO",
-          "title": "Danger",
-          "type": "data",
-          "data": {
-            "props": { "type": "danger", "size": "m" },
-            "slots": { "default": ["Danger"] }
-          }
-        },
-        "0cTofNLmOr": {
-          "id": "0cTofNLmOr",
-          "title": "Success",
-          "type": "data",
-          "data": {
-            "props": { "type": "success", "size": "m" },
-            "slots": { "default": ["Success"] }
-          }
-        }
-      },
-      "demos": ["main", "1zaR5ehY9A", "3KxjN76Jr1", "0cTofNLmOr", "t6nVprXZMO"],
+      "demos": ["main", "j00gCMBwhY"],
       "slices": []
     }
   ],
@@ -570,25 +102,71 @@
       "id": "Overview",
       "slices": [
         {
-          "id": "m_g-24BmU",
-          "blockId": "pattern-variations",
+          "id": "ks-content-block-YkyHkvdzp_",
+          "blockId": "markdown-slice",
           "data": {
-            "size": "s",
-            "templateId": "angular",
-            "patternId": "button",
-            "demoId": "main",
-            "variationId": "style"
+            "md": "# Overview\nButtons are clickable elements that are used to trigger actions. They communicate calls to action to the user and allow users to interact with pages in a variety of ways. Button labels express what action will occur when the user interacts with it.\n\n### When to use\nUse buttons to communicate actions users can take and to allow users to interact with the page. Each page should have one primary button, and any remaining calls to action should be represented as lower emphasis buttons.\n\n### When not to use\nDo not use buttons as navigational elements. Instead, use links when the desired action is to take the user to a new page."
           }
         },
         {
-          "id": "xlOFTgWW8w",
+          "id": "ks-content-block-1LTGO8xsrC",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## Button variants\nEach button variant has a particular function and its design signals that function to the user. It is therefore very important that the different variants are implemented consistently across products, so that they message the correct actions.\n\n### Mode\n* **Success**  - For the principal call to action on the page. Primary buttons should only appear once per screen (not including the application header, modal dialog, or side panel).\n* **Info**  - For secondary actions on each page. Secondary buttons can only be used in conjunction with a primary button. As part of a pair, the secondary button’s function is to perform the negative action of the set, such as “Cancel” or “Back”. Do not use a secondary button in isolation and do not use a secondary button for a positive action.\n* **Warning**  - For less prominent, and sometimes independent, actions. Tertiary buttons can be used in isolation or paired with a primary button when there are multiple calls to action. Tertiary buttons can also be used for sub-tasks on a page where a primary button for the main and final action is present.\n* **Danger**  - For actions that could have destructive effects on the user’s data (for example, delete or remove).\n* **Alert**  - For actions that could impact other settings indirectly.\n* **Special**  - For special or unique actions; often used in conjunction with a primary button.\n\n### Size\n* **Small**  - For use in small viewport experiences.\n* **Medium**  - For use in medium viewport experiences.\n* **Large**  - For use in large viewport experiences.\n\n### Type\n* **Solid**  - For use in combination with primary buttons, to present a prominently emphasized call to action.\n* **Outlined**  - For use in combination with secondary and tertiary actions, to present a de-emphasized user option."
+          }
+        },
+        {
+          "id": "ks-content-block--plYGPDwcr",
           "blockId": "pattern-variations",
           "data": {
             "size": "s",
-            "templateId": "angular",
             "patternId": "button",
+            "templateId": "twig",
+            "demoId": "main",
+            "variationId": "mode"
+          }
+        },
+        {
+          "id": "ks-content-block-1VyLx4PL0Q",
+          "blockId": "pattern-variations",
+          "data": {
+            "size": "s",
+            "patternId": "button",
+            "templateId": "twig",
             "demoId": "main",
             "variationId": "size"
+          }
+        },
+        {
+          "id": "ks-content-block-kCs__ou9y9",
+          "blockId": "pattern-variations",
+          "data": {
+            "size": "m",
+            "patternId": "button",
+            "templateId": "twig",
+            "demoId": "j00gCMBwhY",
+            "variationId": "type"
+          }
+        },
+        {
+          "id": "ks-content-block-PgZf2sEi0K",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## Emphasis\nYou don’t necessarily need to use the buttons in the order that their labels imply. For example, you don’t always need to use the secondary button as the second button in your layout. The most important thing is to establish a visual hierarchy between the buttons in your UI. Keep these best practices in mind.\n\n#### A single, high-emphasis button\nAs a general rule, a layout should contain a single high-emphasis button that makes it clear that other buttons have less importance in the hierarchy. This high-emphasis button commands the most attention.\n\n#### Multiple button emphasis\nA high-emphasis button can be accompanied by medium- and low-emphasis buttons that perform less important actions. Keep in mind that you should only group together calls to action that have a relationship to one another.\n\nAlthough secondary buttons have less visual prominence because they are less saturated than their primary counterparts, they are still tonally heavy. If your layout requires multiple actions—as is the case with some toolbars, data lists and dashboards—low emphasis buttons (tertiary or ghost) may be a better choice."
+          }
+        },
+        {
+          "id": "ks-content-block-ERHZS37CMD",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## Alignment\nAlignment refers to whether the buttons are aligned to the right or the left of a window, container, or layout. Buttons are unique, more so than any other component, in that their alignment depends on where they appear and whether or not they’re contained within another component.\n\nAs a general rule, on full-page designs, the primary button is on the left side of the page. When the browser window is large and the user is scrolling to read, it’s best to have the primary button where the user’s attention has been focused all along. Whereas in wizards, where a user is progressing through a series of steps or dialog windows, the primary action traditionally sits at the bottom right. Buttons within components such as notifications, search fields, and data tables are also right-aligned.\n\nIn some cases a button group—or even a single button in the case of a side panel or small tile—may span the entire width of a window or container. Typical nested button locations include:\n\n- Banner calls to action\n- Dialog windows\n- Wizards\n- Forms\n- Cards\n- Toolbars\n\n![](https://knapsack.imgix.net/site/demo-design-system/button_usage_10-jdafvzztue.png?w=800&auto=compress)"
+          }
+        },
+        {
+          "id": "ks-content-block-CWcgPllcdw",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## Related\n- [Author pattern](https://app.knapsack.cloud/site/demo-design-system/latest/pattern/author)\n- [Card pattern](https://app.knapsack.cloud/site/demo-design-system/latest/pattern/card)\n\n\n## References\n* Mehmet Goktürk, [The Glossary of Human Computer Interaction, Chapter 37](https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/fitts-s-law) (The Interaction Design Foundation)\n* Jakob Nielsen, [OK-Cancel or Cancel-OK? The Trouble With Button](https://www.nngroup.com/articles/ok-cancel-or-cancel-ok/)s (Nielsen Norman Group, 2008)\n* Artem Syzonenko [Buttons on the web: placement and order](https://uxdesign.cc/buttons-placement-and-order-bb1c4abadfcb) (UX Collective, 2019)\n\n\n## Feedback\nHelp us improve this component by providing feedback, asking questions, and leaving any other comments on [GitHub](https://github.com/knapsack-cloud/demo-design-system/).\n\n"
           }
         }
       ]
@@ -596,11 +174,6 @@
   ],
   "tabs": [
     { "type": "subPage", "id": "Overview" },
-    { "type": "template", "id": "angular" },
-    { "type": "template", "id": "twig" },
-    { "type": "template", "id": "html" },
-    { "type": "template", "id": "react" },
-    { "type": "template", "id": "web-components" },
-    { "type": "template", "id": "vue" }
+    { "type": "template", "id": "twig" }
   ]
 }

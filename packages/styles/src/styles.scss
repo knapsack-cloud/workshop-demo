@@ -1,6 +1,8 @@
 @import '~normalize-scss/sass/normalize/import-now'; // Pull in normalizer
 @import '~@knapsack-cloud/demo-design-system-design-tokens'; // Pull in our SASS design tokens
 
+@import './scss/ks-custom.scss'; // Custom class generated a la tailwind style
+
 @import './scss/globals.scss'; // Setup scaffolding for globals/mixins
 
 body {
@@ -8,5 +10,6 @@ body {
 }
 
 // Add stylesheets below
-@import './components/button.component.scss';
-@import './components/card.component.scss';
+@import './components/button.scss';
+@import './components/card.scss';
+@import './components/top-nav.scss';

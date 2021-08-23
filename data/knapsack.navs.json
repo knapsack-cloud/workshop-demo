@@ -110,6 +110,12 @@
       "parentId": "components-asdf"
     },
     {
+      "id": "author",
+      "name": "Author",
+      "path": "/pattern/author",
+      "parentId": "components-asdf"
+    },
+    {
       "id": "/pattern/button",
       "name": "Button",
       "path": "/pattern/button",
@@ -120,6 +126,18 @@
       "name": "Card",
       "path": "/pattern/card",
       "parentId": "components-asdf"
+    },
+    {
+      "id": "Prototyping",
+      "name": "Prototyping",
+      "path": "",
+      "parentId": "root"
+    },
+    {
+      "id": "one-pager",
+      "name": "One-Pager",
+      "path": "/pattern/one-pager",
+      "parentId": "Prototyping"
     },
     {
       "id": "docs",

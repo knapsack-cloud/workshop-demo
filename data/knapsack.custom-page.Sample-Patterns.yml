@@ -1,14 +1,6 @@
 id: Sample-Patterns
 title: Sample Patterns
-description: A little something to get you going.
+description: ''
 slices:
-  - id: ks-content-block-kEECEhhfg2
-    blockId: markdown-slice
-    data:
-      md: >-
-        We've provided a couple basic patterns to highlight how Knapsack works.
-        Check them out to get a fast start, or [add your
-        own](https://help.knapsack.cloud/category/17-technical-guides) to make
-        Knapsack your own!
   - id: ks-content-block-xKdWQ4tphM
     blockId: pattern-list-block

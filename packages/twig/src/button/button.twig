@@ -1,7 +1,36 @@
+{% set size = size ? size : 'medium' %}
+{% if size == 'small' %}
+  {% set sizeClasses = 'px-4 py-1.5 text-sm' %}
+{% elseif size == 'medium' %}
+  {% set sizeClasses = 'px-9 py-2.5 text-lg' %}
+{% elseif size == 'large' %}
+  {% set sizeClasses = 'px-10 py-4 text-xl' %}
+{% endif %}
+
+{% set mode = mode ? mode : 'info' %}
+{% if mode == 'success' %}
+  {% set modeClasses = "ks:bg-color-green #{mode}" %}
+{% elseif mode == 'info' %}
+  {% set modeClasses = "ks:bg-color-blue #{mode}" %}
+{% elseif mode == 'warning' %}
+  {% set modeClasses = "ks:bg-color-orange #{mode}" %}
+{% elseif mode == 'danger' %}
+  {% set modeClasses = "ks:bg-color-red #{mode}" %}
+{% elseif mode == 'alert' %}
+  {% set modeClasses = "ks:bg-color-yellow #{mode}" %}
+{% elseif mode == 'special' %}
+  {% set modeClasses = "ks:bg-color-orchid #{mode}" %}
+{% endif %}
+
 {% set classes = [
-  'ex-button',
-  style ? "ex-button--#{style}",
-  size ? "ex-button--size-#{size}"
+  'ks-button',
+  'w-full flex items-center justify-center',
+  'text-base font-medium',
+  'rounded-md border-4 border-transparent',
+  'text-white',
+  "ks:bg-#{type ? type : 'solid'}",
+  sizeClasses,
+  modeClasses
 ]  | join(' ') | trim %}
 
-<button class="{{ classes }}" {{ disabled ? 'disabled' }}>{{ text }}</button>
+<a href="{{ url }}" class="{{ classes }}">{{ text }}</a>
