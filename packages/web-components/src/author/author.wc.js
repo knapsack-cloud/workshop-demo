@@ -30,6 +30,9 @@ export class Author extends LitElement {
       <style>
         ${style}
         ${tailwind}
+        :host {
+          display: block;
+        }
       </style>
       <div class="${classes}">
         ${this.imgSrc &&

@@ -10,57 +10,6 @@
       ]
     },
     {
-      "id": "angular",
-      "title": "Angular",
-      "statuses": [
-        { "id": "unset", "title": "Unset", "color": "#403e41" },
-        { "id": "needs-dev", "title": "Needs Development", "color": "#0C8FAC" },
-        { "id": "needs-updated", "title": "Needs Update", "color": "#6b51f7" },
-        { "id": "needs-qa", "title": "Needs QA", "color": "#fc8a4b" },
-        {
-          "id": "needs-approval",
-          "title": "Needs Approval",
-          "color": "#f0e034"
-        },
-        { "id": "ready", "title": "Ready", "color": "#00b600" },
-        { "id": "wont-build", "title": "Won't Build", "color": "#ededed" }
-      ]
-    },
-    {
-      "id": "twig",
-      "title": "Twig",
-      "statuses": [
-        { "id": "unset", "title": "Unset", "color": "#403e41" },
-        { "id": "needs-dev", "title": "Needs Development", "color": "#0C8FAC" },
-        { "id": "needs-updated", "title": "Needs Update", "color": "#6b51f7" },
-        { "id": "needs-qa", "title": "Needs QA", "color": "#fc8a4b" },
-        {
-          "id": "needs-approval",
-          "title": "Needs Approval",
-          "color": "#f0e034"
-        },
-        { "id": "ready", "title": "Ready", "color": "#00b600" },
-        { "id": "wont-build", "title": "Won't Build", "color": "#ededed" }
-      ]
-    },
-    {
-      "id": "html",
-      "title": "HTML",
-      "statuses": [
-        { "id": "unset", "title": "Unset", "color": "#403e41" },
-        { "id": "needs-dev", "title": "Needs Development", "color": "#0C8FAC" },
-        { "id": "needs-updated", "title": "Needs Update", "color": "#6b51f7" },
-        { "id": "needs-qa", "title": "Needs QA", "color": "#fc8a4b" },
-        {
-          "id": "needs-approval",
-          "title": "Needs Approval",
-          "color": "#f0e034"
-        },
-        { "id": "ready", "title": "Ready", "color": "#00b600" },
-        { "id": "wont-build", "title": "Won't Build", "color": "#ededed" }
-      ]
-    },
-    {
       "id": "react",
       "title": "React",
       "statuses": [
@@ -78,25 +27,8 @@
       ]
     },
     {
-      "id": "vue",
-      "title": "Vue",
-      "statuses": [
-        { "id": "unset", "title": "Unset", "color": "#403e41" },
-        { "id": "needs-dev", "title": "Needs Development", "color": "#0C8FAC" },
-        { "id": "needs-updated", "title": "Needs Update", "color": "#6b51f7" },
-        { "id": "needs-qa", "title": "Needs QA", "color": "#fc8a4b" },
-        {
-          "id": "needs-approval",
-          "title": "Needs Approval",
-          "color": "#f0e034"
-        },
-        { "id": "ready", "title": "Ready", "color": "#00b600" },
-        { "id": "wont-build", "title": "Won't Build", "color": "#ededed" }
-      ]
-    },
-    {
-      "id": "web-components",
-      "title": "Web Components",
+      "id": "twig",
+      "title": "Twig",
       "statuses": [
         { "id": "unset", "title": "Unset", "color": "#403e41" },
         { "id": "needs-dev", "title": "Needs Development", "color": "#0C8FAC" },

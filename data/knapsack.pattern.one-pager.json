@@ -5,11 +5,7 @@
   "statuses": {
     "design": "ready",
     "react": "ready",
-    "angular": "needs-dev",
-    "twig": "needs-dev",
-    "vue": "needs-dev",
-    "web-components": "needs-dev",
-    "html": "needs-dev"
+    "twig": "needs-dev"
   },
   "templates": [
     {

@@ -4,12 +4,8 @@
   "description": "Cards contain content and actions about a single subject.",
   "statuses": {
     "design": "ready",
-    "angular": "needs-dev",
     "twig": "ready",
-    "html": "needs-dev",
-    "react": "ready",
-    "web-components": "needs-dev",
-    "vue": "needs-dev"
+    "react": "ready"
   },
   "templates": [
     {

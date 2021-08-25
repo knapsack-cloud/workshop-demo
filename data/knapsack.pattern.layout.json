@@ -4,11 +4,7 @@
   "description": "An extensible pattern meant to provide layout flexibility",
   "statuses": {
     "design": "ready",
-    "angular": "needs-dev",
     "twig": "needs-dev",
-    "html": "needs-dev",
-    "vue": "needs-dev",
-    "web-components": "needs-dev",
     "react": "ready"
   },
   "templates": [

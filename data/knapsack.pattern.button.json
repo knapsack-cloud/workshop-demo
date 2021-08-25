@@ -2,15 +2,7 @@
   "id": "button",
   "title": "Button",
   "description": "Buttons are used to initialize an action. Button labels express what action will occur when the user interacts with it.",
-  "statuses": {
-    "design": "ready",
-    "angular": "unset",
-    "twig": "ready",
-    "react": "needs-dev",
-    "html": "unset",
-    "web-components": "unset",
-    "vue": "unset"
-  },
+  "statuses": { "design": "ready", "twig": "ready", "react": "ready" },
   "demoSize": "s",
   "demoWidths": [{ "width": 180 }],
   "templates": [
