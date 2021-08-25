@@ -1,10 +1,10 @@
 {
   "name": "@knapsack-cloud/demo-design-system-vue",
   "description": "Knapsack Demo Design System Vue Components",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
-    "@knapsack-cloud/demo-design-system-design-tokens": "0.0.0",
-    "@knapsack-cloud/demo-design-system-styles": "0.0.0"
+    "@knapsack-cloud/demo-design-system-design-tokens": "^0.0.1",
+    "@knapsack-cloud/demo-design-system-styles": "^0.0.1"
   },
   "files": [
     "src/*"
