@@ -1,2 +1,2 @@
 // Add web components below
-import './button/button.wc.js';
+import './author/author.wc.js';

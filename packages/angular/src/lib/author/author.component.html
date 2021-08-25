@@ -1,0 +1,18 @@
+<div class="flex items-center dark:bg-gray-900">
+  <div class="flex-shrink-0">
+    <a href="#">
+      <span *ngIf="author" class="sr-only">{{ author }}</span>
+      <img *ngIf="imgSrc" class="h-10 w-10 rounded-full" src="{{ imgSrc }}" alt="" />
+    </a>
+  </div>
+  <div class="ml-3">
+    <p *ngIf="author" class="text-sm font-medium text-gray-900 dark:text-white">
+      <a href="#" class="hover:underline">{{ author }}</a>
+    </p>
+    <div class="flex space-x-1 text-sm text-gray-500 dark:text-gray-400">
+      <time *ngIf="date" datetime="2020-03-10">{{ date }}</time>
+      <span *ngIf="date && read" aria-hidden="true">·</span>
+      <span *ngIf="read">{{ read }}</span>
+    </div>
+  </div>
+</div>

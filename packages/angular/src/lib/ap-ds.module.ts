@@ -1,11 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { ButtonComponent } from './button/button.component';
-import { CardComponent } from './card/card.component';
+import { AuthorComponent } from './author/author.component';
 
 @NgModule({
-  declarations: [ButtonComponent, CardComponent],
+  declarations: [AuthorComponent],
   imports: [CommonModule],
-  exports: [ButtonComponent, CardComponent],
+  exports: [AuthorComponent],
 })
 export class ApDsModule {}

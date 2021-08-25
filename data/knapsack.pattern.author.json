@@ -141,11 +141,135 @@
       },
       "demos": ["main", "_nTCiQ1984", "hGfcj0Ksms"],
       "slices": []
+    },
+    {
+      "id": "angular",
+      "title": "angular",
+      "path": "../packages/angular/src/lib/author/author.component.ts",
+      "alias": "AuthorComponent",
+      "templateLanguageId": "angular",
+      "spec": {
+        "slots": {},
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "author": { "type": "string", "title": "Author" },
+            "read": { "type": "string" },
+            "imgSrc": { "type": "string" },
+            "date": { "type": "string" }
+          }
+        }
+      },
+      "demosById": {
+        "main": {
+          "data": {
+            "slots": { "children": [] },
+            "props": {
+              "imgSrc": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+              "date": "Mar 16, 2020",
+              "author": "Roel Aufderehar",
+              "read": "6 min read"
+            }
+          },
+          "id": "main",
+          "title": "Roel Aufderehar",
+          "type": "data"
+        }
+      },
+      "demos": ["main"],
+      "slices": []
+    },
+    {
+      "id": "html",
+      "title": "html",
+      "path": "../packages/html/author/author.html",
+      "templateLanguageId": "html",
+      "spec": {},
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "template",
+          "templateInfo": { "path": "../packages/html/author/author.html" }
+        }
+      },
+      "demos": ["main"],
+      "slices": []
+    },
+    {
+      "id": "vue",
+      "title": "vue",
+      "path": "@knapsack-cloud/demo-design-system-vue/src/author.vue",
+      "templateLanguageId": "vue",
+      "spec": { "isInferred": true },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "props": {
+              "read": "6 min read",
+              "imgSrc": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+              "author": "Roel Aufderehar",
+              "date": "Mar 16, 2020"
+            },
+            "slots": {}
+          }
+        }
+      },
+      "demos": ["main"],
+      "slices": []
+    },
+    {
+      "id": "web-components",
+      "title": "web-components",
+      "path": "@knapsack-cloud/demo-design-system-web-components",
+      "alias": "ks-author",
+      "templateLanguageId": "web-components",
+      "spec": {
+        "slots": { "default": { "title": "default" } },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "imgSrc": { "type": "string" },
+            "date": { "type": "string" },
+            "read": { "type": "string" }
+          }
+        }
+      },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "props": {
+              "imgSrc": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+              "read": "6 min read",
+              "date": "Mar 16, 2020"
+            },
+            "slots": { "default": ["Roel Aufderehar"] }
+          }
+        }
+      },
+      "demos": ["main"],
+      "slices": []
     }
   ],
   "tabs": [
     { "type": "template", "id": "twig" },
-    { "type": "template", "id": "react" }
+    { "type": "template", "id": "react" },
+    { "type": "template", "id": "angular" },
+    { "type": "template", "id": "html" },
+    { "type": "template", "id": "vue" },
+    { "type": "template", "id": "web-components" }
   ],
   "subPages": []
 }
