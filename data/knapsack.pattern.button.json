@@ -291,6 +291,28 @@
           }
         }
       ]
+    },
+    {
+      "title": "Legacy",
+      "id": "Legacy",
+      "slices": [
+        {
+          "id": "ks-content-block-4gpsIFEONx",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## NOTE\nBelow is an embed of the most recent Storybook story for our button components. **Storybook was depricated June 2021.**"
+          }
+        },
+        {
+          "id": "ks-content-block-0tYaqASlzs",
+          "blockId": "generic-iframe",
+          "data": {
+            "url": "https://knapsack-storybook.netlify.app/?path=/story/example-button--button-stories",
+            "height": "480",
+            "clickToInteract": false
+          }
+        }
+      ]
     }
   ],
   "tabs": [
@@ -298,6 +320,7 @@
     { "type": "subPage", "id": "Accessibility" },
     { "type": "subPage", "id": "Figma" },
     { "type": "template", "id": "react" },
-    { "type": "template", "id": "twig" }
+    { "type": "template", "id": "twig" },
+    { "type": "subPage", "id": "Legacy" }
   ]
 }
