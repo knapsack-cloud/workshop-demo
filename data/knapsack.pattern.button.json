@@ -300,16 +300,16 @@
           "id": "ks-content-block-4gpsIFEONx",
           "blockId": "markdown-slice",
           "data": {
-            "md": "## NOTE\nBelow is an embed of the most recent Storybook story for our button components. **Storybook was depricated June 2021.**"
+            "md": "## NOTE\nBelow is an embed of the most recent Storybook story for our button components. **We have stopped updating Storybook as of June 2021.** \n\nFor up to date pattern examples, please reference the coresponding code tabs, above."
           }
         },
         {
           "id": "ks-content-block-0tYaqASlzs",
           "blockId": "generic-iframe",
           "data": {
-            "url": "https://knapsack-storybook.netlify.app/?path=/story/example-button--button-stories",
-            "height": "480",
-            "clickToInteract": false
+            "clickToInteract": false,
+            "height": "1600",
+            "url": "https://knapsack-storybook.netlify.app/iframe.html?id=example-button--button-stories&viewMode=docs"
           }
         }
       ]
