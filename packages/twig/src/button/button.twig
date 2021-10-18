@@ -22,6 +22,10 @@
   {% set modeClasses = "ks:bg-color-orchid #{mode}" %}
 {% endif %}
 
+{% if icon.align is defined %}
+  {% set iconClasses = "ks-button--icon ks-button--icon-#{icon.align}" %}
+{% endif %}
+
 {% set classes = [
   'ks-button',
   'w-full flex items-center justify-center',
@@ -29,8 +33,9 @@
   'rounded-md border-4 border-transparent',
   'text-white',
   "ks:bg-#{type ? type : 'solid'}",
+  "#{icon.align and icon.svg ? iconClasses }",
   sizeClasses,
   modeClasses
 ]  | join(' ') | trim %}
 
-<a href="{{ url }}" class="{{ classes }}">{{ text }}</a>
+<a href="{{ url }}" class="{{ classes }}">{% if icon.align is defined and icon.svg is defined %}{{ icon.svg }}{% endif %}<span>{{ text }}</span></a>
