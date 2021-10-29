@@ -1,3 +1,20 @@
+# v0.0.10 (Fri Oct 29 2021)
+
+#### 🐛 Bug Fix
+
+- new pr style [#132](https://github.com/knapsack-cloud/demo-design-system/pull/132) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### ⚠️ Pushed to `main`
+
+- Update knapsack.custom-page.Starting-and-Scaling.yml ([@EvanLovely](https://github.com/EvanLovely))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Evan Lovely ([@EvanLovely](https://github.com/EvanLovely))
+
+---
+
 # v1.8.1 (Fri Oct 29 2021)
 
 #### 🐛 Bug Fix
