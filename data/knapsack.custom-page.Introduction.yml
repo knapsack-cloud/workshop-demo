@@ -1,9 +1,7 @@
 id: Introduction
 title: Introduction
-description: Welcome to the Demo Design System
 slices:
   - id: ks-content-block--i1sOcYclY
-    blockId: markdown-slice
     data:
       md: >
         ### What is it?
@@ -14,9 +12,6 @@ slices:
         users.
 
 
-        <br>
-
-        </br>
 
 
         ### Who's it for?
@@ -43,3 +38,5 @@ slices:
         [propose your
         ideas](https://help.knapsack.cloud/article/25-proposing-a-change) via
         this platform.
+    blockId: markdown-slice
+description: Welcome to the Demo Design System
