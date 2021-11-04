@@ -1,3 +1,15 @@
+# v0.0.12 (Thu Nov 04 2021)
+
+#### 🐛 Bug Fix
+
+- publishing my new component [#144](https://github.com/knapsack-cloud/demo-design-system/pull/144) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 1
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+
+---
+
 # v0.0.11 (Mon Nov 01 2021)
 
 #### 🐛 Bug Fix
