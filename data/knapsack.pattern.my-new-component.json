@@ -1,9 +1,0 @@
-{
-  "id": "my-new-component",
-  "tabs": [{ "id": "overview", "type": "subPage" }],
-  "title": "my new component",
-  "statuses": {},
-  "subPages": [{ "id": "overview", "title": "Overview", "slices": [] }],
-  "templates": [],
-  "description": ""
-}

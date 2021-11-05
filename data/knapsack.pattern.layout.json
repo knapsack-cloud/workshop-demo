@@ -2,11 +2,7 @@
   "id": "layout",
   "title": "Layout",
   "description": "An extensible pattern meant to provide layout flexibility",
-  "statuses": {
-    "design": "ready",
-    "twig": "needs-dev",
-    "react": "ready"
-  },
+  "statuses": { "design": "ready", "twig": "needs-dev", "react": "ready" },
   "templates": [
     {
       "id": "react",
@@ -114,24 +110,10 @@
     }
   ],
   "tabs": [
-    { "type": "subPage", "id": "overview" },
     { "type": "subPage", "id": "Figma" },
     { "type": "template", "id": "react" }
   ],
   "subPages": [
-    {
-      "id": "overview",
-      "title": "Usage",
-      "slices": [
-        {
-          "id": "ks-content-block-QwwSct6Lxc",
-          "blockId": "markdown-slice",
-          "data": {
-            "md": "## Understanding Layout\nLayouts encourage consistency across platforms, environments, and screen sizes by using uniform elements and spacing.\n\n\n### Principles\n![](https://knapsack.imgix.net/site/demo-design-system/screen-shot-2021-04-07-at-1.41.50-pm-avdsbwzjkf.png?w=775&auto=compress)\n\n\n### Responsive Grid Layout\nThe responsive layout grid is an overarching guide to the placement of components and elements. The responsive layout grid adapts to screen sizes and orientation, ensuring consistency across layouts.\n\n![](https://knapsack.imgix.net/site/demo-design-system/unnamed-ruvo-wyfiv.png?w=532&auto=compress)\n\n1. Columns\n2. Gutters\n3. Margins"
-          }
-        }
-      ]
-    },
     {
       "title": "Figma",
       "id": "Figma",
