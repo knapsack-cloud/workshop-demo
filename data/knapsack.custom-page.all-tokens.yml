@@ -1,13 +1,34 @@
 id: all-tokens
 title: All Tokens
-description: ''
 slices:
   - id: muVg2G5Vr
-    blockId: design-token-slice
     data:
-      tokens:
-        tags: []
-        category: ''
-        name: ''
       demo:
-        id: table-list
+        id: color-swatch
+      tokens:
+        name: ''
+        tags: []
+        type: color
+        category: color
+    blockId: design-token-slice
+  - id: ks-content-block-2LFxprOhHn
+    data:
+      demo:
+        id: spacing
+      tokens:
+        name: ''
+        tags: []
+        type: dimension
+        category: spacing
+    blockId: design-token-slice
+  - id: ks-content-block-94nQTAb6_K
+    data:
+      demo:
+        id: media-query
+      tokens:
+        name: ''
+        tags:
+          - width
+        category: breakpoint
+    blockId: design-token-slice
+description: ''
