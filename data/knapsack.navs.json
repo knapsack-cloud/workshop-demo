@@ -186,12 +186,6 @@
       "name": "Roadmap",
       "path": "/pages/Roadmap",
       "parentId": "docs"
-    },
-    {
-      "id": "my-new-component",
-      "name": "my new component",
-      "path": "/pattern/my-new-component",
-      "parentId": "root"
     }
   ]
 }
