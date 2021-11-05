@@ -26,6 +26,12 @@
       "parentId": "Getting-Started"
     },
     {
+      "id": "Browser-and-Device-Support",
+      "name": "Browser & Device Support",
+      "path": "/pages/Browser-and-Device-Support",
+      "parentId": "Getting-Started"
+    },
+    {
       "id": "For-Designers",
       "name": "For Designers",
       "path": "",
@@ -161,12 +167,6 @@
       "id": "Accessibility",
       "name": "Accessibility",
       "path": "/pages/Accessibility",
-      "parentId": "docs"
-    },
-    {
-      "id": "Delivery-Manual",
-      "name": "Delivery Manual",
-      "path": "/pages/Delivery-Manual",
       "parentId": "docs"
     },
     {
