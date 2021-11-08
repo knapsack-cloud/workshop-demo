@@ -44,12 +44,6 @@
       "parentId": "Getting-Started"
     },
     {
-      "id": "npm-Installation",
-      "name": "npm Installation",
-      "path": "/pages/npm-Installation",
-      "parentId": "For-Developers"
-    },
-    {
       "id": "Local-Set-Up",
       "name": "Local Set Up",
       "path": "/pages/Local-Set-Up",
@@ -174,6 +168,12 @@
       "name": "Roadmap",
       "path": "/pages/Roadmap",
       "parentId": "docs"
+    },
+    {
+      "id": "How-Teams-Use-Knapsack",
+      "name": "How Teams Use Knapsack",
+      "path": "/pages/How-Teams-Use-Knapsack",
+      "parentId": "Getting-Started"
     }
   ]
 }
