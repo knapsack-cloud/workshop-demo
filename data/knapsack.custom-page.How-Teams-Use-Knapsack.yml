@@ -1,0 +1,66 @@
+id: How-Teams-Use-Knapsack
+title: How Teams Use Knapsack
+slices:
+  - id: ks-content-block-5rqc-4iMtM
+    data:
+      md: >-
+        ### Pattern Inventory
+
+        Connect existing design and code assets to create a central view of all
+        the elements that already exist and are in use across the product
+        team(s) today.
+
+
+        ### Experience Planning
+
+        Browse available assets and experiences to identify what you can use or
+        iterate on to build the experience you need
+
+
+        ### Design Annotation
+
+        Annotate designs in terms of what is being **reused**, **modified**, and
+        **created** - using links to Knapsack to help Engineers quickly
+        reference reusable elements they can work with to speed up production.
+
+
+        ### Pattern Prototyping
+
+        Combine patterns and configure props to create production-quality
+        implementations using the system - all from the web. Share with
+        colleagues to get feedabck and iterate fast.
+
+
+        ### Component Logging, Handoff, Collaboration
+
+        Whether starting from Engineering or Design, teams can contribute source
+        assets (Figma frames, JS templates, etc.) as they work, creating a
+        central space for collaboration on the system as it evolves.
+
+
+        ### Development Playground
+
+        Use Knapsack locally to get instant feedback as you develop or evolve
+        your components. No need to build or publish in order to see, use and
+        share it.
+
+
+        ### Testing Infrastructure
+
+        Implement system-level testing using Knapsack endpoints. Each component
+        variation configured in Knapsack is available to use with external
+        testing tools.
+
+
+        ### Token Management
+
+        Power cross-platform applications from a single token source, complete
+        with dynamic documentation and web-based token editing.
+
+
+        ### ...and so much more!
+
+        Want to learn more pro tips? Reach out to us at help@knapsack.cloud!
+    blockId: markdown-slice
+parentId: Getting-Started
+description: Suggested Use Cases
