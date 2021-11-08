@@ -1,6 +1,6 @@
 id: Sample-Patterns
 title: Sample Patterns
-description: ''
+description: A list of patterns in Knapsack
 slices:
   - id: ks-content-block-xKdWQ4tphM
     blockId: pattern-list-block
