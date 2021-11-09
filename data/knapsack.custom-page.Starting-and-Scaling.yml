@@ -1,9 +1,7 @@
 id: Starting-and-Scaling
-title: Starting & Scaling
-description: How to start using the Demo Design System
+title: Starting and Scaling
 slices:
   - id: ks-content-block-sHX9d5SyMV
-    blockId: markdown-slice
     data:
       md: >
         The Demo Design System is new to many and is always evolving. We
@@ -22,13 +20,13 @@ slices:
         requirements. They indicate:
 
 
-        * the minimum you're expected to do to meet a standard
+        * The minimum you're expected to do to meet a standard
 
-        * how to show you’ve done that in a checklist format. You could use this
+        * How to show you’ve done that in a checklist format. You could use this
         to report to stakeholders, and for your showcases and record keeping 
 
-        * orientation guidance and methods to help get you, and keep you, on
-        track.
+        * Orientation guidance and methods to help get you, and keep you, on
+        track
 
 
         Your team can also also view the standards, with each topic broken down
@@ -120,3 +118,5 @@ slices:
 
 
         **Last updated** 21 Dec 2020
+    blockId: markdown-slice
+description: How to start using the Demo Design System
