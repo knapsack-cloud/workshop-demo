@@ -1,3 +1,15 @@
+# v0.0.18 (Wed Nov 10 2021)
+
+#### 🐛 Bug Fix
+
+- New content updates [#153](https://github.com/knapsack-cloud/demo-design-system/pull/153) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 1
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+
+---
+
 # v0.0.17 (Tue Nov 09 2021)
 
 #### 🐛 Bug Fix
