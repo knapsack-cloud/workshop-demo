@@ -2,7 +2,6 @@ id: colors
 title: Colors
 slices:
   - id: ks-content-block-x6bmJ9nKXQ
-    blockId: markdown-slice
     data:
       md: >-
         ## Introduction
@@ -12,8 +11,8 @@ slices:
         consistency is grounded by a set of well-defined rules on how to work
         with the Demo Design System pattern library in the context of dark and
         light themes.
-  - id: ks-content-block-jNA9iJ-rvK
     blockId: markdown-slice
+  - id: ks-content-block-jNA9iJ-rvK
     data:
       md: >-
         ## Color anatomy
@@ -27,83 +26,83 @@ slices:
         The core Blue family serves as the primary action color across all
         products and experiences. Additional colors are used sparingly and
         purposefully.
-  - id: ks-content-block-mJBLXcHRn1
     blockId: markdown-slice
+  - id: ks-content-block-mJBLXcHRn1
     data:
       md: '### Base Colors'
+    blockId: markdown-slice
   - id: ks-content-block-QRCAqlfoR3
-    blockId: design-token-slice
     data:
+      demo:
+        id: color-swatch
       tokens:
+        name: ''
         tags:
           - base
           - blue
         category: color
-        name: ''
-      demo:
-        id: color-swatch
+    blockId: design-token-slice
   - id: ks-content-block-X7bVx3Racq
-    blockId: markdown-slice
     data:
       md: '### Base Colors (Light)'
+    blockId: markdown-slice
   - id: cqylMLPC_B
-    blockId: design-token-slice
     data:
+      demo:
+        id: color-swatch
       tokens:
+        name: ''
         tags:
           - turquoise
           - light
         category: color
-        name: ''
-      demo:
-        id: color-swatch
+    blockId: design-token-slice
   - id: ks-content-block-fDjASjl1-L
-    blockId: markdown-slice
     data:
       md: '### Base Colors (Dark)'
+    blockId: markdown-slice
   - id: kAjAH7KuZL
-    blockId: design-token-slice
     data:
+      demo:
+        id: color-swatch
       tokens:
+        name: ''
         tags:
           - green
           - dark
         category: color
-        name: ''
-      demo:
-        id: color-swatch
+    blockId: design-token-slice
   - id: ks-content-block-kkJ0404VUU
-    blockId: markdown-slice
     data:
       md: '### Layout'
+    blockId: markdown-slice
   - id: WwKUnzz9cl
-    blockId: design-token-slice
     data:
+      demo:
+        id: color-swatch
       tokens:
+        name: ''
         tags:
           - yellow
           - layout
         category: color
-        name: ''
-      demo:
-        id: color-swatch
+    blockId: design-token-slice
   - id: L2Cq7RUbE_
-    blockId: markdown-slice
     data:
       md: '### Text'
+    blockId: markdown-slice
   - id: pkGjOWqndS
-    blockId: design-token-slice
     data:
+      demo:
+        id: text-color
       tokens:
+        name: ''
         tags:
           - orange
           - text
         category: color
-        name: ''
-      demo:
-        id: text-color
+    blockId: design-token-slice
   - id: ks-content-block-jtTiiq-htL
-    blockId: markdown-slice
     data:
       md: >-
         ## Tokens
@@ -125,14 +124,19 @@ slices:
         color value is used consistently across those roles. This allows for
         uniform color application across themes while maintaining full styling
         flexibility.
+    blockId: markdown-slice
   - id: ks-content-block-bupOkWEvdx
-    blockId: design-token-slice
     data:
+      demo:
+        id: table-list
       tokens:
         tags: []
         category: color
-      demo:
-        id: table-list
+    blockId: design-token-slice
+  - id: ks-content-block-MAex-HwvlY
+    data:
+      md: End of page
+    blockId: markdown-slice
 description: >-
   Maintaining consistent and engaging digital interfaces demands extended
   guidance around color usage. The following concepts are the foundation as we
