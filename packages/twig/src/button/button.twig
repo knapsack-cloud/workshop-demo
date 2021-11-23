@@ -9,18 +9,24 @@
 
 {% set mode = mode ? mode : 'info' %}
 {% if mode == 'success' %}
-  {% set modeClasses = "ks:bg-color-green #{mode}" %}
+  {% set modeColor = "green" %}
 {% elseif mode == 'info' %}
-  {% set modeClasses = "ks:bg-color-blue #{mode}" %}
+  {% set modeColor = "blue" %}
 {% elseif mode == 'warning' %}
-  {% set modeClasses = "ks:bg-color-orange #{mode}" %}
+  {% set modeColor = "orange" %}
 {% elseif mode == 'danger' %}
-  {% set modeClasses = "ks:bg-color-red #{mode}" %}
+  {% set modeColor = "red" %}
 {% elseif mode == 'alert' %}
-  {% set modeClasses = "ks:bg-color-yellow #{mode}" %}
+  {% set modeColor = "yellow" %}
 {% elseif mode == 'special' %}
-  {% set modeClasses = "ks:bg-color-orchid #{mode}" %}
+  {% set modeColor = "orchid" %}
 {% endif %}
+
+{% set buttonTextColor = 'white' %}
+{% if type == 'outline' %}
+  {% set buttonTextColor = "base-#{modeColor}" %}
+{% endif %}
+
 
 {% if icon.align is defined %}
   {% set iconClasses = "ks-button--icon ks-button--icon-#{icon.align}" %}
@@ -31,11 +37,13 @@
   'w-full flex items-center justify-center',
   'text-base font-medium',
   'rounded-md border-4 border-transparent',
-  'text-white',
-  "ks:bg-#{type ? type : 'solid'}",
+  "text-#{buttonTextColor}",
+  "bg-#{type ? type : 'solid'}",
+  "bg-base-#{modeColor}",
+  "border-base-#{modeColor}",
   "#{icon.align and icon.svg ? iconClasses }",
   sizeClasses,
-  modeClasses
+  mode
 ]  | join(' ') | trim %}
 
 <a href="{{ url }}" class="{{ classes }}">{% if icon.align is defined and icon.svg is defined %}{{ icon.svg }}{% endif %}<span>{{ text }}</span></a>

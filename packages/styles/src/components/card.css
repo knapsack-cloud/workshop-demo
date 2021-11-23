@@ -1,5 +1,5 @@
 .ks-card-child-wrapper {
-  > * {
+  & > * {
     margin-top: 20px;
   }
 }

@@ -157,10 +157,10 @@
           "data": {
             "slots": { "children": ["Button"] },
             "props": {
+              "type": "solid",
               "size": "medium",
               "mode": "info",
-              "url": "#url",
-              "type": "solid"
+              "url": "#url"
             }
           },
           "id": "main",
@@ -171,10 +171,10 @@
           "data": {
             "slots": { "children": ["Button"] },
             "props": {
+              "type": "outline",
               "size": "medium",
               "mode": "special",
-              "url": "#url",
-              "type": "outline"
+              "url": "#url"
             }
           },
           "id": "2CXfLJgtaC",
@@ -211,7 +211,7 @@
           "data": {
             "size": "s",
             "patternId": "button",
-            "templateId": "twig",
+            "templateId": "react",
             "demoId": "main",
             "variationId": "mode"
           }
@@ -222,7 +222,7 @@
           "data": {
             "size": "s",
             "patternId": "button",
-            "templateId": "twig",
+            "templateId": "react",
             "demoId": "main",
             "variationId": "size"
           }
@@ -231,10 +231,10 @@
           "id": "ks-content-block-kCs__ou9y9",
           "blockId": "pattern-variations",
           "data": {
-            "size": "m",
+            "size": "s",
             "patternId": "button",
-            "templateId": "twig",
-            "demoId": "j00gCMBwhY",
+            "templateId": "react",
+            "demoId": "2CXfLJgtaC",
             "variationId": "type"
           }
         },

@@ -29,29 +29,37 @@ export const Button: React.FC<ButtonProps> = ({
   let buttonMode = '';
   switch (mode) {
     case 'success':
-      buttonMode = 'ks:bg-color-green';
+      buttonMode = 'green';
     break;
     case 'info':
-      buttonMode = 'ks:bg-color-blue';
+      buttonMode = 'blue';
     break;
     case 'warning':
-      buttonMode = 'ks:bg-color-orange';
+      buttonMode = 'orange';
     break;
     case 'danger':
-      buttonMode = 'ks:bg-color-red';
+      buttonMode = 'red';
     break;
     case 'alert':
-      buttonMode = 'ks:bg-color-yellow';
+      buttonMode = 'yellow';
     break;
     case 'special':
-      buttonMode = 'ks:bg-color-orchid';
+      buttonMode = 'orchid';
     break;
   }
 
   // Button type
-  type = type ? type : 'solid';
+  let buttonTextColor = '';
+  switch (type) {
+    case 'outline':
+      buttonTextColor = `base-${buttonMode}`
+    break;
+    case 'solid':
+      buttonTextColor = 'white'
+    break;
+  }
 
   return (
-    <a href={url} className={`ks-button w-full flex items-center justify-center text-base font-medium rounded-md border-4 border-transparent text-white ks:bg-${type} ${buttonMode} ${buttonSize} ${mode}`}>{ children }</a> 
+    <a href={url} className={`ks-button w-full flex items-center justify-center text-base font-medium rounded-md border-4 border-transparent text-${buttonTextColor} bg-${type} bg-base-${buttonMode} border-base-${buttonMode} ${buttonSize} ${mode}`}>{ children }</a> 
   )
 }

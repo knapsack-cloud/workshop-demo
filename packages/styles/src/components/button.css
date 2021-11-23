@@ -1,0 +1,74 @@
+.ks-button {
+  &:hover {
+    transition: all 0.2s linear;
+  }
+  &.ks-button--icon {
+    display: flex;
+    & svg {
+      min-width: 20px;
+      height: auto;
+    }
+  }
+  &.ks-button--icon-left {
+    & svg {
+      @apply mr-xs;
+    }
+  }
+  &.ks-button--icon-right {
+    flex-direction: row-reverse;
+    & svg {
+      @apply ml-xs;
+    }
+  }
+  &.bg-outline {
+    background: none;
+    border-width: 2px;
+    border-style: solid;
+    &:hover {
+      color: white;
+    }
+  }
+  &.bg-solid.success:hover {
+    @apply bg-dark-green;
+    @apply border-dark-green;
+  }
+  &.bg-solid.info:hover {
+    @apply bg-dark-blue;
+    @apply border-dark-blue;
+  }
+  &.bg-solid.warning:hover {
+    @apply bg-dark-orange;
+    @apply border-dark-orange;
+  }
+  &.bg-solid.danger:hover {
+    @apply bg-dark-red;
+    @apply border-dark-red;
+  }
+  &.bg-solid.alert:hover {
+    @apply bg-dark-yellow;
+    @apply border-dark-yellow;
+  }
+  &.bg-solid.special:hover {
+    @apply bg-dark-orchid;
+    @apply border-dark-orchid;
+  }
+
+  &.bg-outline.success:hover {
+    @apply bg-base-green;
+  }
+  &.bg-outline.info:hover {
+    @apply bg-base-blue;
+  }
+  &.bg-outline.warning:hover {
+    @apply bg-base-orange;
+  }
+  &.bg-outline.danger:hover {
+    @apply bg-base-red;
+  }
+  &.bg-outline.alert:hover {
+    @apply bg-base-yellow;
+  }
+  &.bg-outline.special:hover {
+    @apply bg-base-orchid;
+  }
+}
