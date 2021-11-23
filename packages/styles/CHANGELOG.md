@@ -1,3 +1,20 @@
+# v0.1.0 (Tue Nov 23 2021)
+
+#### 🚀 Enhancement
+
+- feat: implement tailwind + ks design tokens [#159](https://github.com/knapsack-cloud/demo-design-system/pull/159) (jake@knapsack.cloud)
+
+#### 🐛 Bug Fix
+
+- chore: refactor button twig template for better tailwind purge support (jake@knapsack.cloud)
+- feat: implement tailwind + ks design tokens (jake@knapsack.cloud)
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.0.8 (Mon Oct 18 2021)
 
 #### 🐛 Bug Fix

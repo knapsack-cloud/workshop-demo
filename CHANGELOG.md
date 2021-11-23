@@ -1,3 +1,21 @@
+# v0.1.0 (Tue Nov 23 2021)
+
+#### 🚀 Enhancement
+
+- `@knapsack-cloud/demo-design-system-react`, `@knapsack-cloud/demo-design-system-styles`, `@knapsack-cloud/demo-design-system-twig`
+  - feat: implement tailwind + ks design tokens [#159](https://github.com/knapsack-cloud/demo-design-system/pull/159) (jake@knapsack.cloud)
+
+#### 📝 Documentation
+
+- Added a final markdown block on the color tokens page [#156](https://github.com/knapsack-cloud/demo-design-system/pull/156) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.0.18 (Wed Nov 10 2021)
 
 #### 🐛 Bug Fix
