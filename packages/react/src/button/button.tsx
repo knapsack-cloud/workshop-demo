@@ -29,29 +29,47 @@ export const Button: React.FC<ButtonProps> = ({
   let buttonMode = '';
   switch (mode) {
     case 'success':
-      buttonMode = 'ks:bg-color-green';
+      buttonMode = 'bg-base-green border-base-green';
     break;
     case 'info':
-      buttonMode = 'ks:bg-color-blue';
+      buttonMode = 'bg-base-blue border-base-blue';
     break;
     case 'warning':
-      buttonMode = 'ks:bg-color-orange';
+      buttonMode = 'bg-base-orange border-base-orange';
     break;
     case 'danger':
-      buttonMode = 'ks:bg-color-red';
+      buttonMode = 'bg-base-red border-base-red';
     break;
     case 'alert':
-      buttonMode = 'ks:bg-color-yellow';
+      buttonMode = 'bg-base-yellow border-base-yellow';
     break;
     case 'special':
-      buttonMode = 'ks:bg-color-orchid';
+      buttonMode = 'bg-base-orchid border-base-orchid';
     break;
   }
 
+  // Button text color
+  const buttonTextColorByMode = {
+    success: 'text-base-green',
+    info: 'text-base-blue',
+    warning: 'text-base-orange',
+    danger: 'text-base-red',
+    alert: 'text-base-yellow',
+    special: 'text-base-orchid'
+  }
+
   // Button type
-  type = type ? type : 'solid';
+  let buttonTextColor = '';
+  switch (type) {
+    case 'outline':
+      buttonTextColor = `bg-outline ${buttonTextColorByMode[mode]}`
+    break;
+    case 'solid':
+      buttonTextColor = 'bg-solid text-white'
+    break;
+  }
 
   return (
-    <a href={url} className={`ks-button w-full flex items-center justify-center text-base font-medium rounded-md border-4 border-transparent text-white ks:bg-${type} ${buttonMode} ${buttonSize} ${mode}`}>{ children }</a> 
+    <a href={url} className={`ks-button w-full flex items-center justify-center text-base font-medium rounded-md border-4 border-transparent ${buttonTextColor} ${buttonMode} ${buttonSize} ${mode}`}>{ children }</a> 
   )
 }

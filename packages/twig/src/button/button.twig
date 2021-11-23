@@ -1,29 +1,40 @@
 {% set size = size ? size : 'medium' %}
-{% if size == 'small' %}
-  {% set sizeClasses = 'px-4 py-1.5 text-sm' %}
-{% elseif size == 'medium' %}
-  {% set sizeClasses = 'px-9 py-2.5 text-lg' %}
-{% elseif size == 'large' %}
-  {% set sizeClasses = 'px-10 py-4 text-xl' %}
-{% endif %}
-
 {% set mode = mode ? mode : 'info' %}
-{% if mode == 'success' %}
-  {% set modeClasses = "ks:bg-color-green #{mode}" %}
-{% elseif mode == 'info' %}
-  {% set modeClasses = "ks:bg-color-blue #{mode}" %}
-{% elseif mode == 'warning' %}
-  {% set modeClasses = "ks:bg-color-orange #{mode}" %}
-{% elseif mode == 'danger' %}
-  {% set modeClasses = "ks:bg-color-red #{mode}" %}
-{% elseif mode == 'alert' %}
-  {% set modeClasses = "ks:bg-color-yellow #{mode}" %}
-{% elseif mode == 'special' %}
-  {% set modeClasses = "ks:bg-color-orchid #{mode}" %}
+
+{% set buttonSizes = {
+  small: 'px-4 py-1.5 text-sm',
+  medium: 'px-9 py-2.5 text-lg',
+  large: 'px-10 py-4 text-xl'
+} %}
+
+{% set buttonBgBorder = {
+  success: 'bg-base-green border-base-green',
+  info: 'bg-base-blue border-base-blue',
+  warning: 'bg-base-orange border-base-orange',
+  danger: 'bg-base-red border-base-red',
+  alert: 'bg-base-yellow border-base-yellow',
+  special: 'bg-base-orchid border-base-orchid',
+} %}
+
+{% set buttonText = {
+  success: 'text-base-green',
+  info: 'text-base-blue',
+  warning: 'text-base-orange',
+  danger: 'text-base-red',
+  alert: 'text-base-yellow',
+  special: 'text-base-orchid',
+} %}
+
+{% set buttonTextColor = 'white' %}
+{% if type == 'outline' %}
+  {% set buttonTextColor = "bg-outline #{buttonText[mode]}" %}
+{% elseif type == 'solid' %}
+  {% set buttonTextColor = "bg-solid text-white" %}
 {% endif %}
 
 {% if icon.align is defined %}
-  {% set iconClasses = "ks-button--icon ks-button--icon-#{icon.align}" %}
+  {% set iconAlign = icon.align == 'left' ? 'ks-button--icon-left' : 'ks-button--icon-right' %}
+  {% set iconClasses = "ks-button--icon #{iconAlign}" %}
 {% endif %}
 
 {% set classes = [
@@ -31,11 +42,11 @@
   'w-full flex items-center justify-center',
   'text-base font-medium',
   'rounded-md border-4 border-transparent',
-  'text-white',
-  "ks:bg-#{type ? type : 'solid'}",
   "#{icon.align and icon.svg ? iconClasses }",
-  sizeClasses,
-  modeClasses
+  buttonTextColor,
+  buttonBgBorder[mode],
+  buttonSizes[size],
+  mode
 ]  | join(' ') | trim %}
 
 <a href="{{ url }}" class="{{ classes }}">{% if icon.align is defined and icon.svg is defined %}{{ icon.svg }}{% endif %}<span>{{ text }}</span></a>
