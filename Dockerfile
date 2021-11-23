@@ -1,4 +1,4 @@
-FROM basaltinc/knapsack-docker:v1.1.0
+FROM basaltinc/knapsack-docker:v1.2.0
 # RUN adduser -D myuser
 # USER myuser
 WORKDIR /app
