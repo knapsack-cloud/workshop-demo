@@ -5,7 +5,7 @@
   &.ks-button--icon {
     display: flex;
     & svg {
-      min-width: 20px;
+      width: 20px;
       height: auto;
     }
   }
@@ -29,28 +29,22 @@
     }
   }
   &.bg-solid.success:hover {
-    @apply bg-dark-green;
-    @apply border-dark-green;
+    @apply bg-dark-green border-dark-green;
   }
   &.bg-solid.info:hover {
-    @apply bg-dark-blue;
-    @apply border-dark-blue;
+    @apply bg-dark-blue border-dark-blue;
   }
   &.bg-solid.warning:hover {
-    @apply bg-dark-orange;
-    @apply border-dark-orange;
+    @apply bg-dark-orange border-dark-orange;
   }
   &.bg-solid.danger:hover {
-    @apply bg-dark-red;
-    @apply border-dark-red;
+    @apply bg-dark-red border-dark-red;
   }
   &.bg-solid.alert:hover {
-    @apply bg-dark-yellow;
-    @apply border-dark-yellow;
+    @apply bg-dark-yellow border-dark-yellow;
   }
   &.bg-solid.special:hover {
-    @apply bg-dark-orchid;
-    @apply border-dark-orchid;
+    @apply bg-dark-orchid border-dark-orchid;
   }
 
   &.bg-outline.success:hover {

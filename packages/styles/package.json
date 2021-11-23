@@ -6,7 +6,7 @@
   "style": "dist/styles.css",
   "scripts": {
     "build": "yarn build:styles",
-    "build:styles": "postcss ./src/styles.css -o ./dist/styles.css",
+    "build:styles": "NODE_ENV=production postcss ./src/styles.css -o ./dist/styles.css",
     "watch:styles": "nodemon --watch 'src/**/*' --ext 'css' --exec 'yarn build:styles'",
     "start": "run-s watch:*",
     "clean": "rm -rf dist"
