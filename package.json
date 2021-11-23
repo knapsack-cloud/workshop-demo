@@ -5,11 +5,11 @@
   "license": "UNLICENSED",
   "scripts": {
     "clean": "lerna run clean && rm -rf ./ks-public/dist",
-    "build": "run-s -l prep pkgs:build ks:build ng-app:build",
+    "build": "run-s -l prep ng-app:build ks:build",
     "prep": "run-s -l prep:tokens prep:styles prep:wc prep:meta prep:react",
     "prep:meta": "yarn knapsack build:meta --loglevel error",
     "prep:tokens": "[ -d ./packages/design-tokens/dist ] || yarn knapsack build:tokens",
-    "prep:styles": "[ -d ./packages/styles/dist ] || yarn --cwd ./packages/styles build",
+    "prep:styles": "[ -d ./packages/styles/dist ] || NODE_ENV=production yarn --cwd ./packages/styles build",
     "prep:react": "[ -d ./packages/react/dist ] || yarn --cwd ./packages/react build",
     "prep:wc": "yarn --cwd ./packages/web-components build",
     "pkgs:build": "lerna run build",
