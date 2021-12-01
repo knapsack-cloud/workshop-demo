@@ -2,11 +2,7 @@
   "id": "card",
   "title": "Card",
   "description": "Cards contain content and actions about a single subject.",
-  "statuses": {
-    "design": "ready",
-    "twig": "ready",
-    "react": "ready"
-  },
+  "statuses": { "design": "ready", "twig": "ready", "react": "ready" },
   "templates": [
     {
       "id": "twig",
@@ -209,42 +205,42 @@
       "slices": [
         {
           "id": "ks-content-block-GUshucXGiO",
-          "blockId": "markdown-slice",
           "data": {
             "md": "## Overview\nUse card layouts to present a high-level summary of content related to a single topic. \n\n### Do:\n* Consider and choose text and visual elements carefully. Test your cards with the minimal content and only add additional content or graphics where they give needed context to the user\n* Use headlines that set clear expectations about the content being linked to\n* Use one style of card per module, don't mix and match\n* Feature one piece of information per card\n* Outline the main idea with the minimal possible information, don't overload with information as the card links to more detail\n\n### Do not:\n* Mix card styles within the same module\n* Overload with information as the card links to more detail\n* Add inline text links, the card itself is clickable and should link to a single piece of information, consider using content blocks in this instance "
-          }
+          },
+          "blockId": "markdown-slice"
         },
         {
           "id": "ks-content-block-1zsHlF6chs",
-          "blockId": "pattern-template-slice",
           "data": {
+            "demoId": "main",
+            "demoSize": "landscape",
+            "patternId": "card",
             "templateId": "react",
             "hideControls": false,
             "playgroundUi": {
+              "demoSize": "landscape",
               "showSchemaForm": false,
-              "showCodeSnippet": true,
-              "demoSize": "landscape"
+              "showCodeSnippet": true
             },
-            "showCodeSnippet": true,
             "showSchemaForm": false,
-            "demoSize": "landscape",
-            "patternId": "card",
-            "demoId": "main"
-          }
+            "showCodeSnippet": true
+          },
+          "blockId": "pattern-template-slice"
         },
         {
           "id": "ks-content-block-wwkLIOf27t",
-          "blockId": "markdown-slice",
           "data": {
             "md": "### When to avoid\nCards should only display enough information to give a user context. Do not use a card layout:\n* to highlight a solo piece of information\n* when the content requires in-line or multiple links, consider content blocks\n* when a large amount of text is needed to give users context \n\n### Keep content concise\nCards allow users to scan content in order to find their required information quickly, therefore it is important to make the content concise. Ensure the headlines are brief and explicit about the content the cards link to. Intuitive headlines and copy help the user build a clear mental model of the content."
-          }
+          },
+          "blockId": "markdown-slice"
         },
         {
           "id": "ks-content-block-aqVaPpg6o5",
-          "blockId": "markdown-slice",
           "data": {
             "md": "### Content Elements\nConsider and choose content elements carefully. Test your cards with the minimal content and only add additional content where they give needed context to the user. Content types in cards include:\n\n* **Headline** - Provides snapshot of the content.\n* **Copy** - Provides further details where the headline alone may not be sufficient.\n* **Label** - Indicates the category of a topic or theme when a user needs to further group content. For example, departments, agencies or services.\n* **Date** - Indicates how old the content is when this information is important to the user.\n\n### Images\nUsing an image allows for different content to stand out and provide additional context. It helps users visualise different pieces of information and quickly distinguish between content to find information easily.\n\nTest your visual elements carefully:\n* only use images where it supports and re-enforces the content to the user\n* only use images when they can clearly show the difference between content and can be easily identified\n* do not use for decorative purposes only"
-          }
+          },
+          "blockId": "markdown-slice"
         }
       ]
     },
