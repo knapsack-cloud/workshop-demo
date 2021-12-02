@@ -1,6 +1,5 @@
 import { LitElement, customElement, property, html } from 'lit-element';
 import style from '@knapsack-cloud/demo-design-system-styles/dist/styles.css'; // Design System styles
-import tailwind from '@knapsack-cloud/demo-design-system-styles/dist/tailwind.min.css'; // Pull in tailwind — this is NOT ideal
 
 @customElement('ks-author')
 export class Author extends LitElement {  
@@ -29,7 +28,6 @@ export class Author extends LitElement {
     return html`
       <style>
         ${style}
-        ${tailwind}
         :host {
           display: block;
         }
