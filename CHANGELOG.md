@@ -1,3 +1,23 @@
+# v0.1.1 (Fri Dec 03 2021)
+
+#### ⚠️ Pushed to `main`
+
+- `@knapsack-cloud/demo-design-system-react`, `@knapsack-cloud/demo-design-system-styles`
+  - fix: responsive grid styling (jake@knapsack.cloud)
+- `@knapsack-cloud/demo-design-system-web-components`
+  - fix: missed ref to old tailwind artifact in web component package (jake@knapsack.cloud)
+
+#### 📝 Documentation
+
+- new component [#160](https://github.com/knapsack-cloud/demo-design-system/pull/160) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Jake Love (jake@knapsack.cloud)
+
+---
+
 # v0.1.0 (Tue Nov 23 2021)
 
 #### 🚀 Enhancement
