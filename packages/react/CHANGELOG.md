@@ -1,3 +1,15 @@
+# v0.1.4 (Fri Dec 03 2021)
+
+#### ⚠️ Pushed to `main`
+
+- fix: top nav dynamic classes (jake@knapsack.cloud)
+
+#### Authors: 1
+
+- Jake Love (jake@knapsack.cloud)
+
+---
+
 # v0.1.3 (Fri Dec 03 2021)
 
 #### ⚠️ Pushed to `main`
