@@ -3,12 +3,13 @@ const { color, breakpoint, spacing } = require('@knapsack-cloud/demo-design-syst
 module.exports = {
   purge: {
     content: [
+      { raw: '<body class="dark"></div>', extension: 'html' },
       '../angular/src/lib/**/*.html',
       '../html/**/*.html',
       '../react/src/**/*.tsx',
       '../twig/src/**/*.twig',
       '../vue/src/**/*.vue',
-      '../web-components/src/**/*.wc.js'
+      '../web-components/src/**/*.wc.js',
     ],
     safelist: [
       /grid-cols-.*/
