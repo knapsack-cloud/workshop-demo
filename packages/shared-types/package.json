@@ -2,7 +2,7 @@
   "name": "@knapsack-cloud/demo-design-system-shared-types",
   "description": "Knapsack Demo Design System Shared Type Definitions",
   "types": "./dist/meta/react.d.ts",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "scripts": {
     "clean": "rm -rf dist"
   },
