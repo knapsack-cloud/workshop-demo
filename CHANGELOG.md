@@ -1,3 +1,16 @@
+# v0.1.3 (Fri Dec 03 2021)
+
+#### ⚠️ Pushed to `main`
+
+- `@knapsack-cloud/demo-design-system-react`, `@knapsack-cloud/demo-design-system-styles`
+  - chore: configure dark mode correctly (jake@knapsack.cloud)
+
+#### Authors: 1
+
+- Jake Love (jake@knapsack.cloud)
+
+---
+
 # v0.1.2 (Fri Dec 03 2021)
 
 #### ⚠️ Pushed to `main`
