@@ -1,3 +1,16 @@
+# v0.1.5 (Fri Dec 03 2021)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:knapsack-cloud/demo-design-system (jake@knapsack.cloud)
+- chore: add design token file to styles watch recompile (jake@knapsack.cloud)
+
+#### Authors: 1
+
+- Jake Love (jake@knapsack.cloud)
+
+---
+
 # v0.1.3 (Fri Dec 03 2021)
 
 #### ⚠️ Pushed to `main`
