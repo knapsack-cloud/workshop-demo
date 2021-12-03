@@ -10,7 +10,7 @@ export const TopNav: React.FC<TopNavProps> = ({
   return (
     <>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 ks:top-nav">
-        <nav className={`relative flex items-center justify-between sm:h-10 md:${logo ? (button ? 'justify-center' : 'justify-end') : 'flex-start'}`} aria-label="Global">
+        <nav className={`relative flex items-center justify-between sm:h-10 ${logo ? (button ? 'md:justify-center' : 'md:justify-end') : 'md:flex-start'}`} aria-label="Global">
           <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
             <div className={`flex items-center ${logo ? 'justify-between' : 'justify-end'} w-full md:w-auto`}>
               {logo && (
