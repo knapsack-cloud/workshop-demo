@@ -1,3 +1,15 @@
+# v0.1.1 (Fri Dec 03 2021)
+
+#### ⚠️ Pushed to `main`
+
+- fix: responsive grid styling (jake@knapsack.cloud)
+
+#### Authors: 1
+
+- Jake Love (jake@knapsack.cloud)
+
+---
+
 # v0.1.0 (Tue Nov 23 2021)
 
 #### 🚀 Enhancement

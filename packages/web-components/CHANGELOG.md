@@ -1,3 +1,15 @@
+# v0.1.1 (Fri Dec 03 2021)
+
+#### ⚠️ Pushed to `main`
+
+- fix: missed ref to old tailwind artifact in web component package (jake@knapsack.cloud)
+
+#### Authors: 1
+
+- Jake Love (jake@knapsack.cloud)
+
+---
+
 # v0.0.8 (Mon Oct 18 2021)
 
 #### 🐛 Bug Fix
