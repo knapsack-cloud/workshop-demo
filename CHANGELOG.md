@@ -1,3 +1,18 @@
+# v0.1.2 (Fri Dec 03 2021)
+
+#### ⚠️ Pushed to `main`
+
+- `@knapsack-cloud/demo-design-system-angular`, `@knapsack-cloud/demo-design-system-design-tokens`, `@knapsack-cloud/demo-design-system-react`, `@knapsack-cloud/demo-design-system-shared-types`, `@knapsack-cloud/demo-design-system-styles`, `@knapsack-cloud/demo-design-system-twig`, `@knapsack-cloud/demo-design-system-vue`, `@knapsack-cloud/demo-design-system-web-components`
+  - Merge branch 'main' of github.com:knapsack-cloud/demo-design-system (jake@knapsack.cloud)
+- `@knapsack-cloud/demo-design-system-react`
+  - fix: darkmode - temp hack (jake@knapsack.cloud)
+
+#### Authors: 1
+
+- Jake Love (jake@knapsack.cloud)
+
+---
+
 # v0.1.1 (Fri Dec 03 2021)
 
 #### ⚠️ Pushed to `main`

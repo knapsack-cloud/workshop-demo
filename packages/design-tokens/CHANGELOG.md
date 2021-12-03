@@ -1,3 +1,15 @@
+# v0.1.2 (Fri Dec 03 2021)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:knapsack-cloud/demo-design-system (jake@knapsack.cloud)
+
+#### Authors: 1
+
+- Jake Love (jake@knapsack.cloud)
+
+---
+
 # v0.0.1 (Wed Aug 25 2021)
 
 #### ⚠️ Pushed to `main`

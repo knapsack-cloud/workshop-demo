@@ -1,3 +1,16 @@
+# v0.1.2 (Fri Dec 03 2021)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:knapsack-cloud/demo-design-system (jake@knapsack.cloud)
+- fix: darkmode - temp hack (jake@knapsack.cloud)
+
+#### Authors: 1
+
+- Jake Love (jake@knapsack.cloud)
+
+---
+
 # v0.1.1 (Fri Dec 03 2021)
 
 #### ⚠️ Pushed to `main`
