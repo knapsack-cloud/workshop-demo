@@ -1,3 +1,20 @@
+# v0.1.6 (Mon Dec 20 2021)
+
+#### ⚠️ Pushed to `main`
+
+- fix: status tab colors ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### 📝 Documentation
+
+- Testing branch deletion [#162](https://github.com/knapsack-cloud/demo-design-system/pull/162) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.5 (Fri Dec 03 2021)
 
 #### ⚠️ Pushed to `main`
