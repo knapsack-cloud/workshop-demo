@@ -4,25 +4,25 @@
       "id": "design",
       "title": "Design",
       "statuses": [
-        { "id": "needs-design", "title": "Needs Design", "color": "#0C8FAC" },
-        { "id": "ready", "title": "Ready", "color": "#00b600" },
-        { "id": "needs-updated", "title": "Needs Update", "color": "#6b51f7" }
+        { "id": "needs-design", "title": "Needs Design", "color": "#bfdaf9" },
+        { "id": "ready", "title": "Ready", "color": "#ccedb1" },
+        { "id": "needs-updated", "title": "Needs Update", "color": "#ff9fd3" }
       ]
     },
     {
       "id": "react",
       "title": "React",
       "statuses": [
-        { "id": "unset", "title": "Unset", "color": "#403e41" },
-        { "id": "needs-dev", "title": "Needs Development", "color": "#0C8FAC" },
-        { "id": "needs-updated", "title": "Needs Update", "color": "#6b51f7" },
-        { "id": "needs-qa", "title": "Needs QA", "color": "#fc8a4b" },
+        { "id": "unset", "title": "Unset", "color": "#bbc1c9" },
+        { "id": "needs-dev", "title": "Needs Development", "color": "#bfdaf9" },
+        { "id": "needs-updated", "title": "Needs Update", "color": "#ff9fd3" },
+        { "id": "needs-qa", "title": "Needs QA", "color": "#f4c3a4" },
         {
           "id": "needs-approval",
           "title": "Needs Approval",
-          "color": "#f0e034"
+          "color": "#f8de9b"
         },
-        { "id": "ready", "title": "Ready", "color": "#00b600" },
+        { "id": "ready", "title": "Ready", "color": "#ccedb1" },
         { "id": "wont-build", "title": "Won't Build", "color": "#ededed" }
       ]
     },
@@ -30,16 +30,16 @@
       "id": "twig",
       "title": "Twig",
       "statuses": [
-        { "id": "unset", "title": "Unset", "color": "#403e41" },
-        { "id": "needs-dev", "title": "Needs Development", "color": "#0C8FAC" },
-        { "id": "needs-updated", "title": "Needs Update", "color": "#6b51f7" },
-        { "id": "needs-qa", "title": "Needs QA", "color": "#fc8a4b" },
+        { "id": "unset", "title": "Unset", "color": "#bbc1c9" },
+        { "id": "needs-dev", "title": "Needs Development", "color": "#bfdaf9" },
+        { "id": "needs-updated", "title": "Needs Update", "color": "#ff9fd3" },
+        { "id": "needs-qa", "title": "Needs QA", "color": "#f4c3a4" },
         {
           "id": "needs-approval",
           "title": "Needs Approval",
-          "color": "#f0e034"
+          "color": "#f8de9b"
         },
-        { "id": "ready", "title": "Ready", "color": "#00b600" },
+        { "id": "ready", "title": "Ready", "color": "#ccedb1" },
         { "id": "wont-build", "title": "Won't Build", "color": "#ededed" }
       ]
     }
