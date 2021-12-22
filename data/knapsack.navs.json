@@ -180,12 +180,6 @@
       "name": "Message",
       "path": "/pattern/message",
       "parentId": "components-asdf"
-    },
-    {
-      "id": "new-message",
-      "name": "New Message",
-      "path": "/pattern/new-message",
-      "parentId": "components-asdf"
     }
   ]
 }
