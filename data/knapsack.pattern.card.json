@@ -98,77 +98,87 @@
       },
       "demosById": {
         "main": {
+          "id": "main",
           "data": {
+            "props": {
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
+              "label": "Article",
+              "title": "Boost your conversion rate",
+              "imgSrc": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+            },
             "slots": {
               "children": [
                 {
+                  "demoId": "_nTCiQ1984",
                   "patternId": "author",
-                  "templateId": "react",
-                  "demoId": "_nTCiQ1984"
+                  "templateId": "react"
                 },
                 {
+                  "demoId": "main",
+                  "patternId": "author",
+                  "templateId": "react"
+                },
+                {
+                  "demoId": "main",
                   "patternId": "button",
-                  "templateId": "react",
-                  "demoId": "main"
+                  "templateId": "react"
                 }
               ]
-            },
-            "props": {
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
-              "imgSrc": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-              "title": "Boost your conversion rate",
-              "label": "Article"
             }
           },
-          "id": "main",
-          "title": "Boost your conversion rate",
           "type": "data",
+          "title": "Two Author CTA",
           "description": ""
         },
         "3c9C95vaFP": {
+          "id": "3c9C95vaFP",
           "data": {
+            "props": {
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
+              "label": "Case Study",
+              "title": "Improve your customer experience",
+              "imgSrc": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+            },
             "slots": {
               "children": [
                 {
-                  "templateId": "react",
                   "demoId": "hGfcj0Ksms",
-                  "patternId": "author"
+                  "patternId": "author",
+                  "templateId": "react"
+                },
+                {
+                  "demoId": "_nTCiQ1984",
+                  "patternId": "author",
+                  "templateId": "react"
                 }
               ]
-            },
-            "props": {
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
-              "imgSrc": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-              "title": "Improve your customer experience",
-              "label": "Case Study"
             }
           },
-          "id": "3c9C95vaFP",
-          "title": "Improve your customer experience",
           "type": "data",
+          "title": "Two Author - No CTA",
           "description": ""
         },
         "W1Xbf7ez7T": {
+          "id": "W1Xbf7ez7T",
           "data": {
+            "props": {
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
+              "label": "Video",
+              "title": "How to use search engine optimization to drive sales",
+              "imgSrc": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+            },
             "slots": {
               "children": [
                 {
-                  "templateId": "react",
                   "demoId": "_nTCiQ1984",
-                  "patternId": "author"
+                  "patternId": "author",
+                  "templateId": "react"
                 }
               ]
-            },
-            "props": {
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
-              "imgSrc": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-              "title": "How to use search engine optimization to drive sales",
-              "label": "Video"
             }
           },
-          "id": "W1Xbf7ez7T",
-          "title": "How to use search engine optimization to drive sales",
           "type": "data",
+          "title": "One Author - No CTA",
           "description": ""
         },
         "WXcBdSXuE9": {
@@ -185,9 +195,37 @@
           "title": "Simple",
           "type": "data",
           "description": ""
+        },
+        "RN96ZpJJpY": {
+          "id": "RN96ZpJJpY",
+          "data": {
+            "props": {
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
+              "label": "Article",
+              "title": "Boost your conversion rate",
+              "imgSrc": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+            },
+            "slots": {
+              "children": [
+                {
+                  "demoId": "_nTCiQ1984",
+                  "patternId": "author",
+                  "templateId": "react"
+                },
+                {
+                  "demoId": "main",
+                  "patternId": "button",
+                  "templateId": "react"
+                }
+              ]
+            }
+          },
+          "type": "data",
+          "title": "One Author CTA",
+          "description": ""
         }
       },
-      "demos": ["main", "W1Xbf7ez7T", "3c9C95vaFP", "WXcBdSXuE9"],
+      "demos": ["RN96ZpJJpY", "main", "W1Xbf7ez7T", "3c9C95vaFP", "WXcBdSXuE9"],
       "slices": []
     }
   ],
@@ -206,7 +244,10 @@
         {
           "id": "ks-content-block-GUshucXGiO",
           "data": {
-            "md": "## Overview\nUse card layouts to present a high-level summary of content related to a single topic. \n\n### Do:\n* Consider and choose text and visual elements carefully. Test your cards with the minimal content and only add additional content or graphics where they give needed context to the user\n* Use headlines that set clear expectations about the content being linked to\n* Use one style of card per module, don't mix and match\n* Feature one piece of information per card\n* Outline the main idea with the minimal possible information, don't overload with information as the card links to more detail\n\n### Do not:\n* Mix card styles within the same module\n* Overload with information as the card links to more detail\n* Add inline text links, the card itself is clickable and should link to a single piece of information, consider using content blocks in this instance "
+            "md": [
+              "## Overview\nUse card layouts to present a high-level summary of content related to a single topic. \n\n### Do:\n* Consider and choose text and visual elements carefully. Test your cards with the minimal content and only add additional content or graphics where they give needed context to the user\n* Use headlines that set clear expectations about the content being linked to\n* Use one style of card per module, don't mix and match\n* Feature one piece of information per card\n* Outline the main idea with the minimal possible information, don't overload with information as the card links to more detail\n\n### Do not:\n* Mix card styles within the same module\n* Overload with information as the card links to more detail\n* Add inline text links, the card itself is clickable and should link to a single piece of information, consider using content blocks in this instance "
+            ],
+            "columns": 1
           },
           "blockId": "markdown-slice"
         },
@@ -231,14 +272,20 @@
         {
           "id": "ks-content-block-wwkLIOf27t",
           "data": {
-            "md": "### When to avoid\nCards should only display enough information to give a user context. Do not use a card layout:\n* to highlight a solo piece of information\n* when the content requires in-line or multiple links, consider content blocks\n* when a large amount of text is needed to give users context \n\n### Keep content concise\nCards allow users to scan content in order to find their required information quickly, therefore it is important to make the content concise. Ensure the headlines are brief and explicit about the content the cards link to. Intuitive headlines and copy help the user build a clear mental model of the content."
+            "md": [
+              "### When to avoid\nCards should only display enough information to give a user context. Do not use a card layout:\n* to highlight a solo piece of information\n* when the content requires in-line or multiple links, consider content blocks\n* when a large amount of text is needed to give users context \n\n### Keep content concise\nCards allow users to scan content in order to find their required information quickly, therefore it is important to make the content concise. Ensure the headlines are brief and explicit about the content the cards link to. Intuitive headlines and copy help the user build a clear mental model of the content."
+            ],
+            "columns": 1
           },
           "blockId": "markdown-slice"
         },
         {
           "id": "ks-content-block-aqVaPpg6o5",
           "data": {
-            "md": "### Content Elements\nConsider and choose content elements carefully. Test your cards with the minimal content and only add additional content where they give needed context to the user. Content types in cards include:\n\n* **Headline** - Provides snapshot of the content.\n* **Copy** - Provides further details where the headline alone may not be sufficient.\n* **Label** - Indicates the category of a topic or theme when a user needs to further group content. For example, departments, agencies or services.\n* **Date** - Indicates how old the content is when this information is important to the user.\n\n### Images\nUsing an image allows for different content to stand out and provide additional context. It helps users visualise different pieces of information and quickly distinguish between content to find information easily.\n\nTest your visual elements carefully:\n* only use images where it supports and re-enforces the content to the user\n* only use images when they can clearly show the difference between content and can be easily identified\n* do not use for decorative purposes only"
+            "md": [
+              "### Content Elements\nConsider and choose content elements carefully. Test your cards with the minimal content and only add additional content where they give needed context to the user. Content types in cards include:\n\n* **Headline** - Provides snapshot of the content.\n* **Copy** - Provides further details where the headline alone may not be sufficient.\n* **Label** - Indicates the category of a topic or theme when a user needs to further group content. For example, departments, agencies or services.\n* **Date** - Indicates how old the content is when this information is important to the user.\n\n### Images\nUsing an image allows for different content to stand out and provide additional context. It helps users visualise different pieces of information and quickly distinguish between content to find information easily.\n\nTest your visual elements carefully:\n* only use images where it supports and re-enforces the content to the user\n* only use images when they can clearly show the difference between content and can be easily identified\n* do not use for decorative purposes only"
+            ],
+            "columns": 1
           },
           "blockId": "markdown-slice"
         }
