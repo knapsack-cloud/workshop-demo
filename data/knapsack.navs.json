@@ -174,12 +174,6 @@
       "name": "How Teams Use Knapsack",
       "path": "/pages/How-Teams-Use-Knapsack",
       "parentId": "Getting-Started"
-    },
-    {
-      "id": "message",
-      "name": "Message",
-      "path": "/pattern/message",
-      "parentId": "components-asdf"
     }
   ]
 }
