@@ -1,3 +1,15 @@
+# v0.1.7 (Fri Jan 28 2022)
+
+#### ⚠️ Pushed to `main`
+
+- fix: card title prop ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.5 (Fri Dec 03 2021)
 
 #### ⚠️ Pushed to `main`

@@ -1,3 +1,25 @@
+# v0.1.7 (Fri Jan 28 2022)
+
+#### ⚠️ Pushed to `main`
+
+- `@knapsack-cloud/demo-design-system-twig`
+  - fix: card title prop ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### 📝 Documentation
+
+- test [#170](https://github.com/knapsack-cloud/demo-design-system/pull/170) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- remove Message component [#169](https://github.com/knapsack-cloud/demo-design-system/pull/169) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- updated card names [#166](https://github.com/knapsack-cloud/demo-design-system/pull/166) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- test [#165](https://github.com/knapsack-cloud/demo-design-system/pull/165) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- New Message Component [#164](https://github.com/knapsack-cloud/demo-design-system/pull/164) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.6 (Mon Dec 20 2021)
 
 #### ⚠️ Pushed to `main`
