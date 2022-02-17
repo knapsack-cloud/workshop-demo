@@ -214,6 +214,16 @@
                 },
                 {
                   "demoId": "main",
+                  "patternId": "author",
+                  "templateId": "react"
+                },
+                {
+                  "demoId": "main",
+                  "patternId": "button",
+                  "templateId": "react"
+                },
+                {
+                  "demoId": "2CXfLJgtaC",
                   "patternId": "button",
                   "templateId": "react"
                 }
