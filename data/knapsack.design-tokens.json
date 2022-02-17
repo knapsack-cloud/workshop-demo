@@ -1,154 +1,128 @@
 {
   "color": {
     "base": {
-      "yellow": {
-        "value": "#ffd94f"
-      },
-      "green": {
-        "value": "#3ccf91"
+      "red": {
+        "value": "#ef5151"
       },
       "blue": {
         "value": "#3c5ccf"
       },
+      "green": {
+        "value": "#3ccf91"
+      },
       "orange": {
         "value": "#ff934f"
       },
-      "red": {
-        "value": "#ef5151"
-      },
       "orchid": {
         "value": "#aa1baf"
-      }
-    },
-    "light": {
+      },
       "yellow": {
-        "value": "#ffeeb3"
-      },
-      "green": {
-        "value": "#8de2bf"
-      },
-      "blue": {
-        "value": "#8d9fe2"
-      },
-      "orange": {
-        "value": "#ffd0b3"
-      },
-      "red": {
-        "value": "#f8b0b0"
-      },
-      "orchid": {
-        "value": "#e77bea"
+        "value": "#FCD02A"
       }
     },
     "dark": {
-      "yellow": {
-        "value": "#e6b400"
-      },
-      "green": {
-        "value": "#21835a"
+      "red": {
+        "value": "#c91313"
       },
       "blue": {
         "value": "#213683"
       },
+      "green": {
+        "value": "#21835a"
+      },
       "orange": {
         "value": "#e65800"
       },
-      "red": {
-        "value": "#c91313"
-      },
       "orchid": {
         "value": "#560e58"
-      }
-    },
-    "layout": {
-      "defaultBg": {
-        "value": "#FFFFFF"
       },
-      "primary": {
-        "value": "#393B3E"
-      },
-      "primaryHover": {
-        "value": "#525A62"
-      },
-      "secondary": {
-        "value": "#555555"
-      },
-      "border": {
-        "value": "#DDDDDD"
+      "yellow": {
+        "value": "#e6b400"
       }
     },
     "text": {
+      "link": {
+        "value": "#2B64A8"
+      },
       "default": {
         "value": "#222222"
       },
       "inverse": {
         "value": "#f9f9f9"
+      }
+    },
+    "light": {
+      "red": {
+        "value": "#f8b0b0"
       },
-      "link": {
-        "value": "#2B64A8"
+      "blue": {
+        "value": "#8d9fe2"
+      },
+      "green": {
+        "value": "#8de2bf"
+      },
+      "orange": {
+        "value": "#ffd0b3"
+      },
+      "orchid": {
+        "value": "#e77bea"
+      },
+      "yellow": {
+        "value": "#ffeeb3"
+      }
+    },
+    "layout": {
+      "border": {
+        "value": "#DDDDDD"
+      },
+      "primary": {
+        "value": "#393B3E"
+      },
+      "defaultBg": {
+        "value": "#FFFFFF"
+      },
+      "secondary": {
+        "value": "#555555"
+      },
+      "primaryHover": {
+        "value": "#525A62"
       }
     }
   },
   "spacing": {
-    "xxs": {
-      "value": "2px"
-    },
-    "xs": {
-      "value": "4px"
-    },
-    "s": {
-      "value": "8px"
+    "l": {
+      "value": "32px"
     },
     "m": {
       "value": "16px"
     },
-    "l": {
-      "value": "32px"
+    "s": {
+      "value": "8px"
     },
     "xl": {
       "value": "48px"
     },
+    "xs": {
+      "value": "4px"
+    },
     "xxl": {
       "value": "64px"
+    },
+    "xxs": {
+      "value": "2px"
     }
   },
   "breakpoint": {
-    "width": {
-      "small": {
-        "value": "330px"
-      },
-      "medium": {
-        "value": "480px"
-      },
-      "large": {
-        "value": "768px"
-      },
-      "featuredSwap": {
-        "value": "850px"
-      },
-      "xlarge": {
-        "value": "992px"
-      },
-      "xxlarge": {
-        "value": "1240px"
-      },
-      "xxxlarge": {
-        "value": "1440px"
-      }
-    },
     "media": {
       "query": {
+        "large": {
+          "value": "screen and (min-width: 768px)"
+        },
         "small": {
           "value": "screen and (min-width: 330px)"
         },
         "medium": {
           "value": "screen and (min-width: 480px)"
-        },
-        "large": {
-          "value": "screen and (min-width: 768px)"
-        },
-        "featuredSwap": {
-          "value": "screen and (min-width: 850px)"
         },
         "xlarge": {
           "value": "screen and (min-width: 992px)"
@@ -158,7 +132,33 @@
         },
         "xxxlarge": {
           "value": "screen and (min-width: 1440px)"
+        },
+        "featuredSwap": {
+          "value": "screen and (min-width: 850px)"
         }
+      }
+    },
+    "width": {
+      "large": {
+        "value": "768px"
+      },
+      "small": {
+        "value": "330px"
+      },
+      "medium": {
+        "value": "480px"
+      },
+      "xlarge": {
+        "value": "992px"
+      },
+      "xxlarge": {
+        "value": "1240px"
+      },
+      "xxxlarge": {
+        "value": "1440px"
+      },
+      "featuredSwap": {
+        "value": "850px"
       }
     }
   }
