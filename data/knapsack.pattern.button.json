@@ -163,7 +163,7 @@
             "props": {
               "url": "#url",
               "mode": "info",
-              "size": "small",
+              "size": "medium",
               "type": "solid"
             },
             "slots": { "children": ["Button"] }
