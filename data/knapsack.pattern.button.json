@@ -163,8 +163,8 @@
             "props": {
               "url": "#url",
               "mode": "info",
-              "size": "large",
-              "type": "outline"
+              "size": "medium",
+              "type": "solid"
             },
             "slots": { "children": ["Button"] }
           },
