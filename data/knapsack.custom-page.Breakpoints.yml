@@ -12,4 +12,4 @@ slices:
         name: ''
       demo:
         id: media-query
-description: Breakpoint Tokens
+description: Breakpoint tokens
