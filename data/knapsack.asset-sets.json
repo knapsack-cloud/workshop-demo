@@ -5,8 +5,12 @@
       "id": "default",
       "title": "Default",
       "assets": [
-        { "src": "../packages/design-tokens/dist/design-tokens.css" },
-        { "src": "../packages/styles/dist/styles.css" },
+        {
+          "src": "../packages/design-tokens/dist/design-tokens.css"
+        },
+        {
+          "src": "../packages/styles/dist/styles.css"
+        },
         {
           "src": "../packages/web-components/dist/index.js",
           "includedRenderers": ["web-components"]
@@ -18,8 +22,12 @@
       "title": "Dark",
       "inlineJs": "document.body.classList.add('dark')",
       "assets": [
-        { "src": "../packages/design-tokens/dist/design-tokens.css" },
-        { "src": "../packages/styles/dist/styles.css" },
+        {
+          "src": "../packages/design-tokens/dist/design-tokens.css"
+        },
+        {
+          "src": "../packages/styles/dist/styles.css"
+        },
         {
           "src": "../packages/web-components/dist/index.js",
           "includedRenderers": ["web-components"]
