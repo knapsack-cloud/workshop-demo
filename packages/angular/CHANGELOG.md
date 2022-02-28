@@ -1,3 +1,17 @@
+# v0.1.8 (Mon Feb 28 2022)
+
+#### ⚠️ Pushed to `main`
+
+- fix: missing angular config settings ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+- chore: update whitelistedNonPeerDependencies to allowedNonPeerDependencies ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+- fix: upgraded ks packages breaking angular builds ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.5 (Fri Dec 03 2021)
 
 #### ⚠️ Pushed to `main`

@@ -1,3 +1,25 @@
+# v0.1.8 (Mon Feb 28 2022)
+
+#### ⚠️ Pushed to `main`
+
+- `@knapsack-cloud/demo-design-system-angular`
+  - fix: missing angular config settings ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+  - chore: update whitelistedNonPeerDependencies to allowedNonPeerDependencies ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+  - fix: upgraded ks packages breaking angular builds ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### 📝 Documentation
+
+- sentence case breakpoint desc [#178](https://github.com/knapsack-cloud/demo-design-system/pull/178) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- Content changes w/strahl [#177](https://github.com/knapsack-cloud/demo-design-system/pull/177) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- Testing a pattern page change [#176](https://github.com/knapsack-cloud/demo-design-system/pull/176) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.7 (Fri Jan 28 2022)
 
 #### ⚠️ Pushed to `main`
