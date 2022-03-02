@@ -1,3 +1,18 @@
+# v0.1.9 (Wed Mar 02 2022)
+
+#### ⚠️ Pushed to `main`
+
+- chore: update ks packages ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+- Revert "chore: update ks packages" ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+- `@knapsack-cloud/demo-design-system-react`
+  - fix: one-pager demo by adding component to render ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.8 (Mon Feb 28 2022)
 
 #### ⚠️ Pushed to `main`
