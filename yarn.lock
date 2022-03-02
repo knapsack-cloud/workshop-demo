@@ -2616,7 +2616,7 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@knapsack/app@^3.38.3":
+"@knapsack/app@^3.28.3", "@knapsack/app@^3.38.3":
   version "3.38.3"
   resolved "https://registry.yarnpkg.com/@knapsack/app/-/app-3.38.3.tgz#3bab49e0041737a3ff6918f2ae0aaacc7258cd77"
   integrity sha512-OfyXYSL1YgW0jHtnZ1nRPCwvlvK9Yu5RYvFIr9dPnf1lYzgeBJe99nOA9ml6j65nYY8a36s/5NugJXtKP/kqpA==
@@ -2692,7 +2692,7 @@
     "@knapsack/file-utils" "^3.38.3"
     babel-plugin-transform-async-to-promises "^0.8.15"
 
-"@knapsack/babel-config@^3.38.3":
+"@knapsack/babel-config@^3.28.3", "@knapsack/babel-config@^3.38.3":
   version "3.38.3"
   resolved "https://registry.yarnpkg.com/@knapsack/babel-config/-/babel-config-3.38.3.tgz#b58f8ddc5622ff981b465d1de8712907207779a3"
   integrity sha512-Ni5e5Fxl+nTHkDchJ5oOtKASL6I6FwqihYDuUnDbHiS7H+hgEjxBRmxYQ+TIeMFnIU4OI+sPGfvnz+9ZLpnbFg==
@@ -2718,7 +2718,7 @@
   resolved "https://registry.yarnpkg.com/@knapsack/browserslist-config/-/browserslist-config-3.38.3.tgz#74fcfec06c18112572f0878ec3e788b2e45cbe86"
   integrity sha512-v5NaTZVJqkRpBsZ3LjfaNjje25jEsR/Q7hjE2ESW3+qHOik3BIEi90LWxV5v8v6V0Mc+3LduThJyDifeyqlnUQ==
 
-"@knapsack/build-tools@^3.38.3":
+"@knapsack/build-tools@^3.28.3":
   version "3.38.3"
   resolved "https://registry.yarnpkg.com/@knapsack/build-tools/-/build-tools-3.38.3.tgz#1799d1f09f1c00c7f1fb803ab55c1740e5cdee4a"
   integrity sha512-bQU14E0T78E8CyOGBLkJe6Z8hOQvUKw8uVFsPkU/wVucUn/wCaxZtaDzPQyniFrIL4rXy/o6/pVqh9fu9Jb9HA==
@@ -2769,7 +2769,7 @@
     color "^4.0.1"
     lodash "^4.17.21"
 
-"@knapsack/core@^3.38.3":
+"@knapsack/core@^3.28.3", "@knapsack/core@^3.38.3":
   version "3.38.3"
   resolved "https://registry.yarnpkg.com/@knapsack/core/-/core-3.38.3.tgz#46f19e9c8dec25e9da56f0d5b8e5897b9c5d3d20"
   integrity sha512-cK7bNGU6mSAYarUwuKysxU8NH4vSm5lQ6hpZ/U2WX13tcUH3Sh+qP7ZT74iBJsY1tvgyw24g2iwv428p4KeQlw==
@@ -2795,7 +2795,7 @@
     ts-expect "^1.3.0"
     yargs "^16.2.0"
 
-"@knapsack/design-token-utils@^3.38.3":
+"@knapsack/design-token-utils@^3.28.3", "@knapsack/design-token-utils@^3.38.3":
   version "3.38.3"
   resolved "https://registry.yarnpkg.com/@knapsack/design-token-utils/-/design-token-utils-3.38.3.tgz#59827ab8e32e65f56d11a816fbc12ecad0b5eed7"
   integrity sha512-sVWS9cZRhY/QmYbLbLpdm4MBjlJqjlWtuklS8J2nrRhqKCU53CS11VvYeC9y9AMzBP5OX2QHW0zVBj6/QQtkVQ==
@@ -2833,7 +2833,7 @@
     sudo-prompt "^9.2.1"
     syswide-cas "^5.3.0"
 
-"@knapsack/plugin-changelog-md@^3.38.3":
+"@knapsack/plugin-changelog-md@^3.28.3":
   version "3.38.3"
   resolved "https://registry.yarnpkg.com/@knapsack/plugin-changelog-md/-/plugin-changelog-md-3.38.3.tgz#b7fbe0b18d05789c19481dc88e9f6d95409d41f3"
   integrity sha512-MEenmIP97j0A+2Ho0RlgeGcoUm/yW7DLcWgmrKrr4QsGjNCZQpm2X+1hT/rkms1kspm9A6ljNNoeSm67BDOuBw==
@@ -2842,7 +2842,7 @@
     fs-extra "^10.0.0"
     marked "^4.0.0"
 
-"@knapsack/renderer-angular@^3.38.3":
+"@knapsack/renderer-angular@^3.28.3":
   version "3.38.3"
   resolved "https://registry.yarnpkg.com/@knapsack/renderer-angular/-/renderer-angular-3.38.3.tgz#24ccb508c50af5715f9e62483819e2fa3c30e2d9"
   integrity sha512-iEkxEnjm5PsOma+EUtADWqRqzntyByezJXk1QGFWxEkIcKxo5vca0/VclVKks36y3pUv9gj5PxNOUuVKfgTnVw==
@@ -2858,7 +2858,7 @@
   resolved "https://registry.yarnpkg.com/@knapsack/renderer-client/-/renderer-client-3.38.3.tgz#60d8c2ace768bbee1f7ae1a63b5b3eaa52d92258"
   integrity sha512-AJh2JelSYczuBgg4XRqTPA0wNi8I85wnqRo3U6VYCjAdw/XBWvxD8WgDSutYOuNqQ7wPncJ4QSL6LGTZgzNd2g==
 
-"@knapsack/renderer-html@^3.38.3":
+"@knapsack/renderer-html@^3.28.3":
   version "3.38.3"
   resolved "https://registry.yarnpkg.com/@knapsack/renderer-html/-/renderer-html-3.38.3.tgz#952c476db0b8d2032c2e599897d781bb905a256a"
   integrity sha512-Y0cBSW/TCchvOUfEn8UcipUJbORo0rT5Z6+ytLUpVJ9k8JFuOma0SDqZao9GK6a2m1dasGQfUgOyHfguvq4CSQ==
@@ -2866,7 +2866,7 @@
     "@knapsack/app" "^3.38.3"
     fs-extra "^10.0.0"
 
-"@knapsack/renderer-react@^3.38.3":
+"@knapsack/renderer-react@^3.28.3":
   version "3.38.3"
   resolved "https://registry.yarnpkg.com/@knapsack/renderer-react/-/renderer-react-3.38.3.tgz#fdeed9868bded286745782c9a0ec997dc7d4334e"
   integrity sha512-vq3D1xOKmpt3rQf+hnC0TZ3q95O598ZhFtn4RXyjk3oDCi3mszztwU/zMJ6FJGruE6A9y9ilGNy6l57Va4K4nQ==
@@ -2886,7 +2886,7 @@
     sleep-promise "^8.0.1"
     typescript "^4.5.2"
 
-"@knapsack/renderer-twig@^3.38.3":
+"@knapsack/renderer-twig@^3.28.3":
   version "3.38.3"
   resolved "https://registry.yarnpkg.com/@knapsack/renderer-twig/-/renderer-twig-3.38.3.tgz#5e23fbbfb948e1fcafeaeac334f4fbf707bcd297"
   integrity sha512-paKGfB8kOUD+ZpbnP2HEf0NvxLW8apQEuJDpxhHya12VLuHLV8F8HgcxcxwpxBdOBGn9w3cViUj/SgL36bJmxg==
@@ -2896,7 +2896,7 @@
     ejs "^3.1.6"
     fs-extra "^10.0.0"
 
-"@knapsack/renderer-vue@^3.38.3":
+"@knapsack/renderer-vue@^3.28.3":
   version "3.38.3"
   resolved "https://registry.yarnpkg.com/@knapsack/renderer-vue/-/renderer-vue-3.38.3.tgz#d50c735985b87a5042078105f8b4bb1d7fac5990"
   integrity sha512-2HetXLxsroTzYLW4h62zwUNcQMLwpGqyoLLq0WFINBvLT3lm9ZNipP99MfZnFGIoWYv/ePdJ0uXvkFtR6eZwhg==
@@ -2914,7 +2914,7 @@
     vue-loader "^15.9.8"
     vue-template-compiler "^2.6.14"
 
-"@knapsack/renderer-web-components@^3.38.3":
+"@knapsack/renderer-web-components@^3.28.3":
   version "3.38.3"
   resolved "https://registry.yarnpkg.com/@knapsack/renderer-web-components/-/renderer-web-components-3.38.3.tgz#fb52138d505c86c98711e7ac149fe9686a902d02"
   integrity sha512-aufze1zMImgthttQVrWqo2bzzz0SSYG7KMsTELYTzVYzT8sZbCf3blrvBEAbuhsocLfoKIsXZI8QyXOhBDECXQ==
