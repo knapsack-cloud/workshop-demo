@@ -2858,6 +2858,18 @@
   resolved "https://registry.yarnpkg.com/@knapsack/renderer-client/-/renderer-client-3.38.3.tgz#60d8c2ace768bbee1f7ae1a63b5b3eaa52d92258"
   integrity sha512-AJh2JelSYczuBgg4XRqTPA0wNi8I85wnqRo3U6VYCjAdw/XBWvxD8WgDSutYOuNqQ7wPncJ4QSL6LGTZgzNd2g==
 
+"@knapsack/renderer-hbs@^3.28.3":
+  version "3.38.3"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-hbs/-/renderer-hbs-3.38.3.tgz#a8e3f29e4bf3d60a592e1feb567cf6f12d09990f"
+  integrity sha512-HZtgj51FpUYanVXfGBNl4OB0o0dq6nxCTISTlxhuRGZRZNU+0SfKxf3zGG6WFnmPtsZ33ROu3P9IEKfyGTItNw==
+  dependencies:
+    "@knapsack/app" "^3.38.3"
+    "@knapsack/file-utils" "^3.38.3"
+    "@knapsack/types" "^3.38.3"
+    "@knapsack/utils" "^3.38.3"
+    handlebars "^4.7.7"
+    lodash "^4.17.21"
+
 "@knapsack/renderer-html@^3.28.3":
   version "3.38.3"
   resolved "https://registry.yarnpkg.com/@knapsack/renderer-html/-/renderer-html-3.38.3.tgz#952c476db0b8d2032c2e599897d781bb905a256a"
