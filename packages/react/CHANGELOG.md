@@ -1,3 +1,15 @@
+# v0.1.9 (Wed Mar 02 2022)
+
+#### ⚠️ Pushed to `main`
+
+- fix: one-pager demo by adding component to render ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.5 (Fri Dec 03 2021)
 
 #### ⚠️ Pushed to `main`

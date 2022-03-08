@@ -2,12 +2,16 @@
   "id": "one-pager",
   "title": "One-Pager",
   "description": "",
-  "statuses": { "design": "ready", "react": "ready", "twig": "needs-dev" },
+  "statuses": {
+    "design": "ready",
+    "react": "ready",
+    "twig": "needs-dev"
+  },
   "templates": [
     {
       "id": "react",
       "title": "react",
-      "path": "../packages/react/dist/prototype/one-pager/page.js",
+      "path": "@knapsack-cloud/demo-design-system-react",
       "templateLanguageId": "react",
       "spec": {
         "slots": {
@@ -30,7 +34,11 @@
           "data": {
             "slots": {
               "children": [
-                { "patternId": "hero", "templateId": "react", "demoId": "main" }
+                {
+                  "patternId": "hero",
+                  "templateId": "react",
+                  "demoId": "main"
+                }
               ]
             },
             "props": {}
@@ -44,9 +52,9 @@
             "slots": {
               "children": [
                 {
+                  "patternId": "hero",
                   "templateId": "react",
-                  "demoId": "main",
-                  "patternId": "hero"
+                  "demoId": "main"
                 },
                 {
                   "templateId": "react",
@@ -69,12 +77,19 @@
         }
       },
       "demos": ["jIkrNzJ0cO", "main"],
-      "slices": []
+      "slices": [],
+      "alias": "PagePrototype"
     }
   ],
   "tabs": [
-    { "type": "subPage", "id": "overview" },
-    { "type": "template", "id": "react" }
+    {
+      "type": "subPage",
+      "id": "overview"
+    },
+    {
+      "type": "template",
+      "id": "react"
+    }
   ],
   "subPages": [
     {

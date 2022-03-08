@@ -1,7 +1,5 @@
 {
-  "include": [
-    "src", "utils", "prototype"
-  ],
+  "include": ["src", "utils"],
   "compilerOptions": {
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
