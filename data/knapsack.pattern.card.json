@@ -2,7 +2,11 @@
   "id": "card",
   "title": "Card",
   "description": "Cards contain content and actions about a single subject.",
-  "statuses": { "design": "ready", "twig": "ready", "react": "ready" },
+  "statuses": {
+    "design": "ready",
+    "twig": "ready",
+    "react": "ready"
+  },
   "templates": [
     {
       "id": "twig",
@@ -28,9 +32,16 @@
               "type": "string",
               "description": "Content to fill out ONE paragraph"
             },
-            "imgSrc": { "type": "string" },
-            "title": { "type": "string" },
-            "label": { "title": "Label", "type": "string" }
+            "imgSrc": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "label": {
+              "title": "Label",
+              "type": "string"
+            }
           }
         }
       },
@@ -90,9 +101,16 @@
               "type": "string",
               "description": "Content to fill out ONE paragraph"
             },
-            "imgSrc": { "type": "string" },
-            "title": { "type": "string" },
-            "label": { "title": "Label", "type": "string" }
+            "imgSrc": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "label": {
+              "title": "Label",
+              "type": "string"
+            }
           }
         }
       },
@@ -183,7 +201,9 @@
         },
         "WXcBdSXuE9": {
           "data": {
-            "slots": { "children": [] },
+            "slots": {
+              "children": []
+            },
             "props": {
               "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
               "imgSrc": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
@@ -237,14 +257,93 @@
       },
       "demos": ["RN96ZpJJpY", "main", "W1Xbf7ez7T", "3c9C95vaFP", "WXcBdSXuE9"],
       "slices": []
+    },
+    {
+      "id": "hbs",
+      "title": "handlebars",
+      "path": "../packages/handlebars/src/card/card.hbs",
+      "templateLanguageId": "hbs",
+      "spec": {
+        "slots": {
+          "footer": {
+            "title": "footer"
+          }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "Cards contain content and actions about a single subject.",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "body": {
+              "type": "string",
+              "description": "Content to fill out ONE paragraph"
+            },
+            "imgSrc": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "label": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "props": {
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
+              "imgSrc": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+              "title": "How to use search engine optimization to drive sales",
+              "label": "Video"
+            },
+            "slots": {
+              "footer": [
+                {
+                  "patternId": "button",
+                  "templateId": "hbs",
+                  "demoId": "S6cqwxsItT"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "demos": ["main"],
+      "slices": []
     }
   ],
   "tabs": [
-    { "type": "subPage", "id": "Overview" },
-    { "type": "subPage", "id": "Accessibility" },
-    { "type": "subPage", "id": "Figma" },
-    { "type": "template", "id": "twig" },
-    { "type": "template", "id": "react" }
+    {
+      "type": "subPage",
+      "id": "Overview"
+    },
+    {
+      "type": "subPage",
+      "id": "Accessibility"
+    },
+    {
+      "type": "subPage",
+      "id": "Figma"
+    },
+    {
+      "type": "template",
+      "id": "twig"
+    },
+    {
+      "type": "template",
+      "id": "react"
+    },
+    {
+      "type": "template",
+      "id": "hbs"
+    }
   ],
   "subPages": [
     {
