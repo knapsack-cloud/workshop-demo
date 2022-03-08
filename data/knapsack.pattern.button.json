@@ -5,7 +5,8 @@
   "statuses": {
     "design": "needs-updated",
     "twig": "ready",
-    "react": "needs-dev"
+    "react": "needs-dev",
+    "handlebars": "ready"
   },
   "demoSize": "s",
   "demoWidths": [
