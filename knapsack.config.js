@@ -14,6 +14,7 @@ const {
 } = require('@knapsack/renderer-web-components');
 
 const { KnapsackVueRenderer } = require('@knapsack/renderer-vue');
+const { KnapsackHbsRenderer } = require('@knapsack/renderer-hbs');
 
 // Other config
 const {
@@ -56,6 +57,7 @@ module.exports = configureKnapsack({
       demoWrapperPath: join(__dirname, './packages/react/dist/src/demo-wrapper.js'),
     }),
     new HTMLRenderer(),
+    new KnapsackHbsRenderer(),
     new TwigRenderer({
       src: {
         roots: ['./packages/twig'],

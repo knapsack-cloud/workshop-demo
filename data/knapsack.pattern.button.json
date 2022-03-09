@@ -5,10 +5,15 @@
   "statuses": {
     "design": "needs-updated",
     "twig": "ready",
-    "react": "needs-dev"
+    "react": "needs-dev",
+    "handlebars": "ready"
   },
   "demoSize": "s",
-  "demoWidths": [{ "width": 180 }],
+  "demoWidths": [
+    {
+      "width": 180
+    }
+  ],
   "templates": [
     {
       "id": "twig",
@@ -52,7 +57,10 @@
               "type": "string",
               "enum": ["solid", "outline"]
             },
-            "text": { "type": "string", "title": "Button Text" },
+            "text": {
+              "type": "string",
+              "title": "Button Text"
+            },
             "icon": {
               "type": "object",
               "required": [],
@@ -118,7 +126,12 @@
       "alias": "Button",
       "templateLanguageId": "react",
       "spec": {
-        "slots": { "children": { "title": "children", "isRequired": true } },
+        "slots": {
+          "children": {
+            "title": "children",
+            "isRequired": true
+          }
+        },
         "props": {
           "required": [],
           "$schema": "http://json-schema.org/draft-07/schema",
@@ -166,14 +179,18 @@
               "size": "medium",
               "type": "solid"
             },
-            "slots": { "children": ["Button"] }
+            "slots": {
+              "children": ["Button"]
+            }
           },
           "type": "data",
           "title": "Solid (info)"
         },
         "2CXfLJgtaC": {
           "data": {
-            "slots": { "children": ["Button"] },
+            "slots": {
+              "children": ["Button"]
+            },
             "props": {
               "type": "outline",
               "size": "medium",
@@ -187,6 +204,50 @@
         }
       },
       "demos": ["main", "2CXfLJgtaC"],
+      "slices": []
+    },
+    {
+      "id": "hbs",
+      "title": "handlebars",
+      "path": "@knapsack-cloud/demo-design-system-handlebars/src/button/button.hbs",
+      "templateLanguageId": "hbs",
+      "spec": {
+        "slots": {},
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "Buttons are used to initialize an action. Button labels express what action will occur when the user interacts with it.",
+          "type": "object",
+          "required": [],
+          "properties": {}
+        }
+      },
+      "demosById": {
+        "S6cqwxsItT": {
+          "id": "S6cqwxsItT",
+          "title": "Solid (info)",
+          "type": "template",
+          "templateInfo": {
+            "path": "@knapsack-cloud/demo-design-system-handlebars/src/button/button.hbs"
+          }
+        },
+        "7Yvjb7xQiF": {
+          "id": "7Yvjb7xQiF",
+          "title": "Outline (special)",
+          "type": "template",
+          "templateInfo": {
+            "path": "@knapsack-cloud/demo-design-system-handlebars/src/button/button-outline.hbs"
+          }
+        },
+        "E4nm4X5WKo": {
+          "id": "E4nm4X5WKo",
+          "title": "Small",
+          "type": "template",
+          "templateInfo": {
+            "path": "@knapsack-cloud/demo-design-system-handlebars/src/button/button-small.hbs"
+          }
+        }
+      },
+      "demos": ["S6cqwxsItT", "7Yvjb7xQiF", "E4nm4X5WKo"],
       "slices": []
     }
   ],
@@ -339,7 +400,10 @@
           "id": "ks-content-block-4gpsIFEONx",
           "blockId": "markdown-slice",
           "data": {
-            "md": "## NOTE\nBelow is an embed of the most recent Storybook story for our button components. **We have stopped updating Storybook as of June 2021.** \n\nFor up to date pattern examples, please reference the coresponding code tabs, above."
+            "md": [
+              "## NOTE\nBelow is an embed of the most recent Storybook story for our button components. **We have stopped updating Storybook as of June 2021.** \n\nFor up to date pattern examples, please reference the coresponding code tabs, above."
+            ],
+            "columns": 1
           }
         },
         {
@@ -355,11 +419,33 @@
     }
   ],
   "tabs": [
-    { "type": "subPage", "id": "Overview" },
-    { "type": "subPage", "id": "Accessibility" },
-    { "type": "subPage", "id": "Figma" },
-    { "type": "template", "id": "react" },
-    { "type": "template", "id": "twig" },
-    { "type": "subPage", "id": "Legacy" }
+    {
+      "type": "subPage",
+      "id": "Overview"
+    },
+    {
+      "type": "subPage",
+      "id": "Accessibility"
+    },
+    {
+      "type": "subPage",
+      "id": "Figma"
+    },
+    {
+      "type": "template",
+      "id": "react"
+    },
+    {
+      "type": "template",
+      "id": "twig"
+    },
+    {
+      "type": "template",
+      "id": "hbs"
+    },
+    {
+      "type": "subPage",
+      "id": "Legacy"
+    }
   ]
 }
