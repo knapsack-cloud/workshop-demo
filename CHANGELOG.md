@@ -1,3 +1,16 @@
+# v0.1.10 (Wed Mar 09 2022)
+
+#### 🐛 Bug Fix
+
+- `@knapsack-cloud/demo-design-system-handlebars`
+  - feat: implement handlebars button and card component demos [#180](https://github.com/knapsack-cloud/demo-design-system/pull/180) ([@brittanysmart](https://github.com/brittanysmart))
+
+#### Authors: 1
+
+- Brittany Smart ([@brittanysmart](https://github.com/brittanysmart))
+
+---
+
 # v0.1.9 (Wed Mar 02 2022)
 
 #### ⚠️ Pushed to `main`
