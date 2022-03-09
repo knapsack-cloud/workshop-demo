@@ -1,3 +1,15 @@
+# v0.1.11 (Wed Mar 09 2022)
+
+#### ⚠️ Pushed to `main`
+
+- chore: remove orphaned page ([@brittanysmart](https://github.com/brittanysmart))
+
+#### Authors: 1
+
+- Brittany Smart ([@brittanysmart](https://github.com/brittanysmart))
+
+---
+
 # v0.1.10 (Wed Mar 09 2022)
 
 #### 🐛 Bug Fix
