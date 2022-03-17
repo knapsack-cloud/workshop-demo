@@ -85,35 +85,7 @@
       "alias": "Card",
       "templateLanguageId": "react",
       "spec": {
-        "slots": {
-          "children": {
-            "disallowText": true,
-            "title": "children",
-            "allowedPatternIds": ["author", "button"]
-          }
-        },
-        "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "An extensible display component able to conform to many different modes of use.",
-          "type": "object",
-          "required": [],
-          "properties": {
-            "body": {
-              "type": "string",
-              "description": "Content to fill out ONE paragraph"
-            },
-            "imgSrc": {
-              "type": "string"
-            },
-            "title": {
-              "type": "string"
-            },
-            "label": {
-              "title": "Label",
-              "type": "string"
-            }
-          }
-        }
+        "isInferred": true
       },
       "demosById": {
         "main": {
@@ -318,6 +290,37 @@
       },
       "demos": ["main"],
       "slices": []
+    },
+    {
+      "id": "react-gDWQ4LWppt",
+      "title": "react-Data-Demo",
+      "path": "@knapsack-cloud/demo-design-system-react",
+      "alias": "CardDataDemo",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Simplified Card Data Demo",
+          "type": "data",
+          "data": {
+            "props": {
+              "label": "Video",
+              "title": "The content your users want",
+              "showImage": true,
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium."
+            },
+            "slots": {
+              "children": []
+            }
+          },
+          "description": "This demo shows off a simplified implementation of a card"
+        }
+      },
+      "demos": ["main"],
+      "slices": []
     }
   ],
   "tabs": [
@@ -340,6 +343,10 @@
     {
       "type": "template",
       "id": "react"
+    },
+    {
+      "type": "template",
+      "id": "react-gDWQ4LWppt"
     },
     {
       "type": "template",
