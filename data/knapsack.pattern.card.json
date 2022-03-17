@@ -293,9 +293,9 @@
     },
     {
       "id": "react-gDWQ4LWppt",
-      "title": "react-gDWQ4LWppt",
+      "title": "react-Data-Demo",
       "path": "@knapsack-cloud/demo-design-system-react",
-      "alias": "CardWrapperDemo",
+      "alias": "CardDataDemo",
       "templateLanguageId": "react",
       "spec": {
         "isInferred": true
@@ -303,17 +303,20 @@
       "demosById": {
         "main": {
           "id": "main",
-          "title": "Main",
+          "title": "Simplified Card Data Demo",
           "type": "data",
           "data": {
             "props": {
-              "label": "A label",
-              "title": "A title",
-              "body": "A Body",
-              "showImage": true
+              "label": "Video",
+              "title": "The content your users want",
+              "showImage": true,
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium."
             },
-            "slots": {}
-          }
+            "slots": {
+              "children": []
+            }
+          },
+          "description": "This demo shows off a simplified implementation of a card"
         }
       },
       "demos": ["main"],
@@ -343,11 +346,11 @@
     },
     {
       "type": "template",
-      "id": "hbs"
+      "id": "react-gDWQ4LWppt"
     },
     {
       "type": "template",
-      "id": "react-gDWQ4LWppt"
+      "id": "hbs"
     }
   ],
   "subPages": [
