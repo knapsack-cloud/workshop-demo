@@ -1,13 +1,26 @@
 import * as React from 'react';
-import { CardProps } from '@knapsack-cloud/demo-design-system-shared-types';
+
+export type CardProps = {
+  /**
+   * Content to fill out ONE paragraph
+   */
+  body?: string;
+  imgSrc?: string;
+  title?: string;
+  label?: string;
+  /**
+   * undefined. Only use: author, button
+   */
+  children?: React.ReactNode;
+};
 
 export const Card: React.FC<CardProps> = ({
   label,
   title,
   body,
   imgSrc,
-  children
-}: CardProps) => {
+  children,
+}) => {
   return (
     <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
       {imgSrc && (
@@ -39,11 +52,7 @@ export const Card: React.FC<CardProps> = ({
             </a>
           )}
         </div>
-        {children && (
-          <div className="ks-card-child-wrapper">
-            {children}
-          </div>
-        )}
+        {children && <div className="ks-card-child-wrapper">{children}</div>}
       </div>
     </div>
   );
