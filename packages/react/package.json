@@ -1,7 +1,7 @@
 {
   "name": "@knapsack-cloud/demo-design-system-react",
   "description": "Knapsack Demo Design System React Components",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "module": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
   "scripts": {
@@ -10,9 +10,9 @@
     "start": "yarn build --watch"
   },
   "dependencies": {
-    "@knapsack-cloud/demo-design-system-design-tokens": "^0.1.11",
-    "@knapsack-cloud/demo-design-system-shared-types": "^0.1.11",
-    "@knapsack-cloud/demo-design-system-styles": "^0.1.11"
+    "@knapsack-cloud/demo-design-system-design-tokens": "^0.1.12",
+    "@knapsack-cloud/demo-design-system-shared-types": "^0.1.12",
+    "@knapsack-cloud/demo-design-system-styles": "^0.1.12"
   },
   "devDependencies": {
     "@types/react": "^16.9.35",
