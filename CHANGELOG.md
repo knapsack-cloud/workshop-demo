@@ -1,3 +1,16 @@
+# v0.1.12 (Thu Mar 17 2022)
+
+#### 🐛 Bug Fix
+
+- `@knapsack-cloud/demo-design-system-react`
+  - Card data demo [#181](https://github.com/knapsack-cloud/demo-design-system/pull/181) ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.11 (Wed Mar 09 2022)
 
 #### ⚠️ Pushed to `main`

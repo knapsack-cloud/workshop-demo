@@ -1,3 +1,17 @@
+# v0.1.12 (Thu Mar 17 2022)
+
+#### 🐛 Bug Fix
+
+- Card data demo [#181](https://github.com/knapsack-cloud/demo-design-system/pull/181) ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+- chore: fine tune the card data demo ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+- chore: starting point for card data demo ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.9 (Wed Mar 02 2022)
 
 #### ⚠️ Pushed to `main`
