@@ -2616,26 +2616,26 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@knapsack/app@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/app/-/app-3.43.0.tgz#b5c4c26ef6fabef8e1b4f8d9dbfdde1a5cd72f6c"
-  integrity sha512-AoBfPTWLCzDgxGh/FCh4tilZTJh4WQ0ZfvlVyb0vnnpEgvH4YknoYq1DGbQougRkeMmvxxevx68USirqw65x/w==
+"@knapsack/app@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/app/-/app-3.43.1.tgz#6914b5e782ae21e72a50da4a5770442efbc85c08"
+  integrity sha512-Y5lVBVgC5fKmHM38JYz2zvgMPfia1E8ePWc1ZJzekSg97kcqVHwNbLwR4K4VoBuYbAA9Lqh8DA01niuKH90dTA==
   dependencies:
     "@babel/core" "^7.16.0"
     "@babel/preset-env" "^7.13.9"
     "@babel/preset-react" "^7.16.0"
     "@babel/preset-typescript" "^7.13.0"
-    "@knapsack/babel-config" "^3.43.0"
-    "@knapsack/babel-config-starter" "^3.43.0"
-    "@knapsack/browserslist-config" "^3.43.0"
-    "@knapsack/core" "^3.43.0"
-    "@knapsack/design-token-utils" "^3.43.0"
-    "@knapsack/file-utils" "^3.43.0"
-    "@knapsack/https" "^3.43.0"
-    "@knapsack/renderer-client" "^3.43.0"
-    "@knapsack/schema-utils" "^3.43.0"
-    "@knapsack/types" "^3.43.0"
-    "@knapsack/utils" "^3.43.0"
+    "@knapsack/babel-config" "^3.43.1"
+    "@knapsack/babel-config-starter" "^3.43.1"
+    "@knapsack/browserslist-config" "^3.43.1"
+    "@knapsack/core" "^3.43.1"
+    "@knapsack/design-token-utils" "^3.43.1"
+    "@knapsack/file-utils" "^3.43.1"
+    "@knapsack/https" "^3.43.1"
+    "@knapsack/renderer-client" "^3.43.1"
+    "@knapsack/schema-utils" "^3.43.1"
+    "@knapsack/types" "^3.43.1"
+    "@knapsack/utils" "^3.43.1"
     body-parser "^1.19.0"
     chalk "^4.1.1"
     chokidar "^3.5.1"
@@ -2668,10 +2668,10 @@
     url-join "^4.0.1"
     ws "^7.4.4"
 
-"@knapsack/babel-config-starter@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/babel-config-starter/-/babel-config-starter-3.43.0.tgz#d4cf093e54e2c6bbb9b690d42316e904c1d60a67"
-  integrity sha512-/ulHSikuoV+FDpLDl9hdyblpMgVjhIjFXreJR9Pb4B/YMUduK4OoRN3ONQLFGufFLwY+Ebl1DRlZrcQPXEGiLg==
+"@knapsack/babel-config-starter@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/babel-config-starter/-/babel-config-starter-3.43.1.tgz#0ced08361b85d3e81ee347a131a8610c721c5631"
+  integrity sha512-LpdoKFRxEeEKgHZMOd60A7S8lFpqJ576miUshaBUp/H1KPHH8NIsYHkJuucDLeGDS5HFaaE7PyLQjVnPSqtAKw==
   dependencies:
     "@babel/cli" "^7.16.0"
     "@babel/core" "^7.16.0"
@@ -2686,15 +2686,15 @@
     "@babel/preset-react" "^7.16.0"
     "@babel/preset-typescript" "^7.13.0"
     "@babel/runtime" "^7.16.0"
-    "@knapsack/browserslist-config" "^3.43.0"
-    "@knapsack/creator-utils" "^3.43.0"
-    "@knapsack/file-utils" "^3.43.0"
+    "@knapsack/browserslist-config" "^3.43.1"
+    "@knapsack/creator-utils" "^3.43.1"
+    "@knapsack/file-utils" "^3.43.1"
     babel-plugin-transform-async-to-promises "^0.8.15"
 
-"@knapsack/babel-config@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/babel-config/-/babel-config-3.43.0.tgz#595f79c9f485383d3b68d3933a619afde59478ee"
-  integrity sha512-YhxImRUnsfJcR3FADkScggnrq2u7WW+LR3Mov7MjTZdlZVLn4GdVJMmT0z4ucAe2UqqhI7TjH8FmuU6MF3OwcA==
+"@knapsack/babel-config@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/babel-config/-/babel-config-3.43.1.tgz#ccf7a3f2cf78c57000d25e0fd34f2ce73a595abd"
+  integrity sha512-Sjtrgxc9aD+Ev5kFpNfu2f1SzkYLNG45J/LdkXhR0T/OGMT6MyoCIkqVpe1gLnYH8ckBhqmGd269eP22f3gqaw==
   dependencies:
     "@babel/cli" "^7.16.0"
     "@babel/core" "^7.16.0"
@@ -2709,37 +2709,37 @@
     "@babel/preset-react" "^7.16.0"
     "@babel/preset-typescript" "^7.13.0"
     "@babel/runtime" "^7.16.0"
-    "@knapsack/file-utils" "^3.43.0"
+    "@knapsack/file-utils" "^3.43.1"
     babel-plugin-transform-async-to-promises "^0.8.15"
 
-"@knapsack/browserslist-config@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/browserslist-config/-/browserslist-config-3.43.0.tgz#5397c5e3581ee22ab25368c14339f097612a9e68"
-  integrity sha512-dA3mjseeACLe0PrFKIoa5mEBzDUwJcne3+2sW8C0ESCavnlX/Lktwqz/ejBELgBYB2t6a3eleHWG2FM1Den5zw==
+"@knapsack/browserslist-config@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/browserslist-config/-/browserslist-config-3.43.1.tgz#c1211f15c952d41da22124c0e746b4fceca9232f"
+  integrity sha512-tOo8xNliQH9wi9O8D27NmuU7550dZZ2h/WljjRkQ5mQpH6Mdlh0ovb7XmSJ8IubQYLCQMWMV0o2695B539WXsw==
 
-"@knapsack/color-utils@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/color-utils/-/color-utils-3.43.0.tgz#1f6318656f715dbc02d9b3b91046dc74341383d6"
-  integrity sha512-L+rGh30Fn5hb9XKH0evj3h5b9QwVDTwopcdQdAfJ0wNOnB2xweN/t0Thcijwmjf2m075GgP7suOEXgCjSjAIsA==
+"@knapsack/color-utils@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/color-utils/-/color-utils-3.43.1.tgz#46e0c4c76f324c2afb4ab3ec215a6e2ccd5ad0c5"
+  integrity sha512-kOm3jA4xxndCKoOG17JhjM3KQQ0WLcXDqVC9HOYykd11DN/RgvqGpMXiuDKJ7LpUQH4ZSdQFRpGXzYTZvIkNzw==
   dependencies:
     "@types/lodash" "^4.14.176"
     color "^4.0.1"
     lodash "^4.17.21"
 
-"@knapsack/core@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/core/-/core-3.43.0.tgz#a4a765aff1ea6679dc3c6aeefd5a9d9e77a93082"
-  integrity sha512-cKlh97Mk8q+KbHFB/qFVcM9fxHhwQf/cj0y6Gq9npxoWD6OI1xuixoEN/qO8R7n8osoueJy/OmW1sRBc9r1I2Q==
+"@knapsack/core@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/core/-/core-3.43.1.tgz#dab6b7ad6ae907a8931065e06d298ac38b8fc8bb"
+  integrity sha512-LiQX21+0A1KFTBhXyIueViCPFYqgt1xdfLC98gDJleHXOVgK3IcvOgCQFgvxh4Nd5FtQy7rSbnnLr259F6xPKw==
   dependencies:
-    "@knapsack/design-token-utils" "^3.43.0"
-    "@knapsack/types" "^3.43.0"
+    "@knapsack/design-token-utils" "^3.43.1"
+    "@knapsack/types" "^3.43.1"
 
-"@knapsack/creator-utils@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/creator-utils/-/creator-utils-3.43.0.tgz#f018c6e9cd33aef09691d98c21d9ce5c0e6c6199"
-  integrity sha512-j2tkFasfkfhMBn8XFFxYiPpJZa3qK0hHDIklk5Locf7qnL76axcOQEUGziUqvJ5bI1lb4yH2YmEBIHE4jJBrKw==
+"@knapsack/creator-utils@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/creator-utils/-/creator-utils-3.43.1.tgz#68dbe180e6093e2cd96ca205b0221c6f870a2d1f"
+  integrity sha512-+Z3eJqQUyrdBWQ6RPCV33jlJ+YMnvUR62Mvm1vo9aSSSSWhkiM20Z+luLstPXbGs0BsLdR2a4jCi4vzXF2jisQ==
   dependencies:
-    "@knapsack/file-utils" "^3.43.0"
+    "@knapsack/file-utils" "^3.43.1"
     execa "^5.0.0"
     fs-extra "^10.0.0"
     globby "^11.0.3"
@@ -2751,24 +2751,24 @@
     ts-expect "^1.3.0"
     yargs "^16.2.0"
 
-"@knapsack/design-token-utils@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/design-token-utils/-/design-token-utils-3.43.0.tgz#6b727346cb3740311ee11484ce214d27730f821e"
-  integrity sha512-o1Z2Bn6RM1Hi7125bxR6jENTfYIUaJzCh5I+CtwcUgbRlexYuITqsjgDt10pKu/DgEW0+25hdsBOe1HTkIZi/g==
+"@knapsack/design-token-utils@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/design-token-utils/-/design-token-utils-3.43.1.tgz#d0c14e534a195258149b43f52ee16cf78730e141"
+  integrity sha512-jctFl6tEem8m7PRtXWCcROvY/UTpepubvgS/qZlJrCpY7/D2liSVNF6ud8MBVLTQlP5US7ArHIP67zKgnESixA==
   dependencies:
-    "@knapsack/color-utils" "^3.43.0"
-    "@knapsack/file-utils" "^3.43.0"
-    "@knapsack/types" "^3.43.0"
-    "@knapsack/utils" "^3.43.0"
+    "@knapsack/color-utils" "^3.43.1"
+    "@knapsack/file-utils" "^3.43.1"
+    "@knapsack/types" "^3.43.1"
+    "@knapsack/utils" "^3.43.1"
     flat "^5.0.2"
     lodash "^4.17.21"
     style-dictionary "^3.0.1"
     superstruct "^0.15.3"
 
-"@knapsack/file-utils@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/file-utils/-/file-utils-3.43.0.tgz#e4944829fc7018c478fa38451aa3632a87d92774"
-  integrity sha512-xZiTmBYFmLOL2iJqkJ5K6hNPacmLT60WX39KIZRVEgrd/8laMBE662n2Vd9sR14kXHklY0vcsEQBJdCcezwYhg==
+"@knapsack/file-utils@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/file-utils/-/file-utils-3.43.1.tgz#b3cecdd1cb9187518b100acb5063c1a3628c56e2"
+  integrity sha512-M/UBWPT3FnH4qPW3JVzDb/FzzcIvzfRuY5ivnhwMrSmsmQdkp6YmADvGzmdzdApAqiqmpnnPFQ1ftby8bJ0ajg==
   dependencies:
     "@types/fs-extra" "^9.0.13"
     find-up "^5.0.0"
@@ -2777,75 +2777,75 @@
     prettier "^2.4.1"
     resolve "^1.20.0"
 
-"@knapsack/https@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/https/-/https-3.43.0.tgz#a4bb1744eca7193c13094f3522d68c1f57beac19"
-  integrity sha512-+nz/gAkbJHuA3HtkyzZ/Eve+AbpwZB7RKBogneURMxkqrcvC2YD6YO9z/tfOL+3/JwgBtlNc+axQ8P5rvJVWqA==
+"@knapsack/https@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/https/-/https-3.43.1.tgz#e9b33e3c9b1df604b93514dd77852b5046a29e9a"
+  integrity sha512-GEsFgleLuZuF4/avrCImvOBdyQxFPZDxnsqSnpGetsJ6g7L4gLbkzTlIzB6kDmGAJjot/mFUIjgkD6AQ6R900g==
   dependencies:
-    "@knapsack/utils" "^3.43.0"
+    "@knapsack/utils" "^3.43.1"
     chalk "^4.1.1"
     fs-extra "^10.0.0"
     internal-ip "^6.2.0"
     sudo-prompt "^9.2.1"
     syswide-cas "^5.3.0"
 
-"@knapsack/plugin-changelog-md@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/plugin-changelog-md/-/plugin-changelog-md-3.43.0.tgz#de75f42fa2be665c7f1688ecd844bf845df62b18"
-  integrity sha512-HQyswlPJ40bMOZLY9I0jHc54JDadMIk2tz68rs9tIwp9wMuej5JbHYJiGN4d2TUw32LkXlu/UQWPrkCdzSgaGQ==
+"@knapsack/plugin-changelog-md@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/plugin-changelog-md/-/plugin-changelog-md-3.43.1.tgz#dcbc2e19eeea15602e8a46f03af2ce4b8ca17583"
+  integrity sha512-OKfo/X+ERX8CQnSDyk3XEeFjzI8ziRLg+HcfhSrpWn8o36IWtqTAxSPFWmo6E9JQwfmzhO1J+y208efEeLMHCQ==
   dependencies:
-    "@knapsack/app" "^3.43.0"
+    "@knapsack/app" "^3.43.1"
     fs-extra "^10.0.0"
     marked "^4.0.12"
 
-"@knapsack/renderer-angular@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-angular/-/renderer-angular-3.43.0.tgz#3001442763aa3b45e9b4e6abc3b97ea2cb96a2d1"
-  integrity sha512-Vd1j7rZRQl0AhtnjB/5wZc3cpp2/KmDtun/mvhjBUe4CDqfvTBtBLogv9r5I/KV0R8hZSyd0rdj/f0PnSx/meQ==
+"@knapsack/renderer-angular@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-angular/-/renderer-angular-3.43.1.tgz#4df551c51917344f3b213879d377a9d08cb538dc"
+  integrity sha512-LLHlDsCh7vGwJn9roD2+pfc8b2HOBsGFa5GSdPTiAlpJeyxyIhOqWOKdekkgNeZzc11hOqWOlIJXVQVGUrsY7Q==
   dependencies:
-    "@knapsack/app" "^3.43.0"
+    "@knapsack/app" "^3.43.1"
     cheerio "^1.0.0-rc.10"
     chokidar "^3.5.1"
     ejs "^3.1.6"
     fs-extra "^10.0.0"
 
-"@knapsack/renderer-client@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-client/-/renderer-client-3.43.0.tgz#0233ba84a4b0508928d90b068ab72fa489abb3dd"
-  integrity sha512-VIUNv85wXFc9pwHzGp8MkojicjPXW4QqagUMkau5iSeLR8xbwBOm+9R9mZQONbQtDJvbAUhRUWXXZY426OFF7g==
+"@knapsack/renderer-client@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-client/-/renderer-client-3.43.1.tgz#faafd6df0a202fcf97a4593a106a2be644f1127d"
+  integrity sha512-evbQSa7fDQ6qJ7HauSd4hdSVKUstQQPwVR+Lk9TQSMVtPSlq0Ov7aVxav2eXynnCwubIUHKIiRJMqhtJOn5iQQ==
 
-"@knapsack/renderer-hbs@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-hbs/-/renderer-hbs-3.43.0.tgz#2e0e49b241948f1b0af846eb71c5037821b0e0a9"
-  integrity sha512-sV12f3r7GzLF9M6ikGgdBOeCISecqsMuXEr2dasLZqXVohEhlnFjpAYx4hP4cOVI1OpS1L61Hnkg91iFSm2C7A==
+"@knapsack/renderer-hbs@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-hbs/-/renderer-hbs-3.43.1.tgz#ad6ebcf28f30f549ad2160b1cc80d811cd5295d0"
+  integrity sha512-b5LZM4FWjgIup4ftvuPkjhZCM092wXL0TNfIWQwtE8fIdQgQCXjzFEmNLgSWQ9SVJ7U33GnDZa684YJiJQi+MA==
   dependencies:
-    "@knapsack/app" "^3.43.0"
-    "@knapsack/file-utils" "^3.43.0"
-    "@knapsack/types" "^3.43.0"
-    "@knapsack/utils" "^3.43.0"
+    "@knapsack/app" "^3.43.1"
+    "@knapsack/file-utils" "^3.43.1"
+    "@knapsack/types" "^3.43.1"
+    "@knapsack/utils" "^3.43.1"
     handlebars "^4.7.7"
     lodash "^4.17.21"
 
-"@knapsack/renderer-html@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-html/-/renderer-html-3.43.0.tgz#49d86e0e6234934657ce44ead665b55e4a8bb244"
-  integrity sha512-NhzxJ4kvSLD+k5HT7j4AkV/VYTiaja0/7x6lNSUd+5G9cF/qofdwah3Qq/PjFglQTCAm1PGbc9E2B3BXR3+vKg==
+"@knapsack/renderer-html@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-html/-/renderer-html-3.43.1.tgz#d8c1eb462c80930216ad9c1374a0ae5bf1be039d"
+  integrity sha512-aLB5rTpEzrinjEPe9FpAWshYS/pfhaQBlOFJV7WRYDnXr+8DTvsTcn39oCQoGhgpinbCqGseAvgGLX9wz2Tcsw==
   dependencies:
-    "@knapsack/app" "^3.43.0"
+    "@knapsack/app" "^3.43.1"
     fs-extra "^10.0.0"
 
-"@knapsack/renderer-react@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-react/-/renderer-react-3.43.0.tgz#5f8153fda73d82477974a5696897a0e12641235c"
-  integrity sha512-E7bRHYMEj5n/4BcSRRzJ1BAFp3ZnzHtWWUzI86jx50C/fXuFy+Keu5b6jZ8+04vgf5xKqN1kYbNhv9wTwhxCMQ==
+"@knapsack/renderer-react@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-react/-/renderer-react-3.43.1.tgz#5a140c55ccf062f611e5a32a29e8e94f050ca418"
+  integrity sha512-KkRAUm94mYmgVfiHd6yWeVO6U8tlpt3sH0h+zkHbvFPJ60cSkVh8JpBNIEjVapE8vLkINgTQE8vb2hPj7OddfQ==
   dependencies:
     "@babel/preset-react" "^7.16.0"
-    "@knapsack/app" "^3.43.0"
-    "@knapsack/core" "^3.43.0"
-    "@knapsack/file-utils" "^3.43.0"
-    "@knapsack/renderer-webpack-base" "^3.43.0"
-    "@knapsack/types" "^3.43.0"
-    "@knapsack/utils" "^3.43.0"
+    "@knapsack/app" "^3.43.1"
+    "@knapsack/core" "^3.43.1"
+    "@knapsack/file-utils" "^3.43.1"
+    "@knapsack/renderer-webpack-base" "^3.43.1"
+    "@knapsack/types" "^3.43.1"
+    "@knapsack/utils" "^3.43.1"
     ejs "^3.1.6"
     react "^17.0.2"
     react-docgen "^4.1.1"
@@ -2854,26 +2854,26 @@
     sleep-promise "^8.0.1"
     typescript "^4.5.2"
 
-"@knapsack/renderer-twig@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-twig/-/renderer-twig-3.43.0.tgz#39c97a08939f81df77132b9d6c16d1bef9077050"
-  integrity sha512-aEWQKyYLATaq2givURomgTDWBzxOv78z9YFX+d8Fi35Ra2Zt8ELbc/BQNrV6N8hlCwYgTjo242LeCa4zna4MOw==
+"@knapsack/renderer-twig@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-twig/-/renderer-twig-3.43.1.tgz#41b89f918d2fd8b0712c823689536fdf245d1fbc"
+  integrity sha512-yavATYYjNWHaXiz+xNEJrQk3xl1qYG5VT3DH3+AirsMcJBH2r3wW516yJPy3K690M9dBYSyEjzTn2IDCbbbd9A==
   dependencies:
     "@basalt/twig-renderer" "^2.1.0 || ^1.0.0"
-    "@knapsack/app" "^3.43.0"
+    "@knapsack/app" "^3.43.1"
     ejs "^3.1.6"
     fs-extra "^10.0.0"
 
-"@knapsack/renderer-vue@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-vue/-/renderer-vue-3.43.0.tgz#ddf765e0b42e779c0de7fa5f320d4d83d9bab96e"
-  integrity sha512-u9xF2d8Jsd5v2P+PBRJTpBrM0QFaEQaMVm1qsmzs0A3ykKrbALFmzqpJ/cond4hrV8hl0/3/aMYSoMAaz09XeA==
+"@knapsack/renderer-vue@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-vue/-/renderer-vue-3.43.1.tgz#7765cfc10e65f825ba723de5ea63a540f6fe1283"
+  integrity sha512-idZqOQHwDkGEDffjVHhdUXvs0yDOTnt2NcnLbnBrQMQqOnfqjlaYAFtHBelzBRszEt7NsEtUElMeqVou9YmGow==
   dependencies:
-    "@knapsack/app" "^3.43.0"
-    "@knapsack/file-utils" "^3.43.0"
-    "@knapsack/renderer-webpack-base" "^3.43.0"
-    "@knapsack/types" "^3.43.0"
-    "@knapsack/utils" "^3.43.0"
+    "@knapsack/app" "^3.43.1"
+    "@knapsack/file-utils" "^3.43.1"
+    "@knapsack/renderer-webpack-base" "^3.43.1"
+    "@knapsack/types" "^3.43.1"
+    "@knapsack/utils" "^3.43.1"
     ejs "^3.1.6"
     fs-extra "^10.0.0"
     lodash "^4.17.21"
@@ -2882,51 +2882,51 @@
     vue-loader "^15.9.8"
     vue-template-compiler "^2.6.14"
 
-"@knapsack/renderer-web-components@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-web-components/-/renderer-web-components-3.43.0.tgz#91e40bfc931b15db5a9721d9ceaa9953b866cf52"
-  integrity sha512-3pSoq242G4eDXS3SOyKR2PQWrvMDriMo2reG5mTLi4h7+juVPzSiD2rIJxkXibQwHLDTcSWtabGDfcBYHHdGKw==
+"@knapsack/renderer-web-components@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-web-components/-/renderer-web-components-3.43.1.tgz#7cdc2b34d96d59f7703e87b0518ce7fde8d58528"
+  integrity sha512-y58RrDKPTUyUZaw85azTOivw39ihNCPlTjZB7Rf4SGIoNc2OLknGQMvwfxEfFogRDV4OUIUqtI3ZQ5piMlUY8w==
   dependencies:
-    "@knapsack/app" "^3.43.0"
-    "@knapsack/core" "^3.43.0"
+    "@knapsack/app" "^3.43.1"
+    "@knapsack/core" "^3.43.1"
     ejs "^3.1.6"
     fs-extra "^10.0.0"
 
-"@knapsack/renderer-webpack-base@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-webpack-base/-/renderer-webpack-base-3.43.0.tgz#10e05be5281c04f580274931e8fe2a23e902b3e0"
-  integrity sha512-8fCRU61xMHW4ans9ejIw9CTiGeTVhh8oEFEb+v0jpX3BvbxssBl70hkf4Pn1y03eq6r9hg+DrH/HCt7HO0VINw==
+"@knapsack/renderer-webpack-base@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-webpack-base/-/renderer-webpack-base-3.43.1.tgz#9a723f220f6210d409bb36390ac45891aa57aea4"
+  integrity sha512-DXDkQaaODltVGxSITJYm5ofUxbo/upDp8/2/Yiu7vkcidvGhAYuSMXr+WbqYZWy9H9xDicmAbo0NMZe57v4jtQ==
   dependencies:
-    "@knapsack/app" "^3.43.0"
-    "@knapsack/babel-config-starter" "^3.43.0"
-    "@knapsack/file-utils" "^3.43.0"
-    "@knapsack/types" "^3.43.0"
-    "@knapsack/utils" "^3.43.0"
+    "@knapsack/app" "^3.43.1"
+    "@knapsack/babel-config-starter" "^3.43.1"
+    "@knapsack/file-utils" "^3.43.1"
+    "@knapsack/types" "^3.43.1"
+    "@knapsack/utils" "^3.43.1"
     babel-loader "^8.2.3"
     webpack-manifest-plugin "^4.0.2"
 
-"@knapsack/schema-utils@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/schema-utils/-/schema-utils-3.43.0.tgz#243e49f036de54b9dbfb56c54bb5c0bfc14716f0"
-  integrity sha512-OB6/SUBOMJOKHOwm23BVSIxeRPLv4XQnbe428Gx9BQ5uIK+HD4pfwJ43cS/mi3gKd7ib8CDI/urSa5OMknYVmw==
+"@knapsack/schema-utils@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/schema-utils/-/schema-utils-3.43.1.tgz#988f669da6e3151ceebd18ce9d9fb538d19f6a46"
+  integrity sha512-A69MDI9ng1vwIkI5ABPp4OGiod+hUma02geO/LXD6/bUYppgSp0sIk6HGV4awPdpElI9FZ+T7VodGvd8FVj/AA==
   dependencies:
     ajv "^6.6.1"
     ajv-keywords "^3.4.1"
     tslib "^2.2.0"
 
-"@knapsack/types@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/types/-/types-3.43.0.tgz#199e94b2c3377db15f171f4f1eb5f1e86a7352e0"
-  integrity sha512-TK5SFGw8+jA2FgLeR+rOE4MdebFBdERR68lw685EF834N4DE7P4PPRv/CRQilhfvNm1el5/MhrrJ4PrxqbAKaQ==
+"@knapsack/types@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/types/-/types-3.43.1.tgz#84b0da65cc696bbc79be93af42e142e38ab94dcf"
+  integrity sha512-FbUYvAiTLQ88BuIwS0i3cSRhmWrtO8IOp/Slg9TvMTrLOD3icl2D6E9Kj8gvarDOJK0isjdJ9i5FuiAZ9lUVpQ==
   dependencies:
     color-string "^1.6.0"
     immer "^9.0.6"
     superstruct "^0.15.3"
 
-"@knapsack/utils@^3.43.0":
-  version "3.43.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/utils/-/utils-3.43.0.tgz#70ec73797a6d34b4d438c1494a7c1127678350e0"
-  integrity sha512-YXmWpk5bOvJ3a4oPUxULeREked7gSMsvP4Qyq1smWyKk0fQQjwFDNyhUDqDwGMPIv2crIJrGiuYai2ADqVS7Gg==
+"@knapsack/utils@^3.43.1":
+  version "3.43.1"
+  resolved "https://registry.yarnpkg.com/@knapsack/utils/-/utils-3.43.1.tgz#9b555f4359082d010d386cd968a2c0ec5aed24bc"
+  integrity sha512-Teb0PwaSHUiMP85a1jCPjtfiIX7SFrM0vJ9Thf08RfynyWJR/UMLNi/Zb0MmjGq1O0r4TMG0IQAhLci7svRWcg==
   dependencies:
     "@types/lodash" "^4.14.176"
     "@types/react" "^17.0.36"
