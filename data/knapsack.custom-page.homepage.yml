@@ -1,0 +1,20 @@
+id: homepage
+title: Knapsack Platform Demo
+slices: []
+settings:
+  pageHeader:
+    size: full
+    textColorTitle:
+      type: value
+      colorValue: '#FFFFFF'
+    backgroundColor:
+      type: value
+      colorValue: '#6A4CEC'
+    backgroundImage: >-
+      https://knapsack.imgix.net/site/demo-design-system/demo-background-image-opsowdan4u.png
+    textColorDescription:
+      type: value
+      colorValue: '#FFFFFF'
+description: |-
+  Showcasing capabilities for creating rich, dynamic, 
+  and collaborative design system documentation.

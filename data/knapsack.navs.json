@@ -2,58 +2,16 @@
   "primary": [],
   "secondary": [
     {
-      "id": "Introduction",
-      "name": "Introduction",
-      "path": "/pages/Introduction",
+      "id": "Welcome",
+      "name": "Welcome",
+      "path": "/pages/Welcome",
       "parentId": "root"
     },
     {
-      "id": "Getting-Started",
-      "name": "Getting Started",
-      "path": "",
+      "id": "Documentation",
+      "name": "Documentation",
+      "path": "/pages/Documentation",
       "parentId": "root"
-    },
-    {
-      "id": "Starting-and-Scaling",
-      "name": "Starting & Scaling",
-      "path": "/pages/Starting-and-Scaling",
-      "parentId": "Getting-Started"
-    },
-    {
-      "id": "Contribution-Guidelines",
-      "name": "Contribution Guidelines",
-      "path": "/pages/Contribution-Guidelines",
-      "parentId": "Getting-Started"
-    },
-    {
-      "id": "For-Designers",
-      "name": "For Designers",
-      "path": "",
-      "parentId": "Getting-Started"
-    },
-    {
-      "id": "Figmma-UI-Kit",
-      "name": "Figmma UI Kit",
-      "path": "/pages/Figmma-UI-Kit",
-      "parentId": "For-Designers"
-    },
-    {
-      "id": "For-Developers",
-      "name": "For Developers",
-      "path": "",
-      "parentId": "Getting-Started"
-    },
-    {
-      "id": "Local-Set-Up",
-      "name": "Local Set Up",
-      "path": "/pages/Local-Set-Up",
-      "parentId": "For-Developers"
-    },
-    {
-      "id": "HTML-Starter-Kit",
-      "name": "HTML Starter Kit",
-      "path": "/pages/HTML-Starter-Kit",
-      "parentId": "For-Developers"
     },
     {
       "id": "design-tokens",
@@ -135,45 +93,51 @@
     },
     {
       "id": "Prototyping",
-      "name": "Prototyping",
+      "name": "PROTOTYPING",
       "path": "",
       "parentId": "root"
+    },
+    {
+      "id": "Page-Level-Prototyping",
+      "name": "Page-Level Prototyping",
+      "path": "/pages/Page-Level-Prototyping",
+      "parentId": "Prototyping"
+    },
+    {
+      "id": "Page-Builders",
+      "name": "Page Builders",
+      "path": "",
+      "parentId": "Prototyping"
+    },
+    {
+      "id": "Home-Page-Builder",
+      "name": "Home Page Builder",
+      "path": "/pages/Home-Page-Builder",
+      "parentId": "Page-Builders"
+    },
+    {
+      "id": "Admin",
+      "name": "Admin",
+      "path": "/pages/Admin",
+      "parentId": "root"
+    },
+    {
+      "id": "Private-Pages",
+      "name": "Private Pages",
+      "path": "/pages/Private-Pages",
+      "parentId": "Admin"
+    },
+    {
+      "id": "Workspace-UI",
+      "name": "Workspace Elements",
+      "path": "",
+      "parentId": "Admin"
     },
     {
       "id": "one-pager",
       "name": "One-Pager",
       "path": "/pattern/one-pager",
-      "parentId": "Prototyping"
-    },
-    {
-      "id": "docs",
-      "name": "Docs & Guidelines",
-      "path": "",
-      "parentId": "root"
-    },
-    {
-      "id": "Accessibility",
-      "name": "Accessibility",
-      "path": "/pages/Accessibility",
-      "parentId": "docs"
-    },
-    {
-      "id": "Research",
-      "name": "Research",
-      "path": "/pages/Research",
-      "parentId": "docs"
-    },
-    {
-      "id": "Roadmap",
-      "name": "Roadmap",
-      "path": "/pages/Roadmap",
-      "parentId": "docs"
-    },
-    {
-      "id": "How-Teams-Use-Knapsack",
-      "name": "How Teams Use Knapsack",
-      "path": "/pages/How-Teams-Use-Knapsack",
-      "parentId": "Getting-Started"
+      "parentId": "Workspace-UI"
     }
   ]
 }

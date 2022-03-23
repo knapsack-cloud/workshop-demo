@@ -1,0 +1,24 @@
+id: Page-Level-Prototyping
+title: Page-Level Prototyping
+slices: []
+settings:
+  pageHeader:
+    size: full
+    textColorTitle:
+      type: value
+      colorValue: '#FFFFFF'
+    backgroundColor:
+      type: value
+      colorValue: '#6A4CEC'
+    textColorDescription:
+      type: value
+      colorValue: '#FFFFFF'
+description: >-
+  Work with the system elements to create new experiences. Collaborate to build,
+  share, and test your ideas with real code - the medium in which consumers will
+  experience it - regardless of your technical abilities. Build products the
+  modern way!
+
+
+  < Use the sub-menu on the left to select the page type you'd like to
+  prototype.
