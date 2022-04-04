@@ -1,3 +1,17 @@
+# v0.1.13 (Mon Apr 04 2022)
+
+#### 🐛 Bug Fix
+
+- feat: demo overhaul [#188](https://github.com/knapsack-cloud/demo-design-system/pull/188) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]) andrewrohman@Andrews-MacBook-Pro.local [@brittanysmart](https://github.com/brittanysmart))
+
+#### Authors: 3
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Andrew Rohman (andrewrohman@Andrews-MacBook-Pro.local)
+- Brittany Smart ([@brittanysmart](https://github.com/brittanysmart))
+
+---
+
 # v0.1.12 (Thu Mar 17 2022)
 
 #### 🐛 Bug Fix
