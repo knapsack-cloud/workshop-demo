@@ -1,3 +1,10 @@
 id: Admin
 title: "Admin \U0001F512"
 slices: []
+settings:
+  pageHeader:
+    size: full
+description: |-
+  Need an admin-only section of your workspace? No problem! 
+  Knapsack now supports hidden pages available only to system maintainers. 
+  Finally a workshop connected directly to your storefront!

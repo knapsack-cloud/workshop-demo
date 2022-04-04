@@ -1,0 +1,176 @@
+id: Design-Tokens
+title: Design Tokens
+slices:
+  - id: y9KZVrKgpx
+    blockId: markdown-slice
+    data:
+      md:
+        - >+
+          ## Overview
+
+          Using the **Design Tokens** content block, users can create dynamic
+          documentation of design tokens. Since Knapsack is wired up to the
+          source code of your design system, documentation will automatically
+          update when changes occur.
+
+
+          Choose from a variety of formats and presentations depending on the
+          type of token you're documenting. 
+
+
+          #### Explore the different options for design token presentation
+          below:
+
+          * [Color Swatches](#color-swatches)
+
+          * [Breakpoints](#breakpoints)
+
+          * [Spacing](#spacing)
+
+          * [Shadow](#shadow)
+
+          * [Raw Values](#raw-values)
+              - [Table List](#table-list)
+              - [Simple List](#simple-list)
+              - [JSON](#json)
+
+          Use the below sections to browse examples of design token
+          documentation.
+
+
+
+      columns: 1
+  - id: ks-content-block-3JP6lsPzm5
+    blockId: divider-block
+  - id: ks-content-block-BUFKAm-2a4
+    blockId: markdown-slice
+    data:
+      md:
+        - '## Color Swatches'
+      columns: 1
+  - id: ks-content-block-2c9-R7CZYc
+    blockId: design-token-slice
+    data:
+      tokens:
+        tags:
+          - brand
+        type: color
+        category: color
+        name: ''
+      demo:
+        id: color-swatch
+  - id: ks-content-block-yw09CUQi5_
+    blockId: divider-block
+  - id: 0jgDoN-06W
+    blockId: markdown-slice
+    data:
+      md:
+        - '## Breakpoints'
+      columns: 1
+  - id: ks-content-block-stXiHo-n46
+    blockId: design-token-slice
+    data:
+      tokens:
+        tags: []
+        type: dimension
+        category: breakpoint
+        name: ''
+      demo:
+        id: media-query
+  - id: ks-content-block-h5pUADysUw
+    blockId: divider-block
+  - id: ncyDgsT_tf
+    blockId: markdown-slice
+    data:
+      md:
+        - '## Spacing'
+      columns: 1
+  - id: ks-content-block-XvSFjTcPwH
+    blockId: design-token-slice
+    data:
+      tokens:
+        tags: []
+        type: dimension
+        category: spacing
+        name: ''
+      demo:
+        id: spacing
+  - id: ks-content-block-H4_9NLT2TE
+    blockId: divider-block
+  - id: 2RIhkctxWB
+    blockId: markdown-slice
+    data:
+      md:
+        - '## Shadow'
+      columns: 1
+  - id: ks-content-block-8DUW-7h2bt
+    blockId: design-token-slice
+    data:
+      tokens:
+        tags:
+          - box
+        category: shadow
+        name: ''
+      demo:
+        id: box-shadow
+  - id: ks-content-block-A2my1t53RY
+    blockId: divider-block
+  - id: ks-content-block-euHhLM0j1S
+    blockId: divider-block
+  - id: xoEhx_j556
+    blockId: markdown-slice
+    data:
+      md:
+        - '## Raw Values'
+      columns: 1
+  - id: ks-content-block-uhsXkgwka1
+    blockId: markdown-slice
+    data:
+      md:
+        - '### Table List'
+      columns: 1
+  - id: j-gXbQAemM
+    blockId: design-token-slice
+    data:
+      tokens:
+        tags:
+          - brand
+        type: color
+        category: color
+        name: ''
+      demo:
+        id: table-list
+  - id: ks-content-block-s0JaYiHQlW
+    blockId: markdown-slice
+    data:
+      md:
+        - '### Simple List'
+      columns: 1
+  - id: TPySDEPq5j
+    blockId: design-token-slice
+    data:
+      tokens:
+        tags:
+          - brand
+        type: color
+        category: color
+        name: ''
+      demo:
+        id: simple-list
+  - id: ks-content-block-seSlvP0DUz
+    blockId: markdown-slice
+    data:
+      md:
+        - '### JSON'
+      columns: 1
+  - id: ks-content-block-fl9nND0Tg3
+    blockId: design-token-slice
+    data:
+      tokens:
+        tags: []
+        type: color
+        category: ''
+        name: blue
+      demo:
+        id: raw-values
+description: Documentation capabilities & examples

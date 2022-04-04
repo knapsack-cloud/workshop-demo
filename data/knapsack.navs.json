@@ -14,86 +14,176 @@
       "parentId": "root"
     },
     {
-      "id": "design-tokens",
+      "id": "Static-Content",
+      "name": "Static Content",
+      "path": "/pages/Static-Content",
+      "parentId": "Documentation"
+    },
+    {
+      "id": "Design-System",
+      "name": "Design System",
+      "path": "/pages/Design-System",
+      "parentId": "Documentation"
+    },
+    {
+      "id": "Design-Tokens",
       "name": "Design Tokens",
-      "path": "",
+      "path": "/pages/Design-Tokens",
+      "parentId": "Design-System"
+    },
+    {
+      "id": "Components",
+      "name": "Components",
+      "path": "/pages/Components",
+      "parentId": "Design-System"
+    },
+    {
+      "id": "Embeds",
+      "name": "Embeds",
+      "path": "/pages/Embeds",
+      "parentId": "Documentation"
+    },
+    {
+      "id": "Design-Files",
+      "name": "Design Files",
+      "path": "/pages/Design-Files",
+      "parentId": "Embeds"
+    },
+    {
+      "id": "Videos",
+      "name": "Videos",
+      "path": "/pages/Videos",
+      "parentId": "Embeds"
+    },
+    {
+      "id": "Workflow",
+      "name": "Workflow",
+      "path": "/pages/Workflow",
+      "parentId": "Embeds"
+    },
+    {
+      "id": "iFrame",
+      "name": "iFrame",
+      "path": "/pages/iFrame",
+      "parentId": "Embeds"
+    },
+    {
+      "id": "Design-Tokens-lNWaUqkDSo",
+      "name": "Design Tokens",
+      "path": "/pages/Design-Tokens-lNWaUqkDSo",
       "parentId": "root"
-    },
-    {
-      "id": "all-tokens",
-      "name": "All Tokens",
-      "path": "/pages/all-tokens",
-      "parentId": "design-tokens"
-    },
-    {
-      "id": "Breakpoints",
-      "name": "Breakpoints",
-      "path": "/pages/Breakpoints",
-      "parentId": "design-tokens"
     },
     {
       "id": "/pages/colors",
       "name": "Colors",
       "path": "/pages/colors",
-      "parentId": "design-tokens"
+      "parentId": "Design-Tokens-lNWaUqkDSo"
+    },
+    {
+      "id": "Breakpoints",
+      "name": "Breakpoints",
+      "path": "/pages/Breakpoints",
+      "parentId": "Design-Tokens-lNWaUqkDSo"
     },
     {
       "id": "/pages/spacing",
       "name": "Spacing",
       "path": "/pages/spacing",
-      "parentId": "design-tokens"
+      "parentId": "Design-Tokens-lNWaUqkDSo"
     },
     {
-      "id": "components-asdf",
+      "id": "Shadow",
+      "name": "Shadow",
+      "path": "/pages/Shadow",
+      "parentId": "Design-Tokens-lNWaUqkDSo"
+    },
+    {
+      "id": "Animation",
+      "name": "Animation",
+      "path": "/pages/Animation",
+      "parentId": "Design-Tokens-lNWaUqkDSo"
+    },
+    {
+      "id": "Components-aPh3G1bbrX",
       "name": "Components",
       "path": "",
       "parentId": "root"
     },
     {
-      "id": "Sample-Patterns",
-      "name": "Sample Patterns",
-      "path": "/pages/Sample-Patterns",
-      "parentId": "components-asdf"
+      "id": "Components-Overview",
+      "name": "Components Overview",
+      "path": "/pages/Components-Overview",
+      "parentId": "Components-aPh3G1bbrX"
+    },
+    {
+      "id": "Simple",
+      "name": "Simple",
+      "path": "",
+      "parentId": "Components-aPh3G1bbrX"
     },
     {
       "id": "author",
       "name": "Author",
       "path": "/pattern/author",
-      "parentId": "components-asdf"
+      "parentId": "Simple"
     },
     {
       "id": "/pattern/button",
       "name": "Button",
       "path": "/pattern/button",
-      "parentId": "components-asdf"
+      "parentId": "Simple"
+    },
+    {
+      "id": "input-field",
+      "name": "Input Field",
+      "path": "/pattern/input-field",
+      "parentId": "Simple"
+    },
+    {
+      "id": "Complex",
+      "name": "Complex",
+      "path": "",
+      "parentId": "Components-aPh3G1bbrX"
     },
     {
       "id": "card",
       "name": "Card",
       "path": "/pattern/card",
-      "parentId": "components-asdf"
+      "parentId": "Complex"
     },
     {
-      "id": "hero",
-      "name": "Hero",
-      "path": "/pattern/hero",
-      "parentId": "components-asdf"
-    },
-    {
-      "id": "layout",
-      "name": "Layout",
-      "path": "/pattern/layout",
-      "parentId": "components-asdf"
+      "id": "message",
+      "name": "Message",
+      "path": "/pattern/message",
+      "parentId": "Complex"
     },
     {
       "id": "top-nav",
       "name": "Top Nav",
       "path": "/pattern/top-nav",
-      "parentId": "components-asdf"
+      "parentId": "Complex"
+    },
+    {
+      "id": "Layout",
+      "name": "Layout",
+      "path": "",
+      "parentId": "Components-aPh3G1bbrX"
+    },
+    {
+      "id": "hero",
+      "name": "Hero",
+      "path": "/pattern/hero",
+      "parentId": "Layout"
+    },
+    {
+      "id": "layout",
+      "name": "Layout",
+      "path": "/pattern/layout",
+      "parentId": "Layout"
     },
     {
       "id": "Prototyping",
-      "name": "PROTOTYPING",
+      "name": "Prototyping",
       "path": "",
       "parentId": "root"
     },
@@ -119,25 +209,29 @@
       "id": "Admin",
       "name": "Admin",
       "path": "/pages/Admin",
-      "parentId": "root"
+      "parentId": "root",
+      "hidden": true
     },
     {
       "id": "Private-Pages",
       "name": "Private Pages",
       "path": "/pages/Private-Pages",
-      "parentId": "Admin"
+      "parentId": "Admin",
+      "hidden": true
     },
     {
       "id": "Workspace-UI",
       "name": "Workspace Elements",
       "path": "",
-      "parentId": "Admin"
+      "parentId": "Admin",
+      "hidden": true
     },
     {
       "id": "one-pager",
       "name": "One-Pager",
       "path": "/pattern/one-pager",
-      "parentId": "Workspace-UI"
+      "parentId": "Workspace-UI",
+      "hidden": true
     }
   ]
 }

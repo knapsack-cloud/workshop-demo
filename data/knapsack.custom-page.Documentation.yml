@@ -1,3 +1,18 @@
 id: Documentation
 title: Documentation
 slices: []
+settings:
+  pageHeader:
+    backgroundColor:
+      type: value
+      colorValue: '#6B00FF'
+    textColorTitle:
+      type: value
+      colorValue: '#FFFFFF'
+    textColorDescription:
+      type: value
+      colorValue: '#FFFFFF'
+    size: full
+description: >-
+  Browse this section to explore capabilities related to documenting your
+  system.

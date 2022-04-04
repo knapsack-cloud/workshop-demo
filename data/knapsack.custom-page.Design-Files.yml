@@ -1,0 +1,53 @@
+id: Design-Files
+title: Design Files
+slices:
+  - id: ks-content-block-Y6lDP3j81a
+    blockId: markdown-slice
+    data:
+      md:
+        - '## Figma'
+      columns: 1
+  - id: ks-content-block-h6SryxnGE0
+    blockId: figma-slice
+    data:
+      clickToInteract: false
+      height: '600'
+      url: >-
+        https://www.figma.com/file/zUm5kTRtnkFUh5JUsBwwWl/Demo-Design-System-Library?node-id=1%3A2
+  - id: ks-content-block-7Fiox5kSLv
+    blockId: divider-block
+  - id: C5v7mFZJ2P
+    blockId: markdown-slice
+    data:
+      md:
+        - |-
+          ## Adobe Xd
+          Live example coming soon!
+      columns: 1
+  - id: ks-content-block-NVNeMSScDA
+    blockId: adobe-xd-slice
+  - id: ks-content-block-fn2j9SSmLn
+    blockId: divider-block
+  - id: apr0NSu-WO
+    blockId: markdown-slice
+    data:
+      md:
+        - |-
+          ## Framer
+          Live example coming soon!
+      columns: 1
+  - id: ks-content-block-IEL8mbSfuR
+    blockId: framer-cloud-slice
+  - id: ks-content-block-dTWFy75Zy2
+    blockId: divider-block
+  - id: ks-content-block-5J6KM5aAT0
+    blockId: markdown-slice
+    data:
+      md:
+        - |-
+          ## Sketch (via Abstract)
+          Live example coming soon!
+      columns: 1
+  - id: ks-content-block-sXAnvBtOBd
+    blockId: abstract-slice
+description: Documentation capabilities & examples

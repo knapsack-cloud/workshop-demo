@@ -1,0 +1,34 @@
+id: Components-Overview
+title: Components Overview
+slices:
+  - id: P5-E10kTzt
+    blockId: markdown-slice
+    data:
+      md:
+        - '## Component Status Table'
+      columns: 1
+  - id: ks-content-block-QEiRSIohHG
+    blockId: pattern-status-table-block
+  - id: ks-content-block-UfLSMdry6s
+    blockId: divider-block
+  - id: ks-content-block-ucgiaGJhZq
+    blockId: markdown-slice
+    data:
+      md:
+        - '## All Available Components'
+      columns: 1
+  - id: ks-content-block-grt_QYD2BP
+    blockId: pattern-list-block
+description: Browse all available components and understand current status
+settings:
+  pageHeader:
+    size: small
+    backgroundColor:
+      type: value
+      colorValue: '#6A4CEC'
+    textColorTitle:
+      type: value
+      colorValue: '#FFFFFF'
+    textColorDescription:
+      type: value
+      colorValue: '#FFFFFF'

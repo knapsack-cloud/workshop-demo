@@ -1,35 +1,22 @@
 id: colors
 title: Colors
 slices:
-  - id: ks-content-block-x6bmJ9nKXQ
+  - id: ks-content-block-HB5ZvTybxQ
+    blockId: design-token-slice
     data:
-      md: >-
-        ## Introduction
-
-        Application of the color palette brings a unified and recognizable
-        consistency to a vast array of digital products and interfaces. This
-        consistency is grounded by a set of well-defined rules on how to work
-        with the Demo Design System pattern library in the context of dark and
-        light themes.
-    blockId: markdown-slice
-  - id: ks-content-block-jNA9iJ-rvK
-    data:
-      md: >-
-        ## Color anatomy
-
-        Demo Design System's default themes are derived from our Design Language
-        color palette. The Neutral Gray family is dominant in the default
-        themes, making use of subtle shifts in value to help organize content
-        into distinct zones.
-
-
-        The core Blue family serves as the primary action color across all
-        products and experiences. Additional colors are used sparingly and
-        purposefully.
-    blockId: markdown-slice
+      tokens:
+        tags:
+          - brand
+        type: color
+        category: color
+        name: ''
+      demo:
+        id: color-swatch
   - id: ks-content-block-mJBLXcHRn1
     data:
-      md: '### Base Colors'
+      md:
+        - '### Base Colors'
+      columns: 1
     blockId: markdown-slice
   - id: ks-content-block-QRCAqlfoR3
     data:
@@ -44,7 +31,9 @@ slices:
     blockId: design-token-slice
   - id: ks-content-block-X7bVx3Racq
     data:
-      md: '### Base Colors (Light)'
+      md:
+        - '### Base Colors (Light)'
+      columns: 1
     blockId: markdown-slice
   - id: cqylMLPC_B
     data:
@@ -59,7 +48,9 @@ slices:
     blockId: design-token-slice
   - id: ks-content-block-fDjASjl1-L
     data:
-      md: '### Base Colors (Dark)'
+      md:
+        - '### Base Colors (Dark)'
+      columns: 1
     blockId: markdown-slice
   - id: kAjAH7KuZL
     data:
@@ -74,7 +65,9 @@ slices:
     blockId: design-token-slice
   - id: ks-content-block-kkJ0404VUU
     data:
-      md: '### Layout'
+      md:
+        - '### Layout'
+      columns: 1
     blockId: markdown-slice
   - id: WwKUnzz9cl
     data:
@@ -89,7 +82,9 @@ slices:
     blockId: design-token-slice
   - id: L2Cq7RUbE_
     data:
-      md: '### Text'
+      md:
+        - '### Text'
+      columns: 1
     blockId: markdown-slice
   - id: pkGjOWqndS
     data:
@@ -104,26 +99,28 @@ slices:
     blockId: design-token-slice
   - id: ks-content-block-jtTiiq-htL
     data:
-      md: >-
-        ## Tokens
+      md:
+        - >-
+          ## Tokens
 
-        Color is managed using color tokens. Tokens are a method of abstracting
-        color by role or usage, independent of the actual color values. For
-        example, instead of needing to code all instances of input labels in a
-        UI to be <code>#565656</code>, the form component in Carbon specifies
-        the token <code>$text-02</code> for these labels, and that token is
-        specified in a separate theme file to be <code>#565656</code>. For a
-        different theme, that same text-02 token could be mapped to a different
-        hex value, like <code>#ffffff</code>. Thus, tokens not only allow for
-        more efficient color updates within a theme, but also enable any UI (or
-        portion of a UI) built with DDS to easily switch between different
-        themes.
+          Color is managed using color tokens. Tokens are a method of
+          abstracting color by role or usage, independent of the actual color
+          values. For example, instead of needing to code all instances of input
+          labels in a UI to be <code>#565656</code>, the form component in
+          Carbon specifies the token <code>$text-02</code> for these labels, and
+          that token is specified in a separate theme file to be
+          <code>#565656</code>. For a different theme, that same text-02 token
+          could be mapped to a different hex value, like <code>#ffffff</code>.
+          Thus, tokens not only allow for more efficient color updates within a
+          theme, but also enable any UI (or portion of a UI) built with DDS to
+          easily switch between different themes.
 
 
-        A single token can be associated with multiple roles, but only if the
-        color value is used consistently across those roles. This allows for
-        uniform color application across themes while maintaining full styling
-        flexibility.
+          A single token can be associated with multiple roles, but only if the
+          color value is used consistently across those roles. This allows for
+          uniform color application across themes while maintaining full styling
+          flexibility.
+      columns: 1
     blockId: markdown-slice
   - id: ks-content-block-bupOkWEvdx
     data:
@@ -135,7 +132,9 @@ slices:
     blockId: design-token-slice
   - id: ks-content-block-MAex-HwvlY
     data:
-      md: End of page
+      md:
+        - End of page
+      columns: 1
     blockId: markdown-slice
 description: >-
   Maintaining consistent and engaging digital interfaces demands extended

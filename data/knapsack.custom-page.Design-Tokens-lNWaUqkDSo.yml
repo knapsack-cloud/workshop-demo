@@ -1,0 +1,48 @@
+id: Design-Tokens-lNWaUqkDSo
+title: Design Tokens
+slices:
+  - id: ks-content-block-V0Jm0DWi9c
+    blockId: markdown-slice
+    data:
+      md:
+        - >-
+          ## All Available Tokens
+
+          View and copy all available tokens via the table below. Or, visit the
+          subpages for each specific type of token:
+
+          * [Colors](./colors)
+
+          * [Breakpoints](./breakpoints)
+
+          * [Spacing](./spacing)
+
+          * [Shadow](./shadow)
+
+          * [Animation](./animation)
+      columns: 1
+  - id: ks-content-block-cs6m2yWFSP
+    blockId: design-token-slice
+    data:
+      tokens:
+        tags: []
+        category: ''
+        name: ''
+      demo:
+        id: table-list
+description: >-
+  Design tokens are design decisions captured as usable code. When we design and
+  build using tokens, we give ourselves the ability to maintain and update brand
+  experiences at any scale with ease. This section of the platform allows
+  designers and engineers to collaboratively define and manage tokens.
+settings:
+  pageHeader:
+    backgroundColor:
+      type: value
+      colorValue: '#8000FF'
+    textColorTitle:
+      type: value
+      colorValue: '#FFFFFF'
+    textColorDescription:
+      type: value
+      colorValue: '#FFFFFF'

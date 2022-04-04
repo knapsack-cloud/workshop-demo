@@ -1,5 +1,5 @@
 id: Welcome
-title: Welcome
+title: Introduction
 slices:
   - id: 6-qXFUJ0eH
     data:
@@ -25,12 +25,6 @@ slices:
           **webinars** to learn more!
       columns: 1
     blockId: markdown-slice
-  - id: ks-content-block-0m76iAbMDZ
-    data:
-      url: 'https://www.youtube.com/watch?v=-br7mNxPfuc'
-      height: '480'
-      clickToInteract: true
-    blockId: youtube-slice
   - id: ks-content-block-7Y7v_lnZJh
     data:
       md:
@@ -53,4 +47,10 @@ slices:
           and workflows that **make it easy to reuse code**
       columns: 1
     blockId: markdown-slice
-description: An introduction to Knapsack
+  - id: ks-content-block-0m76iAbMDZ
+    data:
+      url: 'https://www.youtube.com/watch?v=-br7mNxPfuc'
+      height: '480'
+      clickToInteract: true
+    blockId: youtube-slice
+description: Welcome to modern digital production

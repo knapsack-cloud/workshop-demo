@@ -1,0 +1,52 @@
+id: Videos
+title: Videos
+slices:
+  - id: sM9CmSLU48
+    blockId: markdown-slice
+    data:
+      md:
+        - |-
+          #### Knapsack Webinar
+          ## How to cut time-to-value in half for your design system
+      columns: 1
+  - id: ks-content-block-hqtwt_qLOH
+    blockId: youtube-slice
+    data:
+      url: 'https://www.youtube.com/watch?v=Lvd2DTn4vDo'
+      height: '480'
+      clickToInteract: false
+  - id: ks-content-block-Rpz9WT_6i5
+    blockId: divider-block
+  - id: F8mpFDk9Xj
+    blockId: markdown-slice
+    data:
+      md:
+        - |-
+          #### Knapsack Webinar
+          ## Unifying designers and developers in your design system
+      columns: 1
+  - id: ks-content-block-zi3ZEcAgCf
+    blockId: youtube-slice
+    data:
+      url: 'https://www.youtube.com/watch?v=rU-ZAhk-iUw'
+      height: '480'
+      clickToInteract: false
+  - id: ks-content-block-FhIb03cgvi
+    blockId: divider-block
+  - id: ks-content-block-lu-IWnbTk_
+    blockId: markdown-slice
+    data:
+      md:
+        - >-
+          #### Knapsack Webinar
+
+          ## Get more value from your design system by changing your
+          contribution practices
+      columns: 1
+  - id: ks-content-block-pbpgU8cyv-
+    blockId: youtube-slice
+    data:
+      url: 'https://www.youtube.com/watch?v=44-tkLmglGI'
+      height: '480'
+      clickToInteract: false
+description: Documentation capabilities & examples

@@ -1,0 +1,28 @@
+id: Workflow
+title: Workflow
+slices:
+  - id: ks-content-block-jWII3xdR5Y
+    blockId: markdown-slice
+    data:
+      md:
+        - '## Whimsical'
+      columns: 1
+  - id: ks-content-block-mtVmHazNu6
+    blockId: whimsical-slice
+    data:
+      url: 'https://whimsical.com/knapsack-workflow-public-RXkQWkFY1JGTbLurDKAHVx'
+      height: '480'
+      clickToInteract: false
+  - id: ks-content-block-UucuGVABD1
+    blockId: divider-block
+  - id: ks-content-block-PB83Qahdru
+    blockId: markdown-slice
+    data:
+      md:
+        - |-
+          ## Lucidchart
+          Live example coming soon!
+      columns: 1
+  - id: ks-content-block-7aopefwYVR
+    blockId: lucidchart-slice
+description: Documentation capabilities & examples
