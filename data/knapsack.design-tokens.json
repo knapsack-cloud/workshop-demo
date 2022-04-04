@@ -1,5 +1,22 @@
 {
   "color": {
+    "brand": {
+      "primary": {
+        "value": "{color.base.blue.value}"
+      },
+      "secondary": {
+        "value": "{color.light.blue.value}"
+      },
+      "tertiary": {
+        "value": "{color.text.inverse.value}"
+      },
+      "black": {
+        "value": "#000000"
+      },
+      "white": {
+        "value": "#FFFFFF"
+      }
+    },
     "base": {
       "red": {
         "value": "#ef5151"
@@ -90,26 +107,26 @@
     }
   },
   "spacing": {
-    "l": {
-      "value": "32px"
-    },
-    "m": {
-      "value": "16px"
-    },
-    "s": {
-      "value": "8px"
-    },
-    "xl": {
-      "value": "48px"
+    "xxs": {
+      "value": "2px"
     },
     "xs": {
       "value": "4px"
     },
+    "s": {
+      "value": "8px"
+    },
+    "m": {
+      "value": "16px"
+    },
+    "l": {
+      "value": "32px"
+    },
+    "xl": {
+      "value": "48px"
+    },
     "xxl": {
       "value": "64px"
-    },
-    "xxs": {
-      "value": "2px"
     }
   },
   "breakpoint": {
@@ -159,6 +176,46 @@
       },
       "featuredSwap": {
         "value": "850px"
+      }
+    }
+  },
+  "shadow": {
+    "text": {
+      "medium": {
+        "value": "0 1px 2px rgba(0,0,0,0.5)"
+      }
+    },
+    "box": {
+      "sm": {
+        "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)"
+      },
+      "md": {
+        "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)"
+      },
+      "lg": {
+        "value": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)"
+      }
+    }
+  },
+  "transition": {
+    "duration": {
+      "normal": {
+        "value": "150ms"
+      },
+      "slow": {
+        "value": "600ms",
+        "comment": "Used for near full width movements, like the Carousel"
+      }
+    },
+    "delay": {
+      "slow": {
+        "value": "8000ms",
+        "comment": "Used for timings that need to be fully interpreted by users, such as the Carousel autorotate delay."
+      }
+    },
+    "timing": {
+      "default": {
+        "value": "ease"
       }
     }
   }

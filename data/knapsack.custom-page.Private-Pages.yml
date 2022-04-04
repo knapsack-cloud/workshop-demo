@@ -1,0 +1,18 @@
+id: Private-Pages
+title: Private Pages
+slices:
+  - id: ks-content-block-gV88tSjKGe
+    data:
+      md:
+        - >-
+          ## Knapsack now supports private / hidden pages!
+
+
+          Pages or Groups marked as hidden in the knapsack.navs.json file will
+          not appear in the navigation to Viewer users or public site visitors,
+          but will be accessible via direct URL and navigable by Admins and
+          Editors.
+      columns: 1
+      autoEdit: false
+    blockId: markdown-slice
+description: ''

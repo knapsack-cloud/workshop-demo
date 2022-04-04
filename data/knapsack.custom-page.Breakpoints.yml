@@ -5,11 +5,10 @@ slices:
     blockId: design-token-slice
     data:
       tokens:
-        tags:
-          - width
-          - media-query
+        tags: []
+        type: dimension
         category: breakpoint
         name: ''
       demo:
         id: media-query
-description: Breakpoint tokens
+description: Plan experiences for multiple platforms and form-factors from the start.

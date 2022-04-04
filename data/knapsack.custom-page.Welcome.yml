@@ -1,0 +1,56 @@
+id: Welcome
+title: Introduction
+slices:
+  - id: 6-qXFUJ0eH
+    data:
+      md:
+        - >-
+          # What is
+          ![](https://knapsack.imgix.net/site/demo-design-system/group-19-hc_satlrxo.svg?w=300)?
+
+
+          Knapsack is a design system platform designed for your entire product
+          team - from design to engineering, copywriting to QA, product managers
+          to executives. We bring teams together around a central source of
+          truth to create shared workflows that are revolutioning how teams
+          build and maintain products at enterprise scale.
+
+
+          Visit our
+          ![](https://knapsack.imgix.net/site/demo-design-system/group-20-vmcfixjadv.svg?w=15)
+          **[website](https://knapsack.cloud)**, follow us on
+          ![](https://knapsack.imgix.net/site/demo-design-system/twitter-logo-wxzi_bjs1s.svg?w=15)
+          **[Twitter](https://twitter.com/knapsackcloud)**, or check out our
+          ![](https://knapsack.imgix.net/site/demo-design-system/symbol-youtube-0wwj5mv2z5.png?w=20)
+          **webinars** to learn more!
+      columns: 1
+    blockId: markdown-slice
+  - id: ks-content-block-7Y7v_lnZJh
+    data:
+      md:
+        - >
+          # What is the story behind
+          ![](https://knapsack.imgix.net/site/demo-design-system/group-19-hc_satlrxo.svg?w=300)?
+
+
+          **Founded in 2017** as an agency specializing in design system
+          consulting, design, build and implementation.
+
+
+          ~20 professionals with a **75+ years combined DS experience**
+
+
+          **Backed by Google, Slack** and other world-class investors
+
+
+          Focus: modernizing digital production through collaborative tooling
+          and workflows that **make it easy to reuse code**
+      columns: 1
+    blockId: markdown-slice
+  - id: ks-content-block-0m76iAbMDZ
+    data:
+      url: 'https://www.youtube.com/watch?v=-br7mNxPfuc'
+      height: '480'
+      clickToInteract: true
+    blockId: youtube-slice
+description: Welcome to modern digital production

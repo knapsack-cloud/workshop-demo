@@ -1,0 +1,181 @@
+id: Static-Content
+title: Static Content
+slices:
+  - id: ks-content-block-836ZvCc7ev
+    blockId: markdown-slice
+    data:
+      md:
+        - >+
+          ## Overview
+
+          Using the **Markdown** content block, users can create simple static
+          documentation. Whether for documenting usage guidelines, defining
+          processes, or providing access and reference to other resources,
+          Markdown is a simple and flexible way to add your documentation to
+          Knapsack.
+
+
+          If you're not familiar with Markdown, [check out the W3C guide to
+          Markdown](https://www.w3.org/community/markdown/wiki/Syntax) to get
+          started.
+
+
+          #### Explore the different options for static content formatting
+          below:
+
+          * [Basic text formatting](#basic-text-formatting) (headers, bulleted
+          List, etc.)
+
+          * [In-line images and GIFs](#in-line-images-and-gifs)
+
+          * [Multi-Column Support](#multi-column-support)
+
+          * [Code blocks](#code-blocks)
+
+          * [Horizontal dividers](#horizontal-dividers)
+
+          * [Tables](#tables)
+
+          * Links (anchor, relative and full) - like those above!
+
+
+
+          Use the below sections to browse examples of markdown content
+          formatting.
+
+
+
+      columns: 1
+  - id: ks-content-block-WPb97EJk3q
+    blockId: divider-block
+  - id: ks-content-block-3nx-x-krwF
+    blockId: markdown-slice
+    data:
+      md:
+        - |-
+          ## Basic Text Formatting
+
+          # Heading 1
+          ## Heading 2
+          ### Heading 3
+          #### Heading 4
+
+          * Bulleted List 1
+          * Bulleted List 2
+          * Bulleted List 3
+
+          1. Numbered List 1
+          2. Numbered List 2
+          3. Numbered List 3
+
+          > Block quotes block quotes block quotes block quotes
+      columns: 1
+  - id: ks-content-block-CP2xFIJwTx
+    blockId: divider-block
+  - id: ks-content-block-9R_EDAEKZb
+    blockId: markdown-slice
+    data:
+      md:
+        - '## In-Line Images and GIFs'
+      columns: 1
+  - id: ks-content-block-lfSX6gzrNI
+    blockId: markdown-slice
+    data:
+      md:
+        - >-
+          ### Static Images
+
+          ![](https://p189.p2.n0.cdn.getcloudapp.com/items/6quZxE4g/f25d63f7-d4bc-4ea8-a7ce-7c7674c9eebc.jpg?source=viewer&v=6d70885803e9c7d57a9c7e328992fe9b?h=200&w=540)
+        - >-
+          ### Animated GIFs
+
+          ![](https://media4.giphy.com/media/lcs5BL0NIM4WMv61a9/giphy.gif?cid=ecf05e47nuxq7wzty4iymmzqu1z604dndq4owpvzqrv9ryd0&rid=giphy.gif?h=200&w=540)
+      columns: 2
+  - id: ks-content-block-Lsu6cM8BeA
+    blockId: divider-block
+  - id: ks-content-block-aHFCyUV-9P
+    blockId: markdown-slice
+    data:
+      md:
+        - '## Multi-Column Support'
+      columns: 1
+  - id: LNW81ZRpE3
+    blockId: markdown-slice
+    data:
+      md:
+        - |-
+          One column
+          One column
+          One column
+          One column
+        - |-
+          Two column
+          Two column
+          Two column
+          Two column
+        - |-
+          Three column
+          Three column
+          Three column
+          Three column
+        - |-
+          Four!
+
+          Up to 4 columns, fully responsive!
+      columns: 4
+  - id: ks-content-block-nV_Eryo1YN
+    blockId: markdown-slice
+    data:
+      md:
+        - >-
+          ![](https://p189.p2.n0.cdn.getcloudapp.com/items/6quZxE4g/f25d63f7-d4bc-4ea8-a7ce-7c7674c9eebc.jpg?source=viewer&v=6d70885803e9c7d57a9c7e328992fe9b?h=200&w=540)
+        - >-
+          ![](https://p189.p2.n0.cdn.getcloudapp.com/items/6quZxE4g/f25d63f7-d4bc-4ea8-a7ce-7c7674c9eebc.jpg?source=viewer&v=6d70885803e9c7d57a9c7e328992fe9b?h=200&w=540)
+        - >-
+          ![](https://p189.p2.n0.cdn.getcloudapp.com/items/6quZxE4g/f25d63f7-d4bc-4ea8-a7ce-7c7674c9eebc.jpg?source=viewer&v=6d70885803e9c7d57a9c7e328992fe9b?h=200&w=540)
+        - >-
+          ![](https://p189.p2.n0.cdn.getcloudapp.com/items/6quZxE4g/f25d63f7-d4bc-4ea8-a7ce-7c7674c9eebc.jpg?source=viewer&v=6d70885803e9c7d57a9c7e328992fe9b?h=200&w=540)
+      columns: 4
+  - id: ks-content-block-7arudKsMF0
+    blockId: divider-block
+  - id: ixHhgr8lh2
+    blockId: markdown-slice
+    data:
+      md:
+        - |-
+          ## Code Blocks
+
+          ```css
+          .ks-transition-demo--normal {
+              background-color: var(--color-brand-primary);
+              transition: background-color var(--transition-duration-normal) var(--transition-timing-default);
+          }
+          .ks-transition-demo--normal:hover {
+              background-color: var(--color-brand-secondary);
+          }
+          ```
+      columns: 1
+  - id: ks-content-block-08Q2X2v2Wi
+    blockId: divider-block
+  - id: ks-content-block-LBMso-6f-6
+    blockId: markdown-slice
+    data:
+      md:
+        - |-
+          ## Horizontal Dividers
+          -----
+      columns: 1
+  - id: ks-content-block-aVSS-GAb3b
+    blockId: divider-block
+  - id: ks-content-block-uAr-_Djy6I
+    blockId: markdown-slice
+    data:
+      md:
+        - |-
+          ## Tables
+          | **Column 1**         | **Column 2**     | **Column 3** |
+          |--------------|-----------|------------|
+          | Row 1 | Value      | *X*        |
+          | Row 2      | Value  | *Y*       |
+      columns: 1
+description: Documentation capabilities & examples

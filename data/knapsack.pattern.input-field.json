@@ -1,0 +1,131 @@
+{
+  "id": "input-field",
+  "title": "Input Field",
+  "description": "",
+  "statuses": {
+    "design": "needs-updated",
+    "react": "needs-dev",
+    "twig": "needs-dev",
+    "handlebars": "wont-build"
+  },
+  "templates": [],
+  "tabs": [
+    {
+      "type": "subPage",
+      "id": "overview"
+    },
+    {
+      "type": "subPage",
+      "id": "Specification"
+    }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "slices": [
+        {
+          "id": "ks-content-block-sQ0i5uBBOf",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": [
+              "# STATES\nPlease note: For all states, the placeholder text, field icon and additional description below the input field are optional.\n\n----\n## DEFAULT"
+            ],
+            "columns": 1
+          }
+        },
+        {
+          "id": "BEXQmvutV0",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": [
+              "![](https://knapsack.imgix.net/site/knapsack-nucleus/input-fields-01-3xfuorsim_.svg?h=200&w=540)\n#### EMPTY\nWhen a user has not interacted with the input field. ",
+              "![](https://knapsack.imgix.net/site/knapsack-nucleus/input-fields-02-oatmuiec7n.svg?h=200&w=540)\n#### PLACEHOLDER TEXT\nWhen a field contains text to assist the user and the user has not interacted with the input field.\n"
+            ],
+            "columns": 2
+          }
+        },
+        {
+          "id": "SDCFdXJ3xc",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": [
+              "![](https://knapsack.imgix.net/site/knapsack-nucleus/input-fields-03-j2pj8t6vyd.svg?h=200&w=540)\n#### FILLED\nWhen a user has previously entered text into the input field, but is no longer interacting with it.",
+              "![](https://knapsack.imgix.net/site/knapsack-nucleus/input-fields-04-cno3p1q1kk.svg?h=200&w=540)\n#### ERROR\nWhen a user is not currently interacting with an input field and field validation returns an error.\n"
+            ],
+            "columns": 2
+          }
+        },
+        {
+          "id": "Gal6UXZEiQ",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": [
+              "![](https://knapsack.imgix.net/site/knapsack-nucleus/input-fields-05-to13zax3d5.svg?h=200&w=540)\n#### WARNING\nWhen a user is not currently interacting with an input field and field validation returns a warning. Note: Not all fields require a warning validation. \n\n[Back to Top](#)",
+              "![](https://knapsack.imgix.net/site/knapsack-nucleus/input-fields-06-i5bd2ljjfy.svg?h=200&w=540)\n#### SUCCESS\nWhen a user is not currently interacting with an input field and field validation returns as success.  Note: Not all fields require a success validation.  \n"
+            ],
+            "columns": 2
+          }
+        },
+        {
+          "id": "ks-content-block-0SzNx3d12Z",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": ["----\n## HOVER"],
+            "columns": 1
+          }
+        },
+        {
+          "id": "ks-content-block-ipuRLnl7VP",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": [
+              "![](https://knapsack.imgix.net/site/knapsack-nucleus/input-fields-07-b66coxrohs.svg?h=200&w=540)\n#### EMPTY\nWhen a user has their mouse placed over the input field.",
+              "![](https://knapsack.imgix.net/site/knapsack-nucleus/input-fields-06-i5bd2ljjfy.svg?h=200&w=540)\n#### SUCCESS\nWhen a user is not currently interacting with an input field and field validation returns as success.  Note: Not all fields require a success validation.  \n"
+            ],
+            "columns": 2
+          }
+        },
+        {
+          "id": "ks-content-block-NQNG4vxZ0M",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": [
+              "![](https://knapsack.imgix.net/site/knapsack-nucleus/input-fields-09-ffnja3il-o.svg?h=200&w=540)\n#### FILLED\nWhen a user has their mouse placed over the input field containing user input.\n\n[Back to Top](#)",
+              ""
+            ],
+            "columns": 2
+          }
+        }
+      ]
+    },
+    {
+      "title": "Specification",
+      "id": "Specification",
+      "slices": [
+        {
+          "id": "npKePci3kr",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": [
+              "![](https://knapsack.imgix.net/site/knapsack-nucleus/text-input-fields-01-34q2gkre3j.svg?h=320&w=540)\n\n#### EMPTY\n![](https://knapsack.imgix.net/site/knapsack-nucleus/annotation-1-_enuogwtgq.svg?h=22&w=22) **Field Label:** $text-colors-primary\n\n![](https://knapsack.imgix.net/site/knapsack-nucleus/annotation-2-qs2lhv5qms.svg?h=22&w=22) **Description (optional):** $text-colors-subtle\n\n![](https://knapsack.imgix.net/site/knapsack-nucleus/annotation-3-7aaateyk5b.svg?h=22&w=22) **Field Border:** 1px, solid, $border-colors-strong, 2px corner radius\n\n![](https://knapsack.imgix.net/site/knapsack-nucleus/annotation-4-7rbpsgdaax.svg?h=22&w=22) **Field Fill:** $background-colors-primary\n\n![](https://knapsack.imgix.net/site/knapsack-nucleus/annotation-5-uqqe_b5hre.svg?h=22&w=22) **Icon (optional):** 24 x 24px\n\n",
+              "![](https://knapsack.imgix.net/site/knapsack-nucleus/text-input-fields-02-ohfkc0mhae.svg?h=320&w=540)\n#### PLACEHOLDER TEXT\n![](https://knapsack.imgix.net/site/knapsack-nucleus/annotation-6-wpnjrqwtms.svg?h=22&w=22) **Placeholder Text (optional):** $text-colors-subtle\n"
+            ],
+            "columns": 2
+          }
+        },
+        {
+          "id": "ks-content-block-OTAnrkBzAT",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": [
+              "![](https://knapsack.imgix.net/site/knapsack-nucleus/text-input-fields-03-k3mqpjk_kw.svg?h=320&w=540)\n#### FILLED\n![](https://knapsack.imgix.net/site/knapsack-nucleus/annotation-7-nlo4etltbc.svg?h=22&w=22) **User Input Text:** $text-colors-primary",
+              "![](https://knapsack.imgix.net/site/knapsack-nucleus/text-input-fields-04-uapopnutvr.svg?h=320&w=540)\n#### ERROR\n![](https://knapsack.imgix.net/site/knapsack-nucleus/annotation-8-spxbia4tcy.svg?h=22&w=22) **Field Border:** $border-colors-danger-strong\n\n![](https://knapsack.imgix.net/site/knapsack-nucleus/annotation-9-umttyd-cjs.svg?h=22&w=22) **Error Message:** $text-colors-danger\n\n![](https://knapsack.imgix.net/site/knapsack-nucleus/annotation-10-tbxss4du1t.svg?h=22&w=22) **Error Icon:** 16 x 16px, $svg-fill-danger-strong"
+            ],
+            "columns": 2
+          }
+        }
+      ]
+    }
+  ]
+}

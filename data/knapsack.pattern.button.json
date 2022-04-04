@@ -2,12 +2,6 @@
   "id": "button",
   "title": "Button",
   "description": "Buttons are used to initialize an action. Button labels express what action will occur when the user interacts with it.",
-  "statuses": {
-    "design": "needs-updated",
-    "twig": "ready",
-    "react": "needs-dev",
-    "handlebars": "ready"
-  },
   "demoSize": "s",
   "demoWidths": [
     {
@@ -201,9 +195,24 @@
           "id": "2CXfLJgtaC",
           "title": "Outline (special)",
           "type": "data"
+        },
+        "xNzyD6limD": {
+          "id": "xNzyD6limD",
+          "title": "New Variation",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": {
+              "type": "solid",
+              "size": "medium"
+            },
+            "slots": {
+              "children": ["Text"]
+            }
+          }
         }
       },
-      "demos": ["main", "2CXfLJgtaC"],
+      "demos": ["main", "2CXfLJgtaC", "xNzyD6limD"],
       "slices": []
     },
     {

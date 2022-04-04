@@ -1,0 +1,11 @@
+id: Home-Page-Builder
+title: Home Page Builder
+slices:
+  - id: ks-content-block-WNkY_WFICg
+    blockId: generic-iframe
+    data:
+      clickToInteract: false
+      height: '1200'
+      url: >-
+        https://app.knapsack.cloud/site/demo-design-system/xOvPnxE6xZ/pattern-embed/one-pager?templateId=react&demoId=8yhA9y1tli
+description: Use for Home and advanced landing pages.

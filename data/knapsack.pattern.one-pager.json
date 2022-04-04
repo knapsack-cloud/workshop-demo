@@ -74,9 +74,27 @@
           "title": "Hero Page",
           "type": "data",
           "description": ""
+        },
+        "8yhA9y1tli": {
+          "id": "8yhA9y1tli",
+          "data": {
+            "props": {},
+            "slots": {
+              "children": [
+                {
+                  "patternId": "hero",
+                  "templateId": "react",
+                  "demoId": "main"
+                }
+              ]
+            }
+          },
+          "type": "data",
+          "title": "Home Page Builder",
+          "description": "Use this prototyping playground to add coded components and elements to our landing page template to quickly build and launch a Home or advanced landing page using the available system."
         }
       },
-      "demos": ["jIkrNzJ0cO", "main"],
+      "demos": ["jIkrNzJ0cO", "main", "8yhA9y1tli"],
       "slices": [],
       "alias": "PagePrototype"
     }
