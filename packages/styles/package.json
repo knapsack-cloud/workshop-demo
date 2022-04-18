@@ -1,7 +1,7 @@
 {
   "name": "@knapsack-cloud/demo-design-system-styles",
   "description": "Knapsack Demo Design System Styles",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "main": "styles.js",
   "style": "dist/styles.css",
   "scripts": {
@@ -12,7 +12,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@knapsack-cloud/demo-design-system-design-tokens": "^0.1.16"
+    "@knapsack-cloud/demo-design-system-design-tokens": "^0.1.17"
   },
   "devDependencies": {
     "nodemon": "^2.0.4",
