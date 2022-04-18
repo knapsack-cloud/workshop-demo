@@ -26,9 +26,11 @@ jobs:
               login $HEROKU_EMAIL
               password $HEROKU_API_KEY
           EOF
-      - name: git push to heroku for deploy
+      - name: git remote add heroku
         run: |
           git remote add heroku $HEROKU_GIT_URL
+      - name: git push to heroku for deploy
+        run: |
           git push heroku main
   build:
     runs-on: ubuntu-latest
