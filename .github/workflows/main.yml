@@ -28,7 +28,7 @@ jobs:
           EOF
       - name: git remote add heroku
         run: |
-          git remote add heroku https://git.heroku.com/demo-design-system.git
+          git remote add heroku $HEROKU_GIT_URL
       - name: git push to heroku for deploy
         run: |
           git push heroku main
