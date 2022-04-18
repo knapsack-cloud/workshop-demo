@@ -7,6 +7,29 @@ name: Main
 on: [push]
 
 jobs:
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    env:
+      HEROKU_EMAIL: ${{ secrets.HEROKU_EMAIL }}
+      HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+      HEROKU_GIT_URL: ${{ secrets.HEROKU_GIT_URL }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          # Number of commits to fetch. 0 indicates all history for all branches and tags - needed for `auto`
+          fetch-depth: 0
+      - name: write auth
+        run: |
+          cat > ~/.netrc <<EOF
+            machine git.heroku.com
+              login $HEROKU_EMAIL
+              password $HEROKU_API_KEY
+          EOF
+      - name: git push to heroku for deploy
+        run: |
+          git remote add heroku $HEROKU_GIT_URL
+          git push heroku main
   build:
     runs-on: ubuntu-latest
     name: Build & Deploy
