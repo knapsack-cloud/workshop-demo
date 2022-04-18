@@ -1,3 +1,15 @@
+# v0.1.14 (Mon Apr 18 2022)
+
+#### 🐛 Bug Fix
+
+- add heroku deploy CI job [#190](https://github.com/knapsack-cloud/demo-design-system/pull/190) ([@EvanLovely](https://github.com/EvanLovely))
+
+#### Authors: 1
+
+- Evan Lovely ([@EvanLovely](https://github.com/EvanLovely))
+
+---
+
 # v0.1.13 (Mon Apr 04 2022)
 
 #### 🐛 Bug Fix
