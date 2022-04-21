@@ -1,3 +1,16 @@
+# v0.1.18 (Thu Apr 21 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Add needs to workflow ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+- Update main.yml ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.17 (Mon Apr 18 2022)
 
 #### ⚠️ Pushed to `main`
