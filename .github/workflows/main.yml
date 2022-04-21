@@ -8,7 +8,9 @@ on: [push]
 
 jobs:
   deploy:
+    name: Deploy
     if: github.ref == 'refs/heads/main'
+    needs: [build]
     runs-on: ubuntu-latest
     env:
       HEROKU_EMAIL: ${{ secrets.HEROKU_EMAIL }}
@@ -33,9 +35,10 @@ jobs:
       - name: git push to heroku for deploy
         run: |
           git push heroku main
+ 
   build:
     runs-on: ubuntu-latest
-    name: Build & Deploy
+    name: Build & Release
 
     steps:
       - uses: actions/checkout@v2
