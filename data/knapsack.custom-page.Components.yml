@@ -2,7 +2,6 @@ id: Components
 title: Components
 slices:
   - id: 5RQruglYiX
-    blockId: markdown-slice
     data:
       md:
         - >-
@@ -30,11 +29,14 @@ slices:
 
 
           Use the below sections to browse examples of component documentation.
+
+
+          Use the below sections to browse examples of component documentation.
       columns: 1
+    blockId: markdown-slice
   - id: ks-content-block-Fph9sYCuho
     blockId: divider-block
   - id: zlejPJh20Z
-    blockId: markdown-slice
     data:
       md:
         - >-
@@ -44,22 +46,22 @@ slices:
           with options to display the schema form (for adjusting data +
           presentation) and/or the code snippet.
       columns: 1
+    blockId: markdown-slice
   - id: ks-content-block-CyJBGzdohK
-    blockId: pattern-template-slice
     data:
+      demoId: main
+      demoSize: landscape
+      patternId: button
       templateId: react
       hideControls: false
       playgroundUi:
-        showSchemaForm: false
-        showCodeSnippet: true
         demoSize: landscape
-      showCodeSnippet: true
+        showSchemaForm: false
+        showCodeSnippet: false
       showSchemaForm: false
-      demoSize: landscape
-      patternId: button
-      demoId: main
+      showCodeSnippet: false
+    blockId: pattern-template-slice
   - id: 6eHTQ_DA5d
-    blockId: markdown-slice
     data:
       md:
         - >-
@@ -68,36 +70,37 @@ slices:
           A **Component Demo** shows all of the variations of a given component
           template based on a single property
       columns: 1
-  - id: osLNmkYLkO
-    blockId: pattern-variations
-    data:
-      size: m
-      patternId: button
-      templateId: react
-      demoId: main
-      variationId: size
-  - id: ks-content-block-udJZJ73YSH
-    blockId: pattern-variations
-    data:
-      size: m
-      patternId: button
-      templateId: react
-      demoId: main
-      variationId: mode
-  - id: Gtf7ERAcuu
     blockId: markdown-slice
+  - id: osLNmkYLkO
+    data:
+      size: m
+      demoId: main
+      patternId: button
+      templateId: react
+      variationId: size
+    blockId: pattern-variations
+  - id: ks-content-block-udJZJ73YSH
+    data:
+      size: m
+      demoId: main
+      patternId: button
+      templateId: react
+      variationId: mode
+    blockId: pattern-variations
+  - id: Gtf7ERAcuu
     data:
       md:
         - '## System Overview (All Components)'
       columns: 1
+    blockId: markdown-slice
   - id: ks-content-block-tA1WrvdWyM
     blockId: pattern-list-block
   - id: ks-content-block-dxsxlMQ3Yz
-    blockId: markdown-slice
     data:
       md:
         - '## System Status Table'
       columns: 1
+    blockId: markdown-slice
   - id: ks-content-block-iSlOJ42w6Y
     blockId: pattern-status-table-block
 description: Documentation capabilities & examples
