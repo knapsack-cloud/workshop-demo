@@ -2,7 +2,6 @@ id: Design-Tokens-lNWaUqkDSo
 title: Design Tokens
 slices:
   - id: ks-content-block-V0Jm0DWi9c
-    blockId: markdown-slice
     data:
       md:
         - >-
@@ -13,14 +12,15 @@ slices:
 
           * [Colors](./colors)
 
-          * [Breakpoints](./breakpoints)
+          * [Breakpoints](./Breakpoints)
 
           * [Spacing](./spacing)
 
-          * [Shadow](./shadow)
+          * [Shadow](./Shadow)
 
-          * [Animation](./animation)
+          * [Animation](./Animation)
       columns: 1
+    blockId: markdown-slice
   - id: ks-content-block-cs6m2yWFSP
     blockId: design-token-slice
     data:

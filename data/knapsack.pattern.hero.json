@@ -35,7 +35,10 @@
               "type": "string",
               "description": "[URL]|[TITLE] — for example: http://google.com|Google"
             },
-            "headlineOne": { "title": "Headline Line 1", "type": "string" },
+            "headlineOne": {
+              "title": "Headline Line 1",
+              "type": "string"
+            },
             "buttonTwo": {
               "title": "Button Two",
               "type": "string",
@@ -65,9 +68,9 @@
             "slots": {
               "header": [
                 {
-                  "templateId": "react",
                   "demoId": "main",
-                  "patternId": "top-nav"
+                  "patternId": "top-nav",
+                  "templateId": "react"
                 }
               ]
             },
@@ -90,8 +93,14 @@
     }
   ],
   "tabs": [
-    { "type": "subPage", "id": "overview" },
-    { "type": "template", "id": "react" }
+    {
+      "type": "subPage",
+      "id": "overview"
+    },
+    {
+      "type": "template",
+      "id": "react"
+    }
   ],
   "subPages": [
     {
