@@ -11,7 +11,7 @@
     }
   ],
   "title": "Layout",
-  "demoSize": "portrait",
+  "demoSize": "landscape",
   "statuses": {
     "twig": "needs-dev",
     "react": "ready",
@@ -73,40 +73,10 @@
         }
       },
       "alias": "Layout",
-      "demos": ["main", "aMFkBNIHU2", "eY-_KWUog4"],
+      "demos": ["aMFkBNIHU2", "eY-_KWUog4"],
       "title": "react",
       "slices": [],
       "demosById": {
-        "main": {
-          "id": "main",
-          "data": {
-            "props": {
-              "bandTitle": "Choose Your Own Adventure"
-            },
-            "slots": {
-              "children": [
-                {
-                  "demoId": "RN96ZpJJpY",
-                  "patternId": "card",
-                  "templateId": "react"
-                },
-                {
-                  "demoId": "RN96ZpJJpY",
-                  "patternId": "card",
-                  "templateId": "react"
-                },
-                {
-                  "demoId": "RN96ZpJJpY",
-                  "patternId": "card",
-                  "templateId": "react"
-                }
-              ]
-            }
-          },
-          "type": "data",
-          "title": "Homepage",
-          "description": "For this example — a column will be added for every \"child\" item you include within the \"children\" slot."
-        },
         "aMFkBNIHU2": {
           "id": "aMFkBNIHU2",
           "data": {

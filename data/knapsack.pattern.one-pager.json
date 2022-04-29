@@ -35,9 +35,9 @@
             "slots": {
               "children": [
                 {
+                  "demoId": "main",
                   "patternId": "hero",
-                  "templateId": "react",
-                  "demoId": "main"
+                  "templateId": "react"
                 }
               ]
             },
@@ -52,19 +52,19 @@
             "slots": {
               "children": [
                 {
+                  "demoId": "main",
                   "patternId": "hero",
-                  "templateId": "react",
-                  "demoId": "main"
+                  "templateId": "react"
                 },
                 {
-                  "templateId": "react",
                   "demoId": "eY-_KWUog4",
-                  "patternId": "layout"
+                  "patternId": "layout",
+                  "templateId": "react"
                 },
                 {
-                  "templateId": "react",
                   "demoId": "aMFkBNIHU2",
-                  "patternId": "layout"
+                  "patternId": "layout",
+                  "templateId": "react"
                 }
               ]
             },
@@ -80,13 +80,7 @@
           "data": {
             "props": {},
             "slots": {
-              "children": [
-                {
-                  "patternId": "hero",
-                  "templateId": "react",
-                  "demoId": "main"
-                }
-              ]
+              "children": []
             }
           },
           "type": "data",
