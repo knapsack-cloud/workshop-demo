@@ -1,37 +1,86 @@
 {
   "id": "one-pager",
+  "tabs": [
+    {
+      "id": "overview",
+      "type": "subPage"
+    },
+    {
+      "id": "react",
+      "type": "template"
+    }
+  ],
   "title": "One-Pager",
-  "description": "",
   "statuses": {
-    "design": "ready",
+    "twig": "needs-dev",
     "react": "ready",
-    "twig": "needs-dev"
+    "design": "ready"
   },
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "slices": [
+        {
+          "id": "ks-content-block-vPbAkMHWK4",
+          "data": {
+            "md": [
+              "## Full Page Prototype Example\n\nUse the React pattern playground to assemple patterns into a custom, static page prototype example. Use the available public link to share with stakeholders or run through live testing platforms for accessibility or performance."
+            ],
+            "columns": 1
+          },
+          "blockId": "markdown-slice"
+        },
+        {
+          "id": "ks-content-block-dsiSgOXHIC",
+          "data": {
+            "demoId": "jIkrNzJ0cO",
+            "demoSize": "landscape",
+            "patternId": "one-pager",
+            "templateId": "react",
+            "hideControls": false,
+            "playgroundUi": {
+              "demoSize": "landscape",
+              "showSchemaForm": false,
+              "showCodeSnippet": false
+            },
+            "showSchemaForm": false,
+            "showCodeSnippet": false
+          },
+          "blockId": "pattern-template-slice"
+        }
+      ]
+    }
+  ],
   "templates": [
     {
       "id": "react",
-      "title": "react",
       "path": "@knapsack-cloud/demo-design-system-react",
-      "templateLanguageId": "react",
       "spec": {
+        "props": {
+          "type": "object",
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "required": [],
+          "properties": {},
+          "description": ""
+        },
         "slots": {
           "children": {
             "title": "children",
-            "allowedPatternIds": ["layout", "hero"],
-            "disallowText": true
+            "disallowText": true,
+            "allowedPatternIds": ["layout", "hero", "top-nav"]
           }
-        },
-        "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "",
-          "type": "object",
-          "required": [],
-          "properties": {}
         }
       },
+      "alias": "PagePrototype",
+      "demos": ["jIkrNzJ0cO", "main", "8yhA9y1tli"],
+      "title": "react",
+      "slices": [],
       "demosById": {
         "main": {
+          "id": "main",
           "data": {
+            "props": {},
             "slots": {
               "children": [
                 {
@@ -40,15 +89,27 @@
                   "templateId": "react"
                 }
               ]
-            },
-            "props": {}
+            }
           },
-          "id": "main",
-          "title": "One Page Card Demo",
-          "type": "data"
+          "type": "data",
+          "title": "One Page Card Demo"
+        },
+        "8yhA9y1tli": {
+          "id": "8yhA9y1tli",
+          "data": {
+            "props": {},
+            "slots": {
+              "children": []
+            }
+          },
+          "type": "data",
+          "title": "Home Page Builder",
+          "description": "Use this prototyping playground to add coded components and elements to our landing page template to quickly build and launch a Home or advanced landing page using the available system."
         },
         "jIkrNzJ0cO": {
+          "id": "jIkrNzJ0cO",
           "data": {
+            "props": {},
             "slots": {
               "children": [
                 {
@@ -67,76 +128,15 @@
                   "templateId": "react"
                 }
               ]
-            },
-            "props": {}
-          },
-          "id": "jIkrNzJ0cO",
-          "title": "Hero Page",
-          "type": "data",
-          "description": ""
-        },
-        "8yhA9y1tli": {
-          "id": "8yhA9y1tli",
-          "data": {
-            "props": {},
-            "slots": {
-              "children": []
             }
           },
           "type": "data",
-          "title": "Home Page Builder",
-          "description": "Use this prototyping playground to add coded components and elements to our landing page template to quickly build and launch a Home or advanced landing page using the available system."
+          "title": "Hero Page",
+          "description": ""
         }
       },
-      "demos": ["jIkrNzJ0cO", "main", "8yhA9y1tli"],
-      "slices": [],
-      "alias": "PagePrototype"
+      "templateLanguageId": "react"
     }
   ],
-  "tabs": [
-    {
-      "type": "subPage",
-      "id": "overview"
-    },
-    {
-      "type": "template",
-      "id": "react"
-    }
-  ],
-  "subPages": [
-    {
-      "id": "overview",
-      "title": "Overview",
-      "slices": [
-        {
-          "id": "ks-content-block-vPbAkMHWK4",
-          "data": {
-            "md": [
-              "## Full Page Prototype Example\n\nUse the React pattern playground to assemple patterns into a custom, static page prototype example. Use the available public link to share with stakeholders or run through live testing platforms for accessibility or performance."
-            ],
-            "columns": 1
-          },
-          "blockId": "markdown-slice"
-        },
-        {
-          "id": "ks-content-block-dsiSgOXHIC",
-          "blockId": "pattern-template-slice",
-          "data": {
-            "templateId": "react",
-            "hideControls": false,
-            "playgroundUi": {
-              "showSchemaForm": false,
-              "showCodeSnippet": false,
-              "demoSize": "landscape"
-            },
-            "showCodeSnippet": false,
-            "showSchemaForm": false,
-            "demoSize": "landscape",
-            "patternId": "one-pager",
-            "demoId": "jIkrNzJ0cO"
-          }
-        }
-      ]
-    }
-  ]
+  "description": "Use this prototyping playground to add coded components and elements to our landing page template to quickly build and launch a Home or advanced landing page using the available system."
 }
