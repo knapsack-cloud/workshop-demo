@@ -1,3 +1,15 @@
+# v0.1.19 (Tue Jun 21 2022)
+
+#### ⚠️ Pushed to `main`
+
+- chore: update package dep ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.12 (Thu Mar 17 2022)
 
 #### 🐛 Bug Fix

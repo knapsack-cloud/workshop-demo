@@ -1,3 +1,24 @@
+# v0.1.19 (Tue Jun 21 2022)
+
+#### ⚠️ Pushed to `main`
+
+- `@knapsack-cloud/demo-design-system-react`
+  - chore: update package dep ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### 📝 Documentation
+
+- updated one pager demo slots [#201](https://github.com/knapsack-cloud/demo-design-system/pull/201) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- Copy update [#197](https://github.com/knapsack-cloud/demo-design-system/pull/197) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- Updating broken links in docs [#193](https://github.com/knapsack-cloud/demo-design-system/pull/193) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- Update docs. [#192](https://github.com/knapsack-cloud/demo-design-system/pull/192) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.18 (Thu Apr 21 2022)
 
 #### ⚠️ Pushed to `main`
