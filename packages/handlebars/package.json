@@ -1,7 +1,7 @@
 {
   "name": "@knapsack-cloud/demo-design-system-handlebars",
   "description": "Knapsack Demo Design System Handlebars Components",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "repository": {
     "url": "https://github.com/knapsack-cloud/demo-design-system",
     "directory": "packages/handlebars"
@@ -10,8 +10,8 @@
     "src/**/*"
   ],
   "dependencies": {
-    "@knapsack-cloud/demo-design-system-design-tokens": "^0.1.18",
-    "@knapsack-cloud/demo-design-system-styles": "^0.1.18"
+    "@knapsack-cloud/demo-design-system-design-tokens": "^0.1.19",
+    "@knapsack-cloud/demo-design-system-styles": "^0.1.19"
   },
   "private": false,
   "publishConfig": {
