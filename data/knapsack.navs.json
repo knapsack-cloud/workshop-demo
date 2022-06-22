@@ -152,6 +152,12 @@
       "parentId": "Complex"
     },
     {
+      "id": "footer",
+      "name": "Footer",
+      "path": "/pattern/footer",
+      "parentId": "Complex"
+    },
+    {
       "id": "message",
       "name": "Message",
       "path": "/pattern/message",

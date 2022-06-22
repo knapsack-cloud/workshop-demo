@@ -14,7 +14,8 @@
   "statuses": {
     "twig": "needs-dev",
     "react": "ready",
-    "design": "ready"
+    "design": "ready",
+    "handlebars": "wont-build"
   },
   "subPages": [
     {
@@ -57,19 +58,19 @@
       "id": "react",
       "path": "@knapsack-cloud/demo-design-system-react",
       "spec": {
-        "props": {
-          "type": "object",
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "required": [],
-          "properties": {},
-          "description": ""
-        },
         "slots": {
           "children": {
+            "allowedPatternIds": ["layout", "hero", "top-nav", "footer"],
             "title": "children",
-            "disallowText": true,
-            "allowedPatternIds": ["layout", "hero", "top-nav"]
+            "disallowText": true
           }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": [],
+          "properties": {}
         }
       },
       "alias": "PagePrototype",
@@ -126,6 +127,11 @@
                   "demoId": "aMFkBNIHU2",
                   "patternId": "layout",
                   "templateId": "react"
+                },
+                {
+                  "patternId": "footer",
+                  "templateId": "react",
+                  "demoId": "main"
                 }
               ]
             }

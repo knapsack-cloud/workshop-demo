@@ -1,0 +1,233 @@
+{
+  "id": "footer",
+  "title": "Footer",
+  "description": "",
+  "statuses": {
+    "design": "ready",
+    "react": "ready",
+    "twig": "wont-build",
+    "handlebars": "wont-build"
+  },
+  "templates": [
+    {
+      "id": "react",
+      "title": "React",
+      "path": "@knapsack-cloud/demo-design-system-react",
+      "alias": "Footer",
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": {},
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "tagline": {
+              "type": "string"
+            },
+            "copyright": {
+              "type": "string"
+            },
+            "navigation": {
+              "type": "object",
+              "properties": {
+                "solutions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [],
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "company": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [],
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "support": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [],
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "legal": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [],
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "social": {
+              "type": "object",
+              "required": [],
+              "properties": {
+                "facebook": {
+                  "type": "boolean",
+                  "default": true
+                },
+                "instagram": {
+                  "type": "boolean",
+                  "default": true
+                },
+                "twitter": {
+                  "type": "boolean",
+                  "default": true
+                },
+                "github": {
+                  "type": "boolean",
+                  "default": true
+                },
+                "dribbble": {
+                  "type": "boolean",
+                  "default": true
+                }
+              }
+            }
+          }
+        }
+      },
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "props": {
+              "navigation": {
+                "solutions": [
+                  {
+                    "name": "Marketing",
+                    "href": "#solutions-1"
+                  },
+                  {
+                    "name": "Analytics",
+                    "href": "#solutions-2"
+                  },
+                  {
+                    "name": "Commerce",
+                    "href": "#solutions-3"
+                  },
+                  {
+                    "name": "Insights",
+                    "href": "#solutions-4"
+                  }
+                ],
+                "company": [
+                  {
+                    "name": "About",
+                    "href": "#company-1"
+                  },
+                  {
+                    "name": "Blog",
+                    "href": "#company-2"
+                  },
+                  {
+                    "name": "Jobs",
+                    "href": "#company-3"
+                  },
+                  {
+                    "name": "Press",
+                    "href": "#company-4"
+                  },
+                  {
+                    "name": "Partners",
+                    "href": "#company-5"
+                  }
+                ],
+                "support": [
+                  {
+                    "name": "Pricing",
+                    "href": "#support-1"
+                  },
+                  {
+                    "name": "Documentation",
+                    "href": "#support-2"
+                  },
+                  {
+                    "name": "Guides",
+                    "href": "#support-3"
+                  },
+                  {
+                    "name": "API Status",
+                    "href": "#support-4"
+                  }
+                ],
+                "legal": [
+                  {
+                    "name": "Claim",
+                    "href": "#legal-1"
+                  },
+                  {
+                    "name": "Privacy",
+                    "href": "#legal-2"
+                  },
+                  {
+                    "name": "Terms",
+                    "href": "#legal-3"
+                  }
+                ]
+              },
+              "social": {
+                "facebook": true,
+                "instagram": true,
+                "twitter": true,
+                "github": true,
+                "dribbble": true
+              },
+              "tagline": "Making the world a better place through constructing elegant hierarchies.",
+              "copyright": "2020 Workflow, Inc. All rights reserved."
+            },
+            "slots": {}
+          }
+        }
+      },
+      "demos": ["main"],
+      "slices": []
+    }
+  ],
+  "tabs": [
+    {
+      "type": "template",
+      "id": "react"
+    }
+  ],
+  "subPages": [],
+  "demoSize": "portrait"
+}
