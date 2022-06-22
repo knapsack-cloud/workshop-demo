@@ -1,7 +1,7 @@
 {
   "name": "@knapsack-cloud/demo-design-system-html",
   "description": "Knapsack Demo Design System HTML Templates",
-  "version": "0.1.19",
+  "version": "0.1.20",
   "repository": {
     "url": "https://github.com/knapsack-cloud/demo-design-system",
     "directory": "packages/html"
