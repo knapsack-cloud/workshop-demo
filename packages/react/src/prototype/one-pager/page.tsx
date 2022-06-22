@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-export const PagePrototype = ({ children }) => {
+export const PageLayout = ({ children }) => {
   return <>{children}</>;
 };
 
-export default PagePrototype;
+export default PageLayout;

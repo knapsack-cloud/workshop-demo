@@ -73,7 +73,7 @@
           "properties": {}
         }
       },
-      "alias": "PagePrototype",
+      "alias": "PageLayout",
       "demos": ["jIkrNzJ0cO", "main", "8yhA9y1tli"],
       "title": "react",
       "slices": [],
