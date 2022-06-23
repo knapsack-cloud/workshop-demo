@@ -1,4 +1,4 @@
-# Knapsack workspace staarter
+# Knapsack workspace starter
 
 ## Quick Start
 
@@ -31,8 +31,3 @@ The below command will create a new Angular component within `./packages/angular
 cd packages/angular
 yarn new
 ```
-
-
-
-
-
