@@ -3,14 +3,15 @@
   "title": "Author",
   "description": "",
   "statuses": {
-    "design": "ready",
+    "design": "needs-design",
     "twig": "ready",
-    "react": "ready"
+    "react": "ready",
+    "handlebars": "ready"
   },
   "templates": [
     {
       "id": "react",
-      "title": "react",
+      "title": "React",
       "path": "@knapsack-cloud/demo-design-system-react",
       "alias": "Author",
       "templateLanguageId": "react",
@@ -92,7 +93,7 @@
     },
     {
       "id": "angular",
-      "title": "angular",
+      "title": "Angular",
       "path": "../packages/angular/src/lib/author/author.component.ts",
       "alias": "AuthorComponent",
       "templateLanguageId": "angular",
@@ -143,7 +144,7 @@
     },
     {
       "id": "html",
-      "title": "html",
+      "title": "HTML",
       "path": "../packages/html/author/author.html",
       "templateLanguageId": "html",
       "spec": {},
@@ -162,7 +163,7 @@
     },
     {
       "id": "vue",
-      "title": "vue",
+      "title": "Vue",
       "path": "@knapsack-cloud/demo-design-system-vue/src/author.vue",
       "templateLanguageId": "vue",
       "spec": {
@@ -189,7 +190,7 @@
     },
     {
       "id": "web-components",
-      "title": "web-components",
+      "title": "Web-Components",
       "path": "@knapsack-cloud/demo-design-system-web-components",
       "alias": "ks-author",
       "templateLanguageId": "web-components",

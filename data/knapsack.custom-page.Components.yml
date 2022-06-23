@@ -1,6 +1,16 @@
 id: Components
 title: Components
 slices:
+  - id: ks-content-block-FaBVdJC1P7
+    data:
+      md:
+        - >-
+          *This section provides an overview of content formatting options in
+          Knapsack. Visit the [Design Tokens](././Design-Tokens-lNWaUqkDSo) and
+          [Components](././Components-Overview) sections for examples of asset
+          docs.*
+      columns: 1
+    blockId: markdown-slice
   - id: 5RQruglYiX
     data:
       md:
