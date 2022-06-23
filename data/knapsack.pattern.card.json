@@ -11,7 +11,7 @@
   "templates": [
     {
       "id": "twig",
-      "title": "twig",
+      "title": "Twig",
       "path": "../packages/twig/src/card/card.twig",
       "alias": "@components/card.twig",
       "templateLanguageId": "twig",
@@ -75,7 +75,7 @@
     },
     {
       "id": "react",
-      "title": "react",
+      "title": "React",
       "path": "@knapsack-cloud/demo-design-system-react",
       "alias": "Card",
       "templateLanguageId": "react",
@@ -218,7 +218,7 @@
     },
     {
       "id": "hbs",
-      "title": "handlebars",
+      "title": "Handlebars",
       "path": "../packages/handlebars/src/card/card.hbs",
       "templateLanguageId": "hbs",
       "spec": {
@@ -278,7 +278,7 @@
     },
     {
       "id": "react-gDWQ4LWppt",
-      "title": "react-Data-Demo",
+      "title": "React-Data-Demo",
       "path": "@knapsack-cloud/demo-design-system-react",
       "alias": "CardDataDemo",
       "templateLanguageId": "react",

@@ -25,6 +25,15 @@ slices:
           **webinars** to learn more!
       columns: 1
     blockId: markdown-slice
+  - id: ks-content-block-oa-y7sAwqr
+    data:
+      md:
+        - >-
+          ![](https://knapsack.imgix.net/site/demo-design-system/screen-shot-2022-06-23-at-8.34.07-am-zsvueka13c.png)
+      columns: 1
+    blockId: markdown-slice
+  - id: ks-content-block-P6DcjNEINe
+    blockId: divider-block
   - id: ks-content-block-7Y7v_lnZJh
     data:
       md:

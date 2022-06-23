@@ -11,7 +11,7 @@
   "templates": [
     {
       "id": "twig",
-      "title": "twig",
+      "title": "Twig",
       "path": "../packages/twig/src/button/button.twig",
       "alias": "@components/button.twig",
       "templateLanguageId": "twig",
@@ -115,7 +115,7 @@
     },
     {
       "id": "react",
-      "title": "react",
+      "title": "React",
       "path": "@knapsack-cloud/demo-design-system-react",
       "alias": "Button",
       "templateLanguageId": "react",
@@ -217,7 +217,7 @@
     },
     {
       "id": "hbs",
-      "title": "handlebars",
+      "title": "Handlebars",
       "path": "@knapsack-cloud/demo-design-system-handlebars/src/button/button.hbs",
       "templateLanguageId": "hbs",
       "spec": {
@@ -456,5 +456,11 @@
       "type": "subPage",
       "id": "Legacy"
     }
-  ]
+  ],
+  "statuses": {
+    "design": "ready",
+    "react": "ready",
+    "twig": "ready",
+    "handlebars": "ready"
+  }
 }

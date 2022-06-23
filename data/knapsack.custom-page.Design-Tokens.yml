@@ -1,8 +1,17 @@
 id: Design-Tokens
 title: Design Tokens
 slices:
-  - id: y9KZVrKgpx
+  - id: ks-content-block-nuL9llFvdl
+    data:
+      md:
+        - >-
+          *This section provides an overview of content formatting options in
+          Knapsack. Visit the [Design Tokens](././Design-Tokens-lNWaUqkDSo) and
+          [Components](././Components-Overview) sections for examples of asset
+          docs.*
+      columns: 1
     blockId: markdown-slice
+  - id: y9KZVrKgpx
     data:
       md:
         - >+
@@ -40,137 +49,138 @@ slices:
 
 
       columns: 1
+    blockId: markdown-slice
   - id: ks-content-block-3JP6lsPzm5
     blockId: divider-block
   - id: ks-content-block-BUFKAm-2a4
-    blockId: markdown-slice
     data:
       md:
         - '## Color Swatches'
       columns: 1
+    blockId: markdown-slice
   - id: ks-content-block-2c9-R7CZYc
-    blockId: design-token-slice
     data:
+      demo:
+        id: color-swatch
       tokens:
+        name: ''
         tags:
           - brand
         type: color
         category: color
-        name: ''
-      demo:
-        id: color-swatch
+    blockId: design-token-slice
   - id: ks-content-block-yw09CUQi5_
     blockId: divider-block
   - id: 0jgDoN-06W
-    blockId: markdown-slice
     data:
       md:
         - '## Breakpoints'
       columns: 1
+    blockId: markdown-slice
   - id: ks-content-block-stXiHo-n46
-    blockId: design-token-slice
     data:
+      demo:
+        id: media-query
       tokens:
+        name: ''
         tags: []
         type: dimension
         category: breakpoint
-        name: ''
-      demo:
-        id: media-query
+    blockId: design-token-slice
   - id: ks-content-block-h5pUADysUw
     blockId: divider-block
   - id: ncyDgsT_tf
-    blockId: markdown-slice
     data:
       md:
         - '## Spacing'
       columns: 1
+    blockId: markdown-slice
   - id: ks-content-block-XvSFjTcPwH
-    blockId: design-token-slice
     data:
+      demo:
+        id: spacing
       tokens:
+        name: ''
         tags: []
         type: dimension
         category: spacing
-        name: ''
-      demo:
-        id: spacing
+    blockId: design-token-slice
   - id: ks-content-block-H4_9NLT2TE
     blockId: divider-block
   - id: 2RIhkctxWB
-    blockId: markdown-slice
     data:
       md:
         - '## Shadow'
       columns: 1
+    blockId: markdown-slice
   - id: ks-content-block-8DUW-7h2bt
-    blockId: design-token-slice
     data:
+      demo:
+        id: box-shadow
       tokens:
+        name: ''
         tags:
           - box
         category: shadow
-        name: ''
-      demo:
-        id: box-shadow
+    blockId: design-token-slice
   - id: ks-content-block-A2my1t53RY
     blockId: divider-block
   - id: ks-content-block-euHhLM0j1S
     blockId: divider-block
   - id: xoEhx_j556
-    blockId: markdown-slice
     data:
       md:
         - '## Raw Values'
       columns: 1
-  - id: ks-content-block-uhsXkgwka1
     blockId: markdown-slice
+  - id: ks-content-block-uhsXkgwka1
     data:
       md:
         - '### Table List'
       columns: 1
+    blockId: markdown-slice
   - id: j-gXbQAemM
-    blockId: design-token-slice
     data:
+      demo:
+        id: table-list
       tokens:
+        name: ''
         tags:
           - brand
         type: color
         category: color
-        name: ''
-      demo:
-        id: table-list
+    blockId: design-token-slice
   - id: ks-content-block-s0JaYiHQlW
-    blockId: markdown-slice
     data:
       md:
         - '### Simple List'
       columns: 1
+    blockId: markdown-slice
   - id: TPySDEPq5j
-    blockId: design-token-slice
     data:
+      demo:
+        id: simple-list
       tokens:
+        name: ''
         tags:
           - brand
         type: color
         category: color
-        name: ''
-      demo:
-        id: simple-list
+    blockId: design-token-slice
   - id: ks-content-block-seSlvP0DUz
-    blockId: markdown-slice
     data:
       md:
         - '### JSON'
       columns: 1
+    blockId: markdown-slice
   - id: ks-content-block-fl9nND0Tg3
-    blockId: design-token-slice
     data:
+      demo:
+        id: raw-values
       tokens:
+        name: blue
         tags: []
         type: color
         category: ''
-        name: blue
-      demo:
-        id: raw-values
+    blockId: design-token-slice
 description: Documentation capabilities & examples

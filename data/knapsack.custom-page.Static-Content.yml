@@ -1,8 +1,17 @@
 id: Static-Content
 title: Static Content
 slices:
-  - id: ks-content-block-836ZvCc7ev
+  - id: y7e0x_KAMN
+    data:
+      md:
+        - >-
+          *This section provides an overview of content formatting options in
+          Knapsack. Visit the [Design Tokens](././Design-Tokens-lNWaUqkDSo) and
+          [Components](././Components-Overview) sections for examples of asset
+          docs.*
+      columns: 1
     blockId: markdown-slice
+  - id: ks-content-block-836ZvCc7ev
     data:
       md:
         - >+
@@ -46,10 +55,10 @@ slices:
 
 
       columns: 1
+    blockId: markdown-slice
   - id: ks-content-block-WPb97EJk3q
     blockId: divider-block
   - id: ks-content-block-3nx-x-krwF
-    blockId: markdown-slice
     data:
       md:
         - |-
@@ -70,16 +79,16 @@ slices:
 
           > Block quotes block quotes block quotes block quotes
       columns: 1
+    blockId: markdown-slice
   - id: ks-content-block-CP2xFIJwTx
     blockId: divider-block
   - id: ks-content-block-9R_EDAEKZb
-    blockId: markdown-slice
     data:
       md:
         - '## In-Line Images and GIFs'
       columns: 1
-  - id: ks-content-block-lfSX6gzrNI
     blockId: markdown-slice
+  - id: ks-content-block-lfSX6gzrNI
     data:
       md:
         - >-
@@ -91,16 +100,16 @@ slices:
 
           ![](https://media4.giphy.com/media/lcs5BL0NIM4WMv61a9/giphy.gif?cid=ecf05e47nuxq7wzty4iymmzqu1z604dndq4owpvzqrv9ryd0&rid=giphy.gif?h=200&w=540)
       columns: 2
+    blockId: markdown-slice
   - id: ks-content-block-Lsu6cM8BeA
     blockId: divider-block
   - id: ks-content-block-aHFCyUV-9P
-    blockId: markdown-slice
     data:
       md:
         - '## Multi-Column Support'
       columns: 1
-  - id: LNW81ZRpE3
     blockId: markdown-slice
+  - id: LNW81ZRpE3
     data:
       md:
         - |-
@@ -123,8 +132,8 @@ slices:
 
           Up to 4 columns, fully responsive!
       columns: 4
-  - id: ks-content-block-nV_Eryo1YN
     blockId: markdown-slice
+  - id: ks-content-block-nV_Eryo1YN
     data:
       md:
         - >-
@@ -136,10 +145,10 @@ slices:
         - >-
           ![](https://p189.p2.n0.cdn.getcloudapp.com/items/6quZxE4g/f25d63f7-d4bc-4ea8-a7ce-7c7674c9eebc.jpg?source=viewer&v=6d70885803e9c7d57a9c7e328992fe9b?h=200&w=540)
       columns: 4
+    blockId: markdown-slice
   - id: ks-content-block-7arudKsMF0
     blockId: divider-block
   - id: ixHhgr8lh2
-    blockId: markdown-slice
     data:
       md:
         - |-
@@ -155,20 +164,20 @@ slices:
           }
           ```
       columns: 1
+    blockId: markdown-slice
   - id: ks-content-block-08Q2X2v2Wi
     blockId: divider-block
   - id: ks-content-block-LBMso-6f-6
-    blockId: markdown-slice
     data:
       md:
         - |-
           ## Horizontal Dividers
           -----
       columns: 1
+    blockId: markdown-slice
   - id: ks-content-block-aVSS-GAb3b
     blockId: divider-block
   - id: ks-content-block-uAr-_Djy6I
-    blockId: markdown-slice
     data:
       md:
         - |-
@@ -178,4 +187,5 @@ slices:
           | Row 1 | Value      | *X*        |
           | Row 2      | Value  | *Y*       |
       columns: 1
+    blockId: markdown-slice
 description: Documentation capabilities & examples
