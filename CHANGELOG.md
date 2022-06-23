@@ -1,3 +1,15 @@
+# v0.1.23 (Thu Jun 23 2022)
+
+#### ⚠️ Pushed to `main`
+
+- chore: kick ci ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.22 (Thu Jun 23 2022)
 
 #### ⚠️ Pushed to `main`
