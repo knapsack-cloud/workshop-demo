@@ -8,4 +8,6 @@ slices:
       height: '1200'
       clickToInteract: false
     blockId: generic-iframe
+  - id: ks-content-block-KkwdG_AZES
+    blockId: generic-iframe
 description: Use for Home and advanced landing pages.

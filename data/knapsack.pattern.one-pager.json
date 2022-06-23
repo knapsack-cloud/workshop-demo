@@ -60,7 +60,13 @@
       "spec": {
         "slots": {
           "children": {
-            "allowedPatternIds": ["layout", "hero", "top-nav", "footer"],
+            "allowedPatternIds": [
+              "layout",
+              "hero",
+              "top-nav",
+              "footer",
+              "header"
+            ],
             "title": "children",
             "disallowText": true
           }
@@ -122,6 +128,11 @@
                   "demoId": "eY-_KWUog4",
                   "patternId": "layout",
                   "templateId": "react"
+                },
+                {
+                  "patternId": "header",
+                  "templateId": "react",
+                  "demoId": "main"
                 },
                 {
                   "demoId": "aMFkBNIHU2",
