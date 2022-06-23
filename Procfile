@@ -1,1 +1,1 @@
-web: echo 'using Procfile' && yarn ks:serve
+web: npm run serve

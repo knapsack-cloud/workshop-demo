@@ -18,12 +18,13 @@
     "ks:serve": "NODE_ENV=production KNAPSACK_PORT=${PORT} knapsack serve",
     "ks:test": "knapsack test",
     "ks:start": "knapsack start",
+    "serve": "npm run ks:serve",
     "ng-app:start": "ng build knapsack-renderer-angular-app --watch",
     "ng-app:build": "ng build knapsack-renderer-angular-app",
     "start": "run-p -l *:start",
     "test": "run-s --print-name *:test"
   },
-  "devDependencies": {
+  "dependencies": {
     "@angular-devkit/build-angular": "~13.1.2",
     "@angular/cli": "~13.1.2",
     "@angular/common": "~13.1.1",
@@ -63,16 +64,14 @@
     "replace-in-file": "^6.2.0",
     "sass": "^1.32.11",
     "typescript": "~4.5.4",
+    "tslib": "^2.0.0",
     "auto": "^10.20.4",
     "lerna": "^4.0.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   },
-  "dependencies": {
-    "tslib": "^2.0.0"
-  },
   "engines": {
-    "node": ">=12.0.0 || >=14.0.0"
+    "node": "14.x || 16.x"
   },
   "workspaces": [
     "packages/*"

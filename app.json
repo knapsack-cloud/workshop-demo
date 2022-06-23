@@ -1,5 +1,10 @@
 {
-  "name": "ks-starter",
-  "stack": "container",
-  "scripts": {}
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
 }
