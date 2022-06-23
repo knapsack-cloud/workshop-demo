@@ -1,3 +1,15 @@
+# v0.1.21 (Thu Jun 23 2022)
+
+#### ⚠️ Pushed to `main`
+
+- feat: add new header component ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.20 (Wed Jun 22 2022)
 
 #### ⚠️ Pushed to `main`
