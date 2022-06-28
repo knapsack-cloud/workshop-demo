@@ -4,7 +4,7 @@
   "description": "Cards contain content and actions about a single subject.",
   "statuses": {
     "design": "ready",
-    "twig": "ready",
+    "twig": "needs-updated",
     "react": "ready",
     "handlebars": "ready"
   },
@@ -188,10 +188,10 @@
           "id": "RN96ZpJJpY",
           "data": {
             "props": {
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
+              "body": "hello",
+              "label": "Article",
               "title": "Boost your conversion rate",
-              "imgSrc": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-              "label": "Article"
+              "imgSrc": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
             },
             "slots": {
               "children": [
@@ -203,6 +203,11 @@
                 {
                   "demoId": "main",
                   "patternId": "button",
+                  "templateId": "react"
+                },
+                {
+                  "demoId": "main",
+                  "patternId": "footer",
                   "templateId": "react"
                 }
               ]
@@ -399,24 +404,33 @@
       "slices": [
         {
           "id": "ks-content-block-DiHe471EgD",
-          "blockId": "markdown-slice",
           "data": {
-            "md": "### The card component has been tested against the latest [W3C Web Content Accessibility Guidelines (WCAG) 2.1 Level A and AA success criteria](https://www.w3.org/TR/WCAG21/) and violations have been identified as high priority issues. This document will be updated when these accessibility issues are resolved."
-          }
+            "md": [
+              "### The card component has been tested against the latest [W3C Web Content Accessibility Guidelines (WCAG) 2.1 Level A and AA success criteria](https://www.w3.org/TR/WCAG21/) and violations have been identified as high priority issues. This document will be updated when these accessibility issues are resolved."
+            ],
+            "columns": 1
+          },
+          "blockId": "markdown-slice"
         },
         {
           "id": "ks-content-block-tyeC6Hiswb",
-          "blockId": "markdown-slice",
           "data": {
-            "md": "## Accessibility considerations\n1. Labels should be clear and concise.\n2. Users should be warned if selecting a card call-to-action will cause a change in context.\n3. Components should be used to create the content that displays within each tile"
-          }
+            "md": [
+              "## Accessibility considerations\n1. Labels should be clear and concise.\n2. Users should be warned if selecting a card call-to-action will cause a change in context.\n3. Components should be used to create the content that displays within each tile"
+            ],
+            "columns": 1
+          },
+          "blockId": "markdown-slice"
         },
         {
           "id": "ks-content-block-pR3IAfgqBA",
-          "blockId": "markdown-slice",
           "data": {
-            "md": "## Resources\n* [W3C WAI-ARIA Authoring Practices Checkbox Design Pattern](https://www.w3.org/TR/wai-aria-practices/examples/checkbox/checkbox-1/checkbox-1.html) covers the usage of ARIA names, state and roles, as well as the expected keyboard interactions.\n* [W3C WAI-ARIA: Using aria-expanded to indicate the state of a collapsible element](https://www.w3.org/WAI/GL/wiki/Using_aria-expanded_to_indicate_the_state_of_a_collapsible_element)\n* Best In Class Example: [IBM Accessibility Requirements](https://www.ibm.com/able/requirements/requirements/)"
-          }
+            "md": [
+              "## Resources\n* [W3C WAI-ARIA Authoring Practices Checkbox Design Pattern](https://www.w3.org/TR/wai-aria-practices/examples/checkbox/checkbox-1/checkbox-1.html) covers the usage of ARIA names, state and roles, as well as the expected keyboard interactions.\n* [W3C WAI-ARIA: Using aria-expanded to indicate the state of a collapsible element](https://www.w3.org/WAI/GL/wiki/Using_aria-expanded_to_indicate_the_state_of_a_collapsible_element)\n* Best In Class Example: [IBM Accessibility Requirements](https://www.ibm.com/able/requirements/requirements/)"
+            ],
+            "columns": 1
+          },
+          "blockId": "markdown-slice"
         }
       ]
     },
