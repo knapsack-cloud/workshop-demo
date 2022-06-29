@@ -23,7 +23,8 @@
     "typescript": "^4.2.4"
   },
   "files": [
-    "dist/*"
+    "dist/*",
+    "src/**/*"
   ],
   "repository": {
     "url": "https://github.com/knapsack-cloud/demo-design-system",
