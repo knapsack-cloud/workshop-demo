@@ -1,3 +1,22 @@
+# v0.1.24 (Wed Jun 29 2022)
+
+#### ⚠️ Pushed to `main`
+
+- `@knapsack-cloud/demo-design-system-react`
+  - fix: maps by including src ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### 📝 Documentation
+
+- updated demo examples [#210](https://github.com/knapsack-cloud/demo-design-system/pull/210) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- changed status [#208](https://github.com/knapsack-cloud/demo-design-system/pull/208) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.23 (Thu Jun 23 2022)
 
 #### ⚠️ Pushed to `main`
