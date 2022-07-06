@@ -58,7 +58,7 @@ slices:
     blockId: markdown-slice
   - id: ks-content-block-0m76iAbMDZ
     data:
-      url: 'https://www.youtube.com/watch?v=-br7mNxPfuc'
+      url: 'https://www.youtube.com/watch?v=oFXaV-xXG5s'
       height: '480'
       clickToInteract: true
     blockId: youtube-slice
