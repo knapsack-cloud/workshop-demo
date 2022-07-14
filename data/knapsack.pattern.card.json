@@ -4,8 +4,8 @@
   "description": "Cards contain content and actions about a single subject.",
   "statuses": {
     "design": "ready",
-    "twig": "ready",
-    "react": "ready",
+    "twig": "needs-updated",
+    "react": "needs-updated",
     "handlebars": "ready"
   },
   "templates": [
@@ -196,17 +196,12 @@
             "slots": {
               "children": [
                 {
-                  "demoId": "_nTCiQ1984",
-                  "patternId": "author",
-                  "templateId": "react"
-                },
-                {
                   "demoId": "main",
                   "patternId": "author",
                   "templateId": "react"
                 },
                 {
-                  "demoId": "2CXfLJgtaC",
+                  "demoId": "main",
                   "patternId": "button",
                   "templateId": "react"
                 }
