@@ -1,13 +1,18 @@
 id: Home-Page-Builder
 title: Home Page Builder
 slices:
-  - id: ks-content-block-WNkY_WFICg
+  - id: ks-content-block-IOFiIPX2g4
     data:
-      url: >-
-        https://app.knapsack.cloud/site/demo-design-system/latest/pattern-embed/one-pager?templateId=react&demoId=8yhA9y1tli
-      height: '1200'
-      clickToInteract: false
-    blockId: generic-iframe
-  - id: ks-content-block-KkwdG_AZES
-    blockId: generic-iframe
+      demoId: 8yhA9y1tli
+      demoSize: landscape
+      patternId: one-pager
+      templateId: react
+      hideControls: false
+      playgroundUi:
+        demoSize: landscape
+        showSchemaForm: true
+        showCodeSnippet: true
+      showSchemaForm: true
+      showCodeSnippet: true
+    blockId: pattern-template-slice
 description: Use for Home and advanced landing pages.
