@@ -221,29 +221,35 @@
       "id": "Admin",
       "name": "Admin",
       "path": "/pages/Admin",
-      "parentId": "root",
-      "hidden": true
+      "hidden": true,
+      "parentId": "root"
     },
     {
       "id": "Private-Pages",
       "name": "Private Pages",
       "path": "/pages/Private-Pages",
-      "parentId": "Admin",
-      "hidden": true
+      "hidden": true,
+      "parentId": "Admin"
     },
     {
       "id": "Workspace-UI",
       "name": "Workspace Elements",
       "path": "",
-      "parentId": "Admin",
-      "hidden": true
+      "hidden": true,
+      "parentId": "Admin"
     },
     {
       "id": "one-pager",
       "name": "One-Pager",
       "path": "/pattern/one-pager",
-      "parentId": "Workspace-UI",
-      "hidden": true
+      "hidden": true,
+      "parentId": "Workspace-UI"
+    },
+    {
+      "id": "colors-test",
+      "name": "colors test",
+      "path": "/pages/colors-test",
+      "parentId": "Design-Tokens-lNWaUqkDSo"
     }
   ]
 }
