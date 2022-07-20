@@ -5,8 +5,8 @@
   "main": "styles.js",
   "style": "dist/styles.css",
   "scripts": {
-    "build": "yarn build:styles",
-    "build:styles": "NODE_ENV=production postcss ./src/styles.css -o ./dist/styles.css",
+    "build": "NODE_ENV=production yarn build:styles",
+    "build:styles": "postcss ./src/styles.css -o ./dist/styles.css",
     "watch:styles": "nodemon --watch 'src/**/*' --ext 'css' --watch '../../data/knapsack.design-tokens.json' --exec 'yarn build:styles'",
     "start": "run-s watch:*",
     "clean": "rm -rf dist"
