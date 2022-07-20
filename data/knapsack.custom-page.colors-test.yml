@@ -1,0 +1,25 @@
+id: colors-test
+title: colors test
+slices:
+  - id: ks-content-block-THURp6zEN1
+    data:
+      demo:
+        id: text-color
+      tokens:
+        name: ''
+        tags:
+          - base
+        type: color
+        category: color
+    blockId: design-token-slice
+  - id: ks-content-block-NNQ4MCAUXG
+    data:
+      demo:
+        id: table-list
+      tokens:
+        name: ''
+        tags:
+          - brand
+        type: color
+        category: color
+    blockId: design-token-slice
