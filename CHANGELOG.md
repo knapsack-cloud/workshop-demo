@@ -1,3 +1,26 @@
+# v0.1.25 (Wed Jul 20 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:knapsack-cloud/demo-design-system ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+- `@knapsack-cloud/demo-design-system-styles`
+  - fix: build tailwind in dev mode while working locally ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### 📝 Documentation
+
+- new color page [#217](https://github.com/knapsack-cloud/demo-design-system/pull/217) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- prototype update [#216](https://github.com/knapsack-cloud/demo-design-system/pull/216) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- new figma file uploaded [#215](https://github.com/knapsack-cloud/demo-design-system/pull/215) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- caleb's changes [#214](https://github.com/knapsack-cloud/demo-design-system/pull/214) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- video fix [#213](https://github.com/knapsack-cloud/demo-design-system/pull/213) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.24 (Wed Jun 29 2022)
 
 #### ⚠️ Pushed to `main`
