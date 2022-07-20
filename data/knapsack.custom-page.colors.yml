@@ -2,16 +2,16 @@ id: colors
 title: Colors
 slices:
   - id: ks-content-block-HB5ZvTybxQ
-    blockId: design-token-slice
     data:
+      demo:
+        id: color-swatch
       tokens:
+        name: ''
         tags:
           - brand
         type: color
         category: color
-        name: ''
-      demo:
-        id: color-swatch
+    blockId: design-token-slice
   - id: ks-content-block-mJBLXcHRn1
     data:
       md:

@@ -4,8 +4,8 @@
   "description": "Cards contain content and actions about a single subject.",
   "statuses": {
     "design": "ready",
-    "twig": "ready",
-    "react": "ready",
+    "twig": "needs-updated",
+    "react": "needs-qa",
     "handlebars": "ready"
   },
   "templates": [
@@ -336,6 +336,10 @@
     {
       "type": "template",
       "id": "hbs"
+    },
+    {
+      "id": "figma-incomplete",
+      "type": "subPage"
     }
   ],
   "subPages": [
@@ -441,6 +445,21 @@
             "height": "800",
             "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=665%3A1128"
           }
+        }
+      ]
+    },
+    {
+      "id": "figma-incomplete",
+      "title": "figma incomplete",
+      "slices": [
+        {
+          "id": "ks-content-block-dqyZuRrkge",
+          "data": {
+            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS?node-id=665:1128",
+            "height": "480",
+            "clickToInteract": false
+          },
+          "blockId": "figma-slice"
         }
       ]
     }
