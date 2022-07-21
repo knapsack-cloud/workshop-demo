@@ -244,12 +244,6 @@
       "path": "/pattern/one-pager",
       "hidden": true,
       "parentId": "Workspace-UI"
-    },
-    {
-      "id": "colors-test",
-      "name": "colors test",
-      "path": "/pages/colors-test",
-      "parentId": "Design-Tokens-lNWaUqkDSo"
     }
   ]
 }
