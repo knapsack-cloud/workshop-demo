@@ -80,23 +80,6 @@ slices:
           - layout
         category: color
     blockId: design-token-slice
-  - id: L2Cq7RUbE_
-    data:
-      md:
-        - '### Text'
-      columns: 1
-    blockId: markdown-slice
-  - id: pkGjOWqndS
-    data:
-      demo:
-        id: text-color
-      tokens:
-        name: ''
-        tags:
-          - orange
-          - text
-        category: color
-    blockId: design-token-slice
   - id: ks-content-block-jtTiiq-htL
     data:
       md:
@@ -130,12 +113,6 @@ slices:
         tags: []
         category: color
     blockId: design-token-slice
-  - id: ks-content-block-MAex-HwvlY
-    data:
-      md:
-        - End of page
-      columns: 1
-    blockId: markdown-slice
 description: >-
   Maintaining consistent and engaging digital interfaces demands extended
   guidance around color usage. The following concepts are the foundation as we
