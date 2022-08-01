@@ -1,3 +1,15 @@
+# v0.1.27 (Mon Aug 01 2022)
+
+#### ⚠️ Pushed to `main`
+
+- feat: add light mode to button ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.25 (Wed Jul 20 2022)
 
 #### ⚠️ Pushed to `main`

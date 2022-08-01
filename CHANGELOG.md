@@ -1,3 +1,16 @@
+# v0.1.27 (Mon Aug 01 2022)
+
+#### ⚠️ Pushed to `main`
+
+- `@knapsack-cloud/demo-design-system-react`, `@knapsack-cloud/demo-design-system-styles`
+  - feat: add light mode to button ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.26 (Mon Aug 01 2022)
 
 #### ⚠️ Pushed to `main`
