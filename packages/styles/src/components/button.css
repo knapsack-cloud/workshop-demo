@@ -65,4 +65,8 @@
   &.bg-outline.special:hover {
     @apply bg-base-orchid;
   }
+  /* To support lightMode */
+  &.bg-white.border-white:hover {
+   color: #FFF;
+  }
 }

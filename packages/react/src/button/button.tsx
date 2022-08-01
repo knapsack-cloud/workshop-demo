@@ -6,7 +6,8 @@ export const Button: React.FC<ButtonProps> = ({
   size,
   type,
   url,
-  mode
+  mode,
+  lightMode
 }: ButtonProps) => {
 
   // Button size
@@ -27,25 +28,31 @@ export const Button: React.FC<ButtonProps> = ({
   // Button mode
   mode = mode ? mode : 'info';
   let buttonMode = '';
-  switch (mode) {
-    case 'success':
-      buttonMode = 'bg-base-green border-base-green';
-    break;
-    case 'info':
-      buttonMode = 'bg-base-blue border-base-blue';
-    break;
-    case 'warning':
-      buttonMode = 'bg-base-orange border-base-orange';
-    break;
-    case 'danger':
-      buttonMode = 'bg-base-red border-base-red';
-    break;
-    case 'alert':
-      buttonMode = 'bg-base-yellow border-base-yellow';
-    break;
-    case 'special':
-      buttonMode = 'bg-base-orchid border-base-orchid';
-    break;
+  // If we are in lightMode we need a white background
+  if (lightMode) {
+    buttonMode = `bg-white border-white shadow-md`
+  } else {
+    // If not in lightMode we need to check mode
+    switch (mode) {
+      case 'success':
+        buttonMode = 'bg-base-green border-base-green';
+      break;
+      case 'info':
+        buttonMode = 'bg-base-blue border-base-blue';
+      break;
+      case 'warning':
+        buttonMode = 'bg-base-orange border-base-orange';
+      break;
+      case 'danger':
+        buttonMode = 'bg-base-red border-base-red';
+      break;
+      case 'alert':
+        buttonMode = 'bg-base-yellow border-base-yellow';
+      break;
+      case 'special':
+        buttonMode = 'bg-base-orchid border-base-orchid';
+      break;
+    }
   }
 
   // Button text color
@@ -58,18 +65,26 @@ export const Button: React.FC<ButtonProps> = ({
     special: 'text-base-orchid'
   }
 
-  // Button type
+  // Button type + lightMode = text color
   let buttonTextColor = '';
-  switch (type) {
-    case 'outline':
-      buttonTextColor = `bg-outline ${buttonTextColorByMode[mode]}`
-    break;
-    case 'solid':
-      buttonTextColor = 'bg-solid text-white'
-    break;
+  // If we are in lightMode we grab the color from buttonTextColorByMode[mode]
+  if (lightMode) {
+    buttonTextColor = `bg-solid ${buttonTextColorByMode[mode]}`
+  } else {
+    // If not in lightMode we need to check type
+    switch (type) {
+      case 'outline':
+        buttonTextColor = `bg-outline ${buttonTextColorByMode[mode]}`
+      break;
+      case 'solid':
+        buttonTextColor = 'bg-solid text-white'
+      break;
+    }
   }
 
+  const lightModeEnabled = lightMode ? 'light-mode-classes-here': '';
+
   return (
-    <a href={url} className={`ks-button w-full flex items-center justify-center text-base font-medium rounded-md border-4 border-transparent ${buttonTextColor} ${buttonMode} ${buttonSize} ${mode}`}>{ children }</a> 
+    <a href={url} className={`ks-button w-full flex items-center justify-center text-base font-medium rounded-md border-4 border-transparent ${buttonTextColor} ${buttonMode} ${buttonSize} ${mode} ${lightModeEnabled}`}>{ children }</a> 
   )
 }

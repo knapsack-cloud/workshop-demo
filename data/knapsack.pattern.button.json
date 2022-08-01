@@ -127,10 +127,10 @@
           }
         },
         "props": {
-          "required": [],
           "$schema": "http://json-schema.org/draft-07/schema",
-          "type": "object",
           "description": "",
+          "type": "object",
+          "required": [],
           "properties": {
             "size": {
               "title": "Size",
@@ -159,6 +159,11 @@
               "title": "Button Type",
               "type": "string",
               "enum": ["solid", "outline"]
+            },
+            "lightMode": {
+              "title": "Light Mode",
+              "description": "True to enable light mode",
+              "type": "boolean"
             }
           }
         }
@@ -168,10 +173,11 @@
           "id": "main",
           "data": {
             "props": {
+              "type": "solid",
               "url": "#url",
               "mode": "info",
               "size": "medium",
-              "type": "solid"
+              "lightMode": false
             },
             "slots": {
               "children": ["Button"]
