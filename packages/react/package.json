@@ -24,7 +24,8 @@
   },
   "files": [
     "dist/*",
-    "src/**/*"
+    "src/**/*",
+    "utils/*"
   ],
   "repository": {
     "url": "https://github.com/knapsack-cloud/demo-design-system",
