@@ -1,3 +1,15 @@
+# v0.1.26 (Mon Aug 01 2022)
+
+#### ⚠️ Pushed to `main`
+
+- chore: remove old style dictionary config and add utils dir to npm package files ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.24 (Wed Jun 29 2022)
 
 #### ⚠️ Pushed to `main`

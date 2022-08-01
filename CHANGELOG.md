@@ -1,3 +1,22 @@
+# v0.1.26 (Mon Aug 01 2022)
+
+#### ⚠️ Pushed to `main`
+
+- `@knapsack-cloud/demo-design-system-design-tokens`, `@knapsack-cloud/demo-design-system-react`
+  - chore: remove old style dictionary config and add utils dir to npm package files ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### 📝 Documentation
+
+- Update Card Figma embed [#221](https://github.com/knapsack-cloud/demo-design-system/pull/221) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- Revert previous d-edge merge [#218](https://github.com/knapsack-cloud/demo-design-system/pull/218) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.25 (Wed Jul 20 2022)
 
 #### ⚠️ Pushed to `main`
