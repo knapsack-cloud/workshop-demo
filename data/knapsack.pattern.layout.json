@@ -48,9 +48,17 @@
       "id": "react",
       "path": "@knapsack-cloud/demo-design-system-react",
       "spec": {
+        "slots": {
+          "children": {
+            "title": "children",
+            "disallowText": true,
+            "allowedPatternIds": ["author", "button", "card"]
+          }
+        },
         "props": {
-          "type": "object",
           "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "An extensible pattern meant to provide layout flexibility",
+          "type": "object",
           "required": [],
           "properties": {
             "bandTitle": {
@@ -60,15 +68,12 @@
             "bandContent": {
               "type": "string",
               "title": "Band Content"
+            },
+            "clean": {
+              "title": "Clean Background",
+              "description": "True to remove top cut out",
+              "type": "boolean"
             }
-          },
-          "description": "An extensible pattern meant to provide layout flexibility"
-        },
-        "slots": {
-          "children": {
-            "title": "children",
-            "disallowText": true,
-            "allowedPatternIds": ["author", "button", "card"]
           }
         }
       },
@@ -82,7 +87,8 @@
           "data": {
             "props": {
               "bandTitle": "Two Card Layout Example",
-              "bandContent": "Tempor adipiscing libero volutpat luctus integer phasellus curae, habitant tempus vel interdum augue aliquam, varius feugiat nulla suscipit magnis hac."
+              "bandContent": "Tempor adipiscing libero volutpat luctus integer phasellus curae, habitant tempus vel interdum augue aliquam, varius feugiat nulla suscipit magnis hac.",
+              "clean": false
             },
             "slots": {
               "children": [
