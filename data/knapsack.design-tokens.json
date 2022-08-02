@@ -107,7 +107,7 @@
     }
   },
   "spacing": {
-    "xxs": {
+    "2xs": {
       "value": "2px"
     },
     "xs": {
@@ -125,7 +125,7 @@
     "xl": {
       "value": "48px"
     },
-    "xxl": {
+    "2xl": {
       "value": "64px"
     }
   },
