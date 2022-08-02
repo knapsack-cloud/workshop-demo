@@ -1,3 +1,17 @@
+# v0.1.29 (Tue Aug 02 2022)
+
+#### ⚠️ Pushed to `main`
+
+- feat: add font-size tokens ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+- `@knapsack-cloud/demo-design-system-angular`, `@knapsack-cloud/demo-design-system-design-tokens`, `@knapsack-cloud/demo-design-system-handlebars`, `@knapsack-cloud/demo-design-system-react`, `@knapsack-cloud/demo-design-system-shared-types`, `@knapsack-cloud/demo-design-system-styles`, `@knapsack-cloud/demo-design-system-twig`, `@knapsack-cloud/demo-design-system-vue`, `@knapsack-cloud/demo-design-system-web-components`
+  - Merge branch 'main' of github.com:knapsack-cloud/demo-design-system ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.28 (Tue Aug 02 2022)
 
 #### ⚠️ Pushed to `main`

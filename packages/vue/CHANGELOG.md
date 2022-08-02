@@ -1,3 +1,15 @@
+# v0.1.29 (Tue Aug 02 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:knapsack-cloud/demo-design-system ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.20 (Wed Jun 22 2022)
 
 #### ⚠️ Pushed to `main`
