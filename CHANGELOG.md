@@ -1,3 +1,17 @@
+# v0.1.31 (Tue Aug 02 2022)
+
+#### ⚠️ Pushed to `main`
+
+- fix: missing type def by adding missing prop ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+- `@knapsack-cloud/demo-design-system-react`
+  - chore: add clean option for Layout component ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.30 (Tue Aug 02 2022)
 
 #### ⚠️ Pushed to `main`
