@@ -69,7 +69,7 @@ export const Button: React.FC<ButtonProps> = ({
   let buttonTextColor = '';
   // If we are in lightMode we grab the color from buttonTextColorByMode[mode]
   if (lightMode) {
-    buttonTextColor = `bg-solid ${buttonTextColorByMode[mode]}`
+    buttonTextColor = `bg-solid ${buttonTextColorByMode[mode]} font-bold`
   } else {
     // If not in lightMode we need to check type
     switch (type) {
