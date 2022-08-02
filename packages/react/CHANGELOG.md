@@ -1,3 +1,15 @@
+# v0.1.28 (Tue Aug 02 2022)
+
+#### ⚠️ Pushed to `main`
+
+- chore: light mode adds bold font to buttons ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.27 (Mon Aug 01 2022)
 
 #### ⚠️ Pushed to `main`
