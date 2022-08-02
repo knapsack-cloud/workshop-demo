@@ -4,16 +4,20 @@ import { LayoutProps } from '@knapsack-cloud/demo-design-system-shared-types';
 export const Layout: React.FC<LayoutProps> = ({
   bandTitle,
   bandContent,
-  children
+  children,
+  clean
 }: LayoutProps) => {
 
   const childrenCount = children ? React.Children.count(children) : 1;
+  const typeOfLayout = !clean ? 'bg-gray-50' : '';
   return (
     <>
-      <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8 dark:bg-gray-700">
-        <div className="absolute inset-0">
-          <div className="bg-white h-1/3 sm:h-2/3"></div>
-        </div>
+      <div className={`relative pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8 dark:bg-gray-700 ${typeOfLayout}`}>
+        {!clean &&
+          <div className="absolute inset-0">
+            <div className="bg-white h-1/3 sm:h-2/3"></div>
+          </div>
+        }
         <div className="relative max-w-7xl mx-auto">
           {(bandTitle || bandContent) && (
             <div className="text-center">
