@@ -152,15 +152,6 @@
               "type": "string",
               "title": "Button Type",
               "default": "solid"
-            },
-            "hasIcon": {
-              "type": "boolean",
-              "title": "Icon Has Button"
-            },
-            "lightMode": {
-              "type": "boolean",
-              "title": "Light Mode",
-              "description": "True to enable light mode"
             }
           },
           "description": ""
@@ -180,9 +171,7 @@
               "url": "#url",
               "mode": "info",
               "size": "medium",
-              "type": "solid",
-              "hasIcon": false,
-              "lightMode": false
+              "type": "solid"
             },
             "slots": {
               "children": ["Button"]
