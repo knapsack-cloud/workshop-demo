@@ -1,7 +1,7 @@
 {
   "name": "@knapsack-cloud/demo-design-system-angular",
   "description": "Knapsack Demo Design System Angular Library",
-  "version": "0.1.33",
+  "version": "0.1.34",
   "scripts": {
     "build": "yarn ng build",
     "new": "ng generate component --export",
@@ -23,8 +23,8 @@
     "@angular/compiler": "~13.1.1"
   },
   "dependencies": {
-    "@knapsack-cloud/demo-design-system-design-tokens": "^0.1.33",
-    "@knapsack-cloud/demo-design-system-styles": "^0.1.33",
+    "@knapsack-cloud/demo-design-system-design-tokens": "^0.1.34",
+    "@knapsack-cloud/demo-design-system-styles": "^0.1.34",
     "tslib": "^1.10.0"
   },
   "repository": {
