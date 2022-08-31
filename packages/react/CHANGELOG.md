@@ -1,3 +1,16 @@
+# v0.1.34 (Wed Aug 31 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Sec icon to hidden initially ([@illepic](https://github.com/illepic))
+- Icon for button ([@illepic](https://github.com/illepic))
+
+#### Authors: 1
+
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.31 (Tue Aug 02 2022)
 
 #### ⚠️ Pushed to `main`

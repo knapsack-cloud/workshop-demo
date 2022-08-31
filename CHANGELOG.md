@@ -1,3 +1,18 @@
+# v0.1.34 (Wed Aug 31 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Defaults in prep for icon ([@illepic](https://github.com/illepic))
+- `@knapsack-cloud/demo-design-system-react`
+  - Sec icon to hidden initially ([@illepic](https://github.com/illepic))
+  - Icon for button ([@illepic](https://github.com/illepic))
+
+#### Authors: 1
+
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.33 (Wed Aug 31 2022)
 
 #### ⚠️ Pushed to `main`
