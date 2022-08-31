@@ -120,26 +120,17 @@
       "alias": "Button",
       "templateLanguageId": "react",
       "spec": {
-        "slots": {
-          "children": {
-            "title": "children",
-            "isRequired": true
-          }
-        },
         "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "",
           "type": "object",
+          "$schema": "http://json-schema.org/draft-07/schema",
           "required": [],
           "properties": {
-            "size": {
-              "title": "Size",
+            "url": {
               "type": "string",
-              "enum": ["small", "medium", "large"]
+              "title": "URL",
+              "description": "[URL]|[TITLE] — for example: http://google.com|Google"
             },
             "mode": {
-              "title": "Button Mode",
-              "type": "string",
               "enum": [
                 "success",
                 "info",
@@ -147,24 +138,37 @@
                 "danger",
                 "alert",
                 "special"
-              ]
-            },
-            "url": {
-              "title": "URL",
+              ],
               "type": "string",
-              "description": "[URL]|[TITLE] — for example: http://google.com|Google"
+              "title": "Button Mode"
+            },
+            "size": {
+              "enum": ["small", "medium", "large"],
+              "type": "string",
+              "title": "Size"
             },
             "type": {
-              "default": "solid",
-              "title": "Button Type",
+              "enum": ["solid", "outline"],
               "type": "string",
-              "enum": ["solid", "outline"]
+              "title": "Button Type",
+              "default": "solid"
+            },
+            "hasIcon": {
+              "type": "boolean",
+              "title": "Icon Has Button"
             },
             "lightMode": {
+              "type": "boolean",
               "title": "Light Mode",
-              "description": "True to enable light mode",
-              "type": "boolean"
+              "description": "True to enable light mode"
             }
+          },
+          "description": ""
+        },
+        "slots": {
+          "children": {
+            "title": "children",
+            "isRequired": true
           }
         }
       },
@@ -173,10 +177,11 @@
           "id": "main",
           "data": {
             "props": {
-              "type": "solid",
               "url": "#url",
               "mode": "info",
               "size": "medium",
+              "type": "solid",
+              "hasIcon": false,
               "lightMode": false
             },
             "slots": {
@@ -202,23 +207,41 @@
           "title": "Outline (special)",
           "type": "data"
         },
-        "xNzyD6limD": {
-          "id": "xNzyD6limD",
-          "title": "New Variation",
-          "description": "A description",
-          "type": "data",
+        "Enqj76x0h7": {
+          "id": "Enqj76x0h7",
           "data": {
             "props": {
+              "url": "#url",
+              "mode": "warning",
+              "size": "medium",
               "type": "solid",
-              "size": "medium"
+              "lightMode": false
+            },
+            "slots": {
+              "children": ["Button"]
+            }
+          },
+          "type": "data",
+          "title": "Solid (info) 2"
+        },
+        "72aD-JxRXr": {
+          "id": "72aD-JxRXr",
+          "data": {
+            "props": {
+              "mode": "success",
+              "size": "medium",
+              "type": "solid"
             },
             "slots": {
               "children": ["Text"]
             }
-          }
+          },
+          "type": "data",
+          "title": "New Variation",
+          "description": "A description"
         }
       },
-      "demos": ["main", "2CXfLJgtaC", "xNzyD6limD"],
+      "demos": ["main", "2CXfLJgtaC", "Enqj76x0h7", "72aD-JxRXr"],
       "slices": []
     },
     {

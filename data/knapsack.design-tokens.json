@@ -1,28 +1,11 @@
 {
   "color": {
-    "brand": {
-      "primary": {
-        "value": "{color.base.blue.value}"
-      },
-      "secondary": {
-        "value": "{color.light.blue.value}"
-      },
-      "tertiary": {
-        "value": "{color.text.inverse.value}"
-      },
-      "black": {
-        "value": "#000000"
-      },
-      "white": {
-        "value": "#FFFFFF"
-      }
-    },
     "base": {
       "red": {
         "value": "#ef5151"
       },
       "blue": {
-        "value": "#3c5ccf"
+        "value": "#740507"
       },
       "green": {
         "value": "#3ccf91"
@@ -68,6 +51,23 @@
         "value": "#f9f9f9"
       }
     },
+    "brand": {
+      "black": {
+        "value": "#000000"
+      },
+      "white": {
+        "value": "#FFFFFF"
+      },
+      "primary": {
+        "value": "{color.base.blue.value}"
+      },
+      "tertiary": {
+        "value": "{color.text.inverse.value}"
+      },
+      "secondary": {
+        "value": "{color.light.blue.value}"
+      }
+    },
     "light": {
       "red": {
         "value": "#f8b0b0"
@@ -106,27 +106,86 @@
       }
     }
   },
+  "shadow": {
+    "box": {
+      "lg": {
+        "value": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)"
+      },
+      "md": {
+        "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)"
+      },
+      "sm": {
+        "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)"
+      }
+    },
+    "text": {
+      "medium": {
+        "value": "0 1px 2px rgba(0,0,0,0.5)"
+      }
+    }
+  },
   "spacing": {
-    "2xs": {
-      "value": "2px"
-    },
-    "xs": {
-      "value": "4px"
-    },
-    "s": {
-      "value": "8px"
+    "l": {
+      "value": "32px"
     },
     "m": {
       "value": "16px"
     },
-    "l": {
-      "value": "32px"
+    "s": {
+      "value": "8px"
     },
     "xl": {
       "value": "48px"
     },
+    "xs": {
+      "value": "4px"
+    },
     "2xl": {
       "value": "64px"
+    },
+    "2xs": {
+      "value": "2px"
+    }
+  },
+  "font-size": {
+    "lg": {
+      "value": "1.125rem"
+    },
+    "sm": {
+      "value": "0.875rem"
+    },
+    "xl": {
+      "value": "1.25rem"
+    },
+    "xs": {
+      "value": "0.75rem"
+    },
+    "2xl": {
+      "value": "1.5rem"
+    },
+    "3xl": {
+      "value": "1.875rem"
+    },
+    "4xl": {
+      "value": "2.25rem"
+    },
+    "5xl": {
+      "value": "3rem"
+    },
+    "6xl": {
+      "value": "3.75rem"
+    },
+    "7xl": {
+      "value": "4.5rem"
+    },
+    "8xl": {
+      "value": "6rem"
+    },
+    "9xl": {
+      "value": "8rem"
+    },
+    "base": {
+      "value": "1rem"
     }
   },
   "breakpoint": {
@@ -179,34 +238,7 @@
       }
     }
   },
-  "shadow": {
-    "text": {
-      "medium": {
-        "value": "0 1px 2px rgba(0,0,0,0.5)"
-      }
-    },
-    "box": {
-      "sm": {
-        "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)"
-      },
-      "md": {
-        "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)"
-      },
-      "lg": {
-        "value": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)"
-      }
-    }
-  },
   "transition": {
-    "duration": {
-      "normal": {
-        "value": "150ms"
-      },
-      "slow": {
-        "value": "600ms",
-        "comment": "Used for near full width movements, like the Carousel"
-      }
-    },
     "delay": {
       "slow": {
         "value": "8000ms",
@@ -217,47 +249,15 @@
       "default": {
         "value": "ease"
       }
-    }
-  },
-  "font-size": {
-    "xs": {
-      "value": "0.75rem"
     },
-    "sm": {
-      "value": "0.875rem"
-    },
-    "base": {
-      "value": "1rem"
-    },
-    "lg": {
-      "value": "1.125rem"
-    },
-    "xl": {
-      "value": "1.25rem"
-    },
-    "2xl": {
-      "value": "1.5rem"
-    },
-    "3xl": {
-      "value": "1.875rem"
-    },
-    "4xl": {
-      "value": "2.25rem"
-    },
-    "5xl": {
-      "value": "3rem"
-    },
-    "6xl": {
-      "value": "3.75rem"
-    },
-    "7xl": {
-      "value": "4.5rem"
-    },
-    "8xl": {
-      "value": "6rem"
-    },
-    "9xl": {
-      "value": "8rem"
+    "duration": {
+      "slow": {
+        "value": "600ms",
+        "comment": "Used for near full width movements, like the Carousel"
+      },
+      "normal": {
+        "value": "150ms"
+      }
     }
   }
 }
