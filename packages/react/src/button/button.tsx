@@ -27,7 +27,7 @@ export const Button: React.FC<AddedDemoProps> = ({
   url,
   mode,
   lightMode,
-  iCanHazIcon = true,
+  iCanHazIcon = false,
 }: AddedDemoProps) => {
   // Button size
   size = size ? size : 'medium'; // Default
