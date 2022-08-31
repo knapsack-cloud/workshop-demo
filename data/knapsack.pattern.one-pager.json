@@ -80,9 +80,28 @@
         }
       },
       "alias": "PageLayout",
-      "demos": ["jIkrNzJ0cO", "main", "8yhA9y1tli"],
+      "demos": ["jIkrNzJ0cO", "main", "8yhA9y1tli", "w0lOs8XIwk"],
       "title": "react",
-      "slices": [],
+      "slices": [
+        {
+          "id": "ks-content-block-hKYgpRIggd",
+          "data": {
+            "demoId": "jIkrNzJ0cO",
+            "demoSize": "landscape",
+            "patternId": "one-pager",
+            "templateId": "react",
+            "hideControls": false,
+            "playgroundUi": {
+              "demoSize": "landscape",
+              "showSchemaForm": true,
+              "showCodeSnippet": false
+            },
+            "showSchemaForm": true,
+            "showCodeSnippet": false
+          },
+          "blockId": "pattern-template-slice"
+        }
+      ],
       "demosById": {
         "main": {
           "id": "main",
@@ -120,7 +139,7 @@
             "slots": {
               "children": [
                 {
-                  "demoId": "main",
+                  "demoId": "ysDZjRo0Yd",
                   "patternId": "hero",
                   "templateId": "react"
                 },
@@ -130,9 +149,9 @@
                   "templateId": "react"
                 },
                 {
+                  "demoId": "main",
                   "patternId": "header",
-                  "templateId": "react",
-                  "demoId": "main"
+                  "templateId": "react"
                 },
                 {
                   "demoId": "aMFkBNIHU2",
@@ -140,9 +159,9 @@
                   "templateId": "react"
                 },
                 {
+                  "demoId": "main",
                   "patternId": "footer",
-                  "templateId": "react",
-                  "demoId": "main"
+                  "templateId": "react"
                 }
               ]
             }
@@ -150,6 +169,24 @@
           "type": "data",
           "title": "Hero Page",
           "description": ""
+        },
+        "w0lOs8XIwk": {
+          "id": "w0lOs8XIwk",
+          "data": {
+            "props": {},
+            "slots": {
+              "children": [
+                {
+                  "demoId": "",
+                  "patternId": "",
+                  "templateId": ""
+                }
+              ]
+            }
+          },
+          "type": "data",
+          "title": "Marketing Page",
+          "description": "this page does blah"
         }
       },
       "templateLanguageId": "react"
