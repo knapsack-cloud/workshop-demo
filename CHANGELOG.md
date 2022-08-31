@@ -1,3 +1,21 @@
+# v0.1.33 (Wed Aug 31 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Bring back lightMode ([@illepic](https://github.com/illepic))
+- Remove lightmode prop reference ([@illepic](https://github.com/illepic))
+
+#### 📝 Documentation
+
+- Changed some props [#231](https://github.com/knapsack-cloud/demo-design-system/pull/231) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.32 (Wed Aug 31 2022)
 
 #### ⚠️ Pushed to `main`
