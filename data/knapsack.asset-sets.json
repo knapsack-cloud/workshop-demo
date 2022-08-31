@@ -3,7 +3,7 @@
   "allAssetSets": {
     "default": {
       "id": "default",
-      "title": "Default",
+      "title": "Brand A",
       "assets": [
         {
           "src": "../packages/design-tokens/dist/design-tokens.css"
@@ -19,7 +19,7 @@
     },
     "dark": {
       "id": "dark",
-      "title": "Dark",
+      "title": "Brand B",
       "inlineJs": "document.body.classList.add('dark')",
       "assets": [
         {
