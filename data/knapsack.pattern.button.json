@@ -120,9 +120,16 @@
       "alias": "Button",
       "templateLanguageId": "react",
       "spec": {
+        "slots": {
+          "children": {
+            "title": "children",
+            "isRequired": true
+          }
+        },
         "props": {
-          "type": "object",
           "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
           "required": [],
           "properties": {
             "url": {
@@ -152,14 +159,13 @@
               "type": "string",
               "title": "Button Type",
               "default": "solid"
+            },
+            "lightMode": {
+              "title": "Light mode",
+              "description": "True to enable light mode",
+              "type": "boolean",
+              "default": true
             }
-          },
-          "description": ""
-        },
-        "slots": {
-          "children": {
-            "title": "children",
-            "isRequired": true
           }
         }
       },
