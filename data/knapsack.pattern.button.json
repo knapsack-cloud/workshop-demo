@@ -174,10 +174,11 @@
           "id": "main",
           "data": {
             "props": {
+              "type": "solid",
+              "lightMode": false,
               "url": "#url",
               "mode": "info",
-              "size": "medium",
-              "type": "solid"
+              "size": "medium"
             },
             "slots": {
               "children": ["Button"]
