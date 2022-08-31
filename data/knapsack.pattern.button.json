@@ -203,8 +203,7 @@
               "url": "#url",
               "mode": "warning",
               "size": "medium",
-              "type": "solid",
-              "lightMode": false
+              "type": "solid"
             },
             "slots": {
               "children": ["Button"]
