@@ -1,3 +1,15 @@
+# v0.1.36 (Thu Sep 01 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Revert orange back ([@illepic](https://github.com/illepic))
+
+#### Authors: 1
+
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.35 (Thu Sep 01 2022)
 
 #### ⚠️ Pushed to `main`
