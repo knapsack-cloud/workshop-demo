@@ -1,3 +1,16 @@
+# v0.1.38 (Thu Sep 01 2022)
+
+#### 🐛 Bug Fix
+
+- `@knapsack-cloud/demo-design-system-react`, `@knapsack-cloud/demo-design-system-styles`
+  - Update browserslist, better props for hero/button, ensure hero takes base-blue changes [#237](https://github.com/knapsack-cloud/demo-design-system/pull/237) ([@illepic](https://github.com/illepic))
+
+#### Authors: 1
+
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.37 (Thu Sep 01 2022)
 
 #### 🐛 Bug Fix

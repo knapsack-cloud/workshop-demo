@@ -1,3 +1,16 @@
+# v0.1.38 (Thu Sep 01 2022)
+
+#### 🐛 Bug Fix
+
+- Update browserslist, better props for hero/button, ensure hero takes base-blue changes [#237](https://github.com/knapsack-cloud/demo-design-system/pull/237) ([@illepic](https://github.com/illepic))
+- Update browserslist, better props for hero/button, ensure hero takes base-blue changes ([@illepic](https://github.com/illepic))
+
+#### Authors: 1
+
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.29 (Tue Aug 02 2022)
 
 #### ⚠️ Pushed to `main`
