@@ -1,9 +1,14 @@
 import * as React from 'react';
-import { ButtonProps } from '@knapsack-cloud/demo-design-system-shared-types';
 
-type AddedDemoProps = ButtonProps & {
+export interface ButtonProps {
+  url?: string;
+  mode?: 'success' | 'info' | 'warning' | 'danger' | 'alert' | 'special';
+  size?: 'small' | 'medium' | 'large';
+  type?: 'solid' | 'outline';
+  lightMode?: boolean;
+  children: React.ReactNode;
   iCanHazIcon?: boolean;
-};
+}
 
 const FireIcon = () => (
   <svg
@@ -20,7 +25,7 @@ const FireIcon = () => (
   </svg>
 );
 
-export const Button: React.FC<AddedDemoProps> = ({
+export const Button: React.FC<ButtonProps> = ({
   children,
   size,
   type,
@@ -28,7 +33,7 @@ export const Button: React.FC<AddedDemoProps> = ({
   mode,
   lightMode,
   iCanHazIcon = false,
-}: AddedDemoProps) => {
+}: ButtonProps) => {
   // Button size
   size = size ? size : 'medium'; // Default
   let buttonSize = '';

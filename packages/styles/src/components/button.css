@@ -1,3 +1,7 @@
+/* Noting here that all these classes could be applied directly to the markup
+but this file demonstrates how easy it is to add direct CSS (with custom 
+processing!) */
+
 .ks-button {
   &:hover {
     transition: all 0.2s linear;
@@ -67,6 +71,6 @@
   }
   /* To support lightMode */
   &.bg-white.border-white:hover {
-   color: #FFF;
+    color: #fff;
   }
 }
