@@ -1,5 +1,9 @@
 ### Supported Browsers
-chrome > 61
-safari > 10.1
-ios_saf > 10.3
-firefox > 59
+
+last 2 versions
+last 2 Safari major versions
+
+# Angular blows up specifically on these
+
+not ios_saf 15.2-15.3
+not safari 15.2-15.3
