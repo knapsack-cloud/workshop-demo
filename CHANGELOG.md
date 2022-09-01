@@ -1,3 +1,20 @@
+# v0.1.37 (Thu Sep 01 2022)
+
+#### 🐛 Bug Fix
+
+- bump [#236](https://github.com/knapsack-cloud/demo-design-system/pull/236) ([@illepic](https://github.com/illepic))
+
+#### 📝 Documentation
+
+- Made a color change [#235](https://github.com/knapsack-cloud/demo-design-system/pull/235) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.36 (Thu Sep 01 2022)
 
 #### ⚠️ Pushed to `main`
