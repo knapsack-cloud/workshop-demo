@@ -5,10 +5,10 @@
         "value": "#ef5151"
       },
       "blue": {
-        "value": "#0068EB"
+        "value": "#7D92AC"
       },
       "green": {
-        "value": "#3ccf91"
+        "value": "{color.dark.green.value}"
       },
       "orange": {
         "value": "#FF934F"
