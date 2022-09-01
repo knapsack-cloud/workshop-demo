@@ -1,3 +1,22 @@
+# v0.1.35 (Thu Sep 01 2022)
+
+#### ⚠️ Pushed to `main`
+
+- test warning color change ([@illepic](https://github.com/illepic))
+
+#### 📝 Documentation
+
+- Changing blue back to blue from blueish [#234](https://github.com/knapsack-cloud/demo-design-system/pull/234) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- Another color change test [#233](https://github.com/knapsack-cloud/demo-design-system/pull/233) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- New primary color by reference [#232](https://github.com/knapsack-cloud/demo-design-system/pull/232) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.34 (Wed Aug 31 2022)
 
 #### ⚠️ Pushed to `main`
