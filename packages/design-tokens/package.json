@@ -1,7 +1,7 @@
 {
   "name": "@knapsack-cloud/demo-design-system-design-tokens",
   "description": "Knapsack Demo Design System Design Tokens",
-  "version": "0.1.35",
+  "version": "0.1.36",
   "main": "dist/design-tokens.json",
   "module": "dist/design-tokens.js",
   "style": "dist/design-tokens.scss",
