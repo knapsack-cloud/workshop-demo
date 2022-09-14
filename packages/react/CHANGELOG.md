@@ -1,3 +1,16 @@
+# v0.1.39 (Wed Sep 14 2022)
+
+#### 🐛 Bug Fix
+
+- Use a real button component in the hero component [#240](https://github.com/knapsack-cloud/demo-design-system/pull/240) ([@illepic](https://github.com/illepic))
+- Use a real button component in the hero component ([@illepic](https://github.com/illepic))
+
+#### Authors: 1
+
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.38 (Thu Sep 01 2022)
 
 #### 🐛 Bug Fix
