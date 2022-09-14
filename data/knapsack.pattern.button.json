@@ -120,16 +120,9 @@
       "alias": "Button",
       "templateLanguageId": "react",
       "spec": {
-        "slots": {
-          "children": {
-            "title": "children",
-            "isRequired": true
-          }
-        },
         "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "",
           "type": "object",
+          "$schema": "http://json-schema.org/draft-07/schema",
           "required": [],
           "properties": {
             "url": {
@@ -161,11 +154,21 @@
               "default": "solid"
             },
             "lightMode": {
-              "title": "Light mode",
-              "description": "True to enable light mode",
               "type": "boolean",
-              "default": true
+              "title": "Light mode",
+              "default": true,
+              "description": "True to enable light mode"
+            },
+            "iCanHazIcon": {
+              "type": "boolean"
             }
+          },
+          "description": ""
+        },
+        "slots": {
+          "children": {
+            "title": "children",
+            "isRequired": true
           }
         }
       },
@@ -174,11 +177,12 @@
           "id": "main",
           "data": {
             "props": {
-              "type": "solid",
-              "lightMode": false,
               "url": "#url",
               "mode": "info",
-              "size": "medium"
+              "size": "medium",
+              "type": "solid",
+              "lightMode": false,
+              "iCanHazIcon": true
             },
             "slots": {
               "children": ["Button"]
@@ -311,36 +315,47 @@
         },
         {
           "id": "ks-content-block--plYGPDwcr",
-          "blockId": "pattern-variations",
           "data": {
             "size": "s",
+            "demoId": "main",
             "patternId": "button",
             "templateId": "react",
-            "demoId": "main",
             "variationId": "mode"
-          }
+          },
+          "blockId": "pattern-variations"
+        },
+        {
+          "id": "ks-content-block-gV4Zis1_vr",
+          "data": {
+            "size": "m",
+            "demoId": "main",
+            "patternId": "button",
+            "templateId": "react",
+            "variationId": "iCanHazIcon"
+          },
+          "blockId": "pattern-variations"
         },
         {
           "id": "ks-content-block-1VyLx4PL0Q",
-          "blockId": "pattern-variations",
           "data": {
             "size": "s",
+            "demoId": "main",
             "patternId": "button",
             "templateId": "react",
-            "demoId": "main",
             "variationId": "size"
-          }
+          },
+          "blockId": "pattern-variations"
         },
         {
           "id": "ks-content-block-kCs__ou9y9",
-          "blockId": "pattern-variations",
           "data": {
             "size": "s",
+            "demoId": "2CXfLJgtaC",
             "patternId": "button",
             "templateId": "react",
-            "demoId": "2CXfLJgtaC",
             "variationId": "type"
-          }
+          },
+          "blockId": "pattern-variations"
         },
         {
           "id": "ks-content-block-PgZf2sEi0K",
