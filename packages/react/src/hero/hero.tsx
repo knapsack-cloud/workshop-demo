@@ -131,7 +131,7 @@ export const Hero: React.FC<HeroProps> = ({
                   <Button url="/" mode="info" type="solid">
                     {buttonOne}
                   </Button>
-
+                  {/* deploy */}
                   {/* <KSShortcodeLinkGen
                     shortcode="Getting started"
                     classes="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-base-blue hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
