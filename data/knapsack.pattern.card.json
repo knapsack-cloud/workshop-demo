@@ -280,37 +280,6 @@
       },
       "demos": ["main"],
       "slices": []
-    },
-    {
-      "id": "react-gDWQ4LWppt",
-      "title": "React-Data-Demo",
-      "path": "@knapsack-cloud/demo-design-system-react",
-      "alias": "CardDataDemo",
-      "templateLanguageId": "react",
-      "spec": {
-        "isInferred": true
-      },
-      "demosById": {
-        "main": {
-          "id": "main",
-          "title": "Simplified Card Data Demo",
-          "type": "data",
-          "data": {
-            "props": {
-              "label": "Video",
-              "title": "The content your users want",
-              "showImage": true,
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium."
-            },
-            "slots": {
-              "children": []
-            }
-          },
-          "description": "This demo shows off a simplified implementation of a card"
-        }
-      },
-      "demos": ["main"],
-      "slices": []
     }
   ],
   "tabs": [
@@ -332,10 +301,6 @@
     },
     {
       "id": "twig",
-      "type": "template"
-    },
-    {
-      "id": "react-gDWQ4LWppt",
       "type": "template"
     },
     {

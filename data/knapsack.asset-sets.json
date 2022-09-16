@@ -3,13 +3,16 @@
   "allAssetSets": {
     "default": {
       "id": "default",
-      "title": "Brand A",
+      "title": "Meh",
       "assets": [
         {
           "src": "../packages/design-tokens/dist/design-tokens.css"
         },
         {
           "src": "../packages/styles/dist/styles.css"
+        },
+        {
+          "src": "../packages/styles/dist/default.css"
         },
         {
           "src": "../packages/web-components/dist/index.js",
@@ -19,7 +22,7 @@
     },
     "dark": {
       "id": "dark",
-      "title": "Brand B",
+      "title": "Wow",
       "inlineJs": "document.body.classList.add('wow')",
       "assets": [
         {
@@ -27,6 +30,9 @@
         },
         {
           "src": "../packages/styles/dist/styles.css"
+        },
+        {
+          "src": "../packages/styles/dist/wow.css"
         },
         {
           "src": "../packages/web-components/dist/index.js",
