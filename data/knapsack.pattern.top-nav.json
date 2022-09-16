@@ -11,7 +11,7 @@
     {
       "id": "react",
       "title": "React",
-      "path": "@knapsack-cloud/demo-design-system-react",
+      "path": "@knapsack-cloud/public-demo-react",
       "alias": "TopNav",
       "templateLanguageId": "react",
       "spec": {

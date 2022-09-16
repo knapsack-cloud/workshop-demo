@@ -6,14 +6,13 @@ settings:
     size: full
     textColorTitle:
       type: value
-      colorValue: '#FFFFFF'
+      colorValue: '#000000'
     backgroundColor:
       type: value
       colorValue: '#6B00FF'
-    backgroundImage: null
+    backgroundImage: >-
+      https://knapsack.imgix.net/site/public-demo/daniel-k-cheung-zqqlozygg7g-unsplash-nluq_bsyx7.jpg
     textColorDescription:
       type: value
-      colorValue: '#FFFFFF'
-description: >-
-  Browse this section to explore capabilities related to documenting your
-  system.
+      colorValue: '#000000'
+description: Read about how to use your design system

@@ -1,0 +1,14 @@
+id: brand-meh
+title: Brand Meh
+slices:
+  - id: ks-content-block-ZIA41N3-bJ
+    data:
+      demo:
+        id: color-swatch
+      tokens:
+        name: ''
+        tags:
+          - Meh
+        category: color
+    blockId: design-token-slice
+description: A brand we kind of like... maybe?

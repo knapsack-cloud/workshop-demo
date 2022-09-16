@@ -1,8 +1,8 @@
 import { LitElement, customElement, property, html } from 'lit-element';
-import style from '@knapsack-cloud/demo-design-system-styles/dist/styles.css'; // Design System styles
+import style from '@knapsack-cloud/public-demo-styles/dist/styles.css'; // Design System styles
 
 @customElement('ks-author')
-export class Author extends LitElement {  
+export class Author extends LitElement {
   @property() read = '';
   @property() date = '';
   @property() imgSrc = '';

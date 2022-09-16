@@ -10,113 +10,9 @@
   ],
   "templates": [
     {
-      "id": "twig",
-      "title": "Twig",
-      "path": "../packages/twig/src/button/button.twig",
-      "alias": "@components/button.twig",
-      "templateLanguageId": "twig",
-      "spec": {
-        "slots": {},
-        "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "",
-          "type": "object",
-          "required": [],
-          "properties": {
-            "size": {
-              "title": "Size",
-              "type": "string",
-              "enum": ["small", "medium", "large"]
-            },
-            "mode": {
-              "title": "Button Mode",
-              "type": "string",
-              "enum": [
-                "success",
-                "info",
-                "warning",
-                "danger",
-                "alert",
-                "special"
-              ]
-            },
-            "url": {
-              "title": "URL",
-              "type": "string",
-              "description": "[URL]|[TITLE] — for example: http://google.com|Google"
-            },
-            "type": {
-              "default": "solid",
-              "title": "Button Type",
-              "type": "string",
-              "enum": ["solid", "outline"]
-            },
-            "text": {
-              "type": "string",
-              "title": "Button Text"
-            },
-            "icon": {
-              "type": "object",
-              "required": [],
-              "properties": {
-                "align": {
-                  "title": "Align",
-                  "type": "string",
-                  "enum": ["left", "right"]
-                },
-                "svg": {
-                  "title": "SVG",
-                  "type": "string",
-                  "description": "Paste your SVG code here. https://heroicons.com/"
-                }
-              }
-            }
-          }
-        }
-      },
-      "demosById": {
-        "main": {
-          "id": "main",
-          "title": "Solid (info)",
-          "type": "data",
-          "data": {
-            "props": {
-              "type": "solid",
-              "icon": {
-                "align": "right",
-                "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\">   <path fill-rule=\"evenodd\" d=\"M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z\" clip-rule=\"evenodd\" /> </svg>"
-              },
-              "size": "medium",
-              "mode": "info",
-              "url": "https://www.knapsack.cloud",
-              "text": "Button"
-            },
-            "slots": {}
-          }
-        },
-        "j00gCMBwhY": {
-          "id": "j00gCMBwhY",
-          "title": "Outline (special)",
-          "type": "data",
-          "data": {
-            "props": {
-              "type": "outline",
-              "size": "medium",
-              "mode": "special",
-              "url": "https://www.knapsack.cloud",
-              "text": "Button"
-            },
-            "slots": {}
-          }
-        }
-      },
-      "demos": ["main", "j00gCMBwhY"],
-      "slices": []
-    },
-    {
       "id": "react",
       "title": "React",
-      "path": "@knapsack-cloud/demo-design-system-react",
+      "path": "@knapsack-cloud/public-demo-react",
       "alias": "Button",
       "templateLanguageId": "react",
       "spec": {
@@ -198,50 +94,6 @@
         }
       },
       "demos": ["main", "2CXfLJgtaC"],
-      "slices": []
-    },
-    {
-      "id": "hbs",
-      "title": "Handlebars",
-      "path": "@knapsack-cloud/demo-design-system-handlebars/src/button/button.hbs",
-      "templateLanguageId": "hbs",
-      "spec": {
-        "slots": {},
-        "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "Buttons are used to initialize an action. Button labels express what action will occur when the user interacts with it.",
-          "type": "object",
-          "required": [],
-          "properties": {}
-        }
-      },
-      "demosById": {
-        "S6cqwxsItT": {
-          "id": "S6cqwxsItT",
-          "title": "Solid (info)",
-          "type": "template",
-          "templateInfo": {
-            "path": "@knapsack-cloud/demo-design-system-handlebars/src/button/button.hbs"
-          }
-        },
-        "7Yvjb7xQiF": {
-          "id": "7Yvjb7xQiF",
-          "title": "Outline (special)",
-          "type": "template",
-          "templateInfo": {
-            "path": "@knapsack-cloud/demo-design-system-handlebars/src/button/button-outline.hbs"
-          }
-        },
-        "E4nm4X5WKo": {
-          "id": "E4nm4X5WKo",
-          "title": "Small",
-          "type": "template",
-          "templateInfo": {
-            "path": "@knapsack-cloud/demo-design-system-handlebars/src/button/button-small.hbs"
-          }
-        }
-      },
-      "demos": ["S6cqwxsItT", "7Yvjb7xQiF", "E4nm4X5WKo"],
       "slices": []
     }
   ],
@@ -439,14 +291,6 @@
     {
       "type": "template",
       "id": "react"
-    },
-    {
-      "type": "template",
-      "id": "twig"
-    },
-    {
-      "type": "template",
-      "id": "hbs"
     },
     {
       "type": "subPage",

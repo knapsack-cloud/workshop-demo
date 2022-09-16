@@ -1,6 +1,6 @@
 import * as React from 'react';
 import cn from 'classnames';
-import { AuthorProps } from '@knapsack-cloud/demo-design-system-shared-types';
+import { AuthorProps } from '@knapsack-cloud/public-demo-shared-types';
 
 export const Author: React.FC<AuthorProps> = ({
   imgSrc,

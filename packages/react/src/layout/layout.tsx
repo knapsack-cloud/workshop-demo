@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { LayoutProps } from '@knapsack-cloud/demo-design-system-shared-types';
+import { LayoutProps } from '@knapsack-cloud/public-demo-shared-types';
 
 export const Layout: React.FC<LayoutProps> = ({
   bandTitle,

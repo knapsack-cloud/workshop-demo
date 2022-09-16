@@ -32,16 +32,16 @@
       "parentId": "root"
     },
     {
-      "id": "Static-Content",
-      "name": "Static Content",
-      "path": "/pages/Static-Content",
-      "parentId": "Documentation"
-    },
-    {
       "id": "Design-System",
       "name": "Design System",
       "path": "/pages/Design-System",
       "parentId": "Documentation"
+    },
+    {
+      "id": "Static-Content",
+      "name": "Static Content",
+      "path": "/pages/Static-Content",
+      "parentId": "Design-System"
     },
     {
       "id": "Design-Tokens",
@@ -80,12 +80,6 @@
       "parentId": "Embeds"
     },
     {
-      "id": "iFrame",
-      "name": "iFrame",
-      "path": "/pages/iFrame",
-      "parentId": "Embeds"
-    },
-    {
       "id": "Design-Tokens-lNWaUqkDSo",
       "name": "Design Tokens",
       "path": "/pages/Design-Tokens-lNWaUqkDSo",
@@ -98,15 +92,33 @@
       "parentId": "Design-Tokens-lNWaUqkDSo"
     },
     {
-      "id": "Breakpoints",
-      "name": "Breakpoints",
-      "path": "/pages/Breakpoints",
-      "parentId": "Design-Tokens-lNWaUqkDSo"
+      "id": "base-colors",
+      "name": "Base Colors",
+      "path": "/pages/base-colors",
+      "parentId": "/pages/colors"
+    },
+    {
+      "id": "brand-meh",
+      "name": "Brand Meh",
+      "path": "/pages/brand-meh",
+      "parentId": "/pages/colors"
+    },
+    {
+      "id": "brand-wow",
+      "name": "Brand Wow",
+      "path": "/pages/brand-wow",
+      "parentId": "/pages/colors"
     },
     {
       "id": "/pages/spacing",
       "name": "Spacing",
       "path": "/pages/spacing",
+      "parentId": "Design-Tokens-lNWaUqkDSo"
+    },
+    {
+      "id": "Breakpoints",
+      "name": "Breakpoints",
+      "path": "/pages/Breakpoints",
       "parentId": "Design-Tokens-lNWaUqkDSo"
     },
     {

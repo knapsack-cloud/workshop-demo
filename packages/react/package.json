@@ -1,7 +1,7 @@
 {
-  "name": "@knapsack-cloud/demo-design-system-react",
-  "description": "Knapsack Demo Design System React Components",
-  "version": "0.1.39",
+  "name": "@knapsack-cloud/public-demo-react",
+  "description": "Knapsack Public Demo React Components",
+  "version": "0.1.40",
   "module": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
   "scripts": {
@@ -10,9 +10,9 @@
     "start": "yarn build --watch"
   },
   "dependencies": {
-    "@knapsack-cloud/demo-design-system-design-tokens": "^0.1.39",
-    "@knapsack-cloud/demo-design-system-shared-types": "^0.1.39",
-    "@knapsack-cloud/demo-design-system-styles": "^0.1.39",
+    "@knapsack-cloud/public-demo-design-tokens": "^0.1.40",
+    "@knapsack-cloud/public-demo-shared-types": "^0.1.40",
+    "@knapsack-cloud/public-demo-styles": "^0.1.40",
     "classnames": "^2.3.1"
   },
   "devDependencies": {
@@ -28,7 +28,7 @@
     "utils/*"
   ],
   "repository": {
-    "url": "https://github.com/knapsack-cloud/demo-design-system",
+    "url": "https://github.com/knapsack-cloud/public-demo",
     "directory": "packages/react"
   },
   "private": false,

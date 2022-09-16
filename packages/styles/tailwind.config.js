@@ -14,8 +14,6 @@ module.exports = {
       '../angular/src/lib/**/*.html',
       '../html/**/*.html',
       '../react/src/**/*.tsx',
-      '../twig/src/**/*.twig',
-      '../vue/src/**/*.vue',
       '../web-components/src/**/*.wc.js',
     ],
     safelist: [/grid-cols-.*/],

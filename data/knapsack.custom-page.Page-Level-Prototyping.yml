@@ -6,19 +6,15 @@ settings:
     size: full
     textColorTitle:
       type: value
-      colorValue: '#FFFFFF'
+      colorValue: '#000000'
     backgroundColor:
       type: value
       colorValue: '#6A4CEC'
+    backgroundImage: >-
+      https://knapsack.imgix.net/site/public-demo/hello-i-m-nik-qxakibuqipu-unsplash-1vm3tvs170.jpg
     textColorDescription:
       type: value
-      colorValue: '#FFFFFF'
+      colorValue: '#000000'
 description: >-
-  Work with the system elements to create new experiences. Collaborate to build,
-  share, and test your ideas with real code - the medium in which consumers will
-  experience it - regardless of your technical abilities. Build products the
-  modern way!
-
-
-  < Use the sub-menu on the left to select the page type you'd like to
-  prototype.
+  Work with patterns to create new experiences. Collaborate to build, share, and
+  test your ideas with real code!

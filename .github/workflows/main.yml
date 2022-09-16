@@ -4,7 +4,10 @@
 
 name: Main
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -29,24 +32,21 @@ jobs:
               login $HEROKU_EMAIL
               password $HEROKU_API_KEY
           EOF
-      - name: git remote add heroku
-        run: |
-          git remote add heroku $HEROKU_GIT_URL
       - name: git push to heroku for deploy
         run: |
+          git remote add heroku $HEROKU_GIT_URL
           git push heroku main
- 
-  build:
-    runs-on: ubuntu-latest
-    name: Build & Release
 
+  build:
+    name: Build & Release
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Use actions/checkout@v2
+        uses: actions/checkout@v2
         with:
           # Number of commits to fetch. 0 indicates all history for all branches and tags - needed for `auto`
           # Default: 1
           fetch-depth: 0
-
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
@@ -54,7 +54,7 @@ jobs:
       # - name: Get yarn cache directory path
       #   id: yarn-cache-dir-path
       #   run: echo "::set-output name=dir::$(yarn cache dir)"
-      - name: Cache
+      - name: Handle Cache
         uses: actions/cache@v2
         # https://github.com/actions/cache/blob/master/examples.md#node---lerna
         id: cache # use this to check for `cache-hit` (`steps.cache.outputs.cache-hit != 'true'`)
@@ -65,23 +65,40 @@ jobs:
             ~/.cache/yarn
           key: node-deps-${{ hashFiles('yarn.lock') }}
           # restore-keys: node-deps-
-
       - name: Install Deps
         if: steps.cache.outputs.cache-hit != 'true'
         run: yarn install --cache-folder ~/.cache/yarn --prefer-offline --frozen-lockfile
         env:
           CYPRESS_INSTALL_BINARY: 0 # skipping big Cypress binary download. may cause problems later & need to remove or handle other ways. trying to keep CI speedy
-
-      - run: yarn build
-
-      - run: yarn test
-
-      - run: git checkout ./data # temp fix
-
+      - name: Run Full Build
+        run: yarn build
+      - name: Run Knapsack Test
+        run: yarn test
       - name: Release
         run: yarn auto shipit
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.GH_TOKEN }}
-  # END: `build` --------
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  cypress-run:
+    name: Cypress Tests
+    timeout-minutes: 15 # Don't allow tests to exceed 15 minutes
+    runs-on: ubuntu-latest
+    container:
+      image: knapsack/cypress-php:latest
+      options: --user 1001
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v4
+        with:
+          browser: chrome
+          wait-on: 'http://localhost:3999'
+          wait-on-timeout: 120
+          build: yarn build
+          start: yarn serve
+        env:
+          CYPRESS_CACHE_FOLDER: '${GITHUB_WORKSPACE}/.cypress-cache'
