@@ -1,3 +1,25 @@
+# v0.1.41 (Fri Sep 16 2022)
+
+#### 🐛 Bug Fix
+
+- `@knapsack-cloud/public-demo-styles`
+  - feature/wow font [#7](https://github.com/knapsack-cloud/public-demo/pull/7) ([@illepic](https://github.com/illepic))
+  - remove ref to demo-design-system [#6](https://github.com/knapsack-cloud/public-demo/pull/6) ([@illepic](https://github.com/illepic))
+- `@knapsack-cloud/public-demo-react`, `@knapsack-cloud/public-demo-styles`
+  - fonts beginning logo [#5](https://github.com/knapsack-cloud/public-demo/pull/5) ([@illepic](https://github.com/illepic))
+
+#### 📝 Documentation
+
+- So many content changes. So little time... [#4](https://github.com/knapsack-cloud/public-demo/pull/4) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- Significant content updates [#3](https://github.com/knapsack-cloud/public-demo/pull/3) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.40 (Fri Sep 16 2022)
 
 #### 🐛 Bug Fix

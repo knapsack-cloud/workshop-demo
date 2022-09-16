@@ -1,3 +1,21 @@
+# v0.1.41 (Fri Sep 16 2022)
+
+#### 🐛 Bug Fix
+
+- feature/wow font [#7](https://github.com/knapsack-cloud/public-demo/pull/7) ([@illepic](https://github.com/illepic))
+- new design tokens packages ([@illepic](https://github.com/illepic))
+- remove ref to demo-design-system [#6](https://github.com/knapsack-cloud/public-demo/pull/6) ([@illepic](https://github.com/illepic))
+- remove ref to demo-design-system ([@illepic](https://github.com/illepic))
+- fonts beginning logo [#5](https://github.com/knapsack-cloud/public-demo/pull/5) ([@illepic](https://github.com/illepic))
+- Merge from main ([@illepic](https://github.com/illepic))
+- fonts beginning logo ([@illepic](https://github.com/illepic))
+
+#### Authors: 1
+
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.40 (Fri Sep 16 2022)
 
 #### 🐛 Bug Fix

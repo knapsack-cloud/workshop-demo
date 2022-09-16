@@ -1,3 +1,15 @@
+# v0.1.41 (Fri Sep 16 2022)
+
+#### 🐛 Bug Fix
+
+- Merge from main ([@illepic](https://github.com/illepic))
+
+#### Authors: 1
+
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.40 (Fri Sep 16 2022)
 
 #### 🐛 Bug Fix
