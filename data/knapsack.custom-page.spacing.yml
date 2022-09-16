@@ -2,7 +2,6 @@ id: spacing
 title: Spacing
 slices:
   - id: ks-content-block-3ksVKDvSEf
-    blockId: markdown-slice
     data:
       md:
         - >-
@@ -12,8 +11,7 @@ slices:
           <code>padding</code> properties, as well as to both vertical and
           horizontal edges. The token takes the place of the values normally
           assigned to <code>margin</code> and <code>padding</code>. The
-          following are all approved ways to syntactically apply DDS spacing
-          tokens:
+          following are all approved ways to syntactically apply spacing tokens:
 
 
           ````html
@@ -34,8 +32,8 @@ slices:
 
           ````
       columns: 1
-  - id: ks-content-block-izwMO0jIq5
     blockId: markdown-slice
+  - id: ks-content-block-izwMO0jIq5
     data:
       md:
         - >-
@@ -44,8 +42,9 @@ slices:
           Use the spacing scale when building individual components. It includes
           small increments needed to create appropriate spatial relationships
           for detail-level designs. This scale is applied and used within all
-          Carbon components.
+          components.
       columns: 1
+    blockId: markdown-slice
   - id: zaqr2o47r
     blockId: design-token-slice
     data:
@@ -121,6 +120,5 @@ slices:
           rest.
       columns: 1
 description: >-
-  Spacing is an important — and often overlooked — part of visual design. DDS
-  takes a lot of the guesswork out of spacing to help designers deliver clear,
-  functional layouts.
+  Spacing is an important — and often overlooked — part of visual design. Use
+  spacing tokens to help designers deliver clear, functional layouts.

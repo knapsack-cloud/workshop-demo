@@ -1,119 +1,25 @@
 id: colors
 title: Colors
 slices:
-  - id: ks-content-block-HB5ZvTybxQ
-    data:
-      demo:
-        id: color-swatch
-      tokens:
-        name: ''
-        tags:
-          - brand
-        type: color
-        category: color
-    blockId: design-token-slice
-  - id: ks-content-block-mJBLXcHRn1
-    data:
-      md:
-        - '### Base Colors'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-QRCAqlfoR3
-    data:
-      demo:
-        id: color-swatch
-      tokens:
-        name: ''
-        tags:
-          - base
-          - blue
-        category: color
-    blockId: design-token-slice
-  - id: ks-content-block-X7bVx3Racq
-    data:
-      md:
-        - '### Base Colors (Light)'
-      columns: 1
-    blockId: markdown-slice
-  - id: cqylMLPC_B
-    data:
-      demo:
-        id: color-swatch
-      tokens:
-        name: ''
-        tags:
-          - turquoise
-          - light
-        category: color
-    blockId: design-token-slice
-  - id: ks-content-block-fDjASjl1-L
-    data:
-      md:
-        - '### Base Colors (Dark)'
-      columns: 1
-    blockId: markdown-slice
-  - id: kAjAH7KuZL
-    data:
-      demo:
-        id: color-swatch
-      tokens:
-        name: ''
-        tags:
-          - green
-          - dark
-        category: color
-    blockId: design-token-slice
-  - id: ks-content-block-kkJ0404VUU
-    data:
-      md:
-        - '### Layout'
-      columns: 1
-    blockId: markdown-slice
-  - id: WwKUnzz9cl
-    data:
-      demo:
-        id: color-swatch
-      tokens:
-        name: ''
-        tags:
-          - yellow
-          - layout
-        category: color
-    blockId: design-token-slice
-  - id: ks-content-block-jtTiiq-htL
+  - id: ks-content-block-K-6A8f88Qu
     data:
       md:
         - >-
-          ## Tokens
-
-          Color is managed using color tokens. Tokens are a method of
-          abstracting color by role or usage, independent of the actual color
-          values. For example, instead of needing to code all instances of input
-          labels in a UI to be <code>#565656</code>, the form component in
-          Carbon specifies the token <code>$text-02</code> for these labels, and
-          that token is specified in a separate theme file to be
-          <code>#565656</code>. For a different theme, that same text-02 token
-          could be mapped to a different hex value, like <code>#ffffff</code>.
-          Thus, tokens not only allow for more efficient color updates within a
-          theme, but also enable any UI (or portion of a UI) built with DDS to
-          easily switch between different themes.
-
-
-          A single token can be associated with multiple roles, but only if the
-          color value is used consistently across those roles. This allows for
-          uniform color application across themes while maintaining full styling
-          flexibility.
+          Maintaining consistent and engaging digital interfaces demands
+          extended guidance around color usage. The following concepts are the
+          foundation as we strive to achieve balance and harmony through our
+          User Interface design.
       columns: 1
     blockId: markdown-slice
-  - id: ks-content-block-bupOkWEvdx
-    data:
-      demo:
-        id: table-list
-      tokens:
-        tags: []
-        category: color
-    blockId: design-token-slice
-description: >-
-  Maintaining consistent and engaging digital interfaces demands extended
-  guidance around color usage. The following concepts are the foundation as we
-  strive to achieve balance and harmony through our User Interface design.
+settings:
+  pageHeader:
+    size: full
+    textColorTitle:
+      type: value
+      colorValue: '#FFFFFF'
+    backgroundImage: >-
+      https://knapsack.imgix.net/site/public-demo/ddp-a2nhdrj_axq-unsplash2-xbud0zwsd1.jpg
+    textColorDescription:
+      type: value
+      colorValue: '#FFFFFF'
+description: Use color to express your brand
