@@ -156,37 +156,6 @@
       },
       "demos": ["RN96ZpJJpY", "main", "W1Xbf7ez7T", "3c9C95vaFP", "WXcBdSXuE9"],
       "slices": []
-    },
-    {
-      "id": "react-gDWQ4LWppt",
-      "title": "React-Data-Demo",
-      "path": "@knapsack-cloud/public-demo-react",
-      "alias": "CardDataDemo",
-      "templateLanguageId": "react",
-      "spec": {
-        "isInferred": true
-      },
-      "demosById": {
-        "main": {
-          "id": "main",
-          "title": "Simplified Card Data Demo",
-          "type": "data",
-          "data": {
-            "props": {
-              "label": "Video",
-              "title": "The content your users want",
-              "showImage": true,
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium."
-            },
-            "slots": {
-              "children": []
-            }
-          },
-          "description": "This demo shows off a simplified implementation of a card"
-        }
-      },
-      "demos": ["main"],
-      "slices": []
     }
   ],
   "tabs": [
@@ -204,10 +173,6 @@
     },
     {
       "id": "react",
-      "type": "template"
-    },
-    {
-      "id": "react-gDWQ4LWppt",
       "type": "template"
     }
   ],
