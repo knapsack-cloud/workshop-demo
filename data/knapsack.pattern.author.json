@@ -1,166 +1,5 @@
 {
   "id": "author",
-  "title": "Author",
-  "description": "",
-  "statuses": {
-    "design": "needs-design",
-    "twig": "ready",
-    "react": "ready",
-    "handlebars": "ready"
-  },
-  "templates": [
-    {
-      "id": "react",
-      "title": "React",
-      "path": "@knapsack-cloud/public-demo-react",
-      "alias": "Author",
-      "templateLanguageId": "react",
-      "spec": {
-        "slots": {
-          "children": {
-            "title": "children"
-          }
-        },
-        "props": {
-          "required": [],
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "type": "object",
-          "description": "",
-          "properties": {
-            "read": {
-              "type": "string"
-            },
-            "imgSrc": {
-              "type": "string"
-            },
-            "date": {
-              "type": "string"
-            }
-          }
-        }
-      },
-      "demosById": {
-        "main": {
-          "data": {
-            "slots": {
-              "children": ["Roel Aufderehar"]
-            },
-            "props": {
-              "read": "6 min read",
-              "imgSrc": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-              "date": "Mar 16, 2020"
-            }
-          },
-          "id": "main",
-          "title": "Roel Aufderehar",
-          "type": "data"
-        },
-        "_nTCiQ1984": {
-          "data": {
-            "slots": {
-              "children": ["Brenna Goyette"]
-            },
-            "props": {
-              "read": "4 min read",
-              "imgSrc": "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-              "date": "Mar 10, 2020 "
-            }
-          },
-          "id": "_nTCiQ1984",
-          "title": "Brenna Goyette",
-          "type": "data",
-          "description": ""
-        },
-        "hGfcj0Ksms": {
-          "data": {
-            "slots": {
-              "children": ["Daniela Metz"]
-            },
-            "props": {
-              "read": "11 min read",
-              "imgSrc": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-              "date": "Feb 12, 2020"
-            }
-          },
-          "id": "hGfcj0Ksms",
-          "title": "Daniela Metz",
-          "type": "data",
-          "description": ""
-        }
-      },
-      "demos": ["main", "_nTCiQ1984", "hGfcj0Ksms"],
-      "slices": []
-    },
-    {
-      "id": "html",
-      "title": "HTML",
-      "path": "../packages/html/author/author.html",
-      "templateLanguageId": "html",
-      "spec": {},
-      "demosById": {
-        "main": {
-          "id": "main",
-          "title": "Main",
-          "type": "template",
-          "templateInfo": {
-            "path": "../packages/html/author/author.html"
-          }
-        }
-      },
-      "demos": ["main"],
-      "slices": []
-    },
-    {
-      "id": "web-components",
-      "title": "Web-Components",
-      "path": "@knapsack-cloud/public-demo-web-components",
-      "alias": "ks-author",
-      "templateLanguageId": "web-components",
-      "spec": {
-        "slots": {
-          "default": {
-            "title": "default"
-          }
-        },
-        "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "",
-          "type": "object",
-          "required": [],
-          "properties": {
-            "imgSrc": {
-              "type": "string"
-            },
-            "date": {
-              "type": "string"
-            },
-            "read": {
-              "type": "string"
-            }
-          }
-        }
-      },
-      "demosById": {
-        "main": {
-          "id": "main",
-          "title": "Main",
-          "type": "data",
-          "data": {
-            "props": {
-              "imgSrc": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-              "read": "6 min read",
-              "date": "Mar 16, 2020"
-            },
-            "slots": {
-              "default": ["Roel Aufderehar"]
-            }
-          }
-        }
-      },
-      "demos": ["main"],
-      "slices": []
-    }
-  ],
   "tabs": [
     {
       "id": "react",
@@ -175,5 +14,166 @@
       "type": "template"
     }
   ],
-  "subPages": []
+  "title": "Author",
+  "statuses": {
+    "twig": "ready",
+    "react": "ready",
+    "design": "needs-design",
+    "handlebars": "ready"
+  },
+  "subPages": [],
+  "templates": [
+    {
+      "id": "react",
+      "path": "@knapsack-cloud/public-demo-react",
+      "spec": {
+        "props": {
+          "type": "object",
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "required": [],
+          "properties": {
+            "date": {
+              "type": "string"
+            },
+            "read": {
+              "type": "string"
+            },
+            "imgSrc": {
+              "type": "string"
+            }
+          },
+          "description": ""
+        },
+        "slots": {
+          "children": {
+            "title": "children"
+          }
+        }
+      },
+      "alias": "Author",
+      "demos": ["main", "_nTCiQ1984", "hGfcj0Ksms"],
+      "title": "React",
+      "slices": [],
+      "demosById": {
+        "main": {
+          "id": "main",
+          "data": {
+            "props": {
+              "date": "Mar 16, 2020",
+              "read": "6 min read",
+              "imgSrc": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            },
+            "slots": {
+              "children": ["Roel Aufderehar"]
+            }
+          },
+          "type": "data",
+          "title": "Roel Aufderehar"
+        },
+        "_nTCiQ1984": {
+          "id": "_nTCiQ1984",
+          "data": {
+            "props": {
+              "date": "Mar 10, 2020 ",
+              "read": "4 min read",
+              "imgSrc": "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            },
+            "slots": {
+              "children": ["Brenna Goyette"]
+            }
+          },
+          "type": "data",
+          "title": "Brenna Goyette",
+          "description": ""
+        },
+        "hGfcj0Ksms": {
+          "id": "hGfcj0Ksms",
+          "data": {
+            "props": {
+              "date": "Feb 12, 2020",
+              "read": "11 min read",
+              "imgSrc": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            },
+            "slots": {
+              "children": ["Daniela Metz"]
+            }
+          },
+          "type": "data",
+          "title": "Daniela Metz",
+          "description": ""
+        }
+      },
+      "templateLanguageId": "react"
+    },
+    {
+      "id": "html",
+      "path": "../packages/html/author/author.html",
+      "spec": {},
+      "demos": ["main"],
+      "title": "HTML",
+      "slices": [],
+      "demosById": {
+        "main": {
+          "id": "main",
+          "type": "template",
+          "title": "Main",
+          "templateInfo": {
+            "path": "../packages/html/author/author.html"
+          }
+        }
+      },
+      "templateLanguageId": "html"
+    },
+    {
+      "id": "web-components",
+      "path": "@knapsack-cloud/public-demo-web-components",
+      "spec": {
+        "props": {
+          "type": "object",
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "required": [],
+          "properties": {
+            "date": {
+              "type": "string"
+            },
+            "read": {
+              "type": "string"
+            },
+            "imgSrc": {
+              "type": "string"
+            }
+          },
+          "description": ""
+        },
+        "slots": {
+          "default": {
+            "title": "default"
+          }
+        }
+      },
+      "alias": "ks-author",
+      "demos": ["main"],
+      "title": "Web-Components",
+      "slices": [],
+      "demosById": {
+        "main": {
+          "id": "main",
+          "data": {
+            "props": {
+              "date": "Mar 16, 2020",
+              "read": "6 min read",
+              "imgSrc": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            },
+            "slots": {
+              "default": ["Roel Aufderehar"]
+            }
+          },
+          "type": "data",
+          "title": "Main"
+        }
+      },
+      "templateLanguageId": "web-components"
+    }
+  ],
+  "description": "Byline and author info for standalone or in grids"
 }
