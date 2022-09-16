@@ -3,16 +3,17 @@ title: Documentation
 slices: []
 settings:
   pageHeader:
-    backgroundColor:
-      type: value
-      colorValue: '#6B00FF'
+    size: full
     textColorTitle:
       type: value
       colorValue: '#FFFFFF'
+    backgroundColor:
+      type: value
+      colorValue: '#6B00FF'
+    backgroundImage: null
     textColorDescription:
       type: value
       colorValue: '#FFFFFF'
-    size: full
 description: >-
   Browse this section to explore capabilities related to documenting your
   system.

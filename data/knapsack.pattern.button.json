@@ -152,15 +152,6 @@
               "type": "string",
               "title": "Button Type",
               "default": "solid"
-            },
-            "lightMode": {
-              "type": "boolean",
-              "title": "Light mode",
-              "default": true,
-              "description": "True to enable light mode"
-            },
-            "iCanHazIcon": {
-              "type": "boolean"
             }
           },
           "description": ""
@@ -180,67 +171,33 @@
               "url": "#url",
               "mode": "info",
               "size": "medium",
-              "type": "solid",
-              "lightMode": false,
-              "iCanHazIcon": true
+              "type": "solid"
             },
             "slots": {
               "children": ["Button"]
             }
           },
           "type": "data",
-          "title": "Solid (info)"
+          "title": "Primary"
         },
         "2CXfLJgtaC": {
-          "data": {
-            "slots": {
-              "children": ["Button"]
-            },
-            "props": {
-              "type": "outline",
-              "size": "medium",
-              "mode": "special",
-              "url": "#url"
-            }
-          },
           "id": "2CXfLJgtaC",
-          "title": "Outline (special)",
-          "type": "data"
-        },
-        "Enqj76x0h7": {
-          "id": "Enqj76x0h7",
           "data": {
             "props": {
               "url": "#url",
-              "mode": "warning",
+              "mode": "special",
               "size": "medium",
-              "type": "solid"
+              "type": "outline"
             },
             "slots": {
               "children": ["Button"]
             }
           },
           "type": "data",
-          "title": "Solid (info) 2"
-        },
-        "72aD-JxRXr": {
-          "id": "72aD-JxRXr",
-          "data": {
-            "props": {
-              "mode": "success",
-              "size": "medium",
-              "type": "solid"
-            },
-            "slots": {
-              "children": ["Text"]
-            }
-          },
-          "type": "data",
-          "title": "New Variation",
-          "description": "A description"
+          "title": "Secondary"
         }
       },
-      "demos": ["main", "2CXfLJgtaC", "Enqj76x0h7", "72aD-JxRXr"],
+      "demos": ["main", "2CXfLJgtaC"],
       "slices": []
     },
     {
@@ -441,7 +398,7 @@
       ]
     },
     {
-      "title": "Legacy",
+      "title": "Legacy Storybook",
       "id": "Legacy",
       "slices": [
         {

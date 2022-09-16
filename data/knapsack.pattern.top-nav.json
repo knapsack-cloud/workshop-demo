@@ -10,7 +10,7 @@
   "templates": [
     {
       "id": "react",
-      "title": "react",
+      "title": "React",
       "path": "@knapsack-cloud/demo-design-system-react",
       "alias": "TopNav",
       "templateLanguageId": "react",
@@ -28,12 +28,17 @@
               "description": "[URL]|[TITLE] — for example: http://google.com|Google"
             },
             "links": {
-              "items": { "type": "string" },
+              "items": {
+                "type": "string"
+              },
               "title": "Links",
               "type": "array",
               "description": "[URL]|[TITLE] — for example: http://google.com|Google"
             },
-            "logo": { "title": "Logo", "type": "string" }
+            "logo": {
+              "title": "Logo",
+              "type": "string"
+            }
           }
         }
       },
@@ -84,8 +89,14 @@
     }
   ],
   "tabs": [
-    { "type": "subPage", "id": "overview" },
-    { "type": "template", "id": "react" }
+    {
+      "type": "subPage",
+      "id": "overview"
+    },
+    {
+      "type": "template",
+      "id": "react"
+    }
   ],
   "subPages": [
     {

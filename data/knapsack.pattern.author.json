@@ -241,24 +241,24 @@
   ],
   "tabs": [
     {
-      "type": "template",
-      "id": "react"
+      "id": "react",
+      "type": "template"
     },
     {
-      "type": "template",
-      "id": "angular"
+      "id": "angular",
+      "type": "template"
     },
     {
-      "type": "template",
-      "id": "html"
+      "id": "vue",
+      "type": "template"
     },
     {
-      "type": "template",
-      "id": "vue"
+      "id": "web-components",
+      "type": "template"
     },
     {
-      "type": "template",
-      "id": "web-components"
+      "id": "html",
+      "type": "template"
     }
   ],
   "subPages": []

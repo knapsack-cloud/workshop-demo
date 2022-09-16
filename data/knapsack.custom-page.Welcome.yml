@@ -62,4 +62,8 @@ slices:
       height: '480'
       clickToInteract: true
     blockId: youtube-slice
-description: Welcome to modern digital production
+settings:
+  pageHeader:
+    backgroundImage: >-
+      https://knapsack.imgix.net/site/demo-design-system/yulia-matvienko-kgz9vsp5jcu-unsplash-5sknnml58m.jpg
+description: Let's build something together!

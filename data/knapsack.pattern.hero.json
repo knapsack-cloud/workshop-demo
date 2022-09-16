@@ -10,7 +10,7 @@
   "templates": [
     {
       "id": "react",
-      "title": "react",
+      "title": "React",
       "path": "@knapsack-cloud/demo-design-system-react",
       "alias": "Hero",
       "templateLanguageId": "react",

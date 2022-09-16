@@ -1,0 +1,52 @@
+{
+  "id": "header",
+  "tabs": [
+    {
+      "id": "react",
+      "type": "template"
+    }
+  ],
+  "title": "Header",
+  "demoSize": "portrait",
+  "statuses": {
+    "main": "ready",
+    "twig": "wont-build",
+    "react": "ready",
+    "design": "ready",
+    "handlebars": "wont-build"
+  },
+  "subPages": [],
+  "templates": [
+    {
+      "id": "react",
+      "path": "@knapsack-cloud/demo-design-system-react",
+      "spec": {
+        "isInferred": true
+      },
+      "alias": "Header",
+      "demos": ["main"],
+      "title": "React",
+      "slices": [],
+      "demosById": {
+        "main": {
+          "id": "main",
+          "data": {
+            "props": {
+              "imgSrc": "https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100",
+              "heading": "Get in touch"
+            },
+            "slots": {
+              "children": [
+                "Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel           lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio."
+              ]
+            }
+          },
+          "type": "data",
+          "title": "Main"
+        }
+      },
+      "templateLanguageId": "react"
+    }
+  ],
+  "description": ""
+}
