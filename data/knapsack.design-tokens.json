@@ -24,7 +24,7 @@
         "comment": "Bang! That is ORANGE!"
       },
       "orchid": {
-        "value": "{color.base.orchid.value}",
+        "value": "{color.light.orchid.value}",
         "comment": "That orchid pops!"
       }
     },
