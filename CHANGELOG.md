@@ -1,3 +1,15 @@
+# v0.1.43 (Fri Sep 16 2022)
+
+#### 🐛 Bug Fix
+
+- Remove unused card demoo [#10](https://github.com/knapsack-cloud/public-demo/pull/10) ([@illepic](https://github.com/illepic))
+
+#### Authors: 1
+
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.42 (Fri Sep 16 2022)
 
 #### 🐛 Bug Fix
