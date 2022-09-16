@@ -2,7 +2,7 @@
   "name": "@knapsack-cloud/public-demo-shared-types",
   "description": "Knapsack Public Demo Shared Type Definitions",
   "types": "./dist/meta/react.d.ts",
-  "version": "0.1.43",
+  "version": "0.1.44",
   "scripts": {
     "clean": "rm -rf dist"
   },
