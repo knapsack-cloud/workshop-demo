@@ -1,3 +1,21 @@
+# v0.1.45 (Fri Sep 16 2022)
+
+#### 🐛 Bug Fix
+
+- color changes [#15](https://github.com/knapsack-cloud/public-demo/pull/15) ([@illepic](https://github.com/illepic))
+- deploy ([@illepic](https://github.com/illepic))
+
+#### 📝 Documentation
+
+- Change orchid to be lighter in Brand Wow [#13](https://github.com/knapsack-cloud/public-demo/pull/13) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.44 (Fri Sep 16 2022)
 
 #### 📝 Documentation
