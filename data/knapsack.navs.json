@@ -8,6 +8,24 @@
       "parentId": "root"
     },
     {
+      "id": "guidance",
+      "name": "Guidance",
+      "path": "",
+      "parentId": "Welcome"
+    },
+    {
+      "id": "getting-started",
+      "name": "Getting Started",
+      "path": "/pages/getting-started",
+      "parentId": "guidance"
+    },
+    {
+      "id": "design-principles",
+      "name": "Design Principles",
+      "path": "/pages/design-principles",
+      "parentId": "guidance"
+    },
+    {
       "id": "Documentation",
       "name": "Documentation",
       "path": "/pages/Documentation",
@@ -117,7 +135,7 @@
     },
     {
       "id": "Simple",
-      "name": "Simple",
+      "name": "Simple Patterns",
       "path": "",
       "parentId": "Components-aPh3G1bbrX"
     },
@@ -134,16 +152,16 @@
       "parentId": "Simple"
     },
     {
-      "id": "input-field",
-      "name": "Input Field",
-      "path": "/pattern/input-field",
-      "parentId": "Simple"
-    },
-    {
       "id": "Complex",
-      "name": "Complex",
+      "name": "Complex Patterns",
       "path": "",
       "parentId": "Components-aPh3G1bbrX"
+    },
+    {
+      "id": "top-nav",
+      "name": "Top Nav",
+      "path": "/pattern/top-nav",
+      "parentId": "Complex"
     },
     {
       "id": "card",
@@ -158,20 +176,8 @@
       "parentId": "Complex"
     },
     {
-      "id": "message",
-      "name": "Message",
-      "path": "/pattern/message",
-      "parentId": "Complex"
-    },
-    {
-      "id": "top-nav",
-      "name": "Top Nav",
-      "path": "/pattern/top-nav",
-      "parentId": "Complex"
-    },
-    {
       "id": "Layout",
-      "name": "Layout",
+      "name": "Layouts",
       "path": "",
       "parentId": "Components-aPh3G1bbrX"
     },
@@ -192,6 +198,24 @@
       "name": "Layout",
       "path": "/pattern/layout",
       "parentId": "Layout"
+    },
+    {
+      "id": "proposed-patterns",
+      "name": "Proposed Patterns",
+      "path": "",
+      "parentId": "Components-aPh3G1bbrX"
+    },
+    {
+      "id": "message",
+      "name": "Message",
+      "path": "/pattern/message",
+      "parentId": "proposed-patterns"
+    },
+    {
+      "id": "input-field",
+      "name": "Input Field",
+      "path": "/pattern/input-field",
+      "parentId": "proposed-patterns"
     },
     {
       "id": "Prototyping",

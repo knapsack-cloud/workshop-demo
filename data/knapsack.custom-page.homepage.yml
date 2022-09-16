@@ -1,5 +1,5 @@
 id: homepage
-title: Knapsack Platform Demo
+title: Knapsack Platform Public Demo
 slices: []
 settings:
   pageHeader:
@@ -11,10 +11,10 @@ settings:
       type: value
       colorValue: '#6A4CEC'
     backgroundImage: >-
-      https://knapsack.imgix.net/site/demo-design-system/demo-background-image-opsowdan4u.png
+      https://knapsack.imgix.net/site/demo-design-system/glen-carrie-hpmihl323k0-unsplash-8tmoqtr1z0.jpg
     textColorDescription:
       type: value
       colorValue: '#FFFFFF'
-description: |-
-  Showcasing capabilities for creating rich, dynamic, 
-  and collaborative design system documentation.
+description: >-
+  A collaborative workspace for designers and engineers to build products using
+  patterns.
