@@ -92,6 +92,12 @@
       "parentId": "Design-Tokens-lNWaUqkDSo"
     },
     {
+      "id": "base-colors",
+      "name": "Base Colors",
+      "path": "/pages/base-colors",
+      "parentId": "/pages/colors"
+    },
+    {
       "id": "brand-meh",
       "name": "Brand Meh",
       "path": "/pages/brand-meh",
