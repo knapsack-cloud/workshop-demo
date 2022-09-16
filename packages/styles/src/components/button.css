@@ -78,7 +78,7 @@ processing!) */
       }
 
       &:hover {
-        @apply bg-base-blue;
+        @apply bg-base-blue text-white;
 
         .wow & {
           @apply bg-base-orchid text-white;
