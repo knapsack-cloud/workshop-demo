@@ -176,12 +176,6 @@
       "parentId": "Components-aPh3G1bbrX"
     },
     {
-      "id": "header",
-      "name": "/pattern/header",
-      "path": "/pattern/header",
-      "parentId": "Layout"
-    },
-    {
       "id": "hero",
       "name": "Hero",
       "path": "/pattern/hero",

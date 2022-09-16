@@ -20,7 +20,7 @@
     "dark": {
       "id": "dark",
       "title": "Brand B",
-      "inlineJs": "document.body.classList.add('dark')",
+      "inlineJs": "document.body.classList.add('wow')",
       "assets": [
         {
           "src": "../packages/design-tokens/dist/design-tokens.css"

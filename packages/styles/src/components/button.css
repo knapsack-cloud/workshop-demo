@@ -25,50 +25,80 @@ processing!) */
     }
   }
   &.bg-outline {
-    background: none;
-    border-width: 2px;
-    border-style: solid;
-    &:hover {
+    @apply bg-transparent;
+    /* background: none; */
+    /* border-width: 2px;
+    border-style: solid; */
+    /* &:hover {
       color: white;
+    } */
+  }
+  /* SOLID */
+  &.bg-solid {
+    &.success:hover {
+      @apply bg-dark-green border-dark-green;
+    }
+
+    &.info {
+      @apply bg-base-blue border-base-blue;
+      .wow & {
+        @apply bg-base-orchid border-base-orchid;
+      }
+
+      &:hover {
+        @apply bg-dark-blue border-dark-blue;
+
+        .wow & {
+          @apply bg-dark-orchid border-dark-orchid;
+        }
+      }
+    }
+    &.warning:hover {
+      @apply bg-dark-orange border-dark-orange;
+    }
+    &.danger:hover {
+      @apply bg-dark-red border-dark-red;
+    }
+    &.alert:hover {
+      @apply bg-dark-yellow border-dark-yellow;
+    }
+    &.special:hover {
+      @apply bg-dark-orchid border-dark-orchid;
     }
   }
-  &.bg-solid.success:hover {
-    @apply bg-dark-green border-dark-green;
-  }
-  &.bg-solid.info:hover {
-    @apply bg-dark-blue border-dark-blue;
-  }
-  &.bg-solid.warning:hover {
-    @apply bg-dark-orange border-dark-orange;
-  }
-  &.bg-solid.danger:hover {
-    @apply bg-dark-red border-dark-red;
-  }
-  &.bg-solid.alert:hover {
-    @apply bg-dark-yellow border-dark-yellow;
-  }
-  &.bg-solid.special:hover {
-    @apply bg-dark-orchid border-dark-orchid;
+
+  /* OUTLINE */
+  &.bg-outline {
+    &.success:hover {
+      @apply bg-base-green;
+    }
+    &.info {
+      .wow & {
+        @apply border-base-orchid text-base-orchid;
+      }
+
+      &:hover {
+        @apply bg-base-blue;
+
+        .wow & {
+          @apply bg-base-orchid text-white;
+        }
+      }
+    }
+    &.warning:hover {
+      @apply bg-base-orange;
+    }
+    &.danger:hover {
+      @apply bg-base-red;
+    }
+    &.alert:hover {
+      @apply bg-base-yellow;
+    }
+    &.special:hover {
+      @apply bg-base-orchid;
+    }
   }
 
-  &.bg-outline.success:hover {
-    @apply bg-base-green;
-  }
-  &.bg-outline.info:hover {
-    @apply bg-base-blue;
-  }
-  &.bg-outline.warning:hover {
-    @apply bg-base-orange;
-  }
-  &.bg-outline.danger:hover {
-    @apply bg-base-red;
-  }
-  &.bg-outline.alert:hover {
-    @apply bg-base-yellow;
-  }
-  &.bg-outline.special:hover {
-    @apply bg-base-orchid;
-  }
   /* To support lightMode */
   &.bg-white.border-white:hover {
     color: #fff;

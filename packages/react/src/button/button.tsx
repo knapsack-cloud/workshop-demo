@@ -111,7 +111,7 @@ export const Button: React.FC<ButtonProps> = ({
   return (
     <a
       href={url}
-      className={`ks-button w-full flex items-center justify-center text-base font-medium rounded-md border-4 border-transparent ${buttonTextColor} ${buttonMode} ${buttonSize} ${mode} ${lightModeEnabled}`}
+      className={`ks-button w-full flex items-center justify-center text-base font-medium rounded-md border-2 ${buttonTextColor} ${buttonMode} ${buttonSize} ${mode} ${lightModeEnabled}`}
     >
       {children}{' '}
       {iCanHazIcon && (
