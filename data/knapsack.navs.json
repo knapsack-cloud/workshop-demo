@@ -242,10 +242,17 @@
       "parentId": "Prototyping"
     },
     {
-      "id": "Home-Page-Builder",
-      "name": "Home Page Builder",
-      "path": "/pages/Home-Page-Builder",
+      "id": "one-pager",
+      "name": "One-Pager",
+      "path": "/pattern/one-pager",
       "parentId": "Page-Builders"
+    },
+    {
+      "id": "homepage-prototype",
+      "name": "Homepage Prototype",
+      "path": "/pattern/homepage-prototype",
+      "parentId": "Page-Builders",
+      "hidden": true
     },
     {
       "id": "Admin",
@@ -260,20 +267,6 @@
       "path": "/pages/Private-Pages",
       "hidden": true,
       "parentId": "Admin"
-    },
-    {
-      "id": "Workspace-UI",
-      "name": "Workspace Elements",
-      "path": "",
-      "hidden": true,
-      "parentId": "Admin"
-    },
-    {
-      "id": "one-pager",
-      "name": "One-Pager",
-      "path": "/pattern/one-pager",
-      "hidden": true,
-      "parentId": "Workspace-UI"
     }
   ]
 }
