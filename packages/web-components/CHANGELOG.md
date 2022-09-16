@@ -1,3 +1,15 @@
+# v0.1.42 (Fri Sep 16 2022)
+
+#### 📝 Documentation
+
+- More content publishing [#8](https://github.com/knapsack-cloud/public-demo/pull/8) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 1
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+
+---
+
 # v0.1.41 (Fri Sep 16 2022)
 
 #### 🐛 Bug Fix

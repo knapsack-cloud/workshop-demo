@@ -1,3 +1,21 @@
+# v0.1.42 (Fri Sep 16 2022)
+
+#### 🐛 Bug Fix
+
+- Maven font [#9](https://github.com/knapsack-cloud/public-demo/pull/9) ([@illepic](https://github.com/illepic))
+- Maven font ([@illepic](https://github.com/illepic))
+
+#### 📝 Documentation
+
+- More content publishing [#8](https://github.com/knapsack-cloud/public-demo/pull/8) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.41 (Fri Sep 16 2022)
 
 #### 🐛 Bug Fix
