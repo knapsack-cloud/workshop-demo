@@ -1,0 +1,34 @@
+id: base-colors
+title: Base Colors
+slices:
+  - id: ks-content-block-7-9Z3dxHft
+    data:
+      demo:
+        id: color-swatch
+      tokens:
+        name: ''
+        tags:
+          - base
+        category: color
+    blockId: design-token-slice
+  - id: ks-content-block-ah868Art9J
+    data:
+      demo:
+        id: color-swatch
+      tokens:
+        name: ''
+        tags:
+          - dark
+        category: color
+    blockId: design-token-slice
+  - id: ks-content-block-8P7SBsQLOp
+    data:
+      demo:
+        id: color-swatch
+      tokens:
+        name: ''
+        tags:
+          - light
+        category: color
+    blockId: design-token-slice
+description: 'Everything, everywhere, all at once'
