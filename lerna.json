@@ -5,7 +5,7 @@
   "packages": [
     "packages/*"
   ],
-  "version": "0.1.40",
+  "version": "0.1.41",
   "command": {
     "version": {
       "message": "chore: publish %s [skip ci]"
