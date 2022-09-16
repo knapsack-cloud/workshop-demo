@@ -1,3 +1,21 @@
+# v0.1.44 (Fri Sep 16 2022)
+
+#### 🐛 Bug Fix
+
+- `@knapsack-cloud/public-demo-styles`
+  - white text for button outline hover [#12](https://github.com/knapsack-cloud/public-demo/pull/12) ([@illepic](https://github.com/illepic))
+
+#### 📝 Documentation
+
+- Tweaks [#11](https://github.com/knapsack-cloud/public-demo/pull/11) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.43 (Fri Sep 16 2022)
 
 #### 🐛 Bug Fix
