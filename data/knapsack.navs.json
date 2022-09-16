@@ -146,6 +146,18 @@
       "parentId": "Components-aPh3G1bbrX"
     },
     {
+      "id": "status",
+      "name": "Status",
+      "path": "/pages/status",
+      "parentId": "Components-Overview"
+    },
+    {
+      "id": "component-browser",
+      "name": "Component Browser",
+      "path": "/pages/component-browser",
+      "parentId": "Components-Overview"
+    },
+    {
       "id": "Simple",
       "name": "Simple Patterns",
       "path": "",
@@ -251,8 +263,8 @@
       "id": "homepage-prototype",
       "name": "Homepage Prototype",
       "path": "/pattern/homepage-prototype",
-      "parentId": "Page-Builders",
-      "hidden": true
+      "hidden": true,
+      "parentId": "Page-Builders"
     },
     {
       "id": "Admin",

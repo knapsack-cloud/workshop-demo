@@ -1,70 +1,107 @@
 {
   "id": "hero",
+  "tabs": [
+    {
+      "id": "overview",
+      "type": "subPage"
+    },
+    {
+      "id": "react",
+      "type": "template"
+    }
+  ],
   "title": "Hero",
-  "description": "",
+  "demoSize": "portrait",
   "statuses": {
-    "design": "ready",
     "twig": "needs-dev",
-    "react": "ready"
+    "react": "ready",
+    "design": "ready"
   },
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Figma",
+      "slices": [
+        {
+          "id": "ks-content-block-S7NWBTsEeH",
+          "data": {
+            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=739%3A496",
+            "height": "1000",
+            "clickToInteract": false
+          },
+          "blockId": "figma-slice"
+        }
+      ]
+    }
+  ],
   "templates": [
     {
       "id": "react",
-      "title": "React",
       "path": "@knapsack-cloud/public-demo-react",
-      "alias": "Hero",
-      "templateLanguageId": "react",
       "spec": {
-        "slots": {
-          "header": {
-            "disallowText": true,
-            "title": "header",
-            "isRequired": false,
-            "allowedPatternIds": ["top-nav"],
-            "description": "Space for an optional Top Nav component"
-          }
-        },
         "props": {
-          "required": [],
-          "$schema": "http://json-schema.org/draft-07/schema",
           "type": "object",
-          "description": "",
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "required": [],
           "properties": {
             "buttonOne": {
-              "title": "Button One",
               "type": "string",
+              "title": "Button One",
               "description": "[URL]|[TITLE] — for example: http://google.com|Google"
-            },
-            "headlineOne": {
-              "title": "Headline Line 1",
-              "type": "string"
             },
             "buttonTwo": {
-              "title": "Button Two",
               "type": "string",
+              "title": "Button Two",
               "description": "[URL]|[TITLE] — for example: http://google.com|Google"
             },
-            "headlineTwo": {
-              "title": "Headline Line 2",
-              "type": "string",
-              "description": "Will show in indigo!"
-            },
             "paragraph": {
-              "title": "Paragraph",
               "type": "string",
+              "title": "Paragraph",
               "description": "Content to go within the hero paragraph (do not include <p></p>)"
             },
+            "headlineOne": {
+              "type": "string",
+              "title": "Headline Line 1"
+            },
+            "headlineTwo": {
+              "type": "string",
+              "title": "Headline Line 2",
+              "description": "Will show in indigo!"
+            },
             "showBackground": {
-              "default": true,
+              "type": "boolean",
               "title": "Show Background?",
-              "type": "boolean"
+              "default": true
             }
+          },
+          "description": ""
+        },
+        "slots": {
+          "header": {
+            "title": "header",
+            "isRequired": false,
+            "description": "Space for an optional Top Nav component",
+            "disallowText": true,
+            "allowedPatternIds": ["top-nav"]
           }
         }
       },
+      "alias": "Hero",
+      "demos": ["main", "ysDZjRo0Yd"],
+      "title": "React",
+      "slices": [],
       "demosById": {
         "main": {
+          "id": "main",
           "data": {
+            "props": {
+              "buttonOne": "Get started",
+              "buttonTwo": "Live Demo",
+              "paragraph": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+              "headlineOne": "Data to enrich your ",
+              "headlineTwo": "online business",
+              "showBackground": true
+            },
             "slots": {
               "header": [
                 {
@@ -73,69 +110,32 @@
                   "templateId": "react"
                 }
               ]
-            },
-            "props": {
-              "showBackground": true,
-              "buttonOne": "Get started",
-              "headlineOne": "Data to enrich your ",
-              "buttonTwo": "Live Demo",
-              "headlineTwo": "online business",
-              "paragraph": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua."
             }
           },
-          "id": "main",
-          "title": "Hero w/ Nav",
-          "type": "data"
+          "type": "data",
+          "title": "Hero w/ Nav"
         },
         "ysDZjRo0Yd": {
+          "id": "ysDZjRo0Yd",
           "data": {
+            "props": {
+              "buttonOne": "Get started",
+              "buttonTwo": "Live Demo",
+              "paragraph": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+              "headlineOne": "Data to enrich your ",
+              "headlineTwo": "online business",
+              "showBackground": true
+            },
             "slots": {
               "header": []
-            },
-            "props": {
-              "showBackground": true,
-              "buttonOne": "Get started",
-              "headlineOne": "Data to enrich your ",
-              "buttonTwo": "Live Demo",
-              "headlineTwo": "online business",
-              "paragraph": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua."
             }
           },
-          "id": "ysDZjRo0Yd",
-          "title": "Hero",
-          "type": "data"
+          "type": "data",
+          "title": "Hero"
         }
       },
-      "demos": ["main", "ysDZjRo0Yd"],
-      "slices": []
+      "templateLanguageId": "react"
     }
   ],
-  "tabs": [
-    {
-      "type": "subPage",
-      "id": "overview"
-    },
-    {
-      "type": "template",
-      "id": "react"
-    }
-  ],
-  "subPages": [
-    {
-      "id": "overview",
-      "title": "Figma",
-      "slices": [
-        {
-          "id": "ks-content-block-S7NWBTsEeH",
-          "blockId": "figma-slice",
-          "data": {
-            "clickToInteract": false,
-            "height": "1000",
-            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=739%3A496"
-          }
-        }
-      ]
-    }
-  ],
-  "demoSize": "portrait"
+  "description": "Kind of like Superman, but full width."
 }

@@ -1,27 +1,9 @@
 id: Components-Overview
 title: Components Overview
-slices:
-  - id: P5-E10kTzt
-    data:
-      md:
-        - '## Component Status'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-QEiRSIohHG
-    blockId: pattern-status-table-block
-  - id: ks-content-block-UfLSMdry6s
-    blockId: divider-block
-  - id: ks-content-block-ucgiaGJhZq
-    data:
-      md:
-        - '## All Available Components'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-grt_QYD2BP
-    blockId: pattern-list-block
+slices: []
 settings:
   pageHeader:
-    size: small
+    size: full
     textColorTitle:
       type: value
       colorValue: '#FFFFFF'

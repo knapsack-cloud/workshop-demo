@@ -1,0 +1,6 @@
+id: status
+title: Status
+slices:
+  - id: ks-content-block-n8S6Hd_tQN
+    blockId: pattern-status-table-block
+description: A quick overview of component status

@@ -29,6 +29,7 @@ slices:
     blockId: markdown-slice
 settings:
   pageHeader:
+    size: full
     textColorTitle:
       type: value
       colorValue: '#000000'

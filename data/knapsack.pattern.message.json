@@ -1,24 +1,22 @@
 {
   "id": "message",
-  "title": "Message",
-  "description": "",
-  "statuses": {
-    "design": "ready",
-    "react": "needs-dev",
-    "twig": "wont-build",
-    "handlebars": "wont-build"
-  },
-  "templates": [],
   "tabs": [
     {
-      "type": "subPage",
-      "id": "overview"
+      "id": "overview",
+      "type": "subPage"
     },
     {
-      "type": "subPage",
-      "id": "Desing"
+      "id": "Desing",
+      "type": "subPage"
     }
   ],
+  "title": "Message",
+  "statuses": {
+    "twig": "wont-build",
+    "react": "needs-dev",
+    "design": "ready",
+    "handlebars": "wont-build"
+  },
   "subPages": [
     {
       "id": "overview",
@@ -26,31 +24,33 @@
       "slices": [
         {
           "id": "ks-content-block-or5NmQYdwm",
-          "blockId": "markdown-slice",
           "data": {
-            "autoEdit": false,
             "md": [
-              "## Overview\nUse messages to communicate short, important notes to users along with clear calls-to-action. Messages are versatile and can be used in a variety of scenarios. \n\n### Do:\n* Consider and choose text and visual elements carefully. Test your messages with the minimal content and only add additional content or graphics where they give needed context to the user\n* Use headlines that set clear expectations about the content being linked to\n* Use one style of message per module, don't mix and match\n* Feature one piece of information per message\n* Outline the main idea with the minimal possible information, don't overload with information as the message links to more detail\n\n### Do not:\n* Mix message styles within the same module\n* Overload with information as the message links to more detail\n* Add inline text links, the message itself is clickable and should link to a single piece of information, consider using content blocks in this instance \n\n\n\n### When to avoid\nMessages should only display enough information to give a user context. Do not use a card layout:\n* to highlight a solo piece of information\n* when the content requires in-line or multiple links, consider content blocks\n* when a large amount of text is needed to give users context \n\n### Keep content concise\nMessages allow users to scan content in order to find their required information quickly, therefore it is important to make the content concise. Ensure the headlines are brief and explicit about the content the messages link to. Intuitive headlines and copy help the user build a clear mental model of the content.\n\n\n\n\nDesDD"
+              "## Overview\nUse messages to communicate short, important notes to users along with clear calls-to-action. Messages are versatile and can be used in a variety of scenarios. \n\n### Do:\n* Consider and choose text and visual elements carefully. Test your messages with the minimal content and only add additional content or graphics where they give needed context to the user\n* Use headlines that set clear expectations about the content being linked to\n* Use one style of message per module, don't mix and match\n* Feature one piece of information per message\n* Outline the main idea with the minimal possible information, don't overload with information as the message links to more detail\n\n### Do not:\n* Mix message styles within the same module\n* Overload with information as the message links to more detail\n* Add inline text links, the message itself is clickable and should link to a single piece of information, consider using content blocks in this instance \n\n\n\n### When to avoid\nMessages should only display enough information to give a user context. Do not use a card layout:\n* to highlight a solo piece of information\n* when the content requires in-line or multiple links, consider content blocks\n* when a large amount of text is needed to give users context \n\n### Keep content concise\nMessages allow users to scan content in order to find their required information quickly, therefore it is important to make the content concise. Ensure the headlines are brief and explicit about the content the messages link to. Intuitive headlines and copy help the user build a clear mental model of the content.\n"
             ],
-            "columns": 1
-          }
+            "columns": 1,
+            "autoEdit": false
+          },
+          "blockId": "markdown-slice"
         }
       ]
     },
     {
-      "title": "Design",
       "id": "Desing",
+      "title": "Design",
       "slices": [
         {
           "id": "ks-content-block-kQbnNha0mC",
-          "blockId": "figma-slice",
           "data": {
-            "clickToInteract": false,
+            "url": "https://www.figma.com/file/zUm5kTRtnkFUh5JUsBwwWl/Demo-Design-System-Library?node-id=1%3A2",
             "height": "600",
-            "url": "https://www.figma.com/file/zUm5kTRtnkFUh5JUsBwwWl/Demo-Design-System-Library?node-id=1%3A2"
-          }
+            "clickToInteract": false
+          },
+          "blockId": "figma-slice"
         }
       ]
     }
-  ]
+  ],
+  "templates": [],
+  "description": "Interstitial information of varying degrees of severity (Look mom! I'm using my MBA!)"
 }

@@ -1,28 +1,56 @@
 {
   "id": "footer",
+  "tabs": [
+    {
+      "id": "react",
+      "type": "template"
+    }
+  ],
   "title": "Footer",
-  "description": "",
+  "demoSize": "portrait",
   "statuses": {
-    "design": "ready",
-    "react": "ready",
     "twig": "wont-build",
+    "react": "ready",
+    "design": "ready",
     "handlebars": "wont-build"
   },
+  "subPages": [],
   "templates": [
     {
       "id": "react",
-      "title": "React",
       "path": "@knapsack-cloud/public-demo-react",
-      "alias": "Footer",
-      "templateLanguageId": "react",
       "spec": {
-        "slots": {},
         "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "",
           "type": "object",
+          "$schema": "http://json-schema.org/draft-07/schema",
           "required": [],
           "properties": {
+            "social": {
+              "type": "object",
+              "required": [],
+              "properties": {
+                "github": {
+                  "type": "boolean",
+                  "default": true
+                },
+                "twitter": {
+                  "type": "boolean",
+                  "default": true
+                },
+                "dribbble": {
+                  "type": "boolean",
+                  "default": true
+                },
+                "facebook": {
+                  "type": "boolean",
+                  "default": true
+                },
+                "instagram": {
+                  "type": "boolean",
+                  "default": true
+                }
+              }
+            },
             "tagline": {
               "type": "string"
             },
@@ -32,16 +60,16 @@
             "navigation": {
               "type": "object",
               "properties": {
-                "solutions": {
+                "legal": {
                   "type": "array",
                   "items": {
                     "type": "object",
                     "required": [],
                     "properties": {
-                      "name": {
+                      "href": {
                         "type": "string"
                       },
-                      "href": {
+                      "name": {
                         "type": "string"
                       }
                     }
@@ -53,10 +81,10 @@
                     "type": "object",
                     "required": [],
                     "properties": {
-                      "name": {
+                      "href": {
                         "type": "string"
                       },
-                      "href": {
+                      "name": {
                         "type": "string"
                       }
                     }
@@ -68,166 +96,138 @@
                     "type": "object",
                     "required": [],
                     "properties": {
-                      "name": {
+                      "href": {
                         "type": "string"
                       },
-                      "href": {
+                      "name": {
                         "type": "string"
                       }
                     }
                   }
                 },
-                "legal": {
+                "solutions": {
                   "type": "array",
                   "items": {
                     "type": "object",
                     "required": [],
                     "properties": {
-                      "name": {
+                      "href": {
                         "type": "string"
                       },
-                      "href": {
+                      "name": {
                         "type": "string"
                       }
                     }
                   }
                 }
               }
-            },
-            "social": {
-              "type": "object",
-              "required": [],
-              "properties": {
-                "facebook": {
-                  "type": "boolean",
-                  "default": true
-                },
-                "instagram": {
-                  "type": "boolean",
-                  "default": true
-                },
-                "twitter": {
-                  "type": "boolean",
-                  "default": true
-                },
-                "github": {
-                  "type": "boolean",
-                  "default": true
-                },
-                "dribbble": {
-                  "type": "boolean",
-                  "default": true
-                }
-              }
             }
-          }
-        }
+          },
+          "description": ""
+        },
+        "slots": {}
       },
+      "alias": "Footer",
+      "demos": ["main"],
+      "title": "React",
+      "slices": [],
       "demosById": {
         "main": {
           "id": "main",
-          "title": "Main",
-          "type": "data",
           "data": {
             "props": {
+              "social": {
+                "github": true,
+                "twitter": true,
+                "dribbble": true,
+                "facebook": true,
+                "instagram": true
+              },
+              "tagline": "Making the world a better place through constructing elegant hierarchies.",
+              "copyright": "2020 Workflow, Inc. All rights reserved.",
               "navigation": {
-                "solutions": [
+                "legal": [
                   {
-                    "name": "Marketing",
-                    "href": "#solutions-1"
+                    "href": "#legal-1",
+                    "name": "Claim"
                   },
                   {
-                    "name": "Analytics",
-                    "href": "#solutions-2"
+                    "href": "#legal-2",
+                    "name": "Privacy"
                   },
                   {
-                    "name": "Commerce",
-                    "href": "#solutions-3"
-                  },
-                  {
-                    "name": "Insights",
-                    "href": "#solutions-4"
+                    "href": "#legal-3",
+                    "name": "Terms"
                   }
                 ],
                 "company": [
                   {
-                    "name": "About",
-                    "href": "#company-1"
+                    "href": "#company-1",
+                    "name": "About"
                   },
                   {
-                    "name": "Blog",
-                    "href": "#company-2"
+                    "href": "#company-2",
+                    "name": "Blog"
                   },
                   {
-                    "name": "Jobs",
-                    "href": "#company-3"
+                    "href": "#company-3",
+                    "name": "Jobs"
                   },
                   {
-                    "name": "Press",
-                    "href": "#company-4"
+                    "href": "#company-4",
+                    "name": "Press"
                   },
                   {
-                    "name": "Partners",
-                    "href": "#company-5"
+                    "href": "#company-5",
+                    "name": "Partners"
                   }
                 ],
                 "support": [
                   {
-                    "name": "Pricing",
-                    "href": "#support-1"
+                    "href": "#support-1",
+                    "name": "Pricing"
                   },
                   {
-                    "name": "Documentation",
-                    "href": "#support-2"
+                    "href": "#support-2",
+                    "name": "Documentation"
                   },
                   {
-                    "name": "Guides",
-                    "href": "#support-3"
+                    "href": "#support-3",
+                    "name": "Guides"
                   },
                   {
-                    "name": "API Status",
-                    "href": "#support-4"
+                    "href": "#support-4",
+                    "name": "API Status"
                   }
                 ],
-                "legal": [
+                "solutions": [
                   {
-                    "name": "Claim",
-                    "href": "#legal-1"
+                    "href": "#solutions-1",
+                    "name": "Marketing"
                   },
                   {
-                    "name": "Privacy",
-                    "href": "#legal-2"
+                    "href": "#solutions-2",
+                    "name": "Analytics"
                   },
                   {
-                    "name": "Terms",
-                    "href": "#legal-3"
+                    "href": "#solutions-3",
+                    "name": "Commerce"
+                  },
+                  {
+                    "href": "#solutions-4",
+                    "name": "Insights"
                   }
                 ]
-              },
-              "social": {
-                "facebook": true,
-                "instagram": true,
-                "twitter": true,
-                "github": true,
-                "dribbble": true
-              },
-              "tagline": "Making the world a better place through constructing elegant hierarchies.",
-              "copyright": "2020 Workflow, Inc. All rights reserved."
+              }
             },
             "slots": {}
-          }
+          },
+          "type": "data",
+          "title": "Main"
         }
       },
-      "demos": ["main"],
-      "slices": []
+      "templateLanguageId": "react"
     }
   ],
-  "tabs": [
-    {
-      "type": "template",
-      "id": "react"
-    }
-  ],
-  "subPages": [],
-  "demoSize": "portrait"
+  "description": "Some people are really into these."
 }
