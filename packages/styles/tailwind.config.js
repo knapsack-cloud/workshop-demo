@@ -4,7 +4,7 @@ const {
   color,
   breakpoint,
   spacing,
-} = require('@knapsack-cloud/demo-design-system-design-tokens/dist/design-tokens.nested.json');
+} = require('@knapsack-cloud/public-demo/dist/design-tokens.nested.json');
 
 module.exports = {
   purge: {
