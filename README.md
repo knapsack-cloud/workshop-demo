@@ -20,14 +20,3 @@ yarn build
 ```bash
 yarn serve
 ```
-
-## Angular
-
-### Create new component in the components dir
-
-The below command will create a new Angular component within `./packages/angular`
-
-```bash
-cd packages/angular
-yarn new
-```

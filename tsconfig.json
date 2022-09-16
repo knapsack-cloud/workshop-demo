@@ -1,6 +1,6 @@
 {
   "compileOnSave": false,
-  "include": ["packages", "projects"],
+  "include": ["packages"],
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
@@ -18,13 +18,5 @@
     "module": "es2020",
     "preserveSymlinks": true,
     "lib": ["es2018", "dom"],
-    "paths": {
-      "@knapsack-cloud/demo-design-system-angular": ["packages/angular/dist"]
-    }
-  },
-  "angularCompilerOptions": {
-    "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true,
-    "enableIvy": false
   }
 }

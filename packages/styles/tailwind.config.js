@@ -1,14 +1,11 @@
-const { color, breakpoint, spacing } = require('@knapsack-cloud/demo-design-system-design-tokens/dist/design-tokens.nested.json');
+const { color, breakpoint, spacing } = require('@knapsack-cloud/public-demo-design-tokens/dist/design-tokens.nested.json');
 
 module.exports = {
   purge: {
     content: [
       { raw: '<body class="dark"></div>', extension: 'html' },
-      '../angular/src/lib/**/*.html',
       '../html/**/*.html',
       '../react/src/**/*.tsx',
-      '../twig/src/**/*.twig',
-      '../vue/src/**/*.vue',
       '../web-components/src/**/*.wc.js',
     ],
     safelist: [

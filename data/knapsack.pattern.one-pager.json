@@ -56,7 +56,7 @@
   "templates": [
     {
       "id": "react",
-      "path": "@knapsack-cloud/demo-design-system-react",
+      "path": "@knapsack-cloud/public-demo-react",
       "spec": {
         "slots": {
           "children": {
