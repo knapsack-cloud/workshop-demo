@@ -127,9 +127,9 @@ export const Hero: React.FC<HeroProps> = ({
             )}
             {(buttonOne || buttonTwo) && (
               <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-                <div className="">
+                <div className="mt-3 sm:mt-0">
                   <Button url="/" mode="info" type="solid">
-                    Getting started
+                    {buttonOne}
                   </Button>
 
                   {/* <KSShortcodeLinkGen
@@ -137,11 +137,10 @@ export const Hero: React.FC<HeroProps> = ({
                     classes="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-base-blue hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                   /> */}
                 </div>
-                <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                  <KSShortcodeLinkGen
-                    shortcode={buttonTwo}
-                    classes="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
-                  />
+                <div className="mt-3 rounded-md sm:mt-0 sm:ml-3">
+                  <Button url="/" mode="info" type="outline">
+                    {buttonTwo}
+                  </Button>
                 </div>
               </div>
             )}

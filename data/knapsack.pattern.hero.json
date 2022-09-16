@@ -76,9 +76,9 @@
             },
             "props": {
               "showBackground": true,
-              "buttonOne": "#getting-started|Get started",
+              "buttonOne": "Get started",
               "headlineOne": "Data to enrich your ",
-              "buttonTwo": "#live-demo|Live Demo",
+              "buttonTwo": "Live Demo",
               "headlineTwo": "online business",
               "paragraph": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua."
             }
@@ -94,9 +94,9 @@
             },
             "props": {
               "showBackground": true,
-              "buttonOne": "#getting-started|Get started",
+              "buttonOne": "Get started",
               "headlineOne": "Data to enrich your ",
-              "buttonTwo": "#live-demo|Live Demo",
+              "buttonTwo": "Live Demo",
               "headlineTwo": "online business",
               "paragraph": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua."
             }
