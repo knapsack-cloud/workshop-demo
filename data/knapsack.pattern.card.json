@@ -140,11 +140,6 @@
                   "demoId": "main",
                   "patternId": "button",
                   "templateId": "react"
-                },
-                {
-                  "demoId": "main",
-                  "patternId": "header",
-                  "templateId": "react"
                 }
               ]
             }
