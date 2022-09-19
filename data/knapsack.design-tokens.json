@@ -24,7 +24,7 @@
         "comment": "Bang! That is ORANGE!"
       },
       "orchid": {
-        "value": "{color.light.orchid.value}",
+        "value": "{color.base.orchid.value}",
         "comment": "That orchid pops!"
       }
     },
@@ -33,7 +33,7 @@
         "value": "#ef5151"
       },
       "blue": {
-        "value": "#9FC9FF"
+        "value": "#207FF9"
       },
       "green": {
         "value": "#3ccf91"

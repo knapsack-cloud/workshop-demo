@@ -14,7 +14,7 @@ slices:
           following are all approved ways to syntactically apply spacing tokens:
 
 
-          ````html
+          ```scss
 
           margin: $spacing-03;
 
@@ -30,7 +30,7 @@ slices:
 
           padding: $spacing-07 $spacing-04 0 $spacing-04;
 
-          ````
+          ```
       columns: 1
     blockId: markdown-slice
   - id: ks-content-block-izwMO0jIq5
