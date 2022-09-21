@@ -2,16 +2,16 @@
   "primary": [],
   "secondary": [
     {
-      "id": "Welcome",
-      "name": "Welcome",
-      "path": "/pages/Welcome",
+      "id": "welcome-to-knapsack",
+      "name": "Welcome to Knapsack",
+      "path": "/pages/welcome-to-knapsack",
       "parentId": "root"
     },
     {
       "id": "guidance",
       "name": "Guidance",
       "path": "",
-      "parentId": "Welcome"
+      "parentId": "welcome-to-knapsack"
     },
     {
       "id": "getting-started",
