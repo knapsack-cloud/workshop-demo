@@ -1,3 +1,20 @@
+# v0.1.46 (Wed Sep 21 2022)
+
+#### 🐛 Bug Fix
+
+- eva chagnes in public-demo [#17](https://github.com/knapsack-cloud/public-demo/pull/17) ([@illepic](https://github.com/illepic))
+
+#### 📝 Documentation
+
+- Some content edits [#16](https://github.com/knapsack-cloud/public-demo/pull/16) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v0.1.45 (Fri Sep 16 2022)
 
 #### 🐛 Bug Fix
