@@ -1,0 +1,99 @@
+id: welcome-to-knapsack
+title: Welcome to Knapsack
+slices:
+  - id: 6-qXFUJ0eH
+    data:
+      md:
+        - >-
+          # What is
+          ![](https://knapsack.imgix.net/site/demo-design-system/group-19-hc_satlrxo.svg?w=300)?
+
+
+          Knapsack is the next generation of design systems - flexible,
+          scalable, and highly collaborative. Knapsack powers unified product
+          experiences by providing a central source of truth for everyone on
+          your team. Document decisions, create tokens, build prototypes, and
+          ship code directly to your app or website. You'll see a new level of
+          collaboration between teams and increase velocity in just a few weeks
+          with Knapsack's ready-to-use infrastructure. Unite design and
+          engineering in one powerful tool that will scale with your
+          organization for years to come. 
+
+
+          Visit our
+          ![](https://knapsack.imgix.net/site/demo-design-system/group-20-vmcfixjadv.svg?w=15)
+          **[website](https://knapsack.cloud)**, follow us on
+          ![](https://knapsack.imgix.net/site/demo-design-system/twitter-logo-wxzi_bjs1s.svg?w=15)
+          **[Twitter](https://twitter.com/knapsackcloud)**, or check out our
+          ![](https://knapsack.imgix.net/site/demo-design-system/symbol-youtube-0wwj5mv2z5.png?w=20)
+          **webinars** to learn more!
+      columns: 1
+    blockId: markdown-slice
+  - id: ks-content-block-oa-y7sAwqr
+    data:
+      md:
+        - >-
+          ![](https://knapsack.imgix.net/site/demo-design-system/screen-shot-2022-09-15-at-2.47.48-pm-_ppl633j6j.png)!
+      columns: 1
+    blockId: markdown-slice
+  - id: ks-content-block-P6DcjNEINe
+    blockId: divider-block
+  - id: ks-content-block-7Y7v_lnZJh
+    data:
+      md:
+        - >+
+          # What's the story behind
+          ![](https://knapsack.imgix.net/site/demo-design-system/group-19-hc_satlrxo.svg?w=300)?
+
+
+          We're a passionate group of designers, engineers, and former design
+          system consultants. Our team has helped some of the largest companies
+          build and implement design systems that solve their unique challenges.
+          **With over 75 years of combined DS experience**, our mission is to
+          simplify the design system experience so teams can spend more time
+          creating and less time rebuilding or struggling to keep their design
+          and code in sync. 
+
+
+          We're backed by Google, Slack, and other world-class investors who see
+          our vision for the future. 
+
+
+          Our focus is modernizing digital production through collaborative
+          tooling and workflows that **make it easy to reuse code**.
+
+
+      columns: 1
+    blockId: markdown-slice
+  - id: ks-content-block-dJZsuEdl5x
+    blockId: divider-block
+  - id: ks-content-block-j6lFMtQipq
+    data:
+      md:
+        - >-
+          # What can
+          ![](https://knapsack.imgix.net/site/demo-design-system/group-19-hc_satlrxo.svg?w=300)
+          do for my team?
+      columns: 1
+    blockId: markdown-slice
+  - id: ks-content-block-0m76iAbMDZ
+    data:
+      url: 'https://www.youtube.com/watch?v=oFXaV-xXG5s'
+      height: '480'
+      clickToInteract: true
+    blockId: youtube-slice
+settings:
+  pageHeader:
+    textColorTitle:
+      type: design-token
+      tokenName: color-brand-white
+      colorValue: '#6A4CEC'
+    backgroundColor:
+      type: value
+      colorValue: '#6A4CEC'
+    backgroundImage: null
+    textColorDescription:
+      type: design-token
+      tokenName: color-brand-white
+      colorValue: '#000000'
+description: The design system platform that brings everyone together.
