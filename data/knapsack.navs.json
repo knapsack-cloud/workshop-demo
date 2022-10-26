@@ -98,9 +98,9 @@
       "parentId": "/pages/colors"
     },
     {
-      "id": "brand-meh",
-      "name": "Brand Meh",
-      "path": "/pages/brand-meh",
+      "id": "brand-cool",
+      "name": "Brand Cool",
+      "path": "/pages/brand-cool",
       "parentId": "/pages/colors"
     },
     {
