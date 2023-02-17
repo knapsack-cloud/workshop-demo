@@ -5,6 +5,8 @@ slices:
     data:
       md:
         - >-
+          ## About Design Tokens
+
           Design tokens are design decisions captured as usable code. When we
           design and build using tokens, we give ourselves the ability to
           maintain and update brand experiences at any scale with ease. This
@@ -15,29 +17,38 @@ slices:
   - id: ks-content-block-V0Jm0DWi9c
     data:
       md:
-        - |+
-          ## Your Design Tokens
-          Tokens are organized by type or by brand. Check them out below!
-
-          * [Colors](/pages/colors)
-          * [Breakpoints](/pages/Breakpoints)
-          * [Spacing](/pages/spacing)
-          * [Shadow](/pages/Shadow)
-          * [Animation](/pages/Animation)
-
+        - |-
+          ## Tokens by Category
+          * [Colors](./colors)
+          * [Breakpoints](./Breakpoints)
+          * [Spacing](./spacing)
+          * [Shadow](./Shadow)
+          * [Animation](./Animation)
       columns: 1
     blockId: markdown-slice
+  - id: ks-content-block-R2rGt24igX
+    data:
+      md:
+        - '## All Design Tokens'
+      columns: 1
+    blockId: markdown-slice
+  - id: ks-content-block-_f4PbvkrLK
+    data:
+      demo:
+        id: table-list
+      tokens:
+        name: ''
+        tags: []
+        category: ''
+    blockId: design-token-slice
 settings:
   pageHeader:
-    size: full
+    size: auto
     textColorTitle:
       type: value
       colorValue: '#000000'
-    backgroundColor:
-      type: value
-      colorValue: '#8000FF'
     backgroundImage: >-
-      https://knapsack.imgix.net/site/public-demo/jackson-simmer-zxrhtpacwuy-unsplash-s8_4psjkwb.jpg
+      https://knapsack.imgix.net/site/public-demo/elena-mozhvilo-n8ug_aqcui0-unsplash-jqvzngaplx.jpg
     textColorDescription:
       type: value
       colorValue: '#000000'

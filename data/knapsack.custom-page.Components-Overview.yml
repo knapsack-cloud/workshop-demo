@@ -1,15 +1,32 @@
 id: Components-Overview
 title: Components Overview
-slices: []
+slices:
+  - id: ks-content-block-MPWVYU6VPU
+    data:
+      md:
+        - >-
+          # Component Status
+
+          See below for real-time statuses on the current state of the component
+          across teams, disciplines, and technologies
+      columns: 1
+    blockId: markdown-slice
+  - id: ks-content-block-n8S6Hd_tQN
+    blockId: pattern-status-table-block
+  - id: ks-content-block-rs8cIjNzhZ
+    data:
+      md:
+        - '# Available Components'
+      columns: 1
+    blockId: markdown-slice
+  - id: ks-content-block-kpr6IHseCx
+    blockId: pattern-list-block
 settings:
   pageHeader:
-    size: full
+    size: auto
     textColorTitle:
       type: value
       colorValue: '#FFFFFF'
-    backgroundColor:
-      type: value
-      colorValue: '#6A4CEC'
     backgroundImage: >-
       https://knapsack.imgix.net/site/public-demo/abolfazl-ranjbar-wlt8ueiyx2i-unsplash2-r51mzmwocp.jpg
     textColorDescription:

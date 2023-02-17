@@ -7,14 +7,11 @@ settings:
     textColorTitle:
       type: value
       colorValue: '#000000'
-    backgroundColor:
-      type: value
-      colorValue: '#6A4CEC'
     backgroundImage: >-
       https://knapsack.imgix.net/site/public-demo/hello-i-m-nik-qxakibuqipu-unsplash-1vm3tvs170.jpg
     textColorDescription:
       type: value
       colorValue: '#000000'
-description: >-
-  Work with patterns to create new experiences. Collaborate to build, share, and
-  test your ideas with real code!
+description: |-
+  Work with patterns to create new experiences.
+  Collaborate to build, share, and test your ideas with real code!

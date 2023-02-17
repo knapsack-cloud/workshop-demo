@@ -29,11 +29,47 @@ slices:
           **webinars** to learn more!
       columns: 1
     blockId: markdown-slice
+  - id: ks-content-block-FIEGy00xEF
+    blockId: divider-block
+  - id: ks-content-block-tY2rt92bob
+    data:
+      md:
+        - >-
+          # Why does
+          ![](https://knapsack.imgix.net/site/demo-design-system/group-19-hc_satlrxo.svg?w=300)
+          exist?
+
+          Knapsack enables enterprise engineering, product, and design teams to
+          build better products faster by bringing all teams together around
+          production code and engineering workflows.
+      columns: 1
+    blockId: markdown-slice
+  - id: ks-content-block-7lzh0smW0i
+    blockId: divider-block
+  - id: ks-content-block-f2u7DL9PhK
+    data:
+      md:
+        - >
+          # What does this application do?
+
+          Knapsack allows teams to do four main things:
+
+          1. Organize your design assets around patterns
+
+          2. Connect to your code to be able to view and manipulate components
+
+          3. Document usage guidelines, history, examples, and other information
+
+          4. Ship a version controlled package of code and tools for use in
+          building applications
+      columns: 1
+      autoEdit: false
+    blockId: markdown-slice
   - id: ks-content-block-oa-y7sAwqr
     data:
       md:
         - >-
-          ![](https://knapsack.imgix.net/site/demo-design-system/screen-shot-2022-09-15-at-2.47.48-pm-_ppl633j6j.png)!
+          ![](https://knapsack.imgix.net/site/public-demo/screenshot-2023-02-17-at-12.39.54-pm-v5q7zuy2o2.png)
       columns: 1
     blockId: markdown-slice
   - id: ks-content-block-P6DcjNEINe

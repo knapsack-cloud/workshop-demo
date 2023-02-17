@@ -5,13 +5,11 @@ settings:
   pageHeader:
     size: full
     textColorTitle:
-      type: value
+      type: design-token
+      tokenName: color-brand-primary
       colorValue: '#000000'
-    backgroundColor:
-      type: value
-      colorValue: '#6B00FF'
     backgroundImage: >-
-      https://knapsack.imgix.net/site/public-demo/daniel-k-cheung-zqqlozygg7g-unsplash-nluq_bsyx7.jpg
+      https://knapsack.imgix.net/site/public-demo/sincerely-media-dgqf1dukutm-unsplash-dvgozcedlb.jpg
     textColorDescription:
       type: value
       colorValue: '#000000'

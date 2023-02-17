@@ -2,27 +2,51 @@
   "primary": [],
   "secondary": [
     {
+      "id": "getting-started",
+      "name": "Getting Started",
+      "path": "",
+      "parentId": "root"
+    },
+    {
       "id": "welcome-to-knapsack",
       "name": "Welcome to Knapsack",
       "path": "/pages/welcome-to-knapsack",
-      "parentId": "root"
+      "parentId": "getting-started"
     },
     {
       "id": "guidance",
       "name": "Guidance",
       "path": "",
-      "parentId": "welcome-to-knapsack"
+      "parentId": "getting-started"
     },
     {
-      "id": "getting-started",
-      "name": "Getting Started",
-      "path": "/pages/getting-started",
+      "id": "knapsack's-publishing-workflow",
+      "name": "Knapsack's Publishing Workflow",
+      "path": "/pages/knapsack's-publishing-workflow",
       "parentId": "guidance"
     },
     {
-      "id": "design-principles",
-      "name": "Design Principles",
-      "path": "/pages/design-principles",
+      "id": "adding-design-tokens",
+      "name": "Adding Design Tokens",
+      "path": "/pages/adding-design-tokens",
+      "parentId": "guidance"
+    },
+    {
+      "id": "adding-documentation",
+      "name": "Adding Documentation",
+      "path": "/pages/adding-documentation",
+      "parentId": "guidance"
+    },
+    {
+      "id": "connecting-coded-components",
+      "name": "Connecting Coded Components",
+      "path": "/pages/connecting-coded-components",
+      "parentId": "guidance"
+    },
+    {
+      "id": "customizing-the-workspace",
+      "name": "Customizing the Workspace",
+      "path": "/pages/customizing-the-workspace",
       "parentId": "guidance"
     },
     {
@@ -92,21 +116,15 @@
       "parentId": "Design-Tokens-lNWaUqkDSo"
     },
     {
+      "id": "brand-colors",
+      "name": "Brand Colors",
+      "path": "/pages/brand-colors",
+      "parentId": "/pages/colors"
+    },
+    {
       "id": "base-colors",
       "name": "Base Colors",
       "path": "/pages/base-colors",
-      "parentId": "/pages/colors"
-    },
-    {
-      "id": "brand-cool",
-      "name": "Brand Cool",
-      "path": "/pages/brand-cool",
-      "parentId": "/pages/colors"
-    },
-    {
-      "id": "brand-wow",
-      "name": "Brand Wow",
-      "path": "/pages/brand-wow",
       "parentId": "/pages/colors"
     },
     {
@@ -144,18 +162,6 @@
       "name": "Components Overview",
       "path": "/pages/Components-Overview",
       "parentId": "Components-aPh3G1bbrX"
-    },
-    {
-      "id": "status",
-      "name": "Status",
-      "path": "/pages/status",
-      "parentId": "Components-Overview"
-    },
-    {
-      "id": "component-browser",
-      "name": "Component Browser",
-      "path": "/pages/component-browser",
-      "parentId": "Components-Overview"
     },
     {
       "id": "Simple",
