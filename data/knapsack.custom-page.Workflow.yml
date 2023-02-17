@@ -8,11 +8,11 @@ slices:
         - '## Whimsical'
       columns: 1
   - id: ks-content-block-mtVmHazNu6
-    blockId: whimsical-slice
     data:
-      url: 'https://whimsical.com/knapsack-workflow-public-RXkQWkFY1JGTbLurDKAHVx'
+      url: 'https://whimsical.com/knapsack-workflows-BmNpoC4AzPWiKahNB3XoJV'
       height: '480'
       clickToInteract: false
+    blockId: whimsical-slice
   - id: ks-content-block-UucuGVABD1
     blockId: divider-block
   - id: ks-content-block-PB83Qahdru
