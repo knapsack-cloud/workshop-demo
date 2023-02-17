@@ -189,7 +189,7 @@
         {
           "id": "ks-content-block-1zsHlF6chs",
           "data": {
-            "demoId": "main",
+            "demoId": "RN96ZpJJpY",
             "demoSize": "landscape",
             "patternId": "card",
             "templateId": "react",
@@ -197,10 +197,10 @@
             "playgroundUi": {
               "demoSize": "landscape",
               "showSchemaForm": false,
-              "showCodeSnippet": false
+              "showCodeSnippet": true
             },
             "showSchemaForm": false,
-            "showCodeSnippet": false
+            "showCodeSnippet": true
           },
           "blockId": "pattern-template-slice"
         },

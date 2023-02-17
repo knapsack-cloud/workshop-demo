@@ -87,13 +87,13 @@
         "value": "#FFFFFF"
       },
       "primary": {
-        "value": "{color.base.green.value}"
+        "value": "#6436BF"
       },
       "tertiary": {
-        "value": "{color.text.inverse.value}"
+        "value": "#F3EFFB"
       },
       "secondary": {
-        "value": "{color.light.blue.value}"
+        "value": "#E43A5C"
       }
     },
     "light": {
