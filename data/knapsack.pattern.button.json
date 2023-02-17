@@ -134,17 +134,6 @@
           "blockId": "pattern-variations"
         },
         {
-          "id": "ks-content-block-gV4Zis1_vr",
-          "data": {
-            "size": "m",
-            "demoId": "main",
-            "patternId": "button",
-            "templateId": "react",
-            "variationId": "iCanHazIcon"
-          },
-          "blockId": "pattern-variations"
-        },
-        {
           "id": "ks-content-block-1VyLx4PL0Q",
           "data": {
             "size": "s",

@@ -2,27 +2,27 @@
   "primary": [],
   "secondary": [
     {
+      "id": "getting-started",
+      "name": "Getting Started",
+      "path": "",
+      "parentId": "root"
+    },
+    {
       "id": "welcome-to-knapsack",
       "name": "Welcome to Knapsack",
       "path": "/pages/welcome-to-knapsack",
-      "parentId": "root"
+      "parentId": "getting-started"
     },
     {
       "id": "guidance",
       "name": "Guidance",
       "path": "",
-      "parentId": "welcome-to-knapsack"
+      "parentId": "getting-started"
     },
     {
-      "id": "getting-started",
-      "name": "Getting Started",
-      "path": "/pages/getting-started",
-      "parentId": "guidance"
-    },
-    {
-      "id": "design-principles",
-      "name": "Design Principles",
-      "path": "/pages/design-principles",
+      "id": "knapsack's-publishing-workflow",
+      "name": "Knapsack's Publishing Workflow",
+      "path": "/pages/knapsack's-publishing-workflow",
       "parentId": "guidance"
     },
     {
@@ -92,21 +92,15 @@
       "parentId": "Design-Tokens-lNWaUqkDSo"
     },
     {
+      "id": "brand-colors",
+      "name": "Brand Colors",
+      "path": "/pages/brand-colors",
+      "parentId": "/pages/colors"
+    },
+    {
       "id": "base-colors",
       "name": "Base Colors",
       "path": "/pages/base-colors",
-      "parentId": "/pages/colors"
-    },
-    {
-      "id": "brand-cool",
-      "name": "Brand Cool",
-      "path": "/pages/brand-cool",
-      "parentId": "/pages/colors"
-    },
-    {
-      "id": "brand-wow",
-      "name": "Brand Wow",
-      "path": "/pages/brand-wow",
       "parentId": "/pages/colors"
     },
     {
