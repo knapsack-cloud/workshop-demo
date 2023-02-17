@@ -1,20 +1,21 @@
 id: homepage
-title: Knapsack Platform Public Demo
+title: |-
+  Knapsack Platform
+  Public Demo
 slices: []
 settings:
   pageHeader:
     size: full
     textColorTitle:
-      type: value
+      type: design-token
+      tokenName: color-brand-primary
       colorValue: '#FFFFFF'
-    backgroundColor:
-      type: value
-      colorValue: '#6A4CEC'
     backgroundImage: >-
-      https://knapsack.imgix.net/site/demo-design-system/glen-carrie-hpmihl323k0-unsplash-8tmoqtr1z0.jpg
+      https://knapsack.imgix.net/site/public-demo/clark-van-der-beken-596baa0mpym-unsplash-o5drv55uvq.jpg
     textColorDescription:
-      type: value
+      type: design-token
+      tokenName: color-Meh-black
       colorValue: '#FFFFFF'
-description: >-
-  A collaborative workspace for designers and engineers to build products using
-  patterns.
+description: |-
+  A collaborative workspace for designers and 
+  engineers to build products using patterns.

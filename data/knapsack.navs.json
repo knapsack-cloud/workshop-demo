@@ -26,6 +26,30 @@
       "parentId": "guidance"
     },
     {
+      "id": "adding-design-tokens",
+      "name": "Adding Design Tokens",
+      "path": "/pages/adding-design-tokens",
+      "parentId": "guidance"
+    },
+    {
+      "id": "adding-documentation",
+      "name": "Adding Documentation",
+      "path": "/pages/adding-documentation",
+      "parentId": "guidance"
+    },
+    {
+      "id": "connecting-coded-components",
+      "name": "Connecting Coded Components",
+      "path": "/pages/connecting-coded-components",
+      "parentId": "guidance"
+    },
+    {
+      "id": "customizing-the-workspace",
+      "name": "Customizing the Workspace",
+      "path": "/pages/customizing-the-workspace",
+      "parentId": "guidance"
+    },
+    {
       "id": "Documentation",
       "name": "Documentation",
       "path": "/pages/Documentation",
@@ -138,18 +162,6 @@
       "name": "Components Overview",
       "path": "/pages/Components-Overview",
       "parentId": "Components-aPh3G1bbrX"
-    },
-    {
-      "id": "status",
-      "name": "Status",
-      "path": "/pages/status",
-      "parentId": "Components-Overview"
-    },
-    {
-      "id": "component-browser",
-      "name": "Component Browser",
-      "path": "/pages/component-browser",
-      "parentId": "Components-Overview"
     },
     {
       "id": "Simple",
