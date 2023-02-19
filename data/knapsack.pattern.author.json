@@ -2,7 +2,7 @@
   "id": "author",
   "tabs": [
     {
-      "id": "react",
+      "id": "html",
       "type": "template"
     },
     {
@@ -10,7 +10,7 @@
       "type": "template"
     },
     {
-      "id": "html",
+      "id": "react",
       "type": "template"
     }
   ],
@@ -18,8 +18,9 @@
   "statuses": {
     "twig": "ready",
     "react": "ready",
-    "design": "needs-design",
-    "handlebars": "ready"
+    "design": "ready",
+    "handlebars": "ready",
+    "web-components": "ready"
   },
   "subPages": [],
   "templates": [
@@ -153,7 +154,7 @@
       },
       "alias": "ks-author",
       "demos": ["main"],
-      "title": "Web-Components",
+      "title": "Web Component",
       "slices": [],
       "demosById": {
         "main": {
