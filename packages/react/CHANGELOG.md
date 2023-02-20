@@ -1,3 +1,16 @@
+# v0.1.47 (Mon Feb 20 2023)
+
+#### 🐛 Bug Fix
+
+- theme and visual updates [#67](https://github.com/knapsack-cloud/public-demo/pull/67) ([@brittanysmart](https://github.com/brittanysmart))
+- chore: add missing padding to author component ([@brittanysmart](https://github.com/brittanysmart))
+
+#### Authors: 1
+
+- Brittany Smart ([@brittanysmart](https://github.com/brittanysmart))
+
+---
+
 # v0.1.45 (Fri Sep 16 2022)
 
 #### 🐛 Bug Fix

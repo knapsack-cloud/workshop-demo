@@ -1,3 +1,23 @@
+# v0.1.47 (Mon Feb 20 2023)
+
+#### 🐛 Bug Fix
+
+- `@knapsack-cloud/public-demo-react`, `@knapsack-cloud/public-demo-web-components`
+  - theme and visual updates [#67](https://github.com/knapsack-cloud/public-demo/pull/67) ([@brittanysmart](https://github.com/brittanysmart))
+
+#### 📝 Documentation
+
+- updated embeds [#65](https://github.com/knapsack-cloud/public-demo/pull/65) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- Design overhaul [#64](https://github.com/knapsack-cloud/public-demo/pull/64) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- Changed brand name [#18](https://github.com/knapsack-cloud/public-demo/pull/18) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Brittany Smart ([@brittanysmart](https://github.com/brittanysmart))
+
+---
+
 # v0.1.46 (Wed Sep 21 2022)
 
 #### 🐛 Bug Fix
