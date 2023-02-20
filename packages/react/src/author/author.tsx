@@ -12,6 +12,7 @@ export const Author: React.FC<AuthorProps> = ({
     'flex',
     'items-center',
     'dark:bg-gray-900',
+    'p-2'
   );
   return (
     <div className={classes}>
