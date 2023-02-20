@@ -64,10 +64,7 @@ slices:
   - id: ks-content-block-j6lFMtQipq
     data:
       md:
-        - >-
-          # What can
-          ![](https://knapsack.imgix.net/site/demo-design-system/group-19-hc_satlrxo.svg?w=300)
-          do for my team?
+        - '# How can my team use Knapsack?'
       columns: 1
     blockId: markdown-slice
   - id: ks-content-block-0m76iAbMDZ
