@@ -116,15 +116,15 @@
       "parentId": "Design-Tokens-lNWaUqkDSo"
     },
     {
-      "id": "brand-colors",
-      "name": "Brand Colors",
-      "path": "/pages/brand-colors",
-      "parentId": "/pages/colors"
-    },
-    {
       "id": "base-colors",
       "name": "Base Colors",
       "path": "/pages/base-colors",
+      "parentId": "/pages/colors"
+    },
+    {
+      "id": "brand-colors",
+      "name": "Brand Colors",
+      "path": "/pages/brand-colors",
       "parentId": "/pages/colors"
     },
     {
@@ -269,22 +269,22 @@
       "id": "homepage-prototype",
       "name": "Homepage Prototype",
       "path": "/pattern/homepage-prototype",
-      "hidden": true,
-      "parentId": "Page-Builders"
+      "parentId": "Page-Builders",
+      "hidden": true
     },
     {
       "id": "Admin",
       "name": "Admin",
       "path": "/pages/Admin",
-      "hidden": true,
-      "parentId": "root"
+      "parentId": "root",
+      "hidden": true
     },
     {
       "id": "Private-Pages",
       "name": "Private Pages",
       "path": "/pages/Private-Pages",
-      "hidden": true,
-      "parentId": "Admin"
+      "parentId": "Admin",
+      "hidden": true
     }
   ]
 }

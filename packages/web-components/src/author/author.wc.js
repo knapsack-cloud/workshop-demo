@@ -22,7 +22,8 @@ export class Author extends LitElement {
     const classes = [
       'flex',
       'items-center',
-      'dark:bg-gray-900'
+      'dark:bg-gray-900',
+      'p-2'
     ].join(' ');
 
     return html`

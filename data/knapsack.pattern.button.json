@@ -290,6 +290,7 @@
     "design": "ready",
     "react": "ready",
     "twig": "ready",
-    "handlebars": "ready"
+    "handlebars": "ready",
+    "web-components": "needs-dev"
   }
 }

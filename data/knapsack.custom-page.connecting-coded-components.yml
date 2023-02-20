@@ -29,6 +29,7 @@ slices:
 
           * [Create & Save Variations](#create--save-variations)
       autoEdit: false
+      columns: 1
     blockId: markdown-slice
   - id: ks-content-block-qRvc5hdIxP
     blockId: divider-block

@@ -25,11 +25,12 @@ settings:
   pageHeader:
     size: auto
     textColorTitle:
-      type: value
+      type: design-token
       colorValue: '#FFFFFF'
-    backgroundImage: >-
-      https://knapsack.imgix.net/site/public-demo/abolfazl-ranjbar-wlt8ueiyx2i-unsplash2-r51mzmwocp.jpg
+      tokenName: color-brand-primary
+    backgroundImage: null
     textColorDescription:
-      type: value
+      type: design-token
       colorValue: '#FFFFFF'
+      tokenName: color-brand-black
 description: Browse all available components and understand current status

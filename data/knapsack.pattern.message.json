@@ -6,7 +6,7 @@
       "type": "subPage"
     },
     {
-      "id": "Desing",
+      "id": "design",
       "type": "subPage"
     }
   ],
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "id": "Desing",
+      "id": "design",
       "title": "Design",
       "slices": [
         {
