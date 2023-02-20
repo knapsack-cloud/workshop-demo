@@ -45,10 +45,10 @@ settings:
   pageHeader:
     size: auto
     textColorTitle:
-      type: value
+      type: design-token
       colorValue: '#000000'
-    backgroundImage: >-
-      https://knapsack.imgix.net/site/public-demo/elena-mozhvilo-n8ug_aqcui0-unsplash-jqvzngaplx.jpg
+      tokenName: color-brand-primary
+    backgroundImage: null
     textColorDescription:
       type: value
       colorValue: '#000000'

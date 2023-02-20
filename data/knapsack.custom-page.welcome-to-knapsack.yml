@@ -4,9 +4,8 @@ slices:
   - id: 6-qXFUJ0eH
     data:
       md:
-        - >-
-          # What is
-          ![](https://knapsack.imgix.net/site/demo-design-system/group-19-hc_satlrxo.svg?w=300)?
+        - >+
+          # Build better together
 
 
           Knapsack is the next generation of design systems - flexible,
@@ -27,32 +26,22 @@ slices:
           **[Twitter](https://twitter.com/knapsackcloud)**, or check out our
           ![](https://knapsack.imgix.net/site/demo-design-system/symbol-youtube-0wwj5mv2z5.png?w=20)
           **webinars** to learn more!
+
       columns: 1
     blockId: markdown-slice
-  - id: ks-content-block-FIEGy00xEF
-    blockId: divider-block
   - id: ks-content-block-tY2rt92bob
     data:
       md:
         - >-
-          # Why does
-          ![](https://knapsack.imgix.net/site/demo-design-system/group-19-hc_satlrxo.svg?w=300)
-          exist?
+          # Go further faster
 
           Knapsack enables enterprise engineering, product, and design teams to
           build better products faster by bringing all teams together around
           production code and engineering workflows.
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-7lzh0smW0i
-    blockId: divider-block
-  - id: ks-content-block-f2u7DL9PhK
-    data:
-      md:
-        - >
-          # What does this application do?
 
-          Knapsack allows teams to do four main things:
+
+          **Knapsack allows teams to do four main things:**
+
 
           1. Organize your design assets around patterns
 
@@ -63,46 +52,15 @@ slices:
           4. Ship a version controlled package of code and tools for use in
           building applications
       columns: 1
-      autoEdit: false
     blockId: markdown-slice
   - id: ks-content-block-oa-y7sAwqr
     data:
       md:
-        - >-
-          ![](https://knapsack.imgix.net/site/public-demo/screenshot-2023-02-17-at-12.39.54-pm-v5q7zuy2o2.png)
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-P6DcjNEINe
-    blockId: divider-block
-  - id: ks-content-block-7Y7v_lnZJh
-    data:
-      md:
         - >+
-          # What's the story behind
-          ![](https://knapsack.imgix.net/site/demo-design-system/group-19-hc_satlrxo.svg?w=300)?
-
-
-          We're a passionate group of designers, engineers, and former design
-          system consultants. Our team has helped some of the largest companies
-          build and implement design systems that solve their unique challenges.
-          **With over 75 years of combined DS experience**, our mission is to
-          simplify the design system experience so teams can spend more time
-          creating and less time rebuilding or struggling to keep their design
-          and code in sync. 
-
-
-          We're backed by Google, Slack, and other world-class investors who see
-          our vision for the future. 
-
-
-          Our focus is modernizing digital production through collaborative
-          tooling and workflows that **make it easy to reuse code**.
-
+          ![](https://knapsack.imgix.net/site/public-demo/screenshot-2023-02-17-at-12.39.54-pm-v5q7zuy2o2.png)
 
       columns: 1
     blockId: markdown-slice
-  - id: ks-content-block-dJZsuEdl5x
-    blockId: divider-block
   - id: ks-content-block-j6lFMtQipq
     data:
       md:
@@ -118,18 +76,42 @@ slices:
       height: '480'
       clickToInteract: true
     blockId: youtube-slice
+  - id: ks-content-block-7Y7v_lnZJh
+    data:
+      md:
+        - >+
+
+
+          # About Us
+
+          We're a passionate group of designers, engineers, and former design
+          system consultants. Our team has helped some of the largest companies
+          build and implement design systems that solve their unique challenges.
+          Our mission is to simplify the design system experience so teams can
+          spend more time creating and less time rebuilding or struggling to
+          keep their design and code in sync. 
+
+
+          We're backed by Google, Slack, and other world-class investors who see
+          our vision for the future. 
+
+
+          Our focus is modernizing digital production through collaborative
+          tooling and workflows that **make it easy to reuse code**.
+
+
+      columns: 1
+    blockId: markdown-slice
 settings:
   pageHeader:
     textColorTitle:
       type: design-token
-      tokenName: color-brand-white
-      colorValue: '#6A4CEC'
-    backgroundColor:
-      type: value
+      tokenName: color-brand-primary
       colorValue: '#6A4CEC'
     backgroundImage: null
     textColorDescription:
       type: design-token
-      tokenName: color-brand-white
+      tokenName: color-brand-black
       colorValue: '#000000'
-description: The design system platform that brings everyone together.
+    size: small
+description: The collaborative design system

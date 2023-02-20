@@ -66,4 +66,6 @@ slices:
         type: color
         category: color
     blockId: design-token-slice
-description: 'Everything, everywhere, all at once'
+description: >-
+  Color conveys emotion, creates contrast, establishes hierarchy, and provides
+  consistent visual language.

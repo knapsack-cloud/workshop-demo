@@ -5,10 +5,10 @@ settings:
   pageHeader:
     size: full
     textColorTitle:
-      type: value
+      type: design-token
       colorValue: '#000000'
-    backgroundImage: >-
-      https://knapsack.imgix.net/site/public-demo/hello-i-m-nik-qxakibuqipu-unsplash-1vm3tvs170.jpg
+      tokenName: color-brand-primary
+    backgroundImage: null
     textColorDescription:
       type: value
       colorValue: '#000000'

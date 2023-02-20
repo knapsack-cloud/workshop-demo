@@ -4,8 +4,10 @@ slices: []
 settings:
   pageHeader:
     size: full
-    backgroundImage: >-
-      https://knapsack.imgix.net/site/public-demo/zakaria-ahada-0xocve7nuu0-unsplash2-iew6nivond.jpg
+    backgroundImage: null
+    textColorTitle:
+      type: design-token
+      tokenName: color-brand-primary
 description: |-
   Need an admin-only section of your workspace? No problem! 
   Knapsack supports hidden pages. Shhhhh!
