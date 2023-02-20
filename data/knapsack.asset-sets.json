@@ -3,7 +3,7 @@
   "allAssetSets": {
     "default": {
       "id": "default",
-      "title": "Meh",
+      "title": "Light",
       "assets": [
         {
           "src": "../packages/design-tokens/dist/design-tokens.css"
@@ -22,8 +22,8 @@
     },
     "dark": {
       "id": "dark",
-      "title": "Wow",
-      "inlineJs": "document.body.classList.add('wow')",
+      "title": "Dark",
+      "inlineJs": "document.body.classList.add('dark')",
       "assets": [
         {
           "src": "../packages/design-tokens/dist/design-tokens.css"
