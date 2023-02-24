@@ -24,7 +24,7 @@ slices:
 
 
           Choose from a variety of formats and presentations depending on the
-          type of token you're documenting. 
+          type of token you're documenting.
 
 
           #### Explore the different options for design token presentation
@@ -166,21 +166,5 @@ slices:
           - brand
         type: color
         category: color
-    blockId: design-token-slice
-  - id: ks-content-block-seSlvP0DUz
-    data:
-      md:
-        - '### JSON'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-fl9nND0Tg3
-    data:
-      demo:
-        id: raw-values
-      tokens:
-        name: blue
-        tags: []
-        type: color
-        category: ''
     blockId: design-token-slice
 description: Documentation capabilities & examples
