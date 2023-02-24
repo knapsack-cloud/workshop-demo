@@ -1,7 +1,7 @@
 {
   "name": "@knapsack-cloud/public-demo-web-components",
   "description": "Knapsack Public Demo Web Components",
-  "version": "0.1.48",
+  "version": "0.1.49",
   "module": "./dist/index.js",
   "scripts": {
     "build": "rollup --config ./rollup.config.js",
@@ -9,8 +9,8 @@
     "start": "nodemon --watch 'src/**/*' --ext 'js' --exec 'yarn build' -w"
   },
   "dependencies": {
-    "@knapsack-cloud/public-demo-design-tokens": "^0.1.48",
-    "@knapsack-cloud/public-demo-styles": "^0.1.48"
+    "@knapsack-cloud/public-demo-design-tokens": "^0.1.49",
+    "@knapsack-cloud/public-demo-styles": "^0.1.49"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.14.5",
