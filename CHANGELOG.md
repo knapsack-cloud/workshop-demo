@@ -1,3 +1,15 @@
+# v0.1.49 (Fri Feb 24 2023)
+
+#### 🐛 Bug Fix
+
+- Remove raw values demo [#70](https://github.com/knapsack-cloud/public-demo/pull/70) ([@GormanDesign](https://github.com/GormanDesign))
+
+#### Authors: 1
+
+- Matt Gorman ([@GormanDesign](https://github.com/GormanDesign))
+
+---
+
 # v0.1.48 (Fri Feb 24 2023)
 
 #### ⚠️ Pushed to `main`
