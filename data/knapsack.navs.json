@@ -266,25 +266,18 @@
       "parentId": "Page-Builders"
     },
     {
-      "id": "homepage-prototype",
-      "name": "Homepage Prototype",
-      "path": "/pattern/homepage-prototype",
-      "parentId": "Page-Builders",
-      "hidden": true
-    },
-    {
       "id": "Admin",
       "name": "Admin",
       "path": "/pages/Admin",
-      "parentId": "root",
-      "hidden": true
+      "hidden": true,
+      "parentId": "root"
     },
     {
       "id": "Private-Pages",
       "name": "Private Pages",
       "path": "/pages/Private-Pages",
-      "parentId": "Admin",
-      "hidden": true
+      "hidden": true,
+      "parentId": "Admin"
     }
   ]
 }
