@@ -167,16 +167,6 @@ slices:
     blockId: markdown-slice
   - id: ks-content-block-08Q2X2v2Wi
     blockId: divider-block
-  - id: ks-content-block-LBMso-6f-6
-    data:
-      md:
-        - |-
-          ## Horizontal Dividers
-          -----
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-aVSS-GAb3b
-    blockId: divider-block
   - id: ks-content-block-uAr-_Djy6I
     data:
       md:
@@ -188,4 +178,14 @@ slices:
           | Row 2      | Value  | *Y*       |
       columns: 1
     blockId: markdown-slice
+  - id: ks-content-block-LBMso-6f-6
+    data:
+      md:
+        - |-
+          ## Horizontal Dividers
+          -----
+      columns: 1
+    blockId: markdown-slice
+  - id: ks-content-block-aVSS-GAb3b
+    blockId: divider-block
 description: Documentation capabilities & examples
