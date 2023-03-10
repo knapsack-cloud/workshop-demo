@@ -68,11 +68,6 @@
             "bandContent": {
               "type": "string",
               "title": "Band Content"
-            },
-            "clean": {
-              "title": "Clean Background",
-              "description": "True to remove top cut out",
-              "type": "boolean"
             }
           }
         }
@@ -87,8 +82,7 @@
           "data": {
             "props": {
               "bandTitle": "Two Card Layout Example",
-              "bandContent": "Tempor adipiscing libero volutpat luctus integer phasellus curae, habitant tempus vel interdum augue aliquam, varius feugiat nulla suscipit magnis hac.",
-              "clean": false
+              "bandContent": "Tempor adipiscing libero volutpat luctus integer phasellus curae, habitant tempus vel interdum augue aliquam, varius feugiat nulla suscipit magnis hac."
             },
             "slots": {
               "children": [

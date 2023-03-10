@@ -80,7 +80,7 @@
         }
       },
       "alias": "PageLayout",
-      "demos": ["jIkrNzJ0cO", "s4slb6Lm8b", "main", "KiEIXk9VV7"],
+      "demos": ["jIkrNzJ0cO"],
       "title": "React",
       "slices": [
         {
@@ -103,23 +103,6 @@
         }
       ],
       "demosById": {
-        "main": {
-          "id": "main",
-          "data": {
-            "props": {},
-            "slots": {
-              "children": [
-                {
-                  "demoId": "main",
-                  "patternId": "hero",
-                  "templateId": "react"
-                }
-              ]
-            }
-          },
-          "type": "data",
-          "title": "One Page Card Demo"
-        },
         "jIkrNzJ0cO": {
           "id": "jIkrNzJ0cO",
           "data": {
@@ -147,67 +130,12 @@
           "type": "data",
           "title": "3-Column Homepage",
           "description": "A sample homepage"
-        },
-        "s4slb6Lm8b": {
-          "id": "s4slb6Lm8b",
-          "data": {
-            "props": {},
-            "slots": {
-              "children": [
-                {
-                  "demoId": "main",
-                  "patternId": "hero",
-                  "templateId": "react"
-                },
-                {
-                  "demoId": "aMFkBNIHU2",
-                  "patternId": "layout",
-                  "templateId": "react"
-                },
-                {
-                  "demoId": "main",
-                  "patternId": "footer",
-                  "templateId": "react"
-                }
-              ]
-            }
-          },
-          "type": "data",
-          "title": "2-Column Homepage",
-          "description": "A sample homepage"
-        },
-        "KiEIXk9VV7": {
-          "id": "KiEIXk9VV7",
-          "data": {
-            "props": {},
-            "slots": {
-              "children": [
-                {
-                  "demoId": "main",
-                  "patternId": "hero",
-                  "templateId": "react"
-                },
-                {
-                  "demoId": "eY-_KWUog4",
-                  "patternId": "layout",
-                  "templateId": "react"
-                },
-                {
-                  "demoId": "main",
-                  "patternId": "footer",
-                  "templateId": "react"
-                }
-              ]
-            }
-          },
-          "type": "data",
-          "title": "3-Column Homepage 2",
-          "description": "A sample homepage"
         }
       },
       "templateLanguageId": "react",
       "assetSetIds": ["default", "dark"]
     }
   ],
-  "description": "Use this prototyping playground to add coded components and elements to our landing page template to quickly build and launch a Home or advanced landing page using the available system."
+  "description": "Use this prototyping playground to add coded components and elements to our landing page template to quickly build and launch a Home or advanced landing page using the available system.",
+  "demoSize": "portrait"
 }

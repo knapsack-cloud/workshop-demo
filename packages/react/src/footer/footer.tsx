@@ -48,7 +48,7 @@ export const Footer = ({
   tagline, copyright, navigation, social
 }) => {
   return (
-    <footer className="bg-white" aria-labelledby="footer-heading">
+    <footer className="bg-white dark:bg-gray-700" aria-labelledby="footer-heading">
     <h2 id="footer-heading" className="sr-only">
       Footer
     </h2>
@@ -60,7 +60,7 @@ export const Footer = ({
             src="https://tailwindui.com/img/logos/workflow-mark-gray-300.svg"
             alt="Company name"
           />
-          {tagline && (<p className="text-gray-500 text-base">{tagline}</p>)}
+          {tagline && (<p className="text-gray-500 dark:text-gray-100 text-base">{tagline}</p>)}
           {social &&
             <div className="flex space-x-6">
               {social.facebook &&
@@ -101,11 +101,11 @@ export const Footer = ({
             <div className="md:grid md:grid-cols-2 md:gap-8">
               {navigation.solutions &&
                 <div>
-                  <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Solutions</h3>
+                  <h3 className="text-sm font-semibold text-gray-400 dark:text-gray-100 tracking-wider uppercase">Solutions</h3>
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.solutions.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
+                        <a href={item.href} className="text-base text-gray-500 dark:text-gray-300 hover:text-gray-900">
                           {item.name}
                         </a>
                       </li>
@@ -115,11 +115,11 @@ export const Footer = ({
               }
               {navigation.support &&
                 <div className="mt-12 md:mt-0">
-                  <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Support</h3>
+                  <h3 className="text-sm font-semibold text-gray-400 dark:text-gray-100 tracking-wider uppercase">Support</h3>
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.support.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
+                        <a href={item.href} className="text-base text-gray-500 hover:text-gray-900 dark:text-gray-300">
                           {item.name}
                         </a>
                       </li>
@@ -131,11 +131,11 @@ export const Footer = ({
             <div className="md:grid md:grid-cols-2 md:gap-8">
               {navigation.company &&
                 <div>
-                  <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Company</h3>
+                  <h3 className="text-sm font-semibold text-gray-400 dark:text-gray-100 tracking-wider uppercase">Company</h3>
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.company.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
+                        <a href={item.href} className="text-base text-gray-500 hover:text-gray-900 dark:text-gray-300">
                           {item.name}
                         </a>
                       </li>
@@ -145,11 +145,11 @@ export const Footer = ({
               }
               {navigation.legal &&
                 <div className="mt-12 md:mt-0">
-                  <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Legal</h3>
+                  <h3 className="text-sm font-semibold text-gray-400 dark:text-gray-100 tracking-wider uppercase">Legal</h3>
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.legal.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
+                        <a href={item.href} className="text-base text-gray-500 hover:text-gray-900 dark:text-gray-300">
                           {item.name}
                         </a>
                       </li>
@@ -161,9 +161,9 @@ export const Footer = ({
           </div>
         }
       </div>
-      {copyright && 
+      {copyright &&
         <div className="mt-12 border-t border-gray-200 pt-8">
-          <p className="text-base text-gray-400 xl:text-center">&copy; {copyright}</p>
+          <p className="text-base text-gray-400 dark:text-gray-100 xl:text-center">&copy; {copyright}</p>
         </div>
       }
     </div>

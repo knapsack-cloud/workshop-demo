@@ -9,7 +9,7 @@ export const TopNav: React.FC<TopNavProps> = ({
   const [menuIsOpen, setMenuState] = React.useState(false);
   return (
     <>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 ks:top-nav">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 ks:top-nav dark:bg-gray-700">
         <nav
           className={`relative flex items-center justify-between sm:h-10 ${
             logo
@@ -76,7 +76,7 @@ export const TopNav: React.FC<TopNavProps> = ({
                 <a
                   key={index}
                   href={link.indexOf('|') > 0 ? link.split('|')[0] : '#'}
-                  className="font-medium text-gray-500 hover:text-gray-900"
+                  className="font-medium text-gray-500 hover:text-gray-900 dark:text-gray-100"
                 >
                   {link.indexOf('|') > 0 ? link.split('|')[1] : link}
                 </a>

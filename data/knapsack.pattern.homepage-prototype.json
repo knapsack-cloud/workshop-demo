@@ -4,10 +4,6 @@
     {
       "id": "overview",
       "type": "subPage"
-    },
-    {
-      "id": "Brand-Wow",
-      "type": "subPage"
     }
   ],
   "title": "Homepage Prototype",
@@ -25,30 +21,6 @@
           "id": "ks-content-block-FTgIXSjQ8J",
           "data": {
             "demoId": "jIkrNzJ0cO",
-            "demoSize": "landscape",
-            "patternId": "one-pager",
-            "templateId": "react",
-            "hideControls": true,
-            "playgroundUi": {
-              "demoSize": "landscape",
-              "showSchemaForm": false,
-              "showCodeSnippet": false
-            },
-            "showSchemaForm": false,
-            "showCodeSnippet": false
-          },
-          "blockId": "pattern-template-slice"
-        }
-      ]
-    },
-    {
-      "id": "Brand-Wow",
-      "title": "2-Column Prototype",
-      "slices": [
-        {
-          "id": "ks-content-block-GucVOHIdsa",
-          "data": {
-            "demoId": "s4slb6Lm8b",
             "demoSize": "landscape",
             "patternId": "one-pager",
             "templateId": "react",
