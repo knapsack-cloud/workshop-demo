@@ -1,3 +1,15 @@
+# v0.1.50 (Fri Mar 10 2023)
+
+#### ⚠️ Pushed to `main`
+
+- add dark mode landing page ([@brittanysmart](https://github.com/brittanysmart))
+
+#### Authors: 1
+
+- Brittany Smart ([@brittanysmart](https://github.com/brittanysmart))
+
+---
+
 # v0.1.47 (Mon Feb 20 2023)
 
 #### 🐛 Bug Fix

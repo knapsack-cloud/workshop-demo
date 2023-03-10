@@ -1,3 +1,21 @@
+# v0.1.50 (Fri Mar 10 2023)
+
+#### ⚠️ Pushed to `main`
+
+- `@knapsack-cloud/public-demo-react`
+  - add dark mode landing page ([@brittanysmart](https://github.com/brittanysmart))
+
+#### 📝 Documentation
+
+- Changed main body text [#72](https://github.com/knapsack-cloud/public-demo/pull/72) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Brittany Smart ([@brittanysmart](https://github.com/brittanysmart))
+
+---
+
 # v0.1.49 (Fri Feb 24 2023)
 
 #### 🐛 Bug Fix
