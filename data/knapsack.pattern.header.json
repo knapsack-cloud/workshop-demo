@@ -13,7 +13,8 @@
     "twig": "wont-build",
     "react": "ready",
     "design": "ready",
-    "handlebars": "wont-build"
+    "handlebars": "wont-build",
+    "web-components": "needs-dev"
   },
   "subPages": [],
   "templates": [
