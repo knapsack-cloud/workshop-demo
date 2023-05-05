@@ -81,7 +81,7 @@
         }
       },
       "alias": "PageLayout",
-      "demos": ["jIkrNzJ0cO"],
+      "demos": ["jIkrNzJ0cO", "eYJV0byNIp"],
       "title": "React",
       "slices": [],
       "demosById": {
@@ -112,6 +112,16 @@
           "type": "data",
           "title": "3-Column Homepage",
           "description": "A sample homepage"
+        },
+        "eYJV0byNIp": {
+          "id": "eYJV0byNIp",
+          "data": {
+            "props": {},
+            "slots": {}
+          },
+          "type": "data",
+          "title": "Blank Template",
+          "description": "A blank page template for read-only users to use to create full page prototypes using the design system elements."
         }
       },
       "templateLanguageId": "react",
