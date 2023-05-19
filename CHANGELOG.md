@@ -1,3 +1,24 @@
+# v0.1.51 (Fri May 19 2023)
+
+#### 🐛 Bug Fix
+
+- Revert "new color for demo" [#112](https://github.com/knapsack-cloud/public-demo/pull/112) ([@aerohman](https://github.com/aerohman))
+
+#### 📝 Documentation
+
+- new color for demo [#109](https://github.com/knapsack-cloud/public-demo/pull/109) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- prototype update [#102](https://github.com/knapsack-cloud/public-demo/pull/102) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- status updates for demo [#94](https://github.com/knapsack-cloud/public-demo/pull/94) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- Text change [#93](https://github.com/knapsack-cloud/public-demo/pull/93) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- some minor cleanup [#75](https://github.com/knapsack-cloud/public-demo/pull/75) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Andrew Rohman ([@aerohman](https://github.com/aerohman))
+
+---
+
 # v0.1.50 (Fri Mar 10 2023)
 
 #### ⚠️ Pushed to `main`
