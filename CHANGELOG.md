@@ -1,3 +1,15 @@
+# v0.1.53 (Thu Jun 29 2023)
+
+#### ⚠️ Pushed to `main`
+
+- chore: remove cypress from workflow ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.52 (Thu Jun 29 2023)
 
 #### 🐛 Bug Fix
