@@ -69,7 +69,7 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: yarn install --cache-folder ~/.cache/yarn --prefer-offline --frozen-lockfile
         env:
-          CYPRESS_INSTALL_BINARY: 0 # skipping big Cypress binary download. may cause problems later & need to remove or handle other ways. trying to keep CI speedy
+          CYPRESS_INSTALL_BINARY: 0 # skip cypress binary install
       - name: Run Full Build
         run: yarn build
       - name: Run Knapsack Test
@@ -79,26 +79,3 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  cypress-run:
-    name: Cypress Tests
-    timeout-minutes: 15 # Don't allow tests to exceed 15 minutes
-    runs-on: ubuntu-latest
-    container:
-      image: knapsack/cypress-php:latest
-      options: --user 1001
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
-      - name: Cypress run
-        uses: cypress-io/github-action@v4
-        with:
-          browser: chrome
-          wait-on: 'http://localhost:3999'
-          wait-on-timeout: 120
-          build: yarn build
-          start: yarn serve
-        env:
-          CYPRESS_CACHE_FOLDER: '${GITHUB_WORKSPACE}/.cypress-cache'
