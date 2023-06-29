@@ -7,7 +7,6 @@
     }
   ],
   "title": "Footer",
-  "demoSize": "portrait",
   "statuses": {
     "twig": "wont-build",
     "react": "ready",
