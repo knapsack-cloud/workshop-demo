@@ -1,3 +1,20 @@
+# v0.1.52 (Thu Jun 29 2023)
+
+#### 🐛 Bug Fix
+
+- Continuing V4 Updates [#141](https://github.com/knapsack-cloud/public-demo/pull/141) ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+- V4 migration [#139](https://github.com/knapsack-cloud/public-demo/pull/139) ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### ⚠️ Pushed to `main`
+
+- Update main.yml ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+#### Authors: 1
+
+- Jake Love ([@rockymountainhigh1943](https://github.com/rockymountainhigh1943))
+
+---
+
 # v0.1.51 (Fri May 19 2023)
 
 #### 🐛 Bug Fix
