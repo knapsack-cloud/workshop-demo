@@ -1,7 +1,7 @@
 {
   "name": "@knapsack-cloud/public-demo-html",
   "description": "Knapsack Public Demo HTML Templates",
-  "version": "0.1.51",
+  "version": "0.1.52",
   "repository": {
     "url": "https://github.com/knapsack-cloud/public-demo",
     "directory": "packages/html"
