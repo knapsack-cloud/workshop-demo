@@ -11,7 +11,6 @@
     }
   ],
   "title": "Hero",
-  "demoSize": "portrait",
   "statuses": {
     "twig": "needs-dev",
     "react": "ready",

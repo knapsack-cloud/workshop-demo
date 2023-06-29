@@ -5521,14 +5521,19 @@ demos:
             - demoId: _nTCiQ1984
               patternId: author
               templateId: react
+              type: template-demo
             - demoId: gsI4PO5HfP
               patternId: author
               templateId: react
+              type: template-demo
             - demoId: 2ysfvm4ShE
               patternId: button
               templateId: react
+              type: template-demo
       description: ''
       id: '-2WvOX39hg'
+      patternId: card
+      templateId: react
       title: Two Author CTA
       type: data
     0cnxLKsacP:
@@ -5539,10 +5544,13 @@ demos:
             https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100
         slots:
           children:
-            - >-
-              Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci
-              vel           lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.
+            - text: >-
+                Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci
+                vel           lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.
+              type: text
       id: 0cnxLKsacP
+      patternId: header
+      templateId: react
       title: Main
       type: data
     2CXfLJgtaC:
@@ -5554,8 +5562,11 @@ demos:
           url: '#url'
         slots:
           children:
-            - Button
+            - text: Button
+              type: text
       id: 2CXfLJgtaC
+      patternId: button
+      templateId: react
       title: Secondary
       type: data
     2ysfvm4ShE:
@@ -5567,8 +5578,11 @@ demos:
           url: '#url'
         slots:
           children:
-            - Button
+            - text: Button
+              type: text
       id: 2ysfvm4ShE
+      patternId: button
+      templateId: react
       title: Primary
       type: data
     3ZA8cHaxRd:
@@ -5587,7 +5601,10 @@ demos:
             - demoId: Cmjc3yXJ_r
               patternId: top-nav
               templateId: react
+              type: template-demo
       id: 3ZA8cHaxRd
+      patternId: hero
+      templateId: react
       title: Hero w/ Nav
       type: data
     3c9C95vaFP:
@@ -5605,11 +5622,15 @@ demos:
             - demoId: hGfcj0Ksms
               patternId: author
               templateId: react
+              type: template-demo
             - demoId: _nTCiQ1984
               patternId: author
               templateId: react
+              type: template-demo
       description: ''
       id: 3c9C95vaFP
+      patternId: card
+      templateId: react
       title: Two Author - No CTA
       type: data
     Cmjc3yXJ_r:
@@ -5625,6 +5646,8 @@ demos:
         slots: {}
       description: This Top Nav variation contains a logo, links, and a button.
       id: Cmjc3yXJ_r
+      patternId: top-nav
+      templateId: react
       title: Full Featured Top Nav w/ Button
       type: data
     DRuV9pseUR:
@@ -5677,6 +5700,8 @@ demos:
           tagline: Making the world a better place through constructing elegant hierarchies.
         slots: {}
       id: DRuV9pseUR
+      patternId: footer
+      templateId: react
       title: Main
       type: data
     HV3OGy5ho_:
@@ -5688,8 +5713,11 @@ demos:
           read: 6 min read
         slots:
           default:
-            - Roel Aufderehar
+            - text: Roel Aufderehar
+              type: text
       id: HV3OGy5ho_
+      patternId: author
+      templateId: web-components
       title: Main
       type: data
     RN96ZpJJpY:
@@ -5707,11 +5735,15 @@ demos:
             - demoId: gsI4PO5HfP
               patternId: author
               templateId: react
+              type: template-demo
             - demoId: 2ysfvm4ShE
               patternId: button
               templateId: react
+              type: template-demo
       description: ''
       id: RN96ZpJJpY
+      patternId: card
+      templateId: react
       title: One Author CTA
       type: data
     W1Xbf7ez7T:
@@ -5729,8 +5761,11 @@ demos:
             - demoId: _nTCiQ1984
               patternId: author
               templateId: react
+              type: template-demo
       description: ''
       id: W1Xbf7ez7T
+      patternId: card
+      templateId: react
       title: One Author - No CTA
       type: data
     WXcBdSXuE9:
@@ -5747,6 +5782,8 @@ demos:
           children: []
       description: ''
       id: WXcBdSXuE9
+      patternId: card
+      templateId: react
       title: Simple
       type: data
     _nTCiQ1984:
@@ -5758,9 +5795,12 @@ demos:
           read: 4 min read
         slots:
           children:
-            - Brenna Goyette
+            - text: Brenna Goyette
+              type: text
       description: ''
       id: _nTCiQ1984
+      patternId: author
+      templateId: react
       title: Brenna Goyette
       type: data
     aMFkBNIHU2:
@@ -5775,11 +5815,15 @@ demos:
             - demoId: '-2WvOX39hg'
               patternId: card
               templateId: react
+              type: template-demo
             - demoId: W1Xbf7ez7T
               patternId: card
               templateId: react
+              type: template-demo
       description: ''
       id: aMFkBNIHU2
+      patternId: layout
+      templateId: react
       title: 2-Column Card Example
       type: data
     eY-_KWUog4:
@@ -5794,14 +5838,19 @@ demos:
             - demoId: '-2WvOX39hg'
               patternId: card
               templateId: react
+              type: template-demo
             - demoId: W1Xbf7ez7T
               patternId: card
               templateId: react
+              type: template-demo
             - demoId: 3c9C95vaFP
               patternId: card
               templateId: react
+              type: template-demo
       description: A description
       id: eY-_KWUog4
+      patternId: layout
+      templateId: react
       title: 3-Column Card Example
       type: data
     eYJV0byNIp:
@@ -5812,6 +5861,8 @@ demos:
         A blank page template for read-only users to use to create full page prototypes using the design system
         elements.
       id: eYJV0byNIp
+      patternId: one-pager
+      templateId: react
       title: Blank Template
       type: data
     gsI4PO5HfP:
@@ -5823,8 +5874,11 @@ demos:
           read: 6 min read
         slots:
           children:
-            - Roel Aufderehar
+            - text: Roel Aufderehar
+              type: text
       id: gsI4PO5HfP
+      patternId: author
+      templateId: react
       title: Roel Aufderehar
       type: data
     hGfcj0Ksms:
@@ -5836,9 +5890,12 @@ demos:
           read: 11 min read
         slots:
           children:
-            - Daniela Metz
+            - text: Daniela Metz
+              type: text
       description: ''
       id: hGfcj0Ksms
+      patternId: author
+      templateId: react
       title: Daniela Metz
       type: data
     jIkrNzJ0cO:
@@ -5849,14 +5906,19 @@ demos:
             - demoId: 3ZA8cHaxRd
               patternId: hero
               templateId: react
+              type: template-demo
             - demoId: eY-_KWUog4
               patternId: layout
               templateId: react
+              type: template-demo
             - demoId: DRuV9pseUR
               patternId: footer
               templateId: react
+              type: template-demo
       description: A sample homepage
       id: jIkrNzJ0cO
+      patternId: one-pager
+      templateId: react
       title: 3-Column Homepage
       type: data
     o7iL4YT_dA:
@@ -5871,6 +5933,8 @@ demos:
         slots: {}
       description: This Top Nav variation contains a logo and links.
       id: o7iL4YT_dA
+      patternId: top-nav
+      templateId: react
       title: No Button Top Nav
       type: data
     sQTUm4r36f:
@@ -5885,6 +5949,8 @@ demos:
         slots: {}
       description: This Top Nav variation contains links and a button.
       id: sQTUm4r36f
+      patternId: top-nav
+      templateId: react
       title: No Logo Top Nav w/ Button
       type: data
     ysDZjRo0Yd:
@@ -5901,6 +5967,8 @@ demos:
         slots:
           header: []
       id: ysDZjRo0Yd
+      patternId: hero
+      templateId: react
       title: Hero
       type: data
     zuEHTjfUv0:
@@ -5966,17 +6034,5 @@ settings:
         pageTitle:
           fontFamily: Inter
           fontWeight: 800
-    darkColor:
-      colorValue: '#1d2129'
-      type: value
-    lightColor:
-      colorValue: '#f9f9f9'
-      type: value
-    linkColor:
-      colorValue: '#54319D'
-      type: value
-    primaryColor:
-      colorValue: '#54319D'
-      type: value
-    version: 8
+    version: 9
   title: public-demo

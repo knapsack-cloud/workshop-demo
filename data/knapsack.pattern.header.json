@@ -7,7 +7,6 @@
     }
   ],
   "title": "Header",
-  "demoSize": "portrait",
   "statuses": {
     "main": "ready",
     "twig": "wont-build",
