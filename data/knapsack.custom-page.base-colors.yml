@@ -1,71 +1,12 @@
 id: base-colors
 title: Base Colors
-slices:
-  - id: ks-content-block-ZE6EJ0E78u
-    data:
-      md:
-        - '## Core Palette '
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-7-9Z3dxHft
-    data:
-      demo:
-        id: color-swatch
-      tokens:
-        name: ''
-        tags:
-          - base
-        category: color
-    blockId: design-token-slice
-  - id: Qons-1E8SD
-    data:
-      md:
-        - '## Dark Palette '
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-ah868Art9J
-    data:
-      demo:
-        id: color-swatch
-      tokens:
-        name: ''
-        tags:
-          - dark
-        category: color
-    blockId: design-token-slice
-  - id: ks-content-block-ZlCcg9r5Lk
-    data:
-      md:
-        - '## Light Palette'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-8P7SBsQLOp
-    data:
-      demo:
-        id: color-swatch
-      tokens:
-        name: ''
-        tags:
-          - light
-        category: color
-    blockId: design-token-slice
-  - id: ks-content-block-DRNLXHrlPG
-    data:
-      md:
-        - '## Text & Layout'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-viPl3DHKtw
-    data:
-      demo:
-        id: color-swatch
-      tokens:
-        name: ''
-        tags:
-          - layout
-        type: color
-        category: color
-    blockId: design-token-slice
-description: >-
-  Color conveys emotion, creates contrast, establishes hierarchy, and provides
-  consistent visual language.
+description: Color conveys emotion, creates contrast, establishes hierarchy, and provides consistent visual language.
+blockIds:
+  - ZE6EJ0E78u
+  - 7-9Z3dxHft
+  - Qons-1E8SD
+  - ah868Art9J
+  - ZlCcg9r5Lk
+  - 8P7SBsQLOp
+  - DRNLXHrlPG
+  - viPl3DHKtw

@@ -1,14 +1,5 @@
 id: Breakpoints
 title: Breakpoints
-slices:
-  - id: ks-content-block-26WskgYN2R
-    blockId: design-token-slice
-    data:
-      tokens:
-        tags: []
-        type: dimension
-        category: breakpoint
-        name: ''
-      demo:
-        id: media-query
 description: Plan experiences for multiple platforms and form-factors from the start.
+blockIds:
+  - 26WskgYN2R

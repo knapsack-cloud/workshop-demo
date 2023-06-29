@@ -22,36 +22,7 @@
     {
       "id": "overview",
       "title": "Overview",
-      "slices": [
-        {
-          "id": "ks-content-block-vPbAkMHWK4",
-          "data": {
-            "md": [
-              "## Full Page Prototype Example\n\nUse the React pattern playground to assemple patterns into a custom, static page prototype example. Use the available public link to share with stakeholders or run through live testing platforms for accessibility or performance."
-            ],
-            "columns": 1
-          },
-          "blockId": "markdown-slice"
-        },
-        {
-          "id": "ks-content-block-dsiSgOXHIC",
-          "data": {
-            "demoId": "jIkrNzJ0cO",
-            "demoSize": "landscape",
-            "patternId": "one-pager",
-            "templateId": "react",
-            "hideControls": false,
-            "playgroundUi": {
-              "demoSize": "landscape",
-              "showSchemaForm": false,
-              "showCodeSnippet": false
-            },
-            "showSchemaForm": false,
-            "showCodeSnippet": false
-          },
-          "blockId": "pattern-template-slice"
-        }
-      ]
+      "blockIds": ["vPbAkMHWK4", "dsiSgOXHIC"]
     }
   ],
   "templates": [
@@ -81,51 +52,11 @@
         }
       },
       "alias": "PageLayout",
-      "demos": ["jIkrNzJ0cO", "eYJV0byNIp"],
       "title": "React",
-      "slices": [],
-      "demosById": {
-        "jIkrNzJ0cO": {
-          "id": "jIkrNzJ0cO",
-          "data": {
-            "props": {},
-            "slots": {
-              "children": [
-                {
-                  "demoId": "main",
-                  "patternId": "hero",
-                  "templateId": "react"
-                },
-                {
-                  "demoId": "eY-_KWUog4",
-                  "patternId": "layout",
-                  "templateId": "react"
-                },
-                {
-                  "demoId": "main",
-                  "patternId": "footer",
-                  "templateId": "react"
-                }
-              ]
-            }
-          },
-          "type": "data",
-          "title": "3-Column Homepage",
-          "description": "A sample homepage"
-        },
-        "eYJV0byNIp": {
-          "id": "eYJV0byNIp",
-          "data": {
-            "props": {},
-            "slots": {}
-          },
-          "type": "data",
-          "title": "Blank Template",
-          "description": "A blank page template for read-only users to use to create full page prototypes using the design system elements."
-        }
-      },
       "templateLanguageId": "react",
-      "assetSetIds": ["default", "dark"]
+      "assetSetIds": ["default", "dark"],
+      "demoIds": ["jIkrNzJ0cO", "eYJV0byNIp"],
+      "blockIds": []
     }
   ],
   "description": "Use this prototyping playground to add coded components and elements to our landing page template to quickly build and launch a Home or advanced landing page using the available system.",

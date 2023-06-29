@@ -1,6 +1,5 @@
 id: homepage
 title: Knapsack
-slices: []
 settings:
   pageHeader:
     size: full
@@ -8,8 +7,7 @@ settings:
       type: design-token
       tokenName: color-brand-primary
       colorValue: '#FFFFFF'
-    backgroundImage: >-
-      https://knapsack.imgix.net/site/public-demo/clark-van-der-beken-596baa0mpym-unsplash-o5drv55uvq.jpg
+    backgroundImage: https://knapsack.imgix.net/site/public-demo/clark-van-der-beken-596baa0mpym-unsplash-o5drv55uvq.jpg
     textColorDescription:
       type: design-token
       tokenName: color-Meh-black
@@ -18,3 +16,4 @@ description: |-
   A shared platform for product teams to collaborate
   on documenting, designing, building, testing, and shipping
   their digital products.
+blockIds: []

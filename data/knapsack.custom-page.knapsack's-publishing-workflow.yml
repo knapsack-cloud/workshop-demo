@@ -1,103 +1,16 @@
 id: knapsack's-publishing-workflow
 title: Knapsack's Publishing Workflow
-slices:
-  - id: ks-content-block-tupCtiAwEk
-    data:
-      md:
-        - >-
-          ## Introduction to Publishing in Knapsack
-
-          Knapsack leverages the features of Git for managing contribution,
-          versioning, and collaboration in the workspace. In order to publish
-          content from the web, you'll follow the same tried and trusted Git
-          workflows, but from a simplified interface.
-      columns: 1
-      autoEdit: false
-    blockId: markdown-slice
-  - id: ks-content-block-mf8RBOFi4q
-    blockId: divider-block
-  - id: ks-content-block-87U-rc0g9a
-    data:
-      md:
-        - >-
-          ## Making Edits to the Workspace
-
-          In order to begin making changes, an Admin or Contributor first needs
-          to create or select a branch in which to work. 
-
-          * Branches can be created using the **Edit** button located in the top
-          admin toolbar. 
-
-          * Existing branches can be selected by clicking the branches dropdown
-          (defaulted to "latest").
-        - >-
-          ![](https://knapsack.imgix.net/site/uxdsf/screen-recording-2022-12-23-at-11.44.22-am-g_k_axssni.gif?w=450)
-      columns: 2
-    blockId: markdown-slice
-  - id: ks-content-block-sTKJUiVlGX
-    blockId: divider-block
-  - id: ks-content-block-qH06ttCq_H
-    data:
-      md:
-        - >-
-
-
-
-          ![](https://knapsack.imgix.net/site/uxdsf/screen-recording-2022-12-23-at-11.47.05-am-bz0cu8nc1h.gif)
-        - >-
-          ## Publishing or Submitting Changes
-
-          #### Kicking off the Publishing workflow
-
-          1. Click the **Publish Changes** or **Request Review** button in the
-          top toolbar
-
-          2. Enter a **Title** and **Body** for the submission. This content
-          will be included in the pull request (PR) containing your changes in
-          the underlying code repo
-
-
-          #### Changes Appearing on Production
-
-          Changes may take up to 10 minutes to appear on production depending on
-          your workspace configuration. This sllows time for all code changes
-          (e.g. design tokens that will produce updated CSS) to go through a
-          build and deploy process and release an udpated version of your design
-          system and workspace.
-      columns: 2
-    blockId: markdown-slice
-  - id: ks-content-block-jMitUgSuUP
-    blockId: divider-block
-  - id: ks-content-block-Gi0ksblxCb
-    data:
-      md:
-        - >-
-          ## Permission Levels
-
-          Knapsack's contribution features support different permissions based
-          on user role within the platform:
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-xC4g9J20wL
-    data:
-      md:
-        - >-
-          #### Admins 
-
-          Admin users have the option of merging changes into production
-          ("Publish") or submitting changes for review ("Request Review")  by
-          other team members or system administrators.
-        - >-
-          #### Contributors
-
-          Contributor users are only able to "Request Review" of their changes.
-          They are not able to publish changes directly. Once changes are
-          submitted, Admin users can publish the changes via the UI.
-        - >-
-          #### Viewers
-
-          Viewer users (or public workspace visitors) are unable to make or
-          submit any changes to the workspace.
-      columns: 3
-    blockId: markdown-slice
 description: Get familiar with how changes to the workspace are published
+blockIds:
+  - tupCtiAwEk
+  - mf8RBOFi4q
+  - 87U-rc0g9a
+  - w-2PwVDNZT
+  - sTKJUiVlGX
+  - qH06ttCq_H
+  - wW1eAzPe6X
+  - jMitUgSuUP
+  - Gi0ksblxCb
+  - xC4g9J20wL
+  - 82vqfNsnx0
+  - wYH2eUqWc8

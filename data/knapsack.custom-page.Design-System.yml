@@ -1,7 +1,7 @@
 id: Design-System
 title: Design System
-slices: []
 settings:
   pageHeader:
     size: full
 description: Create dynamic documentation using your coded system elements
+blockIds: []

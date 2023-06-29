@@ -1,140 +1,18 @@
 id: adding-design-tokens
 title: Adding Design Tokens
-slices:
-  - id: ks-content-block-J7G5qpbLIh
-    data:
-      md:
-        - >-
-          ## Introduction to Design Tokens
-
-          Design tokens are atomic design properties - a color, font, border
-          radius, or some combination of these sorts of properties - expressed
-          as a source variable that can be combined, translated and consumed
-          across an entire digital ecosystem.
-
-
-          Adding design tokens to your Knapsack workspace can help your team
-          define, document, and distribute color, typography, and any other core
-          styling properties to your design system users.
-      columns: 1
-      autoEdit: false
-    blockId: markdown-slice
-  - id: ks-content-block-l0IishHfUu
-    blockId: divider-block
-  - id: ks-content-block-0kF8YOFFhc
-    data:
-      md:
-        - >+
-          ## Creating Design Tokens via the UI
-
-          Knapsack enables system Contributors to create any type of design
-          token (color, spacing, typography, animation...) via our Token
-          Manager. 
-
-
-          To add tokens via the Token Manager UI:
-
-          1. Click **Tokens** in the Knapsack admin bar at the top of the screen
-
-          2. Click the **+** to add categories and individual tokens
-
-          3. Define the **Name** and **Value** of the token. **Description** is
-          optional
-
-          4. Click **Save**
-
-        - >-
-          ![](https://knapsack.imgix.net/site/uxdsf/screen-recording-2022-12-23-at-08.38.44-am-e2c19cwour.gif?w=450)
-      columns: 2
-    blockId: markdown-slice
-  - id: ks-content-block-XL5vsm_l-d
-    blockId: divider-block
-  - id: ks-content-block-ku1o7HKQcH
-    data:
-      md:
-        - >-
-          ![](https://knapsack.imgix.net/site/uxdsf/screen-recording-2022-12-23-at-08.55.12-am-s4lql6tng-.gif)
-        - >
-          ## Pulling in Tokens from Figma
-
-          If you use the popular [Token Studio for Figma
-          plugin](https://docs.tokens.studio/), you can bulk add all of your
-          defined tokens to Knapsack via the UI or via direct Git integration.
-
-          #### Adding tokens from Figma via the UI
-
-          1. Copy the JSON export from Token Studio for Figma
-
-          2. In Knapsack's Token Manager, click the **•••** menu
-
-          3. Click **Import JSON**
-
-          4. Paste the JSON export in the text area
-
-          5. Click **Save**
-
-
-          #### Syncing tokens directly to Git
-
-          Sync directly between Token Studio for Figma and the source JSON file
-          in the workspace repo so changes appear in Knapsack automatically. 
-
-          [See documentation for Git syncing
-          here](https://docs.tokens.studio/sync/github).
-      columns: 2
-    blockId: markdown-slice
-  - id: ks-content-block-ZQ5Z_y9_Dx
-    blockId: divider-block
-  - id: ks-content-block-jBOFirAff_
-    data:
-      md:
-        - >-
-          ## Publishing Token Changes Made in the UI
-
-          Once you've added tokens to Knapack, you'll be able to reference them
-          within the workspace (e.g. to customize the UI), but will not yet
-          appear in the underlying Git repo.
-
-
-          Changes you've made will be add to Git once you follow [the publishing
-          workflow](https://help.knapsack.cloud/article/25-publishing-changes).
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-dWwXgDQUjj
-    blockId: divider-block
-  - id: ks-content-block-L0fdaQFKYX
-    data:
-      md:
-        - >-
-          ![](https://knapsack.imgix.net/site/uxdsf/screenshot-2022-12-23-at-11.22.46-am-b7zuojifas.png)
-        - >-
-          ## Add / Managing Tokens in JSON
-
-          Users working locally can manage tokens in the UI or directly in the
-          underlying JSON file – changes will sync both ways!
-
-          #### Managing tokens in JSON
-
-          1. Run your Knapsack workspace locally
-
-          2. Locate the `design-tokens.json` file in your repo
-
-          3. Make edits to the file directly
-
-          4. Save your file and see changes reflect instantly in the UI!
-      columns: 2
-    blockId: markdown-slice
-  - id: ks-content-block-KhZqH0AlAe
-    blockId: divider-block
-  - id: ks-content-block-DQJfjlsVyS
-    data:
-      md:
-        - >-
-          ## Publishing Changes Made Locally
-
-          Changes made locally are 'published' by merging the changes back in to
-          the main branch of the repo and triggering a build + deploy of the
-          workspace application. These actions are typically handled via CLI.
-      columns: 1
-    blockId: markdown-slice
 description: Define your brand and unify your product ecosystem
+blockIds:
+  - J7G5qpbLIh
+  - l0IishHfUu
+  - 0kF8YOFFhc
+  - gAEGVw3JV2
+  - XL5vsm_l-d
+  - ku1o7HKQcH
+  - 7-_Pn7r-MG
+  - ZQ5Z_y9_Dx
+  - jBOFirAff_
+  - dWwXgDQUjj
+  - L0fdaQFKYX
+  - 5HTGtGc_jn
+  - KhZqH0AlAe
+  - DQJfjlsVyS

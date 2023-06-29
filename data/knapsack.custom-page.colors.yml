@@ -1,25 +1,15 @@
 id: colors
 title: Colors
-slices:
-  - id: ks-content-block-K-6A8f88Qu
-    data:
-      md:
-        - >-
-          Maintaining consistent and engaging digital interfaces demands
-          extended guidance around color usage. The following concepts are the
-          foundation as we strive to achieve balance and harmony through our
-          User Interface design.
-      columns: 1
-    blockId: markdown-slice
 settings:
   pageHeader:
     size: full
     textColorTitle:
       type: value
       colorValue: '#FFFFFF'
-    backgroundImage: >-
-      https://knapsack.imgix.net/site/public-demo/ddp-a2nhdrj_axq-unsplash2-xbud0zwsd1.jpg
+    backgroundImage: https://knapsack.imgix.net/site/public-demo/ddp-a2nhdrj_axq-unsplash2-xbud0zwsd1.jpg
     textColorDescription:
       type: value
       colorValue: '#FFFFFF'
 description: Use color to express your brand
+blockIds:
+  - K-6A8f88Qu

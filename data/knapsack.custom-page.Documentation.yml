@@ -1,6 +1,5 @@
 id: Documentation
 title: Documentation
-slices: []
 settings:
   pageHeader:
     size: full
@@ -8,9 +7,9 @@ settings:
       type: design-token
       tokenName: color-brand-primary
       colorValue: '#000000'
-    backgroundImage: >-
-      https://knapsack.imgix.net/site/public-demo/sincerely-media-dgqf1dukutm-unsplash-dvgozcedlb.jpg
+    backgroundImage: https://knapsack.imgix.net/site/public-demo/sincerely-media-dgqf1dukutm-unsplash-dvgozcedlb.jpg
     textColorDescription:
       type: value
       colorValue: '#000000'
 description: Read about how to use your design system
+blockIds: []

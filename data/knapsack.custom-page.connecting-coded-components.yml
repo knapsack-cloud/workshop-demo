@@ -1,163 +1,20 @@
 id: connecting-coded-components
 title: Connecting Coded Components
-slices:
-  - id: ks-content-block-QuqCPgR26m
-    data:
-      md:
-        - >-
-          ## Introduction
-
-          Knapsack leverages the source code of your system to bring your entire
-          cross-functional team together around the same UI elements and inputs
-          that your users will experience in the final product. We also have a
-          host of tools to help engineers build and distribute the system so
-          that you can focus on getting adoption quickly as you continue to grow
-          your system practice.
-
-
-          Follow the tips below to get Knapsack running locally and start
-          connecting code
-
-
-          * [Run Knapsack Locally](#run-knapsack-locally)
-
-          * [Add Code and/or Dependencies](#add-code-andor-dependencies)
-
-          * [Connect Code](#connect-code-to-the-ui)
-
-          * [Define Your Props](#define-your-props)
-
-          * [Create & Save Variations](#create--save-variations)
-      autoEdit: false
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-qRvc5hdIxP
-    blockId: divider-block
-  - id: ks-content-block-1ZGT33uyBJ
-    data:
-      md:
-        - "## Run Knapsack Locally\n1. Read the [developer docs](https://help.knapsack.cloud/article/31-running-knapsack-locally)\n2. Install the pre-requisites\n3. Clone the workspace repo\n4. Run the commands to build and serve the workspace\n5. Look for the \U0001F680 in your console and launch your local workspace!"
-        - >
-          ![](https://knapsack.imgix.net/site/workspace-starter/group-21-l5irrr_swt.png)
-      columns: 2
-    blockId: markdown-slice
-  - id: ks-content-block-IAHMxBb9dw
-    blockId: divider-block
-  - id: ks-content-block-q0eLbBTio_
-    data:
-      md:
-        - >-
-          ![](https://knapsack.imgix.net/site/uxdsf/screen-recording-2022-12-23-at-12.20.31-pm-fglmbkhvl5.gif)
-        - >-
-          ## Add Code and/or Dependencies
-
-          Knapsack can pull in production code from the same repo as the
-          workspace (via relative or package path) or from an external source
-          (via package path)
-
-          #### Adding your code to the workspace repo
-
-          1. Move an existing component into `/src` folder within the proper
-          package directory (e.g React) in the repo 
-
-          2. Add your named export to the `index.ts` file in the same package
-          directory
-
-          3. Locate the package path in the `package.json` file within the same
-          directory
-
-          #### Add your external package dependency
-
-          1. Locate the `package.json` file within the root directory
-
-          2. Add your package dependency
-
-          3. If your package is private and requires a Personal Access Token
-          (PAT), [set up your PAT in the local
-          environment](https://help.knapsack.cloud/article/83-github-personal-access-tokens-local-dev)
-      columns: 2
-    blockId: markdown-slice
-  - id: ks-content-block-DeXFydGBxW
-    blockId: divider-block
-  - id: ks-content-block-5vJm5kT6wh
-    data:
-      md:
-        - >-
-          ## Connect Code to the UI
-
-          Component templates are added to Knapsack the same way regardless of
-          where the source code is located.
-
-          ### Connecting code templates
-
-          1. Find or add a Pattern Page via the Knapscak web UI
-
-          2. Click the **+** button to add a tab
-
-          3. Select **Code Template**
-
-          4. Select a **Template Renderer** (e.g. React)
-
-          5. Add the **Template Path** and **Named Export**
-
-          6. Click **Add**
-        - >-
-          ![](https://knapsack.imgix.net/site/workspace-starter/screen-shot-2022-03-30-at-9.38.10-am-siavdsjjzw.png?w=400)
-      columns: 2
-    blockId: markdown-slice
-  - id: ks-content-block-wS0EhQ_N1S
-    blockId: divider-block
-  - id: ks-content-block-uuVYLOrB0c
-    data:
-      md:
-        - >-
-          ![](https://knapsack.imgix.net/site/public-demo/screenshot-2023-02-17-at-12.52.18-pm-aslwelrcac.png?w=400)
-        - >-
-          ## Define Your Props
-
-          When using TypeScript or the prop-types library, Knapsack can
-          automatically infer the API spec for a component template. In all
-          other cases, the spec can be defined either manually via the UI, or
-          directly in JSON.
-
-          #### Using InferSpec to define properties
-
-          1. Click the ⚙️ icon to reveal the **Pattern API Editor**
-
-          2. Toggle **Enable InferSpec**
-
-          3. Reload the page
-
-
-          #### Manually defining properties via the UI
-
-          1. Click the ⚙️ icon to reveal the **Pattern API Editor**
-
-          2. Use the avialable UI to define your props to align with the coded
-          component
-
-          3. Click **Save Changes**
-      columns: 2
-    blockId: markdown-slice
-  - id: ks-content-block-f73-qtReZ-
-    blockId: divider-block
-  - id: ks-content-block-W3DCGlaM2N
-    data:
-      md:
-        - >-
-          ## Create and Save Demo Variations
-
-          1. Navigate to the **Code Template** tab
-
-          2. Click **Add a Variation**
-
-          3. Use the **Schema Form** to add data and components to create
-          examples
-
-          4. Name your example
-        - >-
-
-          ![](https://knapsack.imgix.net/site/uxdsf/screenshot-2022-12-23-at-12.29.31-pm-0-izgosgfi.png)
-      columns: 2
-    blockId: markdown-slice
 description: Bring everyone together around your production code
+blockIds:
+  - QuqCPgR26m
+  - qRvc5hdIxP
+  - 1ZGT33uyBJ
+  - YKDDAnqI45
+  - IAHMxBb9dw
+  - q0eLbBTio_
+  - drcUkHRYdB
+  - DeXFydGBxW
+  - 5vJm5kT6wh
+  - bO5QsZCQei
+  - wS0EhQ_N1S
+  - uuVYLOrB0c
+  - MudWyP8_-E
+  - f73-qtReZ-
+  - W3DCGlaM2N
+  - v7O59ih4fZ

@@ -1,36 +1,8 @@
 id: brand-colors
 title: Brand Colors
-slices:
-  - id: ks-content-block-10pdmPU4A2
-    data:
-      md:
-        - '## Default Brand'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-ZIA41N3-bJ
-    data:
-      demo:
-        id: color-swatch
-      tokens:
-        name: ''
-        tags:
-          - brand
-        category: color
-    blockId: design-token-slice
-  - id: ks-content-block-DZDCl_8hOO
-    data:
-      md:
-        - '## Raw Token Values'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-5zXw_M1qDW
-    data:
-      demo:
-        id: table-list
-      tokens:
-        name: ''
-        tags:
-          - brand
-        category: ''
-    blockId: design-token-slice
 description: Our brand colors help us create consistent experiences across products.
+blockIds:
+  - 10pdmPU4A2
+  - ZIA41N3-bJ
+  - DZDCl_8hOO
+  - 5zXw_M1qDW

@@ -1,6 +1,5 @@
 id: Admin
-title: "Admin \U0001F512"
-slices: []
+title: Admin 🔒
 settings:
   pageHeader:
     size: full
@@ -11,3 +10,4 @@ settings:
 description: |-
   Need an admin-only section of your workspace? No problem! 
   Knapsack supports hidden pages. Shhhhh!
+blockIds: []

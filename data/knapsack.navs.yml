@@ -1,0 +1,280 @@
+byId:
+  /pages/colors:
+    id: /pages/colors
+    name: Colors
+    parentId: Design-Tokens-lNWaUqkDSo
+    path: /pages/colors
+  /pages/spacing:
+    id: /pages/spacing
+    name: Spacing
+    parentId: Design-Tokens-lNWaUqkDSo
+    path: /pages/spacing
+  /pattern/button:
+    id: /pattern/button
+    name: Button
+    parentId: Simple
+    path: /pattern/button
+  Admin:
+    hidden: true
+    id: Admin
+    name: Admin
+    parentId: root
+    path: /pages/Admin
+  Animation:
+    id: Animation
+    name: Animation
+    parentId: Design-Tokens-lNWaUqkDSo
+    path: /pages/Animation
+  Breakpoints:
+    id: Breakpoints
+    name: Breakpoints
+    parentId: Design-Tokens-lNWaUqkDSo
+    path: /pages/Breakpoints
+  Complex:
+    id: Complex
+    name: Complex Patterns
+    parentId: Components-aPh3G1bbrX
+    path: ''
+  Components:
+    id: Components
+    name: Components
+    parentId: Design-System
+    path: /pages/Components
+  Components-Overview:
+    id: Components-Overview
+    name: Components Overview
+    parentId: Components-aPh3G1bbrX
+    path: /pages/Components-Overview
+  Components-aPh3G1bbrX:
+    id: Components-aPh3G1bbrX
+    name: Components
+    parentId: root
+    path: ''
+  Design-Files:
+    id: Design-Files
+    name: Design Files
+    parentId: Embeds
+    path: /pages/Design-Files
+  Design-System:
+    id: Design-System
+    name: Design System
+    parentId: Documentation
+    path: /pages/Design-System
+  Design-Tokens:
+    id: Design-Tokens
+    name: Design Tokens
+    parentId: Design-System
+    path: /pages/Design-Tokens
+  Design-Tokens-lNWaUqkDSo:
+    id: Design-Tokens-lNWaUqkDSo
+    name: Design Tokens
+    parentId: root
+    path: /pages/Design-Tokens-lNWaUqkDSo
+  Documentation:
+    id: Documentation
+    name: Documentation
+    parentId: root
+    path: /pages/Documentation
+  Embeds:
+    id: Embeds
+    name: Embeds
+    parentId: Documentation
+    path: /pages/Embeds
+  Layout:
+    id: Layout
+    name: Layouts
+    parentId: Components-aPh3G1bbrX
+    path: ''
+  Page-Builders:
+    id: Page-Builders
+    name: Page Builders
+    parentId: Prototyping
+    path: ''
+  Page-Level-Prototyping:
+    id: Page-Level-Prototyping
+    name: Page-Level Prototyping
+    parentId: Prototyping
+    path: /pages/Page-Level-Prototyping
+  Private-Pages:
+    hidden: true
+    id: Private-Pages
+    name: Private Pages
+    parentId: Admin
+    path: /pages/Private-Pages
+  Prototyping:
+    id: Prototyping
+    name: Prototyping
+    parentId: root
+    path: ''
+  Shadow:
+    id: Shadow
+    name: Shadow
+    parentId: Design-Tokens-lNWaUqkDSo
+    path: /pages/Shadow
+  Simple:
+    id: Simple
+    name: Simple Patterns
+    parentId: Components-aPh3G1bbrX
+    path: ''
+  Static-Content:
+    id: Static-Content
+    name: Static Content
+    parentId: Design-System
+    path: /pages/Static-Content
+  Videos:
+    id: Videos
+    name: Videos
+    parentId: Embeds
+    path: /pages/Videos
+  Workflow:
+    id: Workflow
+    name: Workflow
+    parentId: Embeds
+    path: /pages/Workflow
+  adding-design-tokens:
+    id: adding-design-tokens
+    name: Adding Design Tokens
+    parentId: guidance
+    path: /pages/adding-design-tokens
+  adding-documentation:
+    id: adding-documentation
+    name: Adding Documentation
+    parentId: guidance
+    path: /pages/adding-documentation
+  author:
+    id: author
+    name: Author
+    parentId: Simple
+    path: /pattern/author
+  base-colors:
+    id: base-colors
+    name: Base Colors
+    parentId: /pages/colors
+    path: /pages/base-colors
+  brand-colors:
+    id: brand-colors
+    name: Brand Colors
+    parentId: /pages/colors
+    path: /pages/brand-colors
+  card:
+    id: card
+    name: Card
+    parentId: Complex
+    path: /pattern/card
+  connecting-coded-components:
+    id: connecting-coded-components
+    name: Connecting Coded Components
+    parentId: guidance
+    path: /pages/connecting-coded-components
+  customizing-the-workspace:
+    id: customizing-the-workspace
+    name: Customizing the Workspace
+    parentId: guidance
+    path: /pages/customizing-the-workspace
+  footer:
+    id: footer
+    name: Footer
+    parentId: Complex
+    path: /pattern/footer
+  getting-started:
+    id: getting-started
+    name: Getting Started
+    parentId: root
+    path: ''
+  guidance:
+    id: guidance
+    name: Guidance
+    parentId: getting-started
+    path: ''
+  hero:
+    id: hero
+    name: Hero
+    parentId: Layout
+    path: /pattern/hero
+  input-field:
+    id: input-field
+    name: Input Field
+    parentId: proposed-patterns
+    path: /pattern/input-field
+  knapsack's-publishing-workflow:
+    id: knapsack's-publishing-workflow
+    name: Knapsack's Publishing Workflow
+    parentId: guidance
+    path: /pages/knapsack's-publishing-workflow
+  layout:
+    id: layout
+    name: Layout
+    parentId: Layout
+    path: /pattern/layout
+  message:
+    id: message
+    name: Message
+    parentId: proposed-patterns
+    path: /pattern/message
+  one-pager:
+    id: one-pager
+    name: One-Pager
+    parentId: Page-Builders
+    path: /pattern/one-pager
+  proposed-patterns:
+    id: proposed-patterns
+    name: Proposed Patterns
+    parentId: Components-aPh3G1bbrX
+    path: ''
+  top-nav:
+    id: top-nav
+    name: Top Nav
+    parentId: Complex
+    path: /pattern/top-nav
+  welcome-to-knapsack:
+    id: welcome-to-knapsack
+    name: Welcome to Knapsack
+    parentId: getting-started
+    path: /pages/welcome-to-knapsack
+order:
+  - getting-started
+  - welcome-to-knapsack
+  - guidance
+  - knapsack's-publishing-workflow
+  - adding-design-tokens
+  - adding-documentation
+  - connecting-coded-components
+  - customizing-the-workspace
+  - Documentation
+  - Design-System
+  - Static-Content
+  - Design-Tokens
+  - Components
+  - Embeds
+  - Design-Files
+  - Videos
+  - Workflow
+  - Design-Tokens-lNWaUqkDSo
+  - /pages/colors
+  - base-colors
+  - brand-colors
+  - /pages/spacing
+  - Breakpoints
+  - Shadow
+  - Animation
+  - Components-aPh3G1bbrX
+  - Components-Overview
+  - Simple
+  - author
+  - /pattern/button
+  - Complex
+  - top-nav
+  - card
+  - footer
+  - Layout
+  - hero
+  - layout
+  - proposed-patterns
+  - message
+  - input-field
+  - Prototyping
+  - Page-Level-Prototyping
+  - Page-Builders
+  - one-pager
+  - Admin
+  - Private-Pages

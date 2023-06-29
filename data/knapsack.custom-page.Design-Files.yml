@@ -1,17 +1,6 @@
 id: Design-Files
 title: Design Files
-slices:
-  - id: ks-content-block-Y6lDP3j81a
-    data:
-      md:
-        - '## Figma'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-h6SryxnGE0
-    data:
-      url: >-
-        https://www.figma.com/file/zUm5kTRtnkFUh5JUsBwwWl/Demo-Design-System-Library?node-id=1%3A2
-      height: '600'
-      clickToInteract: false
-    blockId: figma-slice
 description: Documentation capabilities & examples
+blockIds:
+  - Y6lDP3j81a
+  - h6SryxnGE0

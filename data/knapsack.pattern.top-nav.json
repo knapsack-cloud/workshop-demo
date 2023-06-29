@@ -21,17 +21,7 @@
     {
       "id": "overview",
       "title": "Figma",
-      "slices": [
-        {
-          "id": "ks-content-block-9bVy_rzlTP",
-          "data": {
-            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=699%3A19588",
-            "height": "700",
-            "clickToInteract": false
-          },
-          "blockId": "figma-slice"
-        }
-      ]
+      "blockIds": ["9bVy_rzlTP"]
     }
   ],
   "templates": [
@@ -67,52 +57,10 @@
         "slots": {}
       },
       "alias": "TopNav",
-      "demos": ["main", "sQTUm4r36f", "o7iL4YT_dA"],
       "title": "React",
-      "slices": [],
-      "demosById": {
-        "main": {
-          "id": "main",
-          "data": {
-            "props": {
-              "logo": "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg",
-              "links": ["#1|Product", "#2|Features", "Marketplace", "Company"],
-              "button": "#login|Login"
-            },
-            "slots": {}
-          },
-          "type": "data",
-          "title": "Full Featured Top Nav w/ Button",
-          "description": "This Top Nav variation contains a logo, links, and a button."
-        },
-        "o7iL4YT_dA": {
-          "id": "o7iL4YT_dA",
-          "data": {
-            "props": {
-              "logo": "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg",
-              "links": ["#1|Product", "#2|Features", "Marketplace", "Company"]
-            },
-            "slots": {}
-          },
-          "type": "data",
-          "title": "No Button Top Nav",
-          "description": "This Top Nav variation contains a logo and links."
-        },
-        "sQTUm4r36f": {
-          "id": "sQTUm4r36f",
-          "data": {
-            "props": {
-              "links": ["#1|Product", "#2|Features", "Marketplace", "Company"],
-              "button": "#login|Login"
-            },
-            "slots": {}
-          },
-          "type": "data",
-          "title": "No Logo Top Nav w/ Button",
-          "description": "This Top Nav variation contains links and a button."
-        }
-      },
-      "templateLanguageId": "react"
+      "templateLanguageId": "react",
+      "demoIds": ["Cmjc3yXJ_r", "sQTUm4r36f", "o7iL4YT_dA"],
+      "blockIds": []
     }
   ],
   "description": "How we all get around. The proverbial hat (or hamburger)."
