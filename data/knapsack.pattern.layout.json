@@ -22,26 +22,7 @@
     {
       "id": "Figma",
       "title": "Figma",
-      "slices": [
-        {
-          "id": "ks-content-block-YEkgV9IhxW",
-          "data": {
-            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=671%3A177",
-            "height": "700",
-            "clickToInteract": false
-          },
-          "blockId": "figma-slice"
-        },
-        {
-          "id": "ks-content-block-kKTr9MvIOY",
-          "data": {
-            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=671%3A48",
-            "height": "900",
-            "clickToInteract": false
-          },
-          "blockId": "figma-slice"
-        }
-      ]
+      "blockIds": ["YEkgV9IhxW", "kKTr9MvIOY"]
     }
   ],
   "templates": [
@@ -74,69 +55,10 @@
         }
       },
       "alias": "Layout",
-      "demos": ["aMFkBNIHU2", "eY-_KWUog4"],
       "title": "React",
-      "slices": [],
-      "demosById": {
-        "aMFkBNIHU2": {
-          "id": "aMFkBNIHU2",
-          "data": {
-            "props": {
-              "bandTitle": "Two Card Layout Example",
-              "bandContent": "Tempor adipiscing libero volutpat luctus integer phasellus curae, habitant tempus vel interdum augue aliquam, varius feugiat nulla suscipit magnis hac."
-            },
-            "slots": {
-              "children": [
-                {
-                  "demoId": "main",
-                  "patternId": "card",
-                  "templateId": "react"
-                },
-                {
-                  "demoId": "W1Xbf7ez7T",
-                  "patternId": "card",
-                  "templateId": "react"
-                }
-              ]
-            }
-          },
-          "type": "data",
-          "title": "2-Column Card Example",
-          "description": ""
-        },
-        "eY-_KWUog4": {
-          "id": "eY-_KWUog4",
-          "data": {
-            "props": {
-              "bandTitle": "Three Card Layout Example",
-              "bandContent": "Facilisis tristique id habitant dis augue interdum sagittis morbi et fusce, taciti erat maecenas ad auctor ipsum pulvinar luctus varius, massa diam blandit ridiculus potenti aptent feugiat risus primis."
-            },
-            "slots": {
-              "children": [
-                {
-                  "demoId": "main",
-                  "patternId": "card",
-                  "templateId": "react"
-                },
-                {
-                  "demoId": "W1Xbf7ez7T",
-                  "patternId": "card",
-                  "templateId": "react"
-                },
-                {
-                  "demoId": "3c9C95vaFP",
-                  "patternId": "card",
-                  "templateId": "react"
-                }
-              ]
-            }
-          },
-          "type": "data",
-          "title": "3-Column Card Example",
-          "description": "A description"
-        }
-      },
-      "templateLanguageId": "react"
+      "templateLanguageId": "react",
+      "demoIds": ["aMFkBNIHU2", "eY-_KWUog4"],
+      "blockIds": []
     }
   ],
   "description": "An extensible pattern meant to provide layout flexibility"

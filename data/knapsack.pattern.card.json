@@ -19,139 +19,14 @@
       "spec": {
         "isInferred": true
       },
-      "demosById": {
-        "main": {
-          "id": "main",
-          "data": {
-            "props": {
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
-              "label": "Article",
-              "title": "Boost your conversion rate",
-              "imgSrc": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
-            },
-            "slots": {
-              "children": [
-                {
-                  "demoId": "_nTCiQ1984",
-                  "patternId": "author",
-                  "templateId": "react"
-                },
-                {
-                  "demoId": "main",
-                  "patternId": "author",
-                  "templateId": "react"
-                },
-                {
-                  "demoId": "main",
-                  "patternId": "button",
-                  "templateId": "react"
-                }
-              ]
-            }
-          },
-          "type": "data",
-          "title": "Two Author CTA",
-          "description": ""
-        },
-        "3c9C95vaFP": {
-          "id": "3c9C95vaFP",
-          "data": {
-            "props": {
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
-              "label": "Case Study",
-              "title": "Improve your customer experience",
-              "imgSrc": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
-            },
-            "slots": {
-              "children": [
-                {
-                  "demoId": "hGfcj0Ksms",
-                  "patternId": "author",
-                  "templateId": "react"
-                },
-                {
-                  "demoId": "_nTCiQ1984",
-                  "patternId": "author",
-                  "templateId": "react"
-                }
-              ]
-            }
-          },
-          "type": "data",
-          "title": "Two Author - No CTA",
-          "description": ""
-        },
-        "W1Xbf7ez7T": {
-          "id": "W1Xbf7ez7T",
-          "data": {
-            "props": {
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
-              "label": "Video",
-              "title": "How to use search engine optimization to drive sales",
-              "imgSrc": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
-            },
-            "slots": {
-              "children": [
-                {
-                  "demoId": "_nTCiQ1984",
-                  "patternId": "author",
-                  "templateId": "react"
-                }
-              ]
-            }
-          },
-          "type": "data",
-          "title": "One Author - No CTA",
-          "description": ""
-        },
-        "WXcBdSXuE9": {
-          "data": {
-            "slots": {
-              "children": []
-            },
-            "props": {
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
-              "imgSrc": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-              "title": "Improve your customer experience",
-              "label": "Case Study"
-            }
-          },
-          "id": "WXcBdSXuE9",
-          "title": "Simple",
-          "type": "data",
-          "description": ""
-        },
-        "RN96ZpJJpY": {
-          "id": "RN96ZpJJpY",
-          "data": {
-            "props": {
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
-              "label": "Article",
-              "title": "Boost your conversion rate now!",
-              "imgSrc": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
-            },
-            "slots": {
-              "children": [
-                {
-                  "demoId": "main",
-                  "patternId": "author",
-                  "templateId": "react"
-                },
-                {
-                  "demoId": "main",
-                  "patternId": "button",
-                  "templateId": "react"
-                }
-              ]
-            }
-          },
-          "type": "data",
-          "title": "One Author CTA",
-          "description": ""
-        }
-      },
-      "demos": ["RN96ZpJJpY", "main", "W1Xbf7ez7T", "3c9C95vaFP", "WXcBdSXuE9"],
-      "slices": []
+      "demoIds": [
+        "RN96ZpJJpY",
+        "-2WvOX39hg",
+        "W1Xbf7ez7T",
+        "3c9C95vaFP",
+        "WXcBdSXuE9"
+      ],
+      "blockIds": []
     }
   ],
   "tabs": [
@@ -176,107 +51,17 @@
     {
       "id": "Overview",
       "title": "Usage",
-      "slices": [
-        {
-          "id": "ks-content-block-GUshucXGiO",
-          "data": {
-            "md": [
-              "## Overview\nUse card layouts to present a high-level summary of content related to a single topic. \n\n### Do:\n* Consider and choose text and visual elements carefully. Test your cards with the minimal content and only add additional content or graphics where they give needed context to the user\n* Use headlines that set clear expectations about the content being linked to\n* Use one style of card per module, don't mix and match\n* Feature one piece of information per card\n* Outline the main idea with the minimal possible information, don't overload with information as the card links to more detail\n\n### Do not:\n* Mix card styles within the same module\n* Overload with information as the card links to more detail\n* Add inline text links, the card itself is clickable and should link to a single piece of information, consider using content blocks in this instance "
-            ],
-            "columns": 1
-          },
-          "blockId": "markdown-slice"
-        },
-        {
-          "id": "ks-content-block-1zsHlF6chs",
-          "data": {
-            "demoId": "RN96ZpJJpY",
-            "demoSize": "landscape",
-            "patternId": "card",
-            "templateId": "react",
-            "hideControls": false,
-            "playgroundUi": {
-              "demoSize": "landscape",
-              "showSchemaForm": false,
-              "showCodeSnippet": true
-            },
-            "showSchemaForm": false,
-            "showCodeSnippet": true
-          },
-          "blockId": "pattern-template-slice"
-        },
-        {
-          "id": "ks-content-block-wwkLIOf27t",
-          "data": {
-            "md": [
-              "### When to avoid\nCards should only display enough information to give a user context. Do not use a card layout:\n* to highlight a solo piece of information\n* when the content requires in-line or multiple links, consider content blocks\n* when a large amount of text is needed to give users context \n\n### Keep content concise\nCards allow users to scan content in order to find their required information quickly, therefore it is important to make the content concise. Ensure the headlines are brief and explicit about the content the cards link to. Intuitive headlines and copy help the user build a clear mental model of the content."
-            ],
-            "columns": 1
-          },
-          "blockId": "markdown-slice"
-        },
-        {
-          "id": "ks-content-block-aqVaPpg6o5",
-          "data": {
-            "md": [
-              "### Content Elements\nConsider and choose content elements carefully. Test your cards with the minimal content and only add additional content where they give needed context to the user. Content types in cards include:\n\n* **Headline** - Provides snapshot of the content.\n* **Copy** - Provides further details where the headline alone may not be sufficient.\n* **Label** - Indicates the category of a topic or theme when a user needs to further group content. For example, departments, agencies or services.\n* **Date** - Indicates how old the content is when this information is important to the user.\n\n### Images\nUsing an image allows for different content to stand out and provide additional context. It helps users visualise different pieces of information and quickly distinguish between content to find information easily.\n\nTest your visual elements carefully:\n* only use images where it supports and re-enforces the content to the user\n* only use images when they can clearly show the difference between content and can be easily identified\n* do not use for decorative purposes only"
-            ],
-            "columns": 1
-          },
-          "blockId": "markdown-slice"
-        }
-      ]
+      "blockIds": ["GUshucXGiO", "1zsHlF6chs", "wwkLIOf27t", "aqVaPpg6o5"]
     },
     {
       "id": "Accessibility",
       "title": "Accessibility",
-      "slices": [
-        {
-          "id": "ks-content-block-DiHe471EgD",
-          "data": {
-            "md": [
-              "### The card component has been tested against the latest [W3C Web Content Accessibility Guidelines (WCAG) 2.1 Level A and AA success criteria](https://www.w3.org/TR/WCAG21/) and violations have been identified as high priority issues. This document will be updated when these accessibility issues are resolved."
-            ],
-            "columns": 1
-          },
-          "blockId": "markdown-slice"
-        },
-        {
-          "id": "ks-content-block-tyeC6Hiswb",
-          "data": {
-            "md": [
-              "## Accessibility considerations\n1. Labels should be clear and concise.\n2. Users should be warned if selecting a card call-to-action will cause a change in context.\n3. Components should be used to create the content that displays within each tile"
-            ],
-            "columns": 1
-          },
-          "blockId": "markdown-slice"
-        },
-        {
-          "id": "ks-content-block-pR3IAfgqBA",
-          "data": {
-            "md": [
-              "## Resources\n* [W3C WAI-ARIA Authoring Practices Checkbox Design Pattern](https://www.w3.org/TR/wai-aria-practices/examples/checkbox/checkbox-1/checkbox-1.html) covers the usage of ARIA names, state and roles, as well as the expected keyboard interactions.\n* [W3C WAI-ARIA: Using aria-expanded to indicate the state of a collapsible element](https://www.w3.org/WAI/GL/wiki/Using_aria-expanded_to_indicate_the_state_of_a_collapsible_element)\n* Best In Class Example: [IBM Accessibility Requirements](https://www.ibm.com/able/requirements/requirements/)"
-            ],
-            "columns": 1
-          },
-          "blockId": "markdown-slice"
-        }
-      ]
+      "blockIds": ["DiHe471EgD", "tyeC6Hiswb", "pR3IAfgqBA"]
     },
     {
       "id": "Figma",
       "title": "Figma",
-      "slices": [
-        {
-          "id": "ks-content-block-Hn3xvYmDXj",
-          "data": {
-            "url": "https://www.figma.com/file/rcMETa2cNqQDFLd41cZA14/Demo-Design-System?node-id=0%3A1",
-            "height": "800",
-            "clickToInteract": false
-          },
-          "blockId": "figma-slice"
-        }
-      ]
+      "blockIds": ["Hn3xvYmDXj"]
     }
   ],
   "demoSize": "portrait"

@@ -1,102 +1,13 @@
 id: adding-documentation
 title: Adding Documentation
-slices:
-  - id: ks-content-block-US4_sofbxi
-    data:
-      md:
-        - >-
-          ## Introduction
-
-          Knapsack enables teams to work together to collaborative create their
-          design system documentation as they design and build the design
-          system. Use the steps below to begin adding pages, connecting design
-          and code, and coordinating across teams with your new central source
-          of truth!
-
-
-          * [Add Pages](#add-pages)
-
-          * [Add Content](#add-content-blocks)
-
-          * [Customize Page Headers](#customize-your-page-headers)
-      columns: 1
-      autoEdit: false
-    blockId: markdown-slice
-  - id: ks-content-block-WWb1kj_yym
-    blockId: divider-block
-  - id: ks-content-block-eGax35Ka9v
-    data:
-      md:
-        - >-
-          ## Add Pages
-
-          Pages can be added in-context via the **+ Add Page** button in the
-          main navigation and the **+ Add Subpage** button in the left side
-          menu, or via the **Manage Nav** feature available at the far right of
-          the main navigation.
-
-
-          Three options are available when building out your IA:
-
-          * **Page:** A standard page for any type of content
-
-          * **Pattern:** A page for documenting components, with statuses and
-          tabs for connecting coded templates
-
-          * **Group:** A folder for organizing patterns in the navigation
-        - >-
-          ![](https://knapsack.imgix.net/site/uxdsf/screenshot-2022-12-23-at-11.58.24-am-uplc45mrsl.png?w=350)
-      columns: 2
-    blockId: markdown-slice
-  - id: ks-content-block-fTtR3u4Py_
-    blockId: divider-block
-  - id: ks-content-block-XpB9TVIOvh
-    data:
-      md:
-        - >-
-          ![](https://knapsack.imgix.net/site/public-demo/screenshot-2023-02-17-at-12.49.30-pm-fzzlxeuxj0.png?w=400)
-        - >
-          ## Add Content Blocks
-
-          Static and dynamic content is createed in Knapsack using our system of
-          **Content Blocks**. These blocks allow Admin and Contributor users to
-          add or connect text, media, and third-party (e.g. Figma, Xd, Airtable)
-          assets to Knapsack.
-
-          #### Adding & Configuring Content Blocks
-
-          1. Click the **+** button to display the content block menu
-
-          2. Select the content block for your desired content type
-
-          3. Use the ⚙️ icon in the top-right of each content block to adjust
-          settings
-
-
-          #### Looking for Inspiration?
-
-          For example of how to leverage content blocks, check out [our demo
-          workspace](https://app.knapsack.cloud/site/public-demo/latest/pages/Documentation)
-          or email help@knapsack.cloud
-      columns: 2
-    blockId: markdown-slice
-  - id: ks-content-block-kM7ifv2voZ
-    blockId: divider-block
-  - id: ks-content-block-GQORAXftB-
-    data:
-      md:
-        - |-
-          ## Customize Your Page Headers
-          1. Navigate to any page using the **Page** page type
-          2. Click the **Style** button in the top right of the page header
-          3. Use the available controls to customize the UI:
-              - Hide/show text
-              - Title Color
-              - Description Color
-              - Background Color
-              - Background Image
-              - Banner Size
-        - >-
-          ![](https://knapsack.imgix.net/site/uxdsf/screenshot-2022-12-23-at-12.08.31-pm-gmmangpbos.png)
-      columns: 2
-    blockId: markdown-slice
+blockIds:
+  - US4_sofbxi
+  - WWb1kj_yym
+  - eGax35Ka9v
+  - xOr_nLImmZ
+  - fTtR3u4Py_
+  - XpB9TVIOvh
+  - muc_6S6okz
+  - kM7ifv2voZ
+  - GQORAXftB-
+  - 71J1844txR

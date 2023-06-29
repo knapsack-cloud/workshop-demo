@@ -1,6 +1,5 @@
 id: Page-Level-Prototyping
 title: Page-Level Prototyping
-slices: []
 settings:
   pageHeader:
     size: full
@@ -15,3 +14,4 @@ settings:
 description: |-
   Work with patterns to create new experiences.
   Collaborate to build, share, and test your ideas with real code!
+blockIds: []

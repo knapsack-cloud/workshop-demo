@@ -1,113 +1,16 @@
 id: Components
 title: Components
-slices:
-  - id: ks-content-block-FaBVdJC1P7
-    data:
-      md:
-        - >-
-          *This section provides an overview of content formatting options in
-          Knapsack. Visit the [Design Tokens](././Design-Tokens-lNWaUqkDSo) and
-          [Components](././Components-Overview) sections for examples of asset
-          docs.*
-      columns: 1
-    blockId: markdown-slice
-  - id: 5RQruglYiX
-    data:
-      md:
-        - >-
-          ## Overview
-
-          Using the **System** content blocks, users can create dynamic
-          documentation of component templates and specific variations. Since
-          Knapsack is wired up to the source code of your design system,
-          documentation will automatically update when changes occur.
-
-
-          Choose from a variety of formats and presentations depending on the
-          type of documentation experience you're aiming for.
-
-
-          #### Explore the different options for component presentation below:
-
-          * [Component Embed](#component-embed)
-
-          * [Component Demo](#component-demo)
-
-          * [System Overview (All Components)](#system-overview-all-components)
-
-          * [System Status Table](#system-status-table)
-
-
-          Use the below sections to browse examples of component documentation.
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-Fph9sYCuho
-    blockId: divider-block
-  - id: zlejPJh20Z
-    data:
-      md:
-        - >-
-          ## Component Embed
-
-          A **Component Embed** shows a live render of a production component,
-          with options to display the schema form (for adjusting data +
-          presentation) and/or the code snippet.
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-CyJBGzdohK
-    data:
-      demoId: main
-      demoSize: landscape
-      patternId: button
-      templateId: react
-      hideControls: false
-      playgroundUi:
-        demoSize: landscape
-        showSchemaForm: false
-        showCodeSnippet: false
-      showSchemaForm: false
-      showCodeSnippet: false
-    blockId: pattern-template-slice
-  - id: 6eHTQ_DA5d
-    data:
-      md:
-        - >-
-          ## Component Demo
-
-          A **Component Demo** shows all of the variations of a given component
-          template based on a single property
-      columns: 1
-    blockId: markdown-slice
-  - id: osLNmkYLkO
-    data:
-      size: m
-      demoId: main
-      patternId: button
-      templateId: react
-      variationId: size
-    blockId: pattern-variations
-  - id: ks-content-block-udJZJ73YSH
-    data:
-      size: m
-      demoId: main
-      patternId: button
-      templateId: react
-      variationId: mode
-    blockId: pattern-variations
-  - id: Gtf7ERAcuu
-    data:
-      md:
-        - '## System Overview (All Components)'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-tA1WrvdWyM
-    blockId: pattern-list-block
-  - id: ks-content-block-dxsxlMQ3Yz
-    data:
-      md:
-        - '## System Status Table'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-iSlOJ42w6Y
-    blockId: pattern-status-table-block
 description: Documentation capabilities & examples
+blockIds:
+  - FaBVdJC1P7
+  - 5RQruglYiX
+  - Fph9sYCuho
+  - zlejPJh20Z
+  - CyJBGzdohK
+  - 6eHTQ_DA5d
+  - osLNmkYLkO
+  - udJZJ73YSH
+  - Gtf7ERAcuu
+  - tA1WrvdWyM
+  - dxsxlMQ3Yz
+  - iSlOJ42w6Y

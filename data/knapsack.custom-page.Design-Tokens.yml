@@ -1,170 +1,25 @@
 id: Design-Tokens
 title: Design Tokens
-slices:
-  - id: ks-content-block-nuL9llFvdl
-    data:
-      md:
-        - >-
-          *This section provides an overview of content formatting options in
-          Knapsack. Visit the [Design Tokens](././Design-Tokens-lNWaUqkDSo) and
-          [Components](././Components-Overview) sections for examples of asset
-          docs.*
-      columns: 1
-    blockId: markdown-slice
-  - id: y9KZVrKgpx
-    data:
-      md:
-        - >+
-          ## Overview
-
-          Using the **Design Tokens** content block, users can create dynamic
-          documentation of design tokens. Since Knapsack is wired up to the
-          source code of your design system, documentation will automatically
-          update when changes occur.
-
-
-          Choose from a variety of formats and presentations depending on the
-          type of token you're documenting.
-
-
-          #### Explore the different options for design token presentation
-          below:
-
-          * [Color Swatches](#color-swatches)
-
-          * [Breakpoints](#breakpoints)
-
-          * [Spacing](#spacing)
-
-          * [Shadow](#shadow)
-
-          * [Raw Values](#raw-values)
-              - [Table List](#table-list)
-              - [Simple List](#simple-list)
-              - [JSON](#json)
-
-          Use the below sections to browse examples of design token
-          documentation.
-
-
-
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-3JP6lsPzm5
-    blockId: divider-block
-  - id: ks-content-block-BUFKAm-2a4
-    data:
-      md:
-        - '## Color Swatches'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-2c9-R7CZYc
-    data:
-      demo:
-        id: color-swatch
-      tokens:
-        name: ''
-        tags:
-          - brand
-        type: color
-        category: color
-    blockId: design-token-slice
-  - id: ks-content-block-yw09CUQi5_
-    blockId: divider-block
-  - id: 0jgDoN-06W
-    data:
-      md:
-        - '## Breakpoints'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-stXiHo-n46
-    data:
-      demo:
-        id: media-query
-      tokens:
-        name: ''
-        tags: []
-        type: dimension
-        category: breakpoint
-    blockId: design-token-slice
-  - id: ks-content-block-h5pUADysUw
-    blockId: divider-block
-  - id: ncyDgsT_tf
-    data:
-      md:
-        - '## Spacing'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-XvSFjTcPwH
-    data:
-      demo:
-        id: spacing
-      tokens:
-        name: ''
-        tags: []
-        type: dimension
-        category: spacing
-    blockId: design-token-slice
-  - id: ks-content-block-H4_9NLT2TE
-    blockId: divider-block
-  - id: 2RIhkctxWB
-    data:
-      md:
-        - '## Shadow'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-8DUW-7h2bt
-    data:
-      demo:
-        id: box-shadow
-      tokens:
-        name: ''
-        tags:
-          - box
-        category: shadow
-    blockId: design-token-slice
-  - id: ks-content-block-A2my1t53RY
-    blockId: divider-block
-  - id: ks-content-block-euHhLM0j1S
-    blockId: divider-block
-  - id: xoEhx_j556
-    data:
-      md:
-        - '## Raw Values'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-uhsXkgwka1
-    data:
-      md:
-        - '### Table List'
-      columns: 1
-    blockId: markdown-slice
-  - id: j-gXbQAemM
-    data:
-      demo:
-        id: table-list
-      tokens:
-        name: ''
-        tags:
-          - brand
-        type: color
-        category: color
-    blockId: design-token-slice
-  - id: ks-content-block-s0JaYiHQlW
-    data:
-      md:
-        - '### Simple List'
-      columns: 1
-    blockId: markdown-slice
-  - id: TPySDEPq5j
-    data:
-      demo:
-        id: simple-list
-      tokens:
-        name: ''
-        tags:
-          - brand
-        type: color
-        category: color
-    blockId: design-token-slice
 description: Documentation capabilities & examples
+blockIds:
+  - nuL9llFvdl
+  - y9KZVrKgpx
+  - 3JP6lsPzm5
+  - BUFKAm-2a4
+  - 2c9-R7CZYc
+  - yw09CUQi5_
+  - 0jgDoN-06W
+  - stXiHo-n46
+  - h5pUADysUw
+  - ncyDgsT_tf
+  - XvSFjTcPwH
+  - H4_9NLT2TE
+  - 2RIhkctxWB
+  - 8DUW-7h2bt
+  - A2my1t53RY
+  - euHhLM0j1S
+  - xoEhx_j556
+  - uhsXkgwka1
+  - j-gXbQAemM
+  - s0JaYiHQlW
+  - TPySDEPq5j

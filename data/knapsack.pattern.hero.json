@@ -22,17 +22,7 @@
     {
       "id": "overview",
       "title": "Figma",
-      "slices": [
-        {
-          "id": "ks-content-block-S7NWBTsEeH",
-          "data": {
-            "url": "https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=739%3A496",
-            "height": "1000",
-            "clickToInteract": false
-          },
-          "blockId": "figma-slice"
-        }
-      ]
+      "blockIds": ["S7NWBTsEeH"]
     }
   ],
   "templates": [
@@ -88,54 +78,10 @@
         }
       },
       "alias": "Hero",
-      "demos": ["main", "ysDZjRo0Yd"],
       "title": "React",
-      "slices": [],
-      "demosById": {
-        "main": {
-          "id": "main",
-          "data": {
-            "props": {
-              "buttonOne": "Get started",
-              "buttonTwo": "Live Demo",
-              "paragraph": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
-              "headlineOne": "Data to enrich your ",
-              "headlineTwo": "online business",
-              "showBackground": true
-            },
-            "slots": {
-              "header": [
-                {
-                  "demoId": "main",
-                  "patternId": "top-nav",
-                  "templateId": "react"
-                }
-              ]
-            }
-          },
-          "type": "data",
-          "title": "Hero w/ Nav"
-        },
-        "ysDZjRo0Yd": {
-          "id": "ysDZjRo0Yd",
-          "data": {
-            "props": {
-              "buttonOne": "Get started",
-              "buttonTwo": "Live Demo",
-              "paragraph": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
-              "headlineOne": "Data to enrich your ",
-              "headlineTwo": "online business",
-              "showBackground": true
-            },
-            "slots": {
-              "header": []
-            }
-          },
-          "type": "data",
-          "title": "Hero"
-        }
-      },
-      "templateLanguageId": "react"
+      "templateLanguageId": "react",
+      "demoIds": ["3ZA8cHaxRd", "ysDZjRo0Yd"],
+      "blockIds": []
     }
   ],
   "description": "Kind of like Superman, but full width."

@@ -1,13 +1,5 @@
 id: Animation
 title: Animation
-slices:
-  - id: ks-content-block-P333IwDxP7
-    blockId: design-token-slice
-    data:
-      tokens:
-        tags: []
-        category: transition
-        name: ''
-      demo:
-        id: table-list
 description: ''
+blockIds:
+  - P333IwDxP7

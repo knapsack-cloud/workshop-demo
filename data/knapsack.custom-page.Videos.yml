@@ -1,18 +1,6 @@
 id: Videos
 title: Videos
-slices:
-  - id: sM9CmSLU48
-    data:
-      md:
-        - |-
-          #### Knapsack Webinar
-          ## Using design tokens to unify styling across products
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-hqtwt_qLOH
-    data:
-      url: 'https://www.youtube.com/watch?v=pyeX5l2TE1o'
-      height: '480'
-      clickToInteract: false
-    blockId: youtube-slice
 description: Documentation capabilities & examples
+blockIds:
+  - sM9CmSLU48
+  - hqtwt_qLOH

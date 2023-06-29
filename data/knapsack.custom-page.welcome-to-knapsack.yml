@@ -1,102 +1,5 @@
 id: welcome-to-knapsack
 title: Welcome to Knapsack
-slices:
-  - id: 6-qXFUJ0eH
-    data:
-      md:
-        - >+
-          # Build better together
-
-
-          Knapsack is the next generation of design systems - flexible,
-          scalable, and highly collaborative. Knapsack powers unified product
-          experiences by providing a central source of truth for everyone on
-          your team. Document decisions, create tokens, build prototypes, and
-          ship code directly to your app or website. You'll see a new level of
-          collaboration between teams and increase velocity in just a few weeks
-          with Knapsack's ready-to-use infrastructure. Unite design and
-          engineering in one powerful tool that will scale with your
-          organization for years to come. 
-
-
-          Visit our  **[website](https://knapsack.cloud)**, follow us on
-          ![](https://knapsack.imgix.net/site/demo-design-system/twitter-logo-wxzi_bjs1s.svg?w=15)
-          **[Twitter](https://twitter.com/knapsackcloud)**, or check out our
-          ![](https://knapsack.imgix.net/site/demo-design-system/symbol-youtube-0wwj5mv2z5.png?w=20)
-          **webinars** to learn more!
-
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-tY2rt92bob
-    data:
-      md:
-        - >-
-          # Go further faster
-
-          Knapsack enables enterprise engineering, product, and design teams to
-          build better products faster by bringing all teams together around
-          production code and engineering workflows.
-
-
-          **Knapsack allows teams to do four main things:**
-
-
-          1. Organize your design assets around patterns
-
-          2. Connect to your code to be able to view and manipulate components
-
-          3. Document usage guidelines, history, examples, and other information
-
-          4. Ship a version controlled package of code and tools for use in
-          building applications
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-oa-y7sAwqr
-    data:
-      md:
-        - >+
-          ![](https://knapsack.imgix.net/site/public-demo/screenshot-2023-02-17-at-12.39.54-pm-v5q7zuy2o2.png)
-
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-j6lFMtQipq
-    data:
-      md:
-        - '# How can my team use Knapsack?'
-      columns: 1
-    blockId: markdown-slice
-  - id: ks-content-block-0m76iAbMDZ
-    data:
-      url: 'https://www.youtube.com/watch?v=oFXaV-xXG5s'
-      height: '480'
-      clickToInteract: true
-    blockId: youtube-slice
-  - id: ks-content-block-7Y7v_lnZJh
-    data:
-      md:
-        - >+
-
-
-          # About Us
-
-          We're a passionate group of designers, engineers, and former design
-          system consultants. Our team has helped some of the largest companies
-          build and implement design systems that solve their unique challenges.
-          Our mission is to simplify the design system experience so teams can
-          spend more time creating and less time rebuilding or struggling to
-          keep their design and code in sync. 
-
-
-          We're backed by Google, Slack, and other world-class investors who see
-          our vision for the future. 
-
-
-          Our focus is modernizing digital production through collaborative
-          tooling and workflows that **make it easy to reuse code**.
-
-
-      columns: 1
-    blockId: markdown-slice
 settings:
   pageHeader:
     textColorTitle:
@@ -110,3 +13,10 @@ settings:
       colorValue: '#000000'
     size: small
 description: The collaborative design system
+blockIds:
+  - 6-qXFUJ0eH
+  - tY2rt92bob
+  - oa-y7sAwqr
+  - j6lFMtQipq
+  - 0m76iAbMDZ
+  - 7Y7v_lnZJh

@@ -1,98 +1,14 @@
 id: customizing-the-workspace
 title: Customizing the Workspace
-slices:
-  - id: ks-content-block-mDLeEkWYGa
-    data:
-      md:
-        - >-
-          ## Introduction
-
-          Knapsack workspaces are designed to be customized to fit your brand
-          and experience needs. Follow the steps below for defining and applying
-          your brand and customizing home and landing page layouts.
-
-
-          * [Add Your Logo](#add-your-logo)
-
-          * [Customize Global Styles](#customize-global-styles)
-
-          * [Additional Workspace Settings](#additional-workspace-settings)
-      autoEdit: false
-    blockId: markdown-slice
-  - id: ks-content-block-Gf9WN2NueF
-    blockId: divider-block
-  - id: ks-content-block-3gJ6FcaTSt
-    data:
-      md:
-        - |-
-          ## Add Your Logo
-          1. Click **Upload logo** in the upper-left of the screen
-          2. Select a file from your local hard drive
-          3. Party!
-        - >-
-          ![](https://knapsack.imgix.net/site/uxdsf/screenshot-2022-12-23-at-12.33.00-pm-nmdqaykmot.png?w=300)
-      columns: 2
-    blockId: markdown-slice
-  - id: ks-content-block-RlMAblGhZr
-    blockId: divider-block
-  - id: ks-content-block-cO5Vcc2NHd
-    data:
-      md:
-        - >-
-          ![](https://knapsack.imgix.net/site/uxdsf/screenshot-2022-12-23-at-12.34.43-pm-pv01pgoel4.png)
-        - >-
-          ## Customize Global Styles
-
-          The Knapsack settings panel allows Admins and Contributors to define a
-          range of global styles using unique or token values, including:
-
-          * Custom Fonts
-
-          * Typography settings (per type style)
-
-          * Navigation styling
-
-          * Link styling
-
-          * Tab styling
-
-          #### Managing global styles
-
-          1. Click the Knapasck logo in the top left of the screen
-
-          2. Select **Settings**
-
-          3. Select an element in the **Appearance** section
-
-          4. Follow the on-screen guidance to customize the selected element's
-          style
-
-          5. Click **Save Changes**
-      columns: 2
-    blockId: markdown-slice
-  - id: ks-content-block-bw2Dehzrvh
-    blockId: divider-block
-  - id: ks-content-block--r73qPCQoZ
-    data:
-      md:
-        - >-
-          ## Additional Workspace Settings
-
-          From the Settings panel, Admin and Contributor users can also control
-          a range of other settings for the workspace, including:
-
-          * Workspace Name (appears in the main navigation)
-
-          * Root Font Size (used for adjusting base REM values)
-
-
-
-          #### In-Context Settings
-
-          Some settings, such as Homepage title and styling or page-specific
-          headers are managed in-context from the respective page.
-        - >-
-          ![](https://knapsack.imgix.net/site/uxdsf/screenshot-2022-12-23-at-12.39.24-pm-2xxuoqjubw.png?w=450)
-      columns: 2
-    blockId: markdown-slice
 description: Make your Knapsack workspace reflect your brand styles
+blockIds:
+  - mDLeEkWYGa
+  - Gf9WN2NueF
+  - 3gJ6FcaTSt
+  - NcqsfAA6yy
+  - RlMAblGhZr
+  - cO5Vcc2NHd
+  - FwlQJU30fe
+  - bw2Dehzrvh
+  - '-r73qPCQoZ'
+  - D3--o8Cp5d
