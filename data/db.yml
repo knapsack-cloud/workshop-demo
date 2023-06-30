@@ -185,6 +185,22 @@ blocks:
         height: '1600'
         url: https://knapsack-storybook.netlify.app/iframe.html?id=example-button--button-stories&viewMode=docs
       id: 0tYaqASlzs
+    0x-NO4hfz2:
+      blockType: pattern-template-block
+      data:
+        demoId: 2ysfvm4ShE
+        demoSize: landscape
+        hideControls: false
+        patternId: button
+        playgroundUi:
+          demoSize: landscape
+          showCodeSnippet: false
+          showSchemaForm: false
+        showCodeSnippet: false
+        showSchemaForm: false
+        templateId: react
+      id: 0x-NO4hfz2
+      size: medium
     10pdmPU4A2:
       blockType: text-editor
       data:
@@ -352,6 +368,20 @@ blocks:
               type: bulletList
           type: doc
       id: 1LTGO8xsrC
+    1MwxUqcERn:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - attrs:
+                level: 2
+              content:
+                - text: Tables
+                  type: text
+              type: heading
+          type: doc
+      id: 1MwxUqcERn
+      size: null
     1VyLx4PL0Q:
       blockType: pattern-variations
       data:
@@ -1221,22 +1251,6 @@ blocks:
     7arudKsMF0:
       blockType: divider-block
       id: 7arudKsMF0
-    7lMop_wyOv:
-      blockType: text-editor
-      data:
-        content:
-          content:
-            - content:
-                - text: Four!
-                  type: text
-              type: paragraph
-            - content:
-                - text: Up to 4 columns, fully responsive!
-                  type: text
-              type: paragraph
-          type: doc
-      id: 7lMop_wyOv
-      size: medium
     82vqfNsnx0:
       blockType: text-editor
       data:
@@ -1980,6 +1994,24 @@ blocks:
           type: doc
       id: FwlQJU30fe
       size: medium
+    FzPBc1o1wW:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - attrs:
+                level: 1
+              content:
+                - text: The text is over here!
+                  type: text
+              type: heading
+            - content:
+                - text: The button is over there...
+                  type: text
+              type: paragraph
+          type: doc
+      id: FzPBc1o1wW
+      size: medium
     GQORAXftB-:
       blockType: text-editor
       data:
@@ -2317,18 +2349,6 @@ blocks:
             - type: horizontalRule
           type: doc
       id: LBMso-6f-6
-    LNW81ZRpE3:
-      blockType: text-editor
-      data:
-        content:
-          content:
-            - content:
-                - text: One column One column One column One column
-                  type: text
-              type: paragraph
-          type: doc
-      id: LNW81ZRpE3
-      size: medium
     Lsu6cM8BeA:
       blockType: divider-block
       id: Lsu6cM8BeA
@@ -2918,18 +2938,6 @@ blocks:
               type: bulletList
           type: doc
       id: V0Jm0DWi9c
-    VThL5eMyVl:
-      blockType: text-editor
-      data:
-        content:
-          content:
-            - content:
-                - text: Three column Three column Three column Three column
-                  type: text
-              type: paragraph
-          type: doc
-      id: VThL5eMyVl
-      size: medium
     W3DCGlaM2N:
       blockType: text-editor
       data:
@@ -3097,8 +3105,19 @@ blocks:
                     the user to a new page.
                   type: text
               type: paragraph
+            - attrs:
+                level: 3
+              content:
+                - text: When you're not sure
+                  type: text
+              type: heading
+            - content:
+                - text: Default to focusing on primary and secondary (and tertiary...) states. or ask a friend :)
+                  type: text
+              type: paragraph
           type: doc
       id: YkyHkvdzp_
+      size: large
     ZE6EJ0E78u:
       blockType: text-editor
       data:
@@ -3327,6 +3346,132 @@ blocks:
           type: doc
       id: cO5Vcc2NHd
       size: medium
+    ctwMU8NUmw:
+      blockType: table
+      data:
+        content:
+          content:
+            - content:
+                - content:
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Column 1
+                              type: text
+                          type: paragraph
+                      type: tableHeader
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Column 2
+                              type: text
+                          type: paragraph
+                      type: tableHeader
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Column 3
+                              type: text
+                          type: paragraph
+                      type: tableHeader
+                  type: tableRow
+                - content:
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Row 1
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Hi
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Yo
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                  type: tableRow
+                - content:
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Row 2
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - type: paragraph
+                      type: tableCell
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - type: paragraph
+                      type: tableCell
+                  type: tableRow
+                - content:
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - content:
+                            - text: Row 3
+                              type: text
+                          type: paragraph
+                      type: tableCell
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - type: paragraph
+                      type: tableCell
+                    - attrs:
+                        colspan: 1
+                        colwidth: null
+                        rowspan: 1
+                      content:
+                        - type: paragraph
+                      type: tableCell
+                  type: tableRow
+              type: table
+          type: doc
+      id: ctwMU8NUmw
+      size: null
     dWwXgDQUjj:
       blockType: divider-block
       id: dWwXgDQUjj
@@ -3939,18 +4084,6 @@ blocks:
               type: bulletList
           type: doc
       id: mDLeEkWYGa
-    mMFilA2h0-:
-      blockType: text-editor
-      data:
-        content:
-          content:
-            - content:
-                - text: Two column Two column Two column Two column
-                  type: text
-              type: paragraph
-          type: doc
-      id: mMFilA2h0-
-      size: medium
     mf8RBOFi4q:
       blockType: divider-block
       id: mf8RBOFi4q
@@ -5000,6 +5133,22 @@ blocks:
           type: doc
       id: v7O59ih4fZ
       size: medium
+    vFalbAV-gx:
+      blockType: pattern-template-block
+      data:
+        demoId: 2ysfvm4ShE
+        demoSize: landscape
+        hideControls: false
+        patternId: button
+        playgroundUi:
+          demoSize: landscape
+          showCodeSnippet: false
+          showSchemaForm: false
+        showCodeSnippet: false
+        showSchemaForm: false
+        templateId: react
+      id: vFalbAV-gx
+      size: small
     vPbAkMHWK4:
       blockType: text-editor
       data:
@@ -5580,11 +5729,13 @@ demos:
           children:
             - text: Button
               type: text
+      height: 65
       id: 2ysfvm4ShE
       patternId: button
       templateId: react
       title: Primary
       type: data
+      width: 227
     3ZA8cHaxRd:
       data:
         props:
@@ -5741,11 +5892,13 @@ demos:
               templateId: react
               type: template-demo
       description: ''
+      height: 564
       id: RN96ZpJJpY
       patternId: card
       templateId: react
       title: One Author CTA
       type: data
+      width: 543
     W1Xbf7ez7T:
       data:
         props:
@@ -5916,11 +6069,13 @@ demos:
               templateId: react
               type: template-demo
       description: A sample homepage
+      height: 476
       id: jIkrNzJ0cO
       patternId: one-pager
       templateId: react
       title: 3-Column Homepage
       type: data
+      width: 872
     o7iL4YT_dA:
       data:
         props:
