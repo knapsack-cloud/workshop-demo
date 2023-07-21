@@ -30,138 +30,138 @@
     },
     "base": {
       "red": {
-        "$value": "#ef5151",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#ef5151"
       },
       "blue": {
-        "$value": "#207FF9",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#207FF9"
       },
       "green": {
-        "$value": "#3ccf91",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#3ccf91"
       },
       "orange": {
-        "$value": "#FF934F",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#ff924f"
       },
       "orchid": {
-        "$value": "#aa1baf",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#aa1baf"
       },
       "yellow": {
-        "$value": "#FCD02A",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#FCD02A"
       }
     },
     "dark": {
       "red": {
-        "$value": "#c91313",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#c91313"
       },
       "blue": {
-        "$value": "#213683",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#213683"
       },
       "green": {
-        "$value": "#21835a",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#21835a"
       },
       "orange": {
-        "$value": "#e65800",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#e65800"
       },
       "orchid": {
-        "$value": "#560e58",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#560e58"
       },
       "yellow": {
-        "$value": "#e6b400",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#e6b400"
       }
     },
     "text": {
       "link": {
-        "$value": "#2B64A8",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#2B64A8"
       },
       "default": {
-        "$value": "#222222",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#222222"
       },
       "inverse": {
-        "$value": "#f9f9f9",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#f9f9f9"
       }
     },
     "brand": {
       "black": {
-        "$value": "#000000",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#000000"
       },
       "white": {
-        "$value": "#FFFFFF",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#FFFFFF"
       },
       "primary": {
-        "$value": "#6436BF",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#6436BF"
       },
       "tertiary": {
-        "$value": "#F3EFFB",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#F3EFFB"
       },
       "secondary": {
-        "$value": "#E43A5C",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#E43A5C"
       }
     },
     "light": {
       "red": {
-        "$value": "#f8b0b0",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#f8b0b0"
       },
       "blue": {
-        "$value": "#8d9fe2",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#8d9fe2"
       },
       "green": {
-        "$value": "#8de2bf",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#8de2bf"
       },
       "orange": {
-        "$value": "#ffd0b3",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#ffd0b3"
       },
       "orchid": {
-        "$value": "#e77bea",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#e77bea"
       },
       "yellow": {
-        "$value": "#ffeeb3",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#ffeeb3"
       }
     },
     "layout": {
       "border": {
-        "$value": "#DDDDDD",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#DDDDDD"
       },
       "primary": {
-        "$value": "#393B3E",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#393B3E"
       },
       "defaultBg": {
-        "$value": "#FFFFFF",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#FFFFFF"
       },
       "secondary": {
-        "$value": "#555555",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#555555"
       },
       "primaryHover": {
-        "$value": "#525A62",
-        "$type": "color"
+        "$type": "color",
+        "$value": "#525A62"
       }
     }
   },
@@ -184,87 +184,87 @@
     }
   },
   "spacing": {
-    "2xs": {
-      "$value": "2px",
-      "$type": "dimension"
-    },
-    "xs": {
-      "$value": "4px",
-      "$type": "dimension"
-    },
-    "s": {
-      "$value": "8px",
-      "$type": "dimension"
+    "l": {
+      "$type": "dimension",
+      "$value": "32px"
     },
     "m": {
-      "$value": "16px",
-      "$type": "dimension"
+      "$type": "dimension",
+      "$value": "16px"
     },
-    "l": {
-      "$value": "32px",
-      "$type": "dimension"
+    "s": {
+      "$type": "dimension",
+      "$value": "8px"
     },
     "xl": {
-      "$value": "48px",
-      "$type": "dimension"
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "4px"
     },
     "2xl": {
-      "$value": "64px",
-      "$type": "dimension"
+      "$type": "dimension",
+      "$value": "64px"
+    },
+    "2xs": {
+      "$type": "dimension",
+      "$value": "2px"
     }
   },
   "font-size": {
     "lg": {
-      "$value": "1.125rem",
-      "$type": "dimension"
+      "$type": "dimension",
+      "$value": "1.125rem"
     },
     "sm": {
-      "$value": "0.875rem",
-      "$type": "dimension"
+      "$type": "dimension",
+      "$value": "0.875rem"
     },
     "xl": {
-      "$value": "1.25rem",
-      "$type": "dimension"
+      "$type": "dimension",
+      "$value": "1.25rem"
     },
     "xs": {
-      "$value": "0.75rem",
-      "$type": "dimension"
+      "$type": "dimension",
+      "$value": "0.75rem"
     },
     "2xl": {
-      "$value": "1.5rem",
-      "$type": "dimension"
+      "$type": "dimension",
+      "$value": "1.5rem"
     },
     "3xl": {
-      "$value": "1.875rem",
-      "$type": "dimension"
+      "$type": "dimension",
+      "$value": "1.875rem"
     },
     "4xl": {
-      "$value": "2.25rem",
-      "$type": "dimension"
+      "$type": "dimension",
+      "$value": "2.25rem"
     },
     "5xl": {
-      "$value": "3rem",
-      "$type": "dimension"
+      "$type": "dimension",
+      "$value": "3rem"
     },
     "6xl": {
-      "$value": "3.75rem",
-      "$type": "dimension"
+      "$type": "dimension",
+      "$value": "3.75rem"
     },
     "7xl": {
-      "$value": "4.5rem",
-      "$type": "dimension"
+      "$type": "dimension",
+      "$value": "4.5rem"
     },
     "8xl": {
-      "$value": "6rem",
-      "$type": "dimension"
+      "$type": "dimension",
+      "$value": "6rem"
     },
     "9xl": {
-      "$value": "8rem",
-      "$type": "dimension"
+      "$type": "dimension",
+      "$value": "8rem"
     },
     "base": {
-      "$value": "1rem",
-      "$type": "dimension"
+      "$type": "dimension",
+      "$value": "1rem"
     }
   },
   "breakpoint": {
@@ -295,32 +295,32 @@
     },
     "width": {
       "large": {
-        "$value": "768px",
-        "$type": "dimension"
+        "$type": "dimension",
+        "$value": "768px"
       },
       "small": {
-        "$value": "330px",
-        "$type": "dimension"
+        "$type": "dimension",
+        "$value": "330px"
       },
       "medium": {
-        "$value": "480px",
-        "$type": "dimension"
+        "$type": "dimension",
+        "$value": "480px"
       },
       "xlarge": {
-        "$value": "992px",
-        "$type": "dimension"
+        "$type": "dimension",
+        "$value": "992px"
       },
       "xxlarge": {
-        "$value": "1240px",
-        "$type": "dimension"
+        "$type": "dimension",
+        "$value": "1240px"
       },
       "xxxlarge": {
-        "$value": "1440px",
-        "$type": "dimension"
+        "$type": "dimension",
+        "$value": "1440px"
       },
       "featuredSwap": {
-        "$value": "850px",
-        "$type": "dimension"
+        "$type": "dimension",
+        "$value": "850px"
       }
     }
   },
