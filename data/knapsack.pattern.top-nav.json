@@ -13,7 +13,7 @@
   "title": "Top Nav",
   "statuses": {
     "twig": "needs-dev",
-    "react": "ready",
+    "react": "needs-qa",
     "design": "ready",
     "web-components": "needs-dev"
   },
