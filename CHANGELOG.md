@@ -1,3 +1,22 @@
+# v0.1.54 (Tue Sep 05 2023)
+
+#### 🐛 Bug Fix
+
+- Fixes bad nav ids [#167](https://github.com/knapsack-cloud/public-demo/pull/167) ([@GormanDesign](https://github.com/GormanDesign))
+
+#### 📝 Documentation
+
+- Links Change Example Test [#157](https://github.com/knapsack-cloud/public-demo/pull/157) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- token cleanup [#153](https://github.com/knapsack-cloud/public-demo/pull/153) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- v4 content updates [#142](https://github.com/knapsack-cloud/public-demo/pull/142) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Matt Gorman ([@GormanDesign](https://github.com/GormanDesign))
+
+---
+
 # v0.1.53 (Thu Jun 29 2023)
 
 #### ⚠️ Pushed to `main`
