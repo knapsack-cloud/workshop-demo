@@ -1,19 +1,4 @@
 byId:
-  /pages/colors:
-    id: /pages/colors
-    name: Colors
-    parentId: Design-Tokens-lNWaUqkDSo
-    path: /pages/colors
-  /pages/spacing:
-    id: /pages/spacing
-    name: Spacing
-    parentId: Design-Tokens-lNWaUqkDSo
-    path: /pages/spacing
-  /pattern/button:
-    id: /pattern/button
-    name: Button
-    parentId: Simple
-    path: /pattern/button
   Admin:
     hidden: true
     id: Admin
@@ -149,18 +134,28 @@ byId:
   base-colors:
     id: base-colors
     name: Base Colors
-    parentId: /pages/colors
+    parentId: colors
     path: /pages/base-colors
   brand-colors:
     id: brand-colors
     name: Brand Colors
-    parentId: /pages/colors
+    parentId: colors
     path: /pages/brand-colors
+  button:
+    id: button
+    name: Button
+    parentId: Simple
+    path: /pattern/button
   card:
     id: card
     name: Card
     parentId: Complex
     path: /pattern/card
+  colors:
+    id: colors
+    name: Colors
+    parentId: Design-Tokens-lNWaUqkDSo
+    path: /pages/colors
   connecting-coded-components:
     id: connecting-coded-components
     name: Connecting Coded Components
@@ -221,6 +216,11 @@ byId:
     name: Proposed Patterns
     parentId: Components-aPh3G1bbrX
     path: ''
+  spacing:
+    id: spacing
+    name: Spacing
+    parentId: Design-Tokens-lNWaUqkDSo
+    path: /pages/spacing
   top-nav:
     id: top-nav
     name: Top Nav
@@ -250,10 +250,10 @@ order:
   - Videos
   - Workflow
   - Design-Tokens-lNWaUqkDSo
-  - /pages/colors
+  - colors
   - base-colors
   - brand-colors
-  - /pages/spacing
+  - spacing
   - Breakpoints
   - Shadow
   - Animation
@@ -261,7 +261,7 @@ order:
   - Components-Overview
   - Simple
   - author
-  - /pattern/button
+  - button
   - Complex
   - top-nav
   - card
