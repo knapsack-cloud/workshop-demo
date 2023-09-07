@@ -6145,23 +6145,29 @@ settings:
                 https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiJ-Ek-_EeA.woff2
               type: url
           style: normal
+        - family: Acme
+          src:
+            - format: woff2
+              path: https://fonts.gstatic.com/s/acme/v25/RrQfboBx-C5_XxrBbk_m3Lg.woff2
+              type: url
+          style: normal
+          weight: 400
       navigation:
         primaryNav:
           accentColor:
-            tokenName: color-brand-secondary
+            tokenName: color.brand.primary
             type: design-token
           backgroundColor:
-            colorValue: '#535353'
-            tokenName: color-brand-white
+            tokenName: color.brand.black
             type: design-token
           fontFamily: Inter
           fontWeight: 800
           hoverColor:
-            tokenName: color-brand-primary
+            tokenName: color.brand.secondary
             type: design-token
+          lineHeight: ''
           textColor:
-            colorValue: '#FFFFFF'
-            tokenName: color-text-default
+            tokenName: color.text.inverse
             type: design-token
         secondaryNav:
           accentColor:
@@ -6169,14 +6175,22 @@ settings:
             type: design-token
           fontFamily: Inter
           fontWeight: 500
-        tabs: {}
+        tabs:
+          fontFamily: Inter
       pageElements:
         bodyText: {}
         headingLarge:
-          fontWeight: 600
-        headingMedium:
+          fontFamily: Inter
           fontWeight: 400
-        headingSmall: {}
+        headingMedium:
+          fontFamily: Inter
+        headingSmall:
+          fontFamily: Inter
+        headingXLarge:
+          fontFamily: Inter
+          fontWeight: 600
+        headingXSmall:
+          fontFamily: Inter
         link:
           fontWeight: 600
           textColor:
@@ -6187,7 +6201,7 @@ settings:
           fontFamily: Inter
           fontWeight: 400
         pageTitle:
-          fontFamily: Inter
+          fontFamily: Acme
           fontWeight: 800
-    version: 9
-  title: public-demo
+    version: 10
+  title: Public Demo
