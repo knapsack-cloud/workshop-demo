@@ -183,6 +183,13 @@
       }
     }
   },
+  "content": {
+    "legalese": {
+      "$type": "string",
+      "$value": "this is the legal copy that should show up everywhere",
+      "$description": "don't not use this."
+    }
+  },
   "spacing": {
     "l": {
       "$type": "dimension",
