@@ -6187,7 +6187,7 @@ settings:
         headingSmall:
           fontFamily: Inter
         headingXLarge:
-          fontFamily: Inter
+          fontFamily: Acme
           fontWeight: 600
         headingXSmall:
           fontFamily: Inter

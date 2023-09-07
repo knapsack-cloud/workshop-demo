@@ -1,10 +1,4 @@
 byId:
-  Admin:
-    hidden: true
-    id: Admin
-    name: Admin
-    parentId: root
-    path: /pages/Admin
   Animation:
     id: Animation
     name: Animation
@@ -80,12 +74,6 @@ byId:
     name: Page-Level Prototyping
     parentId: Prototyping
     path: /pages/Page-Level-Prototyping
-  Private-Pages:
-    hidden: true
-    id: Private-Pages
-    name: Private Pages
-    parentId: Admin
-    path: /pages/Private-Pages
   Prototyping:
     id: Prototyping
     name: Prototyping
@@ -276,5 +264,3 @@ order:
   - Page-Level-Prototyping
   - Page-Builders
   - one-pager
-  - Admin
-  - Private-Pages
