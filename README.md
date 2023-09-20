@@ -1,4 +1,4 @@
-# Knapsack workspace starter
+# Knapsack Workshop Demo
 
 ## Quick Start
 
