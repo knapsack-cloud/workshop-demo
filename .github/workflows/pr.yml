@@ -1,77 +1,64 @@
-name: PR
-
-on:
-  pull_request:
-    branches:
-      - main
-
-jobs:
-  cypress-run:
-    name: Cypress Tests
-    timeout-minutes: 15 # Don't allow tests to exceed 15 minutes
-    runs-on: ubuntu-latest
-    container:
-      image: knapsack/cypress-php:latest
-      options: --user 1001
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
-      - name: Cypress run
-        uses: cypress-io/github-action@v4
-        with:
-          browser: chrome
-          wait-on: 'http://localhost:3999'
-          wait-on-timeout: 120
-          build: yarn build
-          start: yarn serve
-        env:
-          CYPRESS_CACHE_FOLDER: '${GITHUB_WORKSPACE}/.cypress-cache'
-
-  build:
-    name: Build & Release
-    needs: [cypress-run]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Use actions/checkout@v2
-        uses: actions/checkout@v2
-        with:
-          # Number of commits to fetch. 0 indicates all history for all branches and tags - needed for `auto`
-          # Default: 1
-          fetch-depth: 0
-      - name: Use Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 16
-      # - name: Get yarn cache directory path
-      #   id: yarn-cache-dir-path
-      #   run: echo "::set-output name=dir::$(yarn cache dir)"
-      - name: Handle Cache
-        uses: actions/cache@v2
-        # https://github.com/actions/cache/blob/master/examples.md#node---lerna
-        id: cache # use this to check for `cache-hit` (`steps.cache.outputs.cache-hit != 'true'`)
-        with:
-          path: |
-            node_modules
-            **/node_modules
-            ~/.cache/yarn
-          key: node-deps-${{ hashFiles('yarn.lock') }}
-          # restore-keys: node-deps-
-      - name: Install Deps
-        if: steps.cache.outputs.cache-hit != 'true'
-        # This command clears the cache before installing dependences
-        run: |
-          yarn cache clean
-          yarn install --cache-folder ~/.cache/yarn --prefer-offline --frozen-lockfile --force-node-version=16
-        env:
-          CYPRESS_INSTALL_BINARY: 0 # skipping big Cypress binary download. may cause problems later & need to remove or handle other ways. trying to keep CI speedy
-      - name: Run Full Build
-        run: yarn build
-      - name: Run Knapsack Test
-        run: yarn test
-      - name: Release
-        run: yarn auto shipit
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  name: PR
+  
+  on:
+    pull_request:
+      branches:
+        - main
+  
+  jobs:
+    cypress-run:
+      name: Cypress Tests
+      timeout-minutes: 15
+      runs-on: ubuntu-latest
+      container:
+        image: knapsack/cypress-php:latest
+        options: --user 1001
+      env:
+        CYPRESS_CACHE_FOLDER: ${{ runner.temp }}/cypress_cache
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+        - name: Set up Node.js
+          uses: actions/setup-node@v2
+          with:
+            node-version: 16
+        - name: Install Dependencies
+          run: yarn install --cache-folder ${{ env.CYPRESS_CACHE_FOLDER }} --frozen-lockfile --prefer-offline
+        - name: Cypress Run
+          run: yarn cypress run
+          env:
+            CYPRESS_BASE_URL: http://localhost:3000
+  
+    build:
+      name: Build & Release
+      needs: [cypress-run]
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+          with:
+            fetch-depth: 0
+        - name: Set up Node.js
+          uses: actions/setup-node@v2
+          with:
+            node-version: 16
+        - name: Handle Cache
+          uses: actions/cache@v2
+          id: cache
+          with:
+            path: |
+              node_modules
+              ~/.cache/yarn
+            key: node-deps-${{ hashFiles('yarn.lock') }}
+        - name: Install Dependencies
+          if: steps.cache.outputs.cache-hit != 'true'
+          run: yarn install --cache-folder ~/.cache/yarn --prefer-offline --frozen-lockfile --force-node-version=16
+        - name: Run Full Build
+          run: yarn build
+        - name: Run Knapsack Test
+          run: yarn test
+        - name: Release
+          run: yarn auto shipit
+          env:
+            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
