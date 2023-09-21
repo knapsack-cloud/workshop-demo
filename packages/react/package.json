@@ -1,6 +1,6 @@
 {
-  "name": "@knapsack-cloud/public-demo-react",
-  "description": "Knapsack Public Demo React Components",
+  "name": "@knapsack-cloud/workshop-demo-react",
+  "description": "Knapsack Workshop Demo React Components",
   "version": "0.1.54",
   "module": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
@@ -10,9 +10,9 @@
     "start": "yarn build --watch"
   },
   "dependencies": {
-    "@knapsack-cloud/public-demo-design-tokens": "^0.1.54",
-    "@knapsack-cloud/public-demo-shared-types": "^0.1.54",
-    "@knapsack-cloud/public-demo-styles": "^0.1.54",
+    "@knapsack-cloud/workshop-demo-design-tokens": "^0.1.54",
+    "@knapsack-cloud/workshop-demo-shared-types": "^0.1.54",
+    "@knapsack-cloud/workshop-demo-styles": "^0.1.54",
     "classnames": "^2.3.1"
   },
   "devDependencies": {
@@ -28,7 +28,7 @@
     "utils/*"
   ],
   "repository": {
-    "url": "https://github.com/knapsack-cloud/public-demo",
+    "url": "https://github.com/knapsack-cloud/workshop-demo",
     "directory": "packages/react"
   },
   "private": false,

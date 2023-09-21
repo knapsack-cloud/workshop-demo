@@ -11,7 +11,7 @@
     {
       "id": "react",
       "title": "React",
-      "path": "@knapsack-cloud/public-demo-react",
+      "path": "@knapsack-cloud/workshop-demo-react",
       "alias": "Button",
       "templateLanguageId": "react",
       "spec": {

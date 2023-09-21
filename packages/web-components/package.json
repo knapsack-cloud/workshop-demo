@@ -1,6 +1,6 @@
 {
-  "name": "@knapsack-cloud/public-demo-web-components",
-  "description": "Knapsack Public Demo Web Components",
+  "name": "@knapsack-cloud/workshop-demo-web-components",
+  "description": "Knapsack Workshop Demo Web Components",
   "version": "0.1.54",
   "module": "./dist/index.js",
   "scripts": {
@@ -9,8 +9,8 @@
     "start": "nodemon --watch 'src/**/*' --ext 'js' --exec 'yarn build' -w"
   },
   "dependencies": {
-    "@knapsack-cloud/public-demo-design-tokens": "^0.1.54",
-    "@knapsack-cloud/public-demo-styles": "^0.1.54"
+    "@knapsack-cloud/workshop-demo-design-tokens": "^0.1.54",
+    "@knapsack-cloud/workshop-demo-styles": "^0.1.54"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.14.5",
@@ -28,7 +28,7 @@
     "dist/*"
   ],
   "repository": {
-    "url": "https://github.com/knapsack-cloud/public-demo",
+    "url": "https://github.com/knapsack-cloud/workshop-demo",
     "directory": "packages/web-components"
   },
   "private": false,

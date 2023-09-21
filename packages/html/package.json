@@ -1,9 +1,9 @@
 {
-  "name": "@knapsack-cloud/public-demo-html",
-  "description": "Knapsack Public Demo HTML Templates",
+  "name": "@knapsack-cloud/workshop-demo-html",
+  "description": "Knapsack Workshop Demo HTML Templates",
   "version": "0.1.54",
   "repository": {
-    "url": "https://github.com/knapsack-cloud/public-demo",
+    "url": "https://github.com/knapsack-cloud/workshop-demo",
     "directory": "packages/html"
   },
   "private": true

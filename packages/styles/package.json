@@ -1,6 +1,6 @@
 {
-  "name": "@knapsack-cloud/public-demo-styles",
-  "description": "Knapsack Public Demo Styles",
+  "name": "@knapsack-cloud/workshop-demo-styles",
+  "description": "Knapsack Workshop Demo Styles",
   "version": "0.1.54",
   "main": "styles.js",
   "style": "dist/styles.css",
@@ -12,7 +12,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@knapsack-cloud/public-demo-design-tokens": "^0.1.54"
+    "@knapsack-cloud/workshop-demo-design-tokens": "^0.1.54"
   },
   "devDependencies": {
     "nodemon": "^2.0.4",
@@ -27,7 +27,7 @@
     "dist/*"
   ],
   "repository": {
-    "url": "https://github.com/knapsack-cloud/public-demo",
+    "url": "https://github.com/knapsack-cloud/workshop-demo",
     "directory": "packages/styles"
   },
   "private": false,

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { TopNavProps } from '@knapsack-cloud/public-demo-shared-types';
+import { TopNavProps } from '@knapsack-cloud/workshop-demo-shared-types';
 
 export const TopNav: React.FC<TopNavProps> = ({
   button,

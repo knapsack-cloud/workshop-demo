@@ -19,7 +19,7 @@
   "templates": [
     {
       "id": "react",
-      "path": "@knapsack-cloud/public-demo-react",
+      "path": "@knapsack-cloud/workshop-demo-react",
       "spec": {
         "isInferred": true
       },
