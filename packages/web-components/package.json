@@ -1,7 +1,7 @@
 {
   "name": "@knapsack-cloud/workshop-demo-web-components",
   "description": "Knapsack Workshop Demo Web Components",
-  "version": "0.1.54",
+  "version": "0.1.55",
   "module": "./dist/index.js",
   "scripts": {
     "build": "rollup --config ./rollup.config.js",
@@ -9,8 +9,8 @@
     "start": "nodemon --watch 'src/**/*' --ext 'js' --exec 'yarn build' -w"
   },
   "dependencies": {
-    "@knapsack-cloud/workshop-demo-design-tokens": "^0.1.54",
-    "@knapsack-cloud/workshop-demo-styles": "^0.1.54"
+    "@knapsack-cloud/workshop-demo-design-tokens": "^0.1.55",
+    "@knapsack-cloud/workshop-demo-styles": "^0.1.55"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.14.5",

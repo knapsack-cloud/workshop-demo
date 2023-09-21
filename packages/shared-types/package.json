@@ -2,7 +2,7 @@
   "name": "@knapsack-cloud/workshop-demo-shared-types",
   "description": "Knapsack Workshop Demo Shared Type Definitions",
   "types": "./dist/meta/react.d.ts",
-  "version": "0.1.54",
+  "version": "0.1.55",
   "scripts": {
     "clean": "rm -rf dist"
   },
