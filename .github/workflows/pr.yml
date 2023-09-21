@@ -34,6 +34,7 @@ jobs:
       - name: Run Knapsack Test
         run: yarn test
       - name: Release
-        run: yarn auto shipit
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: yarn auto shipit
