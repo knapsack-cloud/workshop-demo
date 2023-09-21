@@ -1,7 +1,7 @@
 {
-  "name": "@knapsack-cloud/public-demo",
+  "name": "@knapsack-cloud/workshop-demo",
   "private": true,
-  "description": "Knapsack Public Demo",
+  "description": "Knapsack Workshop Demo",
   "license": "UNLICENSED",
   "scripts": {
     "clean": "lerna run clean && rm -rf ./ks-public/dist",
@@ -13,7 +13,7 @@
     "prep:react": "[ -d ./packages/react/dist ] || yarn --cwd ./packages/react build",
     "prep:wc": "yarn --cwd ./packages/web-components build",
     "pkgs:build": "lerna run build",
-    "pkgs:start": "lerna exec --ignore @knapsack-cloud/public-demo-html --ignore @knapsack-cloud/public-demo-shared-types --ignore @knapsack-cloud/public-demo-design-tokens --parallel -- yarn start",
+    "pkgs:start": "lerna exec --ignore @knapsack-cloud/workshop-demo-html --ignore @knapsack-cloud/workshop-demo-shared-types --ignore @knapsack-cloud/workshop-demo-design-tokens --parallel -- yarn start",
     "ks:build": "NODE_ENV=production knapsack build",
     "ks:serve": "NODE_ENV=production KNAPSACK_PORT=${PORT} knapsack serve",
     "ks:test": "knapsack test",
@@ -65,5 +65,5 @@
     "name": "KnapsackBot",
     "email": "53622700+KnapsackBot@users.noreply.github.com"
   },
-  "repository": "https://github.com/knapsack-cloud/public-demo"
+  "repository": "https://github.com/knapsack-cloud/workshop-demo"
 }

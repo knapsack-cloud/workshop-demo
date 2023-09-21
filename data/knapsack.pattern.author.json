@@ -26,7 +26,7 @@
   "templates": [
     {
       "id": "react",
-      "path": "@knapsack-cloud/public-demo-react",
+      "path": "@knapsack-cloud/workshop-demo-react",
       "spec": {
         "props": {
           "type": "object",
@@ -68,7 +68,7 @@
     },
     {
       "id": "web-components",
-      "path": "@knapsack-cloud/public-demo-web-components",
+      "path": "@knapsack-cloud/workshop-demo-web-components",
       "spec": {
         "props": {
           "type": "object",

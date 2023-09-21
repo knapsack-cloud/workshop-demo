@@ -1,6 +1,6 @@
 {
-  "name": "@knapsack-cloud/public-demo-design-tokens",
-  "description": "Knapsack Public Demo Design Tokens",
+  "name": "@knapsack-cloud/workshop-demo-design-tokens",
+  "description": "Knapsack Workshop Demo Design Tokens",
   "version": "0.1.54",
   "main": "dist/design-tokens.json",
   "module": "dist/design-tokens.js",
@@ -12,7 +12,7 @@
     "dist/*"
   ],
   "repository": {
-    "url": "https://github.com/knapsack-cloud/public-demo",
+    "url": "https://github.com/knapsack-cloud/workshop-demo",
     "directory": "packages/design-tokens"
   },
   "private": false,

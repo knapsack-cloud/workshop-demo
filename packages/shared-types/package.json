@@ -1,13 +1,13 @@
 {
-  "name": "@knapsack-cloud/public-demo-shared-types",
-  "description": "Knapsack Public Demo Shared Type Definitions",
+  "name": "@knapsack-cloud/workshop-demo-shared-types",
+  "description": "Knapsack Workshop Demo Shared Type Definitions",
   "types": "./dist/meta/react.d.ts",
   "version": "0.1.54",
   "scripts": {
     "clean": "rm -rf dist"
   },
   "repository": {
-    "url": "https://github.com/knapsack-cloud/public-demo",
+    "url": "https://github.com/knapsack-cloud/workshop-demo",
     "directory": "packages/shared-types"
   },
   "private": false,

@@ -59,8 +59,8 @@ module.exports = configureKnapsack({
     }),
   ],
   cloud: {
-    siteId: 'public-demo',
-    repoName: 'public-demo',
+    siteId: 'workshop-demo',
+    repoName: 'workshop-demo',
     repoOwner: 'knapsack-cloud',
     baseBranch: 'main',
   },
