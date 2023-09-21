@@ -1,4 +1,4 @@
-# Knapsack Workshop Demo
+# Knapsack Workshop Demo!
 
 ## Quick Start
 
