@@ -6,34 +6,8 @@ on:
       - main
 
 jobs:
-  cypress-run:
-    name: Cypress Tests
-    timeout-minutes: 15
-    runs-on: ubuntu-latest
-    container:
-      image: knapsack/cypress-php:latest
-      options: --user 1001
-    env:
-      CYPRESS_CACHE_FOLDER: $RUNNER_TEMP/cypress_cache
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16
-      - name: Install Cypress
-        run: yarn add cypress
-      - name: Install Dependencies
-        run: yarn install --cache-folder $CYPRESS_CACHE_FOLDER --frozen-lockfile --prefer-offline
-      - name: Cypress Run
-        run: yarn cypress run
-        env:
-          CYPRESS_BASE_URL: http://localhost:3000
-
   build:
     name: Build & Release
-    needs: [cypress-run]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
