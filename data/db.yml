@@ -6134,7 +6134,10 @@ demos:
       type: template
   settings: {}
 settings:
-  logoUrl: https://knapsack.imgix.net/site/public-demo/knapsack-logomark-primary@3x-c3fjqx5ll_.png
+  favicon: >-
+    https://knapsack.imgix.net/site/workshop-demo/logo-travelers-insurance-1484164206479-travelers-insurance-300-sq-u_ob7earif-dbnv8gpz28.png
+  hideTitleInNavigation: true
+  logoUrl: https://knapsack.imgix.net/site/workshop-demo/travelers_logo-1-n1btsqkdkc.webp
   theme:
     appearance:
       customFonts:
@@ -6204,4 +6207,4 @@ settings:
           fontFamily: Acme
           fontWeight: 800
     version: 10
-  title: Public Demo
+  title: Design System v8
