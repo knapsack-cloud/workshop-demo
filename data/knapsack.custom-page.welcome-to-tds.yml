@@ -1,0 +1,21 @@
+id: welcome-to-tds
+title: Welcome to TDS
+blockIds:
+  - 6-qXFUJ0eH
+  - tY2rt92bob
+  - oa-y7sAwqr
+  - j6lFMtQipq
+  - 0m76iAbMDZ
+  - 7Y7v_lnZJh
+settings:
+  pageHeader:
+    size: medium
+    textColorTitle:
+      type: design-token
+      tokenName: color.base.red
+    backgroundImage: https://knapsack.imgix.net/site/workshop-demo/type-of-insurance-rz4rtdubix.png
+    textColorDescription:
+      type: design-token
+      tokenName: color-brand-black
+      colorValue: '#000000'
+description: The collaborative design system

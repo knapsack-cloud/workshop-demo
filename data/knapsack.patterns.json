@@ -6,18 +6,18 @@
       "statuses": [
         {
           "id": "needs-design",
-          "title": "Needs Design",
-          "color": "#bfdaf9"
+          "color": "#bfdaf9",
+          "title": "Needs Design"
         },
         {
           "id": "ready",
-          "title": "Ready",
-          "color": "#ccedb1"
+          "color": "#ccedb1",
+          "title": "Ready"
         },
         {
           "id": "needs-updated",
-          "title": "Needs Update",
-          "color": "#ff9fd3"
+          "color": "#ff9fd3",
+          "title": "Needs Update"
         }
       ]
     },
@@ -27,38 +27,38 @@
       "statuses": [
         {
           "id": "unset",
-          "title": "Unset",
-          "color": "#bbc1c9"
+          "color": "#bbc1c9",
+          "title": "Unset"
         },
         {
           "id": "needs-dev",
-          "title": "Needs Development",
-          "color": "#bfdaf9"
+          "color": "#bfdaf9",
+          "title": "Needs Development"
         },
         {
           "id": "needs-updated",
-          "title": "Needs Update",
-          "color": "#ff9fd3"
+          "color": "#ff9fd3",
+          "title": "Needs Update"
         },
         {
           "id": "needs-qa",
-          "title": "Needs QA",
-          "color": "#f4c3a4"
+          "color": "#f4c3a4",
+          "title": "Needs QA"
         },
         {
           "id": "needs-approval",
-          "title": "Needs Approval",
-          "color": "#f8de9b"
+          "color": "#f8de9b",
+          "title": "Needs Approval"
         },
         {
           "id": "ready",
-          "title": "Ready",
-          "color": "#ccedb1"
+          "color": "#ccedb1",
+          "title": "Ready"
         },
         {
           "id": "wont-build",
-          "title": "Won't Build",
-          "color": "#ededed"
+          "color": "#ededed",
+          "title": "Won't Build"
         }
       ]
     },
@@ -68,38 +68,79 @@
       "statuses": [
         {
           "id": "unset",
-          "title": "Unset",
-          "color": "#bbc1c9"
+          "color": "#bbc1c9",
+          "title": "Unset"
         },
         {
           "id": "needs-dev",
-          "title": "Needs Development",
-          "color": "#bfdaf9"
+          "color": "#bfdaf9",
+          "title": "Needs Development"
         },
         {
           "id": "needs-updated",
-          "title": "Needs Update",
-          "color": "#ff9fd3"
+          "color": "#ff9fd3",
+          "title": "Needs Update"
         },
         {
           "id": "needs-qa",
-          "title": "Needs QA",
-          "color": "#f4c3a4"
+          "color": "#f4c3a4",
+          "title": "Needs QA"
         },
         {
           "id": "needs-approval",
-          "title": "Needs Approval",
-          "color": "#f8de9b"
+          "color": "#f8de9b",
+          "title": "Needs Approval"
         },
         {
           "id": "ready",
-          "title": "Ready",
-          "color": "#ccedb1"
+          "color": "#ccedb1",
+          "title": "Ready"
         },
         {
           "id": "wont-build",
-          "title": "Won't Build",
-          "color": "#ededed"
+          "color": "#ededed",
+          "title": "Won't Build"
+        }
+      ]
+    },
+    {
+      "id": "FwqXksqRED",
+      "title": "Core",
+      "statuses": [
+        {
+          "id": "unset",
+          "color": "#bbc1c9",
+          "title": "Unset"
+        },
+        {
+          "id": "needs-dev",
+          "color": "#bfdaf9",
+          "title": "Needs Development"
+        },
+        {
+          "id": "needs-updated",
+          "color": "#ff9fd3",
+          "title": "Needs Update"
+        },
+        {
+          "id": "needs-qa",
+          "color": "#f4c3a4",
+          "title": "Needs QA"
+        },
+        {
+          "id": "needs-approval",
+          "color": "#f8de9b",
+          "title": "Needs Approval"
+        },
+        {
+          "id": "ready",
+          "color": "#ccedb1",
+          "title": "Ready"
+        },
+        {
+          "id": "wont-build",
+          "color": "#ededed",
+          "title": "Won't Build"
         }
       ]
     }

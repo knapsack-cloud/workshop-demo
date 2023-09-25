@@ -1,13 +1,13 @@
 id: homepage
-title: Welcome to Knapsack
+title: Welcome to TDS!
 settings:
   pageHeader:
     size: full
     textColorTitle:
       type: design-token
-      tokenName: color-brand-primary
-      colorValue: '#FFFFFF'
-    backgroundImage: https://knapsack.imgix.net/site/public-demo/clark-van-der-beken-596baa0mpym-unsplash-o5drv55uvq.jpg
+      tokenName: color.base.red
+    backgroundImage: >-
+      https://knapsack.imgix.net/site/workshop-demo/insurance-concept-with-icons-for-car-home-medical-insurance-68afjwupqb.jpg
     textColorDescription:
       type: design-token
       tokenName: color-Meh-black
