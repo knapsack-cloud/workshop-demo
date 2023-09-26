@@ -6,8 +6,7 @@
   "scripts": {
     "clean": "lerna run clean && rm -rf ./ks-public/dist",
     "build": "run-s -l prep ks:build",
-    "prep": "run-s -l prep:tokens prep:styles prep:wc prep:meta prep:react",
-    "prep:meta": "KNAPSACK_LOG_LEVEL=error yarn knapsack build:meta",
+    "prep": "run-s -l prep:tokens prep:styles prep:wc prep:react",
     "prep:tokens": "[ -d ./packages/design-tokens/dist ] || yarn knapsack build:tokens",
     "prep:styles": "[ -d ./packages/styles/dist ] || yarn --cwd ./packages/styles build",
     "prep:react": "[ -d ./packages/react/dist ] || yarn --cwd ./packages/react build",

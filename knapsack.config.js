@@ -17,7 +17,6 @@ const {
 } = require('@knapsack/plugin-changelog-md');
 const { version } = require('./lerna.json');
 
-const sharedTypesDir = join(__dirname, './packages/shared-types/dist');
 const DesignTokenDir = join(__dirname, './packages/design-tokens/dist');
 
 module.exports = configureKnapsack({
@@ -39,7 +38,7 @@ module.exports = configureKnapsack({
       },
     },
   },
-  dist: sharedTypesDir,
+  dist: './dist',
   public: join(__dirname, 'ks-public/'),
   data: './data',
   version,

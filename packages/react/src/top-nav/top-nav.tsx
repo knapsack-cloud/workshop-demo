@@ -1,5 +1,10 @@
 import * as React from 'react';
-import { TopNavProps } from '@knapsack-cloud/workshop-demo-shared-types';
+
+export interface TopNavProps {
+  logo?: string;
+  links?: string[];
+  button?: string;
+}
 
 export const TopNav: React.FC<TopNavProps> = ({
   button,
