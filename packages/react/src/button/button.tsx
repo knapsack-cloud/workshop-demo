@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export interface ButtonProps {
   url?: string;
-  mode?: 'success' | 'info' | 'warning' | 'danger' | 'alert' | 'special';
+  mode?: 'info' | 'success' | 'warning' | 'danger' | 'alert' | 'special';
   size?: 'small' | 'medium' | 'large';
   type?: 'solid' | 'outline';
   lightMode?: boolean;
@@ -58,11 +58,11 @@ export const Button: React.FC<ButtonProps> = ({
   } else {
     // If not in lightMode we need to check mode
     switch (mode) {
-      case 'success':
-        buttonMode = 'bg-base-green border-base-green';
-        break;
       case 'info':
         buttonMode = 'bg-base-blue border-base-blue';
+        break;
+      case 'success':
+        buttonMode = 'bg-base-green border-base-green';
         break;
       case 'warning':
         buttonMode = 'bg-base-orange border-base-orange';

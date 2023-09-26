@@ -15,9 +15,16 @@
       "alias": "Button",
       "templateLanguageId": "react",
       "spec": {
+        "slots": {
+          "children": {
+            "title": "children",
+            "isRequired": true
+          }
+        },
         "props": {
-          "type": "object",
           "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
           "required": [],
           "properties": {
             "url": {
@@ -27,8 +34,8 @@
             },
             "mode": {
               "enum": [
-                "success",
                 "info",
+                "success",
                 "warning",
                 "danger",
                 "alert",
@@ -48,13 +55,6 @@
               "title": "Button Type",
               "default": "solid"
             }
-          },
-          "description": ""
-        },
-        "slots": {
-          "children": {
-            "title": "children",
-            "isRequired": true
           }
         }
       },

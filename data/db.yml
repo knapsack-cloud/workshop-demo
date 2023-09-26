@@ -10,6 +10,8 @@ blocks:
         templateId: react
         variationId: mode
       id: '-plYGPDwcr'
+      size: null
+      spacing: small
     '-r73qPCQoZ':
       blockType: text-editor
       data:
@@ -369,6 +371,7 @@ blocks:
               type: bulletList
           type: doc
       id: 1LTGO8xsrC
+      spacing: null
     1MwxUqcERn:
       blockType: text-editor
       data:
