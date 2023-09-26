@@ -2,8 +2,10 @@
   "$schema": "http://json.schemastore.org/lerna",
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "packages": ["packages/*"],
-  "version": "0.1.55",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.1.56",
   "command": {
     "version": {
       "message": "chore: publish %s [skip ci]"
