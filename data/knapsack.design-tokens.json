@@ -1,33 +1,5 @@
 {
   "color": {
-    "Meh": {
-      "blue": {
-        "$value": "{color.base.blue}",
-        "$description": "An okayish blue"
-      },
-      "black": {
-        "$value": "{color.brand.black}",
-        "$description": "They say it goes with everything... but does it go with this?"
-      },
-      "yellow": {
-        "$value": "{color.base.yellow}",
-        "$description": "Is yellow the right color? I dunno..."
-      }
-    },
-    "Wow": {
-      "white": {
-        "$value": "{color.brand.white}",
-        "$description": "Love me that whitespace!"
-      },
-      "orange": {
-        "$value": "{color.base.orange}",
-        "$description": "Bang! That is ORANGE!"
-      },
-      "orchid": {
-        "$value": "{color.base.orchid}",
-        "$description": "That orchid pops!"
-      }
-    },
     "base": {
       "red": {
         "$type": "color",
@@ -52,6 +24,10 @@
       "yellow": {
         "$type": "color",
         "$value": "#FCD02A"
+      },
+      "white": {
+        "$type": "color",
+        "$value": "#ffffff"
       }
     },
     "dark": {

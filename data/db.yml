@@ -4,6 +4,7 @@ blocks:
       blockType: pattern-variations
       data:
         demoId: 2ysfvm4ShE
+        hideBlockTitle: false
         patternId: button
         size: s
         templateId: react
@@ -801,13 +802,6 @@ blocks:
           type: doc
       id: 5HTGtGc_jn
       size: medium
-    5IKy6auf0k:
-      blockType: figma-block
-      data:
-        clickToInteract: false
-        height: '800'
-        url: https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=752%3A32
-      id: 5IKy6auf0k
     5RQruglYiX:
       blockType: text-editor
       data:
@@ -3168,13 +3162,6 @@ blocks:
           name: ''
           tags: []
       id: _f4PbvkrLK
-    _quWnLXCar:
-      blockType: figma-block
-      data:
-        clickToInteract: false
-        height: '480'
-        url: https://www.figma.com/file/uXroEUE22VtrT6CiF3zQqS/tailwind-ui-figma-kit-2021-03-26?node-id=172%3A4447
-      id: _quWnLXCar
     aHFCyUV-9P:
       blockType: text-editor
       data:
@@ -4345,6 +4332,15 @@ blocks:
               type: paragraph
           type: doc
       id: nuL9llFvdl
+    oOoSydrcCR:
+      blockType: figma-block
+      data:
+        clickToInteract: false
+        height: '700'
+        url: >-
+          https://www.figma.com/proto/Kz25Haw0uw59tNchMdJeuI/Design-System?page-id=0%3A1&type=design&node-id=1-2&viewport=633%2C249%2C0.85&t=5JIJrOuOuusT234W-8&scaling=contain&hotspot-hints=0&hide-ui=1
+      id: oOoSydrcCR
+      size: null
     oa-y7sAwqr:
       blockType: text-editor
       data:
