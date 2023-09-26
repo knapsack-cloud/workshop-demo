@@ -1,3 +1,21 @@
+# v0.1.56 (Tue Sep 26 2023)
+
+#### 🐛 Bug Fix
+
+- `@knapsack-cloud/workshop-demo-react`
+  - Merge upstream changes to remove dependency on shared types [#4](https://github.com/knapsack-cloud/workshop-demo/pull/4) ([@brittanysmart](https://github.com/brittanysmart))
+
+#### 📝 Documentation
+
+- Add customer logos [#3](https://github.com/knapsack-cloud/workshop-demo/pull/3) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Brittany Smart ([@brittanysmart](https://github.com/brittanysmart))
+
+---
+
 # v0.1.55 (Thu Sep 21 2023)
 
 #### 🐛 Bug Fix

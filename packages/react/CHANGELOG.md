@@ -1,3 +1,16 @@
+# v0.1.56 (Tue Sep 26 2023)
+
+#### 🐛 Bug Fix
+
+- Merge upstream changes to remove dependency on shared types [#4](https://github.com/knapsack-cloud/workshop-demo/pull/4) ([@brittanysmart](https://github.com/brittanysmart))
+- * packages/shared-types/package.json: \ No newline at end of file | | Commit message: Remove package ([@brittanysmart](https://github.com/brittanysmart))
+
+#### Authors: 1
+
+- Brittany Smart ([@brittanysmart](https://github.com/brittanysmart))
+
+---
+
 # v0.1.55 (Thu Sep 21 2023)
 
 #### 🐛 Bug Fix
