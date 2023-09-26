@@ -1,6 +1,12 @@
 import * as React from 'react';
 import cn from 'classnames';
-import { AuthorProps } from '@knapsack-cloud/workshop-demo-shared-types';
+
+export interface AuthorProps {
+  date?: string;
+  read?: string;
+  imgSrc?: string;
+  children?: React.ReactNode;
+}
 
 export const Author: React.FC<AuthorProps> = ({
   imgSrc,

@@ -1,5 +1,13 @@
 import * as React from 'react';
-import { LayoutProps } from '@knapsack-cloud/workshop-demo-shared-types';
+
+export interface LayoutProps {
+  bandTitle?: string;
+  bandContent?: string;
+  /**
+   * undefined. Only use: author, button, card
+   */
+  children?: React.ReactNode;
+}
 
 export const Layout: React.FC<LayoutProps> = ({
   bandTitle,
