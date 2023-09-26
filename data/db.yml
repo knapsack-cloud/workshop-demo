@@ -2600,7 +2600,7 @@ blocks:
                   type: text
               type: paragraph
             - attrs:
-                level: 4
+                level: 3
               content:
                 - text: A single, high-emphasis button
                   type: text
@@ -2613,7 +2613,7 @@ blocks:
                   type: text
               type: paragraph
             - attrs:
-                level: 4
+                level: 3
               content:
                 - text: Multiple button emphasis
                   type: text
@@ -3203,7 +3203,7 @@ blocks:
         content:
           content:
             - attrs:
-                level: 1
+                level: 2
               content:
                 - text: Overview
                   type: text
