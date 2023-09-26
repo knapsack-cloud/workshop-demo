@@ -2,15 +2,17 @@ id: Design-Tokens-lNWaUqkDSo
 title: Design Tokens
 settings:
   pageHeader:
-    size: auto
+    size: medium
     textColorTitle:
       type: design-token
-      colorValue: '#000000'
-      tokenName: color-brand-primary
+      tokenName: color.brand.white
     backgroundImage: null
     textColorDescription:
       type: value
       colorValue: '#000000'
+    backgroundColor:
+      type: design-token
+      tokenName: color.base.red
 description: Building blocks of your digital brand
 blockIds:
   - RX3sN_L-4o

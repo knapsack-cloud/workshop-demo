@@ -124,6 +124,11 @@ byId:
     name: Base Colors
     parentId: colors
     path: /pages/base-colors
+  brand:
+    id: brand
+    name: Brand
+    parentId: root
+    path: /pages/brand
   brand-colors:
     id: brand-colors
     name: Brand Colors
@@ -161,7 +166,7 @@ byId:
     path: /pattern/footer
   getting-started:
     id: getting-started
-    name: Getting Started
+    name: Get Started
     parentId: root
     path: ''
   guidance:
@@ -214,20 +219,36 @@ byId:
     name: Top Nav
     parentId: Complex
     path: /pattern/top-nav
-  welcome-to-knapsack:
-    id: welcome-to-knapsack
-    name: Welcome to Knapsack
+  welcome-to-tds:
+    id: welcome-to-tds
+    name: Welcome to TDS
     parentId: getting-started
-    path: /pages/welcome-to-knapsack
+    path: /pages/welcome-to-tds
 order:
   - getting-started
-  - welcome-to-knapsack
+  - welcome-to-tds
   - guidance
   - knapsack's-publishing-workflow
   - adding-design-tokens
   - adding-documentation
   - connecting-coded-components
   - customizing-the-workspace
+  - brand
+  - Components-aPh3G1bbrX
+  - Components-Overview
+  - Simple
+  - author
+  - button
+  - Complex
+  - top-nav
+  - card
+  - footer
+  - Layout
+  - hero
+  - layout
+  - proposed-patterns
+  - message
+  - input-field
   - Documentation
   - Design-System
   - Static-Content
@@ -245,21 +266,6 @@ order:
   - Breakpoints
   - Shadow
   - Animation
-  - Components-aPh3G1bbrX
-  - Components-Overview
-  - Simple
-  - author
-  - button
-  - Complex
-  - top-nav
-  - card
-  - footer
-  - Layout
-  - hero
-  - layout
-  - proposed-patterns
-  - message
-  - input-field
   - Prototyping
   - Page-Level-Prototyping
   - Page-Builders

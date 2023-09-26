@@ -58,6 +58,20 @@ blocks:
           type: doc
       id: '-r73qPCQoZ'
       size: medium
+    '-ttX3fx9Zm':
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - content:
+                - text: >-
+                    Use this prototyping playground to add coded components and elements to our landing page template to
+                    quickly build and launch a Home or advanced landing page using the available system.
+                  type: text
+              type: paragraph
+          type: doc
+      id: '-ttX3fx9Zm'
+      size: null
     08Q2X2v2Wi:
       blockType: divider-block
       id: 08Q2X2v2Wi
@@ -2860,6 +2874,130 @@ blocks:
     UucuGVABD1:
       blockType: divider-block
       id: UucuGVABD1
+    UxAvkJpKxP:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - content:
+                - marks:
+                    - type: italic
+                  text: 'This section provides an overview of content formatting options in Knapsack. Visit the '
+                  type: text
+                - marks:
+                    - attrs:
+                        class: null
+                        href: /site/public-demo/54Wo5JZnGA/./Design-Tokens-lNWaUqkDSo
+                        target: _self
+                      type: link
+                    - type: italic
+                  text: Design Tokens
+                  type: text
+                - marks:
+                    - type: italic
+                  text: ' and '
+                  type: text
+                - marks:
+                    - attrs:
+                        class: null
+                        href: /site/public-demo/54Wo5JZnGA/./Components-Overview
+                        target: _self
+                      type: link
+                    - type: italic
+                  text: Components
+                  type: text
+                - marks:
+                    - type: italic
+                  text: ' sections for examples of asset docs.'
+                  type: text
+              type: paragraph
+            - type: horizontalRule
+            - attrs:
+                level: 2
+              content:
+                - text: Overview
+                  type: text
+              type: heading
+            - content:
+                - text: 'Using the '
+                  type: text
+                - marks:
+                    - type: bold
+                  text: System
+                  type: text
+                - text: ' content blocks, users can create dynamic documentation of component templates and specific variations. Since Knapsack is wired up to the source code of your design system, documentation will automatically update when changes occur.'
+                  type: text
+              type: paragraph
+            - content:
+                - text: >-
+                    Choose from a variety of formats and presentations depending on the type of documentation experience
+                    you're aiming for.
+                  type: text
+              type: paragraph
+            - attrs:
+                level: 4
+              content:
+                - text: 'Explore the different options for component presentation below:'
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - marks:
+                            - attrs:
+                                class: null
+                                href: '#component-embed'
+                                target: _blank
+                              type: link
+                          text: Component Embed
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - marks:
+                            - attrs:
+                                class: null
+                                href: '#component-demo'
+                                target: _blank
+                              type: link
+                          text: Component Demo
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - marks:
+                            - attrs:
+                                class: null
+                                href: '#system-overview-all-components'
+                                target: _blank
+                              type: link
+                          text: System Overview (All Components)
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - marks:
+                            - attrs:
+                                class: null
+                                href: '#system-status-table'
+                                target: _blank
+                              type: link
+                          text: System Status Table
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - content:
+                - text: Use the below sections to browse examples of component documentation.
+                  type: text
+              type: paragraph
+            - type: paragraph
+          type: doc
+      id: UxAvkJpKxP
+      size: null
     V0Jm0DWi9c:
       blockType: text-editor
       data:
@@ -4074,6 +4212,47 @@ blocks:
               type: bulletList
           type: doc
       id: mDLeEkWYGa
+    mVf2kSxgqc:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - content:
+                - text: >-
+                    Branding is an essential component of any website, as it helps to establish a unique identity for a
+                    company or organization. This is achieved through consistent use of visual elements, such as logos,
+                    color schemes, fonts, and other design elements, across the website. The branding should align with
+                    the overall values and mission of the company, and should be used to create a cohesive and memorable
+                    user experience.
+                  type: text
+              type: paragraph
+            - content:
+                - text: >-
+                    One of the key benefits of effective branding is that it helps to build trust and credibility with
+                    the website's audiences. By presenting a consistent and professional image, the website can convey a
+                    sense of reliability and stability, which can be particularly important for businesses that operate
+                    in competitive or complex markets.
+                  type: text
+              type: paragraph
+            - content:
+                - text: >-
+                    In addition to establishing a visual identity, branding can also help to reinforce the company's key
+                    messages and value proposition. By incorporating messaging and content that is consistent with the
+                    overall brand identity, the website can communicate a clear and compelling message to its audiences,
+                    which can help to differentiate it from its competitors.
+                  type: text
+              type: paragraph
+            - content:
+                - text: >-
+                    Overall, effective use of branding is an important part of building a successful website. By
+                    creating a cohesive and memorable user experience that aligns with the company's values and mission,
+                    websites can build trust and credibility with their audiences, and differentiate themselves in a
+                    crowded online marketplace.
+                  type: text
+              type: paragraph
+          type: doc
+      id: mVf2kSxgqc
+      size: null
     mf8RBOFi4q:
       blockType: divider-block
       id: mf8RBOFi4q
@@ -5661,7 +5840,7 @@ demos:
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus,
             eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.
           imgSrc: >-
-            https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80
+            https://media.istockphoto.com/id/1199060494/photo/insurance-protecting-family-health-live-house-and-car-concept.jpg?s=612x612&w=0&k=20&c=W8bPvwF5rk7Rm2yDYnMyFhGXZfNqK4bUPlDcRpKVsB8=
           label: Article
           title: Boost your conversion rate
         slots:
@@ -5720,7 +5899,7 @@ demos:
     2ysfvm4ShE:
       data:
         props:
-          mode: info
+          mode: danger
           size: medium
           type: solid
           url: '#url'
@@ -5763,8 +5942,7 @@ demos:
           body: >-
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni
             placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.
-          imgSrc: >-
-            https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80
+          imgSrc: https://www.tdi.texas.gov/artwork/slider/auto-insurance.png
           label: Case Study
           title: Improve your customer experience
         slots:
@@ -5792,7 +5970,8 @@ demos:
             - '#2|Features'
             - Marketplace
             - Company
-          logo: https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg
+          logo: >-
+            https://www.argusleader.com/gcdn/-mm-/1cc705747a45cdbf3238b36b25533ae3e300e6ac/c=0-20-550-331/local/-/media/2016/05/16/SiouxFalls/SiouxFalls/635990304118662990-travelers-share.jpg?width=1200&disable=upscale&format=pjpg&auto=webp
         slots: {}
       description: This Top Nav variation contains a logo, links, and a button.
       id: Cmjc3yXJ_r
@@ -5877,7 +6056,7 @@ demos:
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus,
             eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.
           imgSrc: >-
-            https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80
+            https://www.insureon.com/-/media/blog/posts/2022/blog_how-to-get-more-clients-for-your-insurance-business.jpg?h=592&iar=0&w=1200&rev=a0cc4e51f9df4fe48cb80c72fba592ad
           label: Article
           title: Boost your conversion rate now!
         slots:
@@ -5905,7 +6084,7 @@ demos:
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus,
             eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.
           imgSrc: >-
-            https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80
+            https://images.propertycasualty360.com/contrib/content/uploads/sites/414/2019/08/01-Insurance-Agent-Shutterstock.jpg
           label: Video
           title: How to use search engine optimization to drive sales
         slots:
@@ -6135,8 +6314,8 @@ demos:
 settings:
   favicon: >-
     https://knapsack.imgix.net/site/workshop-demo/logo-travelers-insurance-1484164206479-travelers-insurance-300-sq-u_ob7earif-dbnv8gpz28.png
-  hideTitleInNavigation: true
-  logoUrl: https://knapsack.imgix.net/site/workshop-demo/travelers_logo-1-n1btsqkdkc.webp
+  hideTitleInNavigation: false
+  logoUrl: https://knapsack.imgix.net/site/workshop-demo/travelers-5944d5d532ac4223a3009bb30f12668f-dq-ekmkx7.png
   theme:
     appearance:
       customFonts:
@@ -6157,30 +6336,53 @@ settings:
       navigation:
         primaryNav:
           accentColor:
-            tokenName: color.brand.primary
+            tokenName: color.base.red
             type: design-token
           backgroundColor:
-            tokenName: color.brand.black
+            tokenName: color.brand.white
             type: design-token
           fontFamily: Inter
           fontWeight: 800
           hoverColor:
-            tokenName: color.brand.secondary
+            tokenName: color.base.red
             type: design-token
-          lineHeight: ''
           textColor:
-            tokenName: color.text.inverse
+            tokenName: color.Meh.black
             type: design-token
+          textTransform: inherit
         secondaryNav:
           accentColor:
-            tokenName: color-brand-secondary
+            tokenName: color.base.red
+            type: design-token
+          backgroundColor:
+            tokenName: color.brand.white
             type: design-token
           fontFamily: Inter
           fontWeight: 500
+          textColor:
+            tokenName: color.brand.black
+            type: design-token
+          textTransform: inherit
         tabs:
+          accentColor:
+            tokenName: color.base.red
+            type: design-token
           fontFamily: Inter
+          textColor:
+            tokenName: color.brand.black
+            type: design-token
+          textTransform: inherit
       pageElements:
-        bodyText: {}
+        bodyText:
+          fontFamily: Inter
+          fontSize:
+            min:
+              unit: px
+              value: 13
+          textColor:
+            tokenName: color.brand.black
+            type: design-token
+          textTransform: inherit
         headingLarge:
           fontFamily: Inter
           fontWeight: 400
@@ -6189,21 +6391,27 @@ settings:
         headingSmall:
           fontFamily: Inter
         headingXLarge:
-          fontFamily: Acme
+          fontFamily: Inter
           fontWeight: 600
+          textTransform: inherit
         headingXSmall:
           fontFamily: Inter
         link:
           fontWeight: 600
           textColor:
-            tokenName: color-text-link
+            tokenName: color.base.red
             type: design-token
+          textTransform: inherit
           underline: true
         pageDescription:
           fontFamily: Inter
           fontWeight: 400
         pageTitle:
-          fontFamily: Acme
+          fontFamily: Inter
           fontWeight: 800
+          textColor:
+            tokenName: color.base.red
+            type: design-token
+          textTransform: inherit
     version: 10
   title: Design System v8
