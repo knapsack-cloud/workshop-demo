@@ -1,3 +1,15 @@
+# v0.1.58 (Tue Sep 26 2023)
+
+#### ⚠️ Pushed to `main`
+
+- chore: update button mode ordering ([@brittanysmart](https://github.com/brittanysmart))
+
+#### Authors: 1
+
+- Brittany Smart ([@brittanysmart](https://github.com/brittanysmart))
+
+---
+
 # v0.1.56 (Tue Sep 26 2023)
 
 #### 🐛 Bug Fix
