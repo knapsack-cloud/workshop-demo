@@ -1,3 +1,15 @@
+# v0.1.57 (Tue Sep 26 2023)
+
+#### ⚠️ Pushed to `main`
+
+- chore: add figma embed and remove meh theme tokens ([@brittanysmart](https://github.com/brittanysmart))
+
+#### Authors: 1
+
+- Brittany Smart ([@brittanysmart](https://github.com/brittanysmart))
+
+---
+
 # v0.1.56 (Tue Sep 26 2023)
 
 #### 🐛 Bug Fix
