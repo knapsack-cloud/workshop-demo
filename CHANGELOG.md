@@ -1,3 +1,21 @@
+# v0.1.59 (Wed Sep 27 2023)
+
+#### ⚠️ Pushed to `main`
+
+- chore: update knapsack packages ([@brittanysmart](https://github.com/brittanysmart))
+
+#### 📝 Documentation
+
+- Fix heading levels on Button Pattern Page [#6](https://github.com/knapsack-cloud/workshop-demo/pull/6) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- Boom Baby! [#5](https://github.com/knapsack-cloud/workshop-demo/pull/5) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Brittany Smart ([@brittanysmart](https://github.com/brittanysmart))
+
+---
+
 # v0.1.58 (Tue Sep 26 2023)
 
 #### ⚠️ Pushed to `main`
