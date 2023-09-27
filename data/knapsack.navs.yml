@@ -114,6 +114,12 @@ byId:
     name: Adding Documentation
     parentId: guidance
     path: /pages/adding-documentation
+  admin:
+    id: admin
+    minRoleNeeded: ADMIN
+    name: Admin
+    parentId: root
+    path: /pages/admin
   author:
     id: author
     name: Author
@@ -127,7 +133,7 @@ byId:
   brand:
     id: brand
     name: Brand
-    parentId: root
+    parentId: getting-started
     path: /pages/brand
   brand-colors:
     id: brand-colors
@@ -194,6 +200,11 @@ byId:
     name: Layout
     parentId: Layout
     path: /pattern/layout
+  logo:
+    id: logo
+    name: Logo
+    parentId: admin
+    path: /pages/logo
   message:
     id: message
     name: Message
@@ -227,13 +238,13 @@ byId:
 order:
   - getting-started
   - welcome-to-tds
+  - brand
   - guidance
   - knapsack's-publishing-workflow
   - adding-design-tokens
   - adding-documentation
   - connecting-coded-components
   - customizing-the-workspace
-  - brand
   - Components-aPh3G1bbrX
   - Components-Overview
   - Simple
@@ -270,3 +281,5 @@ order:
   - Page-Level-Prototyping
   - Page-Builders
   - one-pager
+  - admin
+  - logo

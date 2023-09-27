@@ -1,21 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer components {
-  .wow {
-    .text-indigo-600 {
-      @apply text-base-orchid;
-    }
-  }
-  /* .wow {
-    .ks-button {
-      &.bg-solid.info {
-        @apply bg-base-orchid border-base-orchid;
-        &:hover {
-          @apply bg-dark-orchid border-dark-orchid;
-        }
-      }
-    }
-  } */
-}

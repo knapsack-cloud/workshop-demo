@@ -1857,6 +1857,12 @@ blocks:
               type: image
           type: doc
       id: ERHZS37CMD
+    Ehp2XR0ERM:
+      blockType: text-editor
+      data:
+        content: {}
+      id: Ehp2XR0ERM
+      size: null
     FaBVdJC1P7:
       blockType: text-editor
       data:
@@ -3474,6 +3480,13 @@ blocks:
           type: doc
       id: cO5Vcc2NHd
       size: medium
+    cmzbePKTUI:
+      blockType: files-list
+      data:
+        files:
+          - 7bb984d3-01b1-41a1-a9f6-7c86b7910a28
+      id: cmzbePKTUI
+      size: null
     ctwMU8NUmw:
       blockType: table
       data:
@@ -3855,6 +3868,13 @@ blocks:
     fTtR3u4Py_:
       blockType: divider-block
       id: fTtR3u4Py_
+    fgRnwro9g3:
+      blockType: files-list
+      data:
+        files:
+          - 24635ef3-06f5-4170-bcb0-36cdfb7ad3ba
+      id: fgRnwro9g3
+      size: null
     gAEGVw3JV2:
       blockType: text-editor
       data:
@@ -5970,8 +5990,7 @@ demos:
             - '#2|Features'
             - Marketplace
             - Company
-          logo: >-
-            https://www.argusleader.com/gcdn/-mm-/1cc705747a45cdbf3238b36b25533ae3e300e6ac/c=0-20-550-331/local/-/media/2016/05/16/SiouxFalls/SiouxFalls/635990304118662990-travelers-share.jpg?width=1200&disable=upscale&format=pjpg&auto=webp
+          logo: https://knapsack.imgix.net/site/workshop-demo/t-logo-amzot6_mmg.svg
         slots: {}
       description: This Top Nav variation contains a logo, links, and a button.
       id: Cmjc3yXJ_r
@@ -6262,7 +6281,7 @@ demos:
             - '#2|Features'
             - Marketplace
             - Company
-          logo: https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg
+          logo: https://knapsack.imgix.net/site/workshop-demo/t-logo-amzot6_mmg.svg
         slots: {}
       description: This Top Nav variation contains a logo and links.
       id: o7iL4YT_dA

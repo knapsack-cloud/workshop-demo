@@ -114,7 +114,7 @@ export const Hero: React.FC<HeroProps> = ({
                   <span className="block xl:inline">{headlineOne}</span>
                 )}
                 {headlineTwo && (
-                  <span className="block text-indigo-600 xl:inline">
+                  <span className="block text-brand-primary xl:inline">
                     {headlineTwo}
                   </span>
                 )}

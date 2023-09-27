@@ -81,7 +81,7 @@
       },
       "primary": {
         "$type": "color",
-        "$value": "#6436BF"
+        "$value": "{color.base.red}"
       },
       "tertiary": {
         "$type": "color",

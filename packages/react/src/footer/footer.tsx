@@ -57,7 +57,7 @@ export const Footer = ({
         <div className="space-y-8 xl:col-span-1">
           <img
             className="h-10"
-            src="https://tailwindui.com/img/logos/workflow-mark-gray-300.svg"
+            src="https://knapsack.imgix.net/site/workshop-demo/t-logo-amzot6_mmg.svg"
             alt="Company name"
           />
           {tagline && (<p className="text-gray-500 dark:text-gray-100 text-base">{tagline}</p>)}

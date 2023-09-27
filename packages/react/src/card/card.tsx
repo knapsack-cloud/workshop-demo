@@ -31,7 +31,7 @@ export const Card: React.FC<CardProps> = ({
       <div className="flex-1 bg-white dark:bg-gray-900 dark:text-white p-6 flex flex-col justify-between">
         <div className="flex-1">
           {label && (
-            <p className="text-sm font-medium text-indigo-600 dark:text-indigo-300">
+            <p className="text-sm font-medium text-brand-primary dark:text-indigo-300">
               <a href="#" className="hover:underline">
                 {label}
               </a>

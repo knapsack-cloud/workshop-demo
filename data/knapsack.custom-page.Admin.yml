@@ -1,5 +1,5 @@
-id: Admin
-title: Admin 🔒
+title: Admin
+id: admin
 settings:
   pageHeader:
     size: full
@@ -8,6 +8,6 @@ settings:
       type: design-token
       tokenName: color-brand-primary
 description: |-
-  Need an admin-only section of your workspace? No problem! 
+  Need an admin-only section of your workspace? No problem!
   Knapsack supports hidden pages. Shhhhh!
 blockIds: []
