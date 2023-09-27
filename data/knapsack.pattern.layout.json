@@ -8,6 +8,10 @@
     {
       "id": "react",
       "type": "template"
+    },
+    {
+      "id": "8hMllLUfBj",
+      "type": "subPage"
     }
   ],
   "title": "Layout",
@@ -15,13 +19,18 @@
     "twig": "needs-dev",
     "react": "ready",
     "design": "ready",
-    "web-components": "needs-dev"
+    "web-components": "ready"
   },
   "subPages": [
     {
       "id": "Figma",
       "title": "Figma",
       "blockIds": ["YEkgV9IhxW", "kKTr9MvIOY"]
+    },
+    {
+      "id": "8hMllLUfBj",
+      "title": "Layout Test",
+      "blockIds": ["DV3f3cUshu", "dLxcPcvhZq"]
     }
   ],
   "templates": [

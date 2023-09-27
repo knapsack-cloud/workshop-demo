@@ -1070,6 +1070,17 @@ blocks:
               type: paragraph
           type: doc
       id: 6-qXFUJ0eH
+    6DYmRbbcZv:
+      blockType: pattern-variations
+      data:
+        demoId: ''
+        excludePropValue: ''
+        includePropValue: ''
+        patternId: layout
+        templateId: ''
+        variationId: ''
+      id: 6DYmRbbcZv
+      size: null
     6eHTQ_DA5d:
       blockType: text-editor
       data:
@@ -1894,6 +1905,18 @@ blocks:
               type: heading
           type: doc
       id: DRNLXHrlPG
+    DV3f3cUshu:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - content:
+                - text: "Hey! Layouts are hard.\_"
+                  type: text
+              type: paragraph
+          type: doc
+      id: DV3f3cUshu
+      size: null
     DZDCl_8hOO:
       blockType: text-editor
       data:
@@ -3965,6 +3988,14 @@ blocks:
               type: table
           type: doc
       id: ctwMU8NUmw
+      size: null
+    dLxcPcvhZq:
+      blockType: component-spec-block
+      data:
+        collapsible: false
+        patternId: layout
+        templateId: react
+      id: dLxcPcvhZq
       size: null
     dWwXgDQUjj:
       blockType: divider-block

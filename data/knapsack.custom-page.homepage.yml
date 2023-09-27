@@ -5,7 +5,7 @@ settings:
     size: full
     textColorTitle:
       type: design-token
-      tokenName: color.base.red
+      tokenName: color.base.blue
     backgroundImage: >-
       https://knapsack.imgix.net/site/workshop-demo/insurance-concept-with-icons-for-car-home-medical-insurance-68afjwupqb.jpg
     textColorDescription:
