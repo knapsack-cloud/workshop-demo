@@ -1,3 +1,22 @@
+# v0.1.61 (Wed Sep 27 2023)
+
+#### ⚠️ Pushed to `main`
+
+- `@knapsack-cloud/workshop-demo-react`, `@knapsack-cloud/workshop-demo-styles`
+  - chore: link button to primary design token ([@brittanysmart](https://github.com/brittanysmart))
+
+#### 📝 Documentation
+
+- primary color updates [#8](https://github.com/knapsack-cloud/workshop-demo/pull/8) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- prototype content update [#7](https://github.com/knapsack-cloud/workshop-demo/pull/7) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Brittany Smart ([@brittanysmart](https://github.com/brittanysmart))
+
+---
+
 # v0.1.60 (Wed Sep 27 2023)
 
 #### ⚠️ Pushed to `main`
