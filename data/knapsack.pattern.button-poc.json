@@ -8,10 +8,16 @@
     {
       "id": "9puwKHDhu7",
       "type": "subPage"
+    },
+    {
+      "type": "template",
+      "id": "react-fkcnNvGghZ"
     }
   ],
   "title": "Button POC",
-  "statuses": {},
+  "statuses": {
+    "design": "ready"
+  },
   "subPages": [
     {
       "id": "overview",
@@ -24,6 +30,19 @@
       "blockIds": ["oJv8xLWg6M"]
     }
   ],
-  "templates": [],
+  "templates": [
+    {
+      "id": "react-fkcnNvGghZ",
+      "title": "React",
+      "path": "@knapsack-cloud/workshop-demo-react",
+      "alias": "Button",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["grDfteoySZ"],
+      "blockIds": []
+    }
+  ],
   "description": ""
 }
