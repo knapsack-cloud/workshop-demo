@@ -26,7 +26,7 @@ const FireIcon = () => (
 );
 
 export const Button: React.FC<ButtonProps> = ({
-  children,
+  children = 'Button', // Default text
   size,
   type,
   url,
@@ -59,7 +59,7 @@ export const Button: React.FC<ButtonProps> = ({
     // If not in lightMode we need to check mode
     switch (mode) {
       case 'info':
-        buttonMode = 'bg-base-blue border-base-blue';
+        buttonMode = 'bg-brand-primary border-brand-primary';
         break;
       case 'success':
         buttonMode = 'bg-base-green border-base-green';
@@ -82,7 +82,7 @@ export const Button: React.FC<ButtonProps> = ({
   // Button text color
   const buttonTextColorByMode = {
     success: 'text-base-green',
-    info: 'text-base-blue',
+    info: 'text-brand-primary',
     warning: 'text-base-orange',
     danger: 'text-base-red',
     alert: 'text-base-yellow',

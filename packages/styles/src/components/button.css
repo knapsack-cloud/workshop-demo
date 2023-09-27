@@ -1,5 +1,5 @@
 /* Noting here that all these classes could be applied directly to the markup
-but this file demonstrates how easy it is to add direct CSS (with custom 
+but this file demonstrates how easy it is to add direct CSS (with custom
 processing!) */
 
 .ks-button {
@@ -40,17 +40,10 @@ processing!) */
     }
 
     &.info {
-      @apply bg-base-blue border-base-blue;
-      .wow & {
-        @apply bg-base-orchid border-base-orchid;
-      }
+      @apply bg-brand-primary border-brand-primary;
 
       &:hover {
-        @apply bg-dark-blue border-dark-blue;
-
-        .wow & {
-          @apply bg-dark-orchid border-dark-orchid;
-        }
+        @apply bg-brand-primary border-brand-primary;
       }
     }
     &.warning:hover {
@@ -73,23 +66,15 @@ processing!) */
       @apply bg-base-green;
     }
     &.info {
-      .wow & {
-        @apply border-base-orchid text-base-orchid;
-      }
-
       &:hover {
-        @apply bg-base-blue text-white;
-
-        .wow & {
-          @apply bg-base-orchid text-white;
-        }
+        @apply bg-brand-primary text-base-white;
       }
     }
     &.warning:hover {
       @apply bg-base-orange;
     }
     &.danger:hover {
-      @apply bg-base-red;
+      @apply bg-base-red text-base-white;
     }
     &.alert:hover {
       @apply bg-base-yellow;
