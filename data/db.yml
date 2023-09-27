@@ -1146,7 +1146,7 @@ blocks:
                   type: listItem
                 - content:
                     - content:
-                        - text: "In Knapsack's Token Manager, click the "
+                        - text: 'In Knapsack''s Token Manager, click the '
                           type: text
                         - marks:
                             - type: bold
@@ -1304,7 +1304,7 @@ blocks:
                   type: text
               type: paragraph
             - content:
-                - text: "If you're not familiar with Markdown, "
+                - text: 'If you''re not familiar with Markdown, '
                   type: text
                 - marks:
                     - attrs:
@@ -4059,7 +4059,7 @@ blocks:
                   type: text
               type: paragraph
             - content:
-                - text: "Changes you've made will be add to Git once you follow "
+                - text: 'Changes you''ve made will be add to Git once you follow '
                   type: text
                 - marks:
                     - attrs:
