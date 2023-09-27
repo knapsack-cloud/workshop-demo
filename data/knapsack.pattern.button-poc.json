@@ -1,0 +1,29 @@
+{
+  "id": "button-poc",
+  "tabs": [
+    {
+      "id": "overview",
+      "type": "subPage"
+    },
+    {
+      "id": "9puwKHDhu7",
+      "type": "subPage"
+    }
+  ],
+  "title": "Button POC",
+  "statuses": {},
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "blockIds": ["zxeWB-XMlH", "DKV7DiHZk3", "lVgSzN9D99", "HOheaZwEjE"]
+    },
+    {
+      "id": "9puwKHDhu7",
+      "title": "Design",
+      "blockIds": ["oJv8xLWg6M"]
+    }
+  ],
+  "templates": [],
+  "description": ""
+}

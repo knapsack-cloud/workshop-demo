@@ -139,6 +139,11 @@ byId:
     name: Button
     parentId: Simple
     path: /pattern/button
+  button-poc:
+    id: button-poc
+    name: Button POC
+    parentId: Simple
+    path: /pattern/button-poc
   card:
     id: card
     name: Card
@@ -270,3 +275,4 @@ order:
   - Page-Level-Prototyping
   - Page-Builders
   - one-pager
+  - button-poc

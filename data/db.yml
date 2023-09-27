@@ -1706,6 +1706,161 @@ blocks:
           type: doc
       id: D3--o8Cp5d
       size: medium
+    DKV7DiHZk3:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - attrs:
+                level: 2
+              content:
+                - text: Button variants
+                  type: text
+              type: heading
+            - content:
+                - text: >-
+                    Each button variant has a particular function and its design signals that function to the user. It
+                    is therefore very important that the different variants are implemented consistently across
+                    products, so that they message the correct actions.
+                  type: text
+              type: paragraph
+            - attrs:
+                level: 3
+              content:
+                - text: Mode
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - marks:
+                            - type: bold
+                          text: Success
+                          type: text
+                        - text: ' - For the principal call to action on the page. Primary buttons should only appear once per screen (not including the application header, modal dialog, or side panel).'
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - marks:
+                            - type: bold
+                          text: Info
+                          type: text
+                        - text: ' - For secondary actions on each page. Secondary buttons can only be used in conjunction with a primary button. As part of a pair, the secondary button’s function is to perform the negative action of the set, such as “Cancel” or “Back”. Do not use a secondary button in isolation and do not use a secondary button for a positive action.'
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - marks:
+                            - type: bold
+                          text: Warning
+                          type: text
+                        - text: ' - For less prominent, and sometimes independent, actions. Tertiary buttons can be used in isolation or paired with a primary button when there are multiple calls to action. Tertiary buttons can also be used for sub-tasks on a page where a primary button for the main and final action is present.'
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - marks:
+                            - type: bold
+                          text: Danger
+                          type: text
+                        - text: ' - For actions that could have destructive effects on the user’s data (for example, delete or remove).'
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - marks:
+                            - type: bold
+                          text: Alert
+                          type: text
+                        - text: ' - For actions that could impact other settings indirectly.'
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - marks:
+                            - type: bold
+                          text: Special
+                          type: text
+                        - text: ' - For special or unique actions; often used in conjunction with a primary button.'
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - attrs:
+                level: 3
+              content:
+                - text: Size
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - marks:
+                            - type: bold
+                          text: Small
+                          type: text
+                        - text: ' - For use in small viewport experiences.'
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - marks:
+                            - type: bold
+                          text: Medium
+                          type: text
+                        - text: ' - For use in medium viewport experiences.'
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - marks:
+                            - type: bold
+                          text: Large
+                          type: text
+                        - text: ' - For use in large viewport experiences.'
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - attrs:
+                level: 3
+              content:
+                - text: Type
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - marks:
+                            - type: bold
+                          text: Solid
+                          type: text
+                        - text: ' - For use in combination with primary buttons, to present a prominently emphasized call to action.'
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - marks:
+                            - type: bold
+                          text: Outlined
+                          type: text
+                        - text: ' - For use in combination with secondary and tertiary actions, to present a de-emphasized user option.'
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+          type: doc
+      id: DKV7DiHZk3
+      size: null
     DQJfjlsVyS:
       blockType: text-editor
       data:
@@ -2276,6 +2431,204 @@ blocks:
     H4_9NLT2TE:
       blockType: divider-block
       id: H4_9NLT2TE
+    HOheaZwEjE:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - attrs:
+                level: 2
+              content:
+                - text: Emphasis
+                  type: text
+              type: heading
+            - content:
+                - text: >-
+                    You don’t necessarily need to use the buttons in the order that their labels imply. For example, you
+                    don’t always need to use the secondary button as the second button in your layout. The most
+                    important thing is to establish a visual hierarchy between the buttons in your UI. Keep these best
+                    practices in mind.
+                  type: text
+              type: paragraph
+            - attrs:
+                level: 3
+              content:
+                - text: A single, high-emphasis button
+                  type: text
+              type: heading
+            - content:
+                - text: >-
+                    As a general rule, a layout should contain a single high-emphasis button that makes it clear that
+                    other buttons have less importance in the hierarchy. This high-emphasis button commands the most
+                    attention.
+                  type: text
+              type: paragraph
+            - attrs:
+                level: 3
+              content:
+                - text: Multiple button emphasis
+                  type: text
+              type: heading
+            - content:
+                - text: >-
+                    A high-emphasis button can be accompanied by medium- and low-emphasis buttons that perform less
+                    important actions. Keep in mind that you should only group together calls to action that have a
+                    relationship to one another.
+                  type: text
+              type: paragraph
+            - content:
+                - text: >-
+                    Although secondary buttons have less visual prominence because they are less saturated than their
+                    primary counterparts, they are still tonally heavy. If your layout requires multiple actions—as is
+                    the case with some toolbars, data lists and dashboards—low emphasis buttons (tertiary or ghost) may
+                    be a better choice.
+                  type: text
+              type: paragraph
+            - attrs:
+                level: 2
+              content:
+                - text: Related
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - marks:
+                            - attrs:
+                                class: null
+                                href: https://app.knapsack.cloud/site/demo-design-system/latest/pattern/author
+                                target: _blank
+                              type: link
+                            - type: underline
+                          text: Author pattern
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - marks:
+                            - attrs:
+                                class: null
+                                href: https://app.knapsack.cloud/site/demo-design-system/latest/pattern/card
+                                target: _blank
+                              type: link
+                            - type: underline
+                          text: Card pattern
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - attrs:
+                level: 2
+              content:
+                - text: References
+                  type: text
+              type: heading
+            - content:
+                - content:
+                    - content:
+                        - text: Mehmet Goktürk,
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: null
+                                href: >-
+                                  https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/fitts-s-law
+                                target: _blank
+                              type: link
+                          text: ' '
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: null
+                                href: >-
+                                  https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/fitts-s-law
+                                target: _blank
+                              type: link
+                            - type: underline
+                          text: The Glossary of Human Computer Interaction, Chapter 37
+                          type: text
+                        - text: ' (The Interaction Design Foundation)'
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: Jakob Nielsen,
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: null
+                                href: https://www.nngroup.com/articles/ok-cancel-or-cancel-ok/
+                                target: _blank
+                              type: link
+                          text: ' '
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: null
+                                href: https://www.nngroup.com/articles/ok-cancel-or-cancel-ok/
+                                target: _blank
+                              type: link
+                            - type: underline
+                          text: OK-Cancel or Cancel-OK? The Trouble With Button
+                          type: text
+                        - text: s (Nielsen Norman Group, 2008)
+                          type: text
+                      type: paragraph
+                  type: listItem
+                - content:
+                    - content:
+                        - text: Artem Syzonenko
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: null
+                                href: https://uxdesign.cc/buttons-placement-and-order-bb1c4abadfcb
+                                target: _blank
+                              type: link
+                          text: ' '
+                          type: text
+                        - marks:
+                            - attrs:
+                                class: null
+                                href: https://uxdesign.cc/buttons-placement-and-order-bb1c4abadfcb
+                                target: _blank
+                              type: link
+                            - type: underline
+                          text: 'Buttons on the web: placement and order'
+                          type: text
+                        - text: ' (UX Collective, 2019)'
+                          type: text
+                      type: paragraph
+                  type: listItem
+              type: bulletList
+            - attrs:
+                level: 2
+              content:
+                - text: Feedback
+                  type: text
+              type: heading
+            - content:
+                - text: >-
+                    Help us improve this component by providing feedback, asking questions, and leaving any other
+                    comments on
+                  type: text
+                - marks:
+                    - attrs:
+                        class: null
+                        href: https://github.com/knapsack-cloud/demo-design-system/
+                        target: _blank
+                      type: link
+                    - type: underline
+                  text: GitHub
+                  type: text
+                - text: .
+                  type: text
+              type: paragraph
+          type: doc
+      id: HOheaZwEjE
+      size: null
     Hn3xvYmDXj:
       blockType: figma-block
       data:
@@ -4155,6 +4508,15 @@ blocks:
     l0IishHfUu:
       blockType: divider-block
       id: l0IishHfUu
+    lVgSzN9D99:
+      blockType: figma-block
+      data:
+        clickToInteract: false
+        height: '480'
+        url: >-
+          https://www.figma.com/proto/Kz25Haw0uw59tNchMdJeuI/Design-System?type=design&node-id=1%3A2&mode=design&t=ZvAxbZ7gtqAmmKuw-1&hide-ui=1 
+      id: lVgSzN9D99
+      size: null
     lfSX6gzrNI:
       blockType: text-editor
       data:
@@ -4534,6 +4896,15 @@ blocks:
               type: paragraph
           type: doc
       id: nuL9llFvdl
+    oJv8xLWg6M:
+      blockType: figma-block
+      data:
+        clickToInteract: false
+        height: '700'
+        url: >-
+          https://www.figma.com/file/Kz25Haw0uw59tNchMdJeuI/TDS?type=design&node-id=1%3A2&mode=design&t=NSIvNwoQhCZucW8o-1
+      id: oJv8xLWg6M
+      size: null
     oOoSydrcCR:
       blockType: figma-block
       data:
@@ -5848,6 +6219,63 @@ blocks:
               type: paragraph
           type: doc
       id: zlejPJh20Z
+    zxeWB-XMlH:
+      blockType: text-editor
+      data:
+        content:
+          content:
+            - attrs:
+                level: 2
+              content:
+                - text: Overview
+                  type: text
+              type: heading
+            - content:
+                - text: >-
+                    Buttons are clickable elements that are used to trigger actions. They communicate calls to action to
+                    the user and allow users to interact with pages in a variety of ways. Button labels express what
+                    action will occur when the user interacts with it.
+                  type: text
+              type: paragraph
+            - attrs:
+                level: 3
+              content:
+                - text: When to use
+                  type: text
+              type: heading
+            - content:
+                - text: >-
+                    Use buttons to communicate actions users can take and to allow users to interact with the page. Each
+                    page should have one primary button, and any remaining calls to action should be represented as
+                    lower emphasis buttons.
+                  type: text
+              type: paragraph
+            - attrs:
+                level: 3
+              content:
+                - text: When not to use
+                  type: text
+              type: heading
+            - content:
+                - text: >-
+                    Do not use buttons as navigational elements. Instead, use links when the desired action is to take
+                    the user to a new page.
+                  type: text
+              type: paragraph
+            - attrs:
+                level: 3
+              content:
+                - text: When you're not sure
+                  type: text
+              type: heading
+            - content:
+                - text: Default to focusing on primary and secondary (and tertiary...) states. or ask a friend :)
+                  type: text
+              type: paragraph
+          type: doc
+      id: zxeWB-XMlH
+      size: null
+      spacing: medium
   settings:
     tokens:
       rootFontSize: 16px
