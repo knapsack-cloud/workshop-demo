@@ -1,3 +1,17 @@
+# v0.1.60 (Wed Sep 27 2023)
+
+#### ⚠️ Pushed to `main`
+
+- chore: remove logo page ([@brittanysmart](https://github.com/brittanysmart))
+- `@knapsack-cloud/workshop-demo-react`, `@knapsack-cloud/workshop-demo-styles`
+  - chore: update brand primary design token inside components and re-add logo ([@brittanysmart](https://github.com/brittanysmart))
+
+#### Authors: 1
+
+- Brittany Smart ([@brittanysmart](https://github.com/brittanysmart))
+
+---
+
 # v0.1.59 (Wed Sep 27 2023)
 
 #### ⚠️ Pushed to `main`
