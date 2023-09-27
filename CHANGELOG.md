@@ -1,3 +1,20 @@
+# v0.1.62 (Wed Sep 27 2023)
+
+#### ⚠️ Pushed to `main`
+
+- chore: link button component ([@brittanysmart](https://github.com/brittanysmart))
+
+#### 📝 Documentation
+
+- new button component design + spec [#9](https://github.com/knapsack-cloud/workshop-demo/pull/9) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- Brittany Smart ([@brittanysmart](https://github.com/brittanysmart))
+
+---
+
 # v0.1.61 (Wed Sep 27 2023)
 
 #### ⚠️ Pushed to `main`
