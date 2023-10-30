@@ -26,6 +26,20 @@ settings:
               type: url
           style: normal
           weight: 400
+        - family: Batterson Sans
+          src:
+            - format: woff2
+              path: https://cdn.travelers.com/fonts/2.1/fonts/BattersonSansUI-Regular.woff2
+              type: url
+          style: normal
+          weight: 400
+        - family: Batterson Slab
+          src:
+            - format: woff2
+              path: https://cdn.travelers.com/fonts/2.1/fonts/BattersonSlabUI-Regular.woff2
+              type: url
+          style: normal
+          weight: 400
       navigation:
         primaryNav:
           accentColor:
@@ -34,8 +48,8 @@ settings:
           backgroundColor:
             tokenName: color.brand.white
             type: design-token
-          fontFamily: Inter
-          fontWeight: 800
+          fontFamily: Batterson Sans
+          fontWeight: 600
           hoverColor:
             tokenName: color.base.red
             type: design-token
@@ -50,7 +64,7 @@ settings:
           backgroundColor:
             tokenName: color.brand.white
             type: design-token
-          fontFamily: Inter
+          fontFamily: Batterson Sans
           fontWeight: 500
           textColor:
             tokenName: color.brand.black
@@ -60,14 +74,14 @@ settings:
           accentColor:
             tokenName: color.base.red
             type: design-token
-          fontFamily: Inter
+          fontFamily: Batterson Sans
           textColor:
             tokenName: color.brand.black
             type: design-token
           textTransform: inherit
       pageElements:
         bodyText:
-          fontFamily: Inter
+          fontFamily: Batterson Sans
           fontSize:
             min:
               unit: rem
@@ -77,14 +91,16 @@ settings:
             type: design-token
           textTransform: inherit
         headingLarge:
-          fontFamily: Inter
+          fontFamily: Batterson Sans
           fontWeight: 400
+          textTransform: inherit
         headingMedium:
-          fontFamily: Inter
+          fontFamily: Batterson Sans
+          textTransform: inherit
         headingSmall:
           fontFamily: Inter
         headingXLarge:
-          fontFamily: Inter
+          fontFamily: Batterson Sans
           fontWeight: 600
           textTransform: inherit
         headingXSmall:
@@ -92,7 +108,7 @@ settings:
         link:
           fontWeight: 600
           textColor:
-            tokenName: color.base.red
+            tokenName: color.base.blue
             type: design-token
           textTransform: inherit
           underline: true

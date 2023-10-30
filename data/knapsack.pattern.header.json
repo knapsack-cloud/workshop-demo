@@ -11,7 +11,6 @@
     "main": "ready",
     "twig": "wont-build",
     "react": "ready",
-    "design": "ready",
     "handlebars": "wont-build",
     "web-components": "needs-dev"
   },
