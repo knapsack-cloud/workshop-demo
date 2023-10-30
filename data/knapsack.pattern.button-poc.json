@@ -15,9 +15,7 @@
     }
   ],
   "title": "Button POC",
-  "statuses": {
-    "design": "ready"
-  },
+  "statuses": {},
   "subPages": [
     {
       "id": "overview",

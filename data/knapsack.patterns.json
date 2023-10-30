@@ -1,35 +1,9 @@
 {
   "statusSets": [
     {
-      "id": "design",
-      "title": "Design",
+      "id": "FwqXksqRED",
+      "title": "Core",
       "statuses": [
-        {
-          "id": "needs-design",
-          "color": "#bfdaf9",
-          "title": "Needs Design"
-        },
-        {
-          "id": "ready",
-          "color": "#ccedb1",
-          "title": "Ready"
-        },
-        {
-          "id": "needs-updated",
-          "color": "#ff9fd3",
-          "title": "Needs Update"
-        }
-      ]
-    },
-    {
-      "id": "react",
-      "title": "React",
-      "statuses": [
-        {
-          "id": "unset",
-          "color": "#bbc1c9",
-          "title": "Unset"
-        },
         {
           "id": "needs-dev",
           "color": "#bfdaf9",
@@ -39,16 +13,6 @@
           "id": "needs-updated",
           "color": "#ff9fd3",
           "title": "Needs Update"
-        },
-        {
-          "id": "needs-qa",
-          "color": "#f4c3a4",
-          "title": "Needs QA"
-        },
-        {
-          "id": "needs-approval",
-          "color": "#f8de9b",
-          "title": "Needs Approval"
         },
         {
           "id": "ready",
@@ -67,11 +31,6 @@
       "title": "Web Components",
       "statuses": [
         {
-          "id": "unset",
-          "color": "#bbc1c9",
-          "title": "Unset"
-        },
-        {
           "id": "needs-dev",
           "color": "#bfdaf9",
           "title": "Needs Development"
@@ -80,16 +39,6 @@
           "id": "needs-updated",
           "color": "#ff9fd3",
           "title": "Needs Update"
-        },
-        {
-          "id": "needs-qa",
-          "color": "#f4c3a4",
-          "title": "Needs QA"
-        },
-        {
-          "id": "needs-approval",
-          "color": "#f8de9b",
-          "title": "Needs Approval"
         },
         {
           "id": "ready",
@@ -104,14 +53,9 @@
       ]
     },
     {
-      "id": "FwqXksqRED",
-      "title": "Core",
+      "id": "react",
+      "title": "React",
       "statuses": [
-        {
-          "id": "unset",
-          "color": "#bbc1c9",
-          "title": "Unset"
-        },
         {
           "id": "needs-dev",
           "color": "#bfdaf9",
@@ -121,16 +65,6 @@
           "id": "needs-updated",
           "color": "#ff9fd3",
           "title": "Needs Update"
-        },
-        {
-          "id": "needs-qa",
-          "color": "#f4c3a4",
-          "title": "Needs QA"
-        },
-        {
-          "id": "needs-approval",
-          "color": "#f8de9b",
-          "title": "Needs Approval"
         },
         {
           "id": "ready",

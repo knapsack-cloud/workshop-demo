@@ -14,7 +14,6 @@
   "statuses": {
     "twig": "needs-dev",
     "react": "ready",
-    "design": "ready",
     "handlebars": "wont-build",
     "web-components": "wont-build"
   },
