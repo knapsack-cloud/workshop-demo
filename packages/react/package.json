@@ -1,7 +1,7 @@
 {
   "name": "@knapsack-cloud/workshop-demo-react",
   "description": "Knapsack Workshop Demo React Components",
-  "version": "0.1.62",
+  "version": "0.1.63",
   "module": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
   "scripts": {
@@ -10,8 +10,8 @@
     "start": "yarn build --watch"
   },
   "dependencies": {
-    "@knapsack-cloud/workshop-demo-design-tokens": "^0.1.62",
-    "@knapsack-cloud/workshop-demo-styles": "^0.1.62",
+    "@knapsack-cloud/workshop-demo-design-tokens": "^0.1.63",
+    "@knapsack-cloud/workshop-demo-styles": "^0.1.63",
     "classnames": "^2.3.1"
   },
   "devDependencies": {
