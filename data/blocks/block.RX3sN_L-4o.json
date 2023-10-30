@@ -1,0 +1,32 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "About Design Tokens",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Design tokens are design decisions captured as usable code. When we design and build using tokens, we give ourselves the ability to maintain and update brand experiences at any scale with ease. This section of the platform allows designers and engineers to collaboratively define and manage tokens.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "RX3sN_L-4o"
+}

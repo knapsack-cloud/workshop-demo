@@ -1,0 +1,63 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 1
+          },
+          "content": [
+            {
+              "text": "About Us",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "We're a passionate group of designers, engineers, and former design system consultants. Our team has helped some of the largest companies build and implement design systems that solve their unique challenges. Our mission is to simplify the design system experience so teams can spend more time creating and less time rebuilding or struggling to keep their design and code in sync.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "We're backed by Google, Slack, and other world-class investors who see our vision for the future.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "Our focus is modernizing digital production through collaborative tooling and workflows that ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "make it easy to reuse code",
+              "type": "text"
+            },
+            {
+              "text": ".",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "7Y7v_lnZJh"
+}

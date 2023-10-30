@@ -5,11 +5,14 @@ settings:
     size: medium
     textColorTitle:
       type: design-token
-      tokenName: color.base.red
-    backgroundImage: https://knapsack.imgix.net/site/workshop-demo/pen-on-paper-bkbe_0gm7a.jpg
+      tokenName: color.base.white
+    backgroundImage: null
     textColorDescription:
-      type: value
-      colorValue: '#000000'
+      type: design-token
+      tokenName: color.base.white
+    backgroundColor:
+      type: design-token
+      tokenName: color.brand.black
 description: Read about how to use your design system
 blockIds:
   - UxAvkJpKxP

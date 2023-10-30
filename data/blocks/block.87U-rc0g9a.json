@@ -1,0 +1,79 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Making Edits to the Workspace",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "In order to begin making changes, an Admin or Contributor first needs to create or select a branch in which to work.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Branches can be created using the ",
+                      "type": "text"
+                    },
+                    {
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "text": "Edit",
+                      "type": "text"
+                    },
+                    {
+                      "text": " button located in the top admin toolbar.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Existing branches can be selected by clicking the branches dropdown (defaulted to \"latest\").",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "87U-rc0g9a",
+  "size": "medium"
+}

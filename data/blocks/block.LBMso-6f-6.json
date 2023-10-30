@@ -1,0 +1,26 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Horizontal Dividers",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "type": "horizontalRule"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "LBMso-6f-6"
+}

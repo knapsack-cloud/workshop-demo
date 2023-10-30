@@ -1,0 +1,21 @@
+{
+  "data": {
+    "props": {
+      "heading": "Get in touch",
+      "imgSrc": "https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100"
+    },
+    "slots": {
+      "children": [
+        {
+          "text": "Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel           lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "id": "0cnxLKsacP",
+  "patternId": "header",
+  "templateId": "react",
+  "title": "Main",
+  "type": "data"
+}

@@ -1,0 +1,26 @@
+{
+  "data": {
+    "props": {
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
+      "imgSrc": "https://images.propertycasualty360.com/contrib/content/uploads/sites/414/2019/08/01-Insurance-Agent-Shutterstock.jpg",
+      "label": "Video",
+      "title": "How to use search engine optimization to drive sales"
+    },
+    "slots": {
+      "children": [
+        {
+          "demoId": "_nTCiQ1984",
+          "patternId": "author",
+          "templateId": "react",
+          "type": "template-demo"
+        }
+      ]
+    }
+  },
+  "description": "",
+  "id": "W1Xbf7ez7T",
+  "patternId": "card",
+  "templateId": "react",
+  "title": "One Author - No CTA",
+  "type": "data"
+}

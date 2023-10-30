@@ -1,0 +1,96 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 1
+          },
+          "content": [
+            {
+              "text": "Build better together",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Knapsack is the next generation of design systems - flexible, scalable, and highly collaborative. Knapsack powers unified product experiences by providing a central source of truth for everyone on your team. Document decisions, create tokens, build prototypes, and ship code directly to your app or website. You'll see a new level of collaboration between teams and increase velocity in just a few weeks with Knapsack's ready-to-use infrastructure. Unite design and engineering in one powerful tool that will scale with your organization for years to come.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "Visit our ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": null,
+                    "href": "https://knapsack.cloud",
+                    "target": "_blank"
+                  },
+                  "type": "link"
+                },
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "website",
+              "type": "text"
+            },
+            {
+              "text": ", follow us on ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": null,
+                    "href": "https://twitter.com/knapsackcloud",
+                    "target": "_blank"
+                  },
+                  "type": "link"
+                },
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Twitter",
+              "type": "text"
+            },
+            {
+              "text": ", or check out our ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "webinars",
+              "type": "text"
+            },
+            {
+              "text": " to learn more!",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "6-qXFUJ0eH"
+}

@@ -1,0 +1,109 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Introduction",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Knapsack enables teams to work together to collaborative create their design system documentation as they design and build the design system. Use the steps below to begin adding pages, connecting design and code, and coordinating across teams with your new central source of truth!",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": null,
+                            "href": "#add-pages",
+                            "target": "_blank"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "Add Pages",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": null,
+                            "href": "#add-content-blocks",
+                            "target": "_blank"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "Add Content",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": null,
+                            "href": "#customize-your-page-headers",
+                            "target": "_blank"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "Customize Page Headers",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "US4_sofbxi"
+}

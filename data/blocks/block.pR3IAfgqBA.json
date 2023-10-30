@@ -1,0 +1,108 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Resources",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": null,
+                            "href": "https://www.w3.org/TR/wai-aria-practices/examples/checkbox/checkbox-1/checkbox-1.html",
+                            "target": "_blank"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "W3C WAI-ARIA Authoring Practices Checkbox Design Pattern",
+                      "type": "text"
+                    },
+                    {
+                      "text": " covers the usage of ARIA names, state and roles, as well as the expected keyboard interactions.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": null,
+                            "href": "https://www.w3.org/WAI/GL/wiki/Using_aria-expanded_to_indicate_the_state_of_a_collapsible_element",
+                            "target": "_blank"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "W3C WAI-ARIA: Using aria-expanded to indicate the state of a collapsible element",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Best In Class Example: ",
+                      "type": "text"
+                    },
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": null,
+                            "href": "https://www.ibm.com/able/requirements/requirements/",
+                            "target": "_blank"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "IBM Accessibility Requirements",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "pR3IAfgqBA"
+}

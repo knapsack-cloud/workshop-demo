@@ -1,0 +1,24 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Tables",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "1MwxUqcERn",
+  "size": null
+}

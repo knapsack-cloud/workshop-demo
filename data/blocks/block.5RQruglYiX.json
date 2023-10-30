@@ -1,0 +1,176 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Overview",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Using the ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "System",
+              "type": "text"
+            },
+            {
+              "text": " content blocks, users can create dynamic documentation of component templates and specific variations. Since Knapsack is wired up to the source code of your design system, documentation will automatically update when changes occur.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "Choose from a variety of formats and presentations depending on the type of documentation experience you're aiming for.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "Explore the different options for component presentation below:",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": null,
+                            "href": "#component-embed",
+                            "target": "_blank"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "Component Embed",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": null,
+                            "href": "#component-demo",
+                            "target": "_blank"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "Component Demo",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": null,
+                            "href": "#system-overview-all-components",
+                            "target": "_blank"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "System Overview (All Components)",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "marks": [
+                        {
+                          "attrs": {
+                            "class": null,
+                            "href": "#system-status-table",
+                            "target": "_blank"
+                          },
+                          "type": "link"
+                        }
+                      ],
+                      "text": "System Status Table",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bulletList"
+        },
+        {
+          "content": [
+            {
+              "text": "Use the below sections to browse examples of component documentation.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "5RQruglYiX"
+}

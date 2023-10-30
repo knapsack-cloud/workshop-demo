@@ -1,0 +1,33 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "Contributors",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Contributor users are only able to \"Request Review\" of their changes. They are not able to publish changes directly. Once changes are submitted, Admin users can publish the changes via the UI.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "82vqfNsnx0",
+  "size": "small"
+}

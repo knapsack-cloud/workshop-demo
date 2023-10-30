@@ -1,0 +1,27 @@
+{
+  "data": {
+    "props": {
+      "buttonOne": "Apply Now",
+      "buttonTwo": "Request Help",
+      "headlineOne": "It's better ",
+      "headlineTwo": "under the umbrella",
+      "paragraph": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "showBackground": true
+    },
+    "slots": {
+      "header": [
+        {
+          "demoId": "Cmjc3yXJ_r",
+          "patternId": "top-nav",
+          "templateId": "react",
+          "type": "template-demo"
+        }
+      ]
+    }
+  },
+  "id": "3ZA8cHaxRd",
+  "patternId": "hero",
+  "templateId": "react",
+  "title": "Hero w/ Nav",
+  "type": "data"
+}

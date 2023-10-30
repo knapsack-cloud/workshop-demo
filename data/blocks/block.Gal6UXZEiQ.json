@@ -1,0 +1,60 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://knapsack.imgix.net/site/knapsack-nucleus/input-fields-05-to13zax3d5.svg?h=200&w=540",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "WARNING",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "When a user is not currently interacting with an input field and field validation returns a warning. Note: Not all fields require a warning validation.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": null,
+                    "href": "#",
+                    "target": "_blank"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "Back to Top",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "Gal6UXZEiQ",
+  "size": "medium"
+}

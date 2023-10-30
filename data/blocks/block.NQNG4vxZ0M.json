@@ -1,0 +1,60 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://knapsack.imgix.net/site/knapsack-nucleus/input-fields-09-ffnja3il-o.svg?h=200&w=540",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "FILLED",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "When a user has their mouse placed over the input field containing user input.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": null,
+                    "href": "#",
+                    "target": "_blank"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "Back to Top",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "NQNG4vxZ0M",
+  "size": "medium"
+}

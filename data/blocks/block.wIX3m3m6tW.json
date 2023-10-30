@@ -1,0 +1,58 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://knapsack.imgix.net/site/knapsack-nucleus/text-input-fields-02-ohfkc0mhae.svg?h=320&w=540",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "PLACEHOLDER TEXT",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://knapsack.imgix.net/site/knapsack-nucleus/annotation-6-wpnjrqwtms.svg?h=22&w=22",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Placeholder Text (optional):",
+              "type": "text"
+            },
+            {
+              "text": " $text-colors-subtle",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "wIX3m3m6tW",
+  "size": "medium"
+}

@@ -1,0 +1,19 @@
+{
+  "data": {
+    "props": {
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
+      "imgSrc": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixqx=exTPH5Vqg4&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+      "label": "Case Study",
+      "title": "Improve your customer experience"
+    },
+    "slots": {
+      "children": []
+    }
+  },
+  "description": "",
+  "id": "WXcBdSXuE9",
+  "patternId": "card",
+  "templateId": "react",
+  "title": "Simple",
+  "type": "data"
+}

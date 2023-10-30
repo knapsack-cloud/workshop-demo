@@ -5,14 +5,14 @@ settings:
     size: medium
     textColorTitle:
       type: design-token
-      tokenName: color.brand.white
+      tokenName: color.base.white
     backgroundImage: null
     textColorDescription:
-      type: value
-      colorValue: '#000000'
+      type: design-token
+      tokenName: color.base.white
     backgroundColor:
       type: design-token
-      tokenName: color.base.red
+      tokenName: color.brand.black
 description: |-
   Work with patterns to create new experiences.
   Collaborate to build, share, and test your ideas with real code!

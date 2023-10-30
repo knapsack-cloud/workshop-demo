@@ -1,0 +1,145 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Publishing or Submitting Changes",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "Kicking off the Publishing workflow",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "attrs": {
+            "start": 1
+          },
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Click the ",
+                      "type": "text"
+                    },
+                    {
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "text": "Publish Changes",
+                      "type": "text"
+                    },
+                    {
+                      "text": " or ",
+                      "type": "text"
+                    },
+                    {
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "text": "Request Review",
+                      "type": "text"
+                    },
+                    {
+                      "text": " button in the top toolbar",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Enter a ",
+                      "type": "text"
+                    },
+                    {
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "text": "Title",
+                      "type": "text"
+                    },
+                    {
+                      "text": " and ",
+                      "type": "text"
+                    },
+                    {
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "text": "Body",
+                      "type": "text"
+                    },
+                    {
+                      "text": " for the submission. This content will be included in the pull request (PR) containing your changes in the underlying code repo",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "orderedList"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "Changes Appearing on Production",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Changes may take up to 10 minutes to appear on production depending on your workspace configuration. This sllows time for all code changes (e.g. design tokens that will produce updated CSS) to go through a build and deploy process and release an udpated version of your design system and workspace.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "wW1eAzPe6X",
+  "size": "medium"
+}

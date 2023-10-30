@@ -1,0 +1,23 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Figma",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "Y6lDP3j81a"
+}

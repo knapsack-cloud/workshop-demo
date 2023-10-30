@@ -1,0 +1,35 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "Knapsack Webinar",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Using design tokens to unify styling across products",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "sM9CmSLU48"
+}

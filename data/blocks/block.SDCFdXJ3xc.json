@@ -1,0 +1,41 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://knapsack.imgix.net/site/knapsack-nucleus/input-fields-03-j2pj8t6vyd.svg?h=200&w=540",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "FILLED",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "When a user has previously entered text into the input field, but is no longer interacting with it.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "SDCFdXJ3xc",
+  "size": "medium"
+}

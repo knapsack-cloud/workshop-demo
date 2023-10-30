@@ -1,0 +1,32 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Introduction to Publishing in Knapsack",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Knapsack leverages the features of Git for managing contribution, versioning, and collaboration in the workspace. In order to publish content from the web, you'll follow the same tried and trusted Git workflows, but from a simplified interface.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "tupCtiAwEk"
+}

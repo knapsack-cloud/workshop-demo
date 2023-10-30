@@ -1,0 +1,15 @@
+{
+  "blockType": "design-token-block",
+  "data": {
+    "demo": {
+      "id": "media-query"
+    },
+    "tokens": {
+      "category": "breakpoint",
+      "name": "",
+      "tags": [],
+      "type": "dimension"
+    }
+  },
+  "id": "26WskgYN2R"
+}

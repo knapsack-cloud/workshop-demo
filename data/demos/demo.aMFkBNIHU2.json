@@ -1,0 +1,30 @@
+{
+  "data": {
+    "props": {
+      "bandContent": "Tempor adipiscing libero volutpat luctus integer phasellus curae, habitant tempus vel interdum augue aliquam, varius feugiat nulla suscipit magnis hac.",
+      "bandTitle": "Two Card Layout Example"
+    },
+    "slots": {
+      "children": [
+        {
+          "demoId": "-2WvOX39hg",
+          "patternId": "card",
+          "templateId": "react",
+          "type": "template-demo"
+        },
+        {
+          "demoId": "W1Xbf7ez7T",
+          "patternId": "card",
+          "templateId": "react",
+          "type": "template-demo"
+        }
+      ]
+    }
+  },
+  "description": "",
+  "id": "aMFkBNIHU2",
+  "patternId": "layout",
+  "templateId": "react",
+  "title": "2-Column Card Example",
+  "type": "data"
+}

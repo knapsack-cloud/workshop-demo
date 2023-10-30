@@ -1,0 +1,15 @@
+{
+  "blockType": "design-token-block",
+  "data": {
+    "demo": {
+      "id": "spacing"
+    },
+    "tokens": {
+      "category": "spacing",
+      "name": "",
+      "tags": [],
+      "type": "dimension"
+    }
+  },
+  "id": "XvSFjTcPwH"
+}

@@ -244,6 +244,7 @@ order:
   - Simple
   - author
   - button
+  - button-poc
   - Complex
   - top-nav
   - card
@@ -275,4 +276,3 @@ order:
   - Page-Level-Prototyping
   - Page-Builders
   - one-pager
-  - button-poc

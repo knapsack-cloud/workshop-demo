@@ -1,0 +1,25 @@
+{
+  "data": {
+    "props": {
+      "mode": "danger",
+      "size": "medium",
+      "type": "solid",
+      "url": "#url"
+    },
+    "slots": {
+      "children": [
+        {
+          "text": "Button",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "height": 65,
+  "id": "2ysfvm4ShE",
+  "patternId": "button",
+  "templateId": "react",
+  "title": "Primary",
+  "type": "data",
+  "width": 227
+}

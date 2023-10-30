@@ -1,0 +1,77 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "type": "italic"
+                }
+              ],
+              "text": "This section provides an overview of content formatting options in Knapsack. Visit the ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": null,
+                    "href": "././Design-Tokens-lNWaUqkDSo",
+                    "target": "_blank"
+                  },
+                  "type": "link"
+                },
+                {
+                  "type": "italic"
+                }
+              ],
+              "text": "Design Tokens",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "type": "italic"
+                }
+              ],
+              "text": " and ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": null,
+                    "href": "././Components-Overview",
+                    "target": "_blank"
+                  },
+                  "type": "link"
+                },
+                {
+                  "type": "italic"
+                }
+              ],
+              "text": "Components",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "type": "italic"
+                }
+              ],
+              "text": " sections for examples of asset docs.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "nuL9llFvdl"
+}

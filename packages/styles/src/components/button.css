@@ -71,16 +71,16 @@ processing!) */
       }
     }
     &.warning:hover {
-      @apply bg-base-orange;
+      @apply bg-base-orange text-base-white;
     }
     &.danger:hover {
       @apply bg-base-red text-base-white;
     }
     &.alert:hover {
-      @apply bg-base-yellow;
+      @apply bg-base-yellow text-base-white;
     }
     &.special:hover {
-      @apply bg-base-orchid;
+      @apply bg-base-orchid text-base-white;
     }
   }
 

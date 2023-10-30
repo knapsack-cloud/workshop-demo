@@ -1,0 +1,59 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Publishing Token Changes Made in the UI",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Once you've added tokens to Knapack, you'll be able to reference them within the workspace (e.g. to customize the UI), but will not yet appear in the underlying Git repo.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "Changes you've made will be add to Git once you follow ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": null,
+                    "href": "https://help.knapsack.cloud/article/25-publishing-changes",
+                    "target": "_blank"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "the publishing workflow",
+              "type": "text"
+            },
+            {
+              "text": ".",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "jBOFirAff_"
+}

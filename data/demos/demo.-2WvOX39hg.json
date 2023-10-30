@@ -1,0 +1,38 @@
+{
+  "data": {
+    "props": {
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
+      "imgSrc": "https://media.istockphoto.com/id/1199060494/photo/insurance-protecting-family-health-live-house-and-car-concept.jpg?s=612x612&w=0&k=20&c=W8bPvwF5rk7Rm2yDYnMyFhGXZfNqK4bUPlDcRpKVsB8=",
+      "label": "Article",
+      "title": "Boost your conversion rate"
+    },
+    "slots": {
+      "children": [
+        {
+          "demoId": "_nTCiQ1984",
+          "patternId": "author",
+          "templateId": "react",
+          "type": "template-demo"
+        },
+        {
+          "demoId": "gsI4PO5HfP",
+          "patternId": "author",
+          "templateId": "react",
+          "type": "template-demo"
+        },
+        {
+          "demoId": "2ysfvm4ShE",
+          "patternId": "button",
+          "templateId": "react",
+          "type": "template-demo"
+        }
+      ]
+    }
+  },
+  "description": "",
+  "id": "-2WvOX39hg",
+  "patternId": "card",
+  "templateId": "react",
+  "title": "Two Author CTA",
+  "type": "data"
+}

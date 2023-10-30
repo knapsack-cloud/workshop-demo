@@ -1,0 +1,162 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://knapsack.imgix.net/site/knapsack-nucleus/text-input-fields-01-34q2gkre3j.svg?h=320&w=540",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "EMPTY",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://knapsack.imgix.net/site/knapsack-nucleus/annotation-1-_enuogwtgq.svg?h=22&w=22",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Field Label:",
+              "type": "text"
+            },
+            {
+              "text": " $text-colors-primary",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://knapsack.imgix.net/site/knapsack-nucleus/annotation-2-qs2lhv5qms.svg?h=22&w=22",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Description (optional):",
+              "type": "text"
+            },
+            {
+              "text": " $text-colors-subtle",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://knapsack.imgix.net/site/knapsack-nucleus/annotation-3-7aaateyk5b.svg?h=22&w=22",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Field Border:",
+              "type": "text"
+            },
+            {
+              "text": " 1px, solid, $border-colors-strong, 2px corner radius",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://knapsack.imgix.net/site/knapsack-nucleus/annotation-4-7rbpsgdaax.svg?h=22&w=22",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Field Fill:",
+              "type": "text"
+            },
+            {
+              "text": " $background-colors-primary",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://knapsack.imgix.net/site/knapsack-nucleus/annotation-5-uqqe_b5hre.svg?h=22&w=22",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Icon (optional):",
+              "type": "text"
+            },
+            {
+              "text": " 24 x 24px",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "npKePci3kr",
+  "size": "medium"
+}

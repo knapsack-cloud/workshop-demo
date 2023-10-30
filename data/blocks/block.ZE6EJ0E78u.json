@@ -1,0 +1,23 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Core Palette",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "ZE6EJ0E78u"
+}

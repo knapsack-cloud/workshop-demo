@@ -1,0 +1,174 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Add Content Blocks",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Static and dynamic content is createed in Knapsack using our system of ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Content Blocks",
+              "type": "text"
+            },
+            {
+              "text": ". These blocks allow Admin and Contributor users to add or connect text, media, and third-party (e.g. Figma, Xd, Airtable) assets to Knapsack.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "Adding & Configuring Content Blocks",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "attrs": {
+            "start": 1
+          },
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Click the ",
+                      "type": "text"
+                    },
+                    {
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "text": "+",
+                      "type": "text"
+                    },
+                    {
+                      "text": " button to display the content block menu",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Select the content block for your desired content type",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "text": "Use the ⚙️ icon in the top-right of each content block to adjust settings",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "orderedList"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "Looking for Inspiration?",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "For example of how to leverage content blocks, check out ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": null,
+                    "href": "https://app.knapsack.cloud/site/public-demo/latest/pages/Documentation",
+                    "target": "_blank"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "our demo workspace",
+              "type": "text"
+            },
+            {
+              "text": " or email ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "attrs": {
+                    "class": null,
+                    "href": "mailto:help@knapsack.cloud",
+                    "target": "_blank"
+                  },
+                  "type": "link"
+                }
+              ],
+              "text": "help@knapsack.cloud",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "muc_6S6okz",
+  "size": "medium"
+}

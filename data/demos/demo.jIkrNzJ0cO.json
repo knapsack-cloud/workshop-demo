@@ -1,0 +1,35 @@
+{
+  "data": {
+    "props": {},
+    "slots": {
+      "children": [
+        {
+          "demoId": "3ZA8cHaxRd",
+          "patternId": "hero",
+          "templateId": "react",
+          "type": "template-demo"
+        },
+        {
+          "demoId": "eY-_KWUog4",
+          "patternId": "layout",
+          "templateId": "react",
+          "type": "template-demo"
+        },
+        {
+          "demoId": "DRuV9pseUR",
+          "patternId": "footer",
+          "templateId": "react",
+          "type": "template-demo"
+        }
+      ]
+    }
+  },
+  "description": "A sample homepage",
+  "height": 476,
+  "id": "jIkrNzJ0cO",
+  "patternId": "one-pager",
+  "templateId": "react",
+  "title": "3-Column Homepage",
+  "type": "data",
+  "width": 872
+}

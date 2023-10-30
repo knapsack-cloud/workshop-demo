@@ -2,7 +2,7 @@ id: homepage
 title: Welcome to TDS!
 settings:
   pageHeader:
-    size: full
+    size: medium
     textColorTitle:
       type: design-token
       tokenName: color.base.red
@@ -16,4 +16,5 @@ description: |-
   A shared platform for product teams to collaborate
   on documenting, designing, building, testing, and shipping
   their digital products.
-blockIds: []
+blockIds:
+  - WpQrghavuN

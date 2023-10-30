@@ -8,11 +8,11 @@ settings:
       tokenName: color.brand.white
     backgroundImage: null
     textColorDescription:
-      type: value
-      colorValue: '#000000'
+      type: design-token
+      tokenName: color.base.white
     backgroundColor:
       type: design-token
-      tokenName: color.base.red
+      tokenName: color.brand.black
 description: Building blocks of your digital brand
 blockIds:
   - RX3sN_L-4o

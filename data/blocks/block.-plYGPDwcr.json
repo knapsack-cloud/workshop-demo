@@ -1,0 +1,14 @@
+{
+  "blockType": "pattern-variations",
+  "data": {
+    "demoId": "2ysfvm4ShE",
+    "hideBlockTitle": false,
+    "patternId": "button",
+    "size": "s",
+    "templateId": "react",
+    "variationId": "mode"
+  },
+  "id": "-plYGPDwcr",
+  "size": null,
+  "spacing": "small"
+}

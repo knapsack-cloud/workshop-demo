@@ -1,0 +1,32 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Full Page Prototype Example",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Use the React pattern playground to assemple patterns into a custom, static page prototype example. Use the available public link to share with stakeholders or run through live testing platforms for accessibility or performance.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "vPbAkMHWK4"
+}

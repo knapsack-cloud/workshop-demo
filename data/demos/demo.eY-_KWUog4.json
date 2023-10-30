@@ -1,0 +1,36 @@
+{
+  "data": {
+    "props": {
+      "bandContent": "Facilisis tristique id habitant dis augue interdum sagittis morbi et fusce, taciti erat maecenas ad auctor ipsum pulvinar luctus varius, massa diam blandit ridiculus potenti aptent feugiat risus primis.",
+      "bandTitle": "Three Card Layout Example"
+    },
+    "slots": {
+      "children": [
+        {
+          "demoId": "-2WvOX39hg",
+          "patternId": "card",
+          "templateId": "react",
+          "type": "template-demo"
+        },
+        {
+          "demoId": "W1Xbf7ez7T",
+          "patternId": "card",
+          "templateId": "react",
+          "type": "template-demo"
+        },
+        {
+          "demoId": "3c9C95vaFP",
+          "patternId": "card",
+          "templateId": "react",
+          "type": "template-demo"
+        }
+      ]
+    }
+  },
+  "description": "A description",
+  "id": "eY-_KWUog4",
+  "patternId": "layout",
+  "templateId": "react",
+  "title": "3-Column Card Example",
+  "type": "data"
+}

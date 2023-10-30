@@ -1,0 +1,96 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Applying spacing",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "The spacing scale can be applied to ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "type": "code"
+                }
+              ],
+              "text": "margin",
+              "type": "text"
+            },
+            {
+              "text": " or ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "type": "code"
+                }
+              ],
+              "text": "padding",
+              "type": "text"
+            },
+            {
+              "text": " properties, as well as to both vertical and horizontal edges. The token takes the place of the values normally assigned to ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "type": "code"
+                }
+              ],
+              "text": "margin",
+              "type": "text"
+            },
+            {
+              "text": " and ",
+              "type": "text"
+            },
+            {
+              "marks": [
+                {
+                  "type": "code"
+                }
+              ],
+              "text": "padding",
+              "type": "text"
+            },
+            {
+              "text": ". The following are all approved ways to syntactically apply spacing tokens:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "language": null
+          },
+          "content": [
+            {
+              "text": "margin: $spacing-03;\nmargin: $spacing-03 $spacing-01;\nmargin: $spacing-07 0 $spacing-04 0;\nmargin-right: $spacing-05;\npadding: $spacing-04;\npadding: $spacing-05 $spacing-03;\npadding: $spacing-07 $spacing-04 0 $spacing-04;\n",
+              "type": "text"
+            }
+          ],
+          "type": "codeBlock"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "3ksVKDvSEf"
+}

@@ -1,0 +1,41 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Introduction to Design Tokens",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Design tokens are atomic design properties - a color, font, border radius, or some combination of these sorts of properties - expressed as a source variable that can be combined, translated and consumed across an entire digital ecosystem.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "content": [
+            {
+              "text": "Adding design tokens to your Knapsack workspace can help your team define, document, and distribute color, typography, and any other core styling properties to your design system users.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "J7G5qpbLIh"
+}

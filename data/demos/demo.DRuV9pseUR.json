@@ -1,0 +1,95 @@
+{
+  "data": {
+    "props": {
+      "copyright": "2020 Workflow, Inc. All rights reserved.",
+      "navigation": {
+        "company": [
+          {
+            "href": "#company-1",
+            "name": "About"
+          },
+          {
+            "href": "#company-2",
+            "name": "Blog"
+          },
+          {
+            "href": "#company-3",
+            "name": "Jobs"
+          },
+          {
+            "href": "#company-4",
+            "name": "Press"
+          },
+          {
+            "href": "#company-5",
+            "name": "Partners"
+          }
+        ],
+        "legal": [
+          {
+            "href": "#legal-1",
+            "name": "Claim"
+          },
+          {
+            "href": "#legal-2",
+            "name": "Privacy"
+          },
+          {
+            "href": "#legal-3",
+            "name": "Terms"
+          }
+        ],
+        "solutions": [
+          {
+            "href": "#solutions-1",
+            "name": "Marketing"
+          },
+          {
+            "href": "#solutions-2",
+            "name": "Analytics"
+          },
+          {
+            "href": "#solutions-3",
+            "name": "Commerce"
+          },
+          {
+            "href": "#solutions-4",
+            "name": "Insights"
+          }
+        ],
+        "support": [
+          {
+            "href": "#support-1",
+            "name": "Pricing"
+          },
+          {
+            "href": "#support-2",
+            "name": "Documentation"
+          },
+          {
+            "href": "#support-3",
+            "name": "Guides"
+          },
+          {
+            "href": "#support-4",
+            "name": "API Status"
+          }
+        ]
+      },
+      "social": {
+        "dribbble": true,
+        "facebook": true,
+        "github": true,
+        "instagram": true,
+        "twitter": true
+      },
+      "tagline": "Making the world a better place through constructing elegant hierarchies."
+    },
+    "slots": {}
+  },
+  "id": "DRuV9pseUR",
+  "patternId": "footer",
+  "templateId": "react",
+  "title": "Main",
+  "type": "data"
+}

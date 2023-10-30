@@ -1,0 +1,28 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://knapsack.imgix.net/site/demo-design-system/spacing-1_revised-cd1sjv01ju.png?w=736&auto=compress",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "content": [
+            {
+              "text": "Example of spacing tokens applied",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "yvaN3EVmSU"
+}

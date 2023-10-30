@@ -9,11 +9,10 @@ settings:
     backgroundImage: null
     textColorDescription:
       type: design-token
-      colorValue: '#FFFFFF'
-      tokenName: color-brand-black
+      tokenName: color.base.white
     backgroundColor:
       type: design-token
-      tokenName: color.base.red
+      tokenName: color.brand.black
   hideTableOfContents: true
 description: Browse all available components and understand current status
 blockIds:

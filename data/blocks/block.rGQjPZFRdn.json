@@ -1,0 +1,110 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://knapsack.imgix.net/site/knapsack-nucleus/text-input-fields-04-uapopnutvr.svg?h=320&w=540",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "ERROR",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://knapsack.imgix.net/site/knapsack-nucleus/annotation-8-spxbia4tcy.svg?h=22&w=22",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Field Border:",
+              "type": "text"
+            },
+            {
+              "text": " $border-colors-danger-strong",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://knapsack.imgix.net/site/knapsack-nucleus/annotation-9-umttyd-cjs.svg?h=22&w=22",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Error Message:",
+              "type": "text"
+            },
+            {
+              "text": " $text-colors-danger",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://knapsack.imgix.net/site/knapsack-nucleus/annotation-10-tbxss4du1t.svg?h=22&w=22",
+            "title": null
+          },
+          "type": "image"
+        },
+        {
+          "content": [
+            {
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Error Icon:",
+              "type": "text"
+            },
+            {
+              "text": " 16 x 16px, $svg-fill-danger-strong",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "rGQjPZFRdn",
+  "size": "medium"
+}

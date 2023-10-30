@@ -1,0 +1,15 @@
+{
+  "blockType": "design-token-block",
+  "data": {
+    "demo": {
+      "id": "simple-list"
+    },
+    "tokens": {
+      "category": "color",
+      "name": "",
+      "tags": ["brand"],
+      "type": "color"
+    }
+  },
+  "id": "TPySDEPq5j"
+}

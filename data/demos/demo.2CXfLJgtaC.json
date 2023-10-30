@@ -1,0 +1,23 @@
+{
+  "data": {
+    "props": {
+      "mode": "special",
+      "size": "medium",
+      "type": "outline",
+      "url": "#url"
+    },
+    "slots": {
+      "children": [
+        {
+          "text": "Button",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "id": "2CXfLJgtaC",
+  "patternId": "button",
+  "templateId": "react",
+  "title": "Secondary",
+  "type": "data"
+}

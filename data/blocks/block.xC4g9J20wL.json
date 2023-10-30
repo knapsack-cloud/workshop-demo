@@ -1,0 +1,33 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 4
+          },
+          "content": [
+            {
+              "text": "Admins",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "content": [
+            {
+              "text": "Admin users have the option of merging changes into production (\"Publish\") or submitting changes for review (\"Request Review\") by other team members or system administrators.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "xC4g9J20wL",
+  "size": "small"
+}

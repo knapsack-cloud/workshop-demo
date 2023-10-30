@@ -1,0 +1,34 @@
+{
+  "data": {
+    "props": {
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
+      "imgSrc": "https://www.insureon.com/-/media/blog/posts/2022/blog_how-to-get-more-clients-for-your-insurance-business.jpg?h=592&iar=0&w=1200&rev=a0cc4e51f9df4fe48cb80c72fba592ad",
+      "label": "Article",
+      "title": "Boost your conversion rate now!"
+    },
+    "slots": {
+      "children": [
+        {
+          "demoId": "gsI4PO5HfP",
+          "patternId": "author",
+          "templateId": "react",
+          "type": "template-demo"
+        },
+        {
+          "demoId": "2ysfvm4ShE",
+          "patternId": "button",
+          "templateId": "react",
+          "type": "template-demo"
+        }
+      ]
+    }
+  },
+  "description": "",
+  "height": 564,
+  "id": "RN96ZpJJpY",
+  "patternId": "card",
+  "templateId": "react",
+  "title": "One Author CTA",
+  "type": "data",
+  "width": 543
+}

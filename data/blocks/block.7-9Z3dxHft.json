@@ -1,0 +1,14 @@
+{
+  "blockType": "design-token-block",
+  "data": {
+    "demo": {
+      "id": "color-swatch"
+    },
+    "tokens": {
+      "category": "color",
+      "name": "",
+      "tags": ["base"]
+    }
+  },
+  "id": "7-9Z3dxHft"
+}

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "props": {
+      "button": "#login|Login",
+      "links": ["#1|Product", "#2|Features", "Marketplace", "Company"]
+    },
+    "slots": {}
+  },
+  "description": "This Top Nav variation contains links and a button.",
+  "id": "sQTUm4r36f",
+  "patternId": "top-nav",
+  "templateId": "react",
+  "title": "No Logo Top Nav w/ Button",
+  "type": "data"
+}

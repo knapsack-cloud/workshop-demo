@@ -1,0 +1,14 @@
+{
+  "blockType": "design-token-block",
+  "data": {
+    "demo": {
+      "id": "box-shadow"
+    },
+    "tokens": {
+      "category": "shadow",
+      "name": "box",
+      "tags": []
+    }
+  },
+  "id": "eoZlp_hdgb"
+}

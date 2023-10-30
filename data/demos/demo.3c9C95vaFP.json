@@ -1,0 +1,32 @@
+{
+  "data": {
+    "props": {
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
+      "imgSrc": "https://www.tdi.texas.gov/artwork/slider/auto-insurance.png",
+      "label": "Case Study",
+      "title": "Improve your customer experience"
+    },
+    "slots": {
+      "children": [
+        {
+          "demoId": "hGfcj0Ksms",
+          "patternId": "author",
+          "templateId": "react",
+          "type": "template-demo"
+        },
+        {
+          "demoId": "_nTCiQ1984",
+          "patternId": "author",
+          "templateId": "react",
+          "type": "template-demo"
+        }
+      ]
+    }
+  },
+  "description": "",
+  "id": "3c9C95vaFP",
+  "patternId": "card",
+  "templateId": "react",
+  "title": "Two Author - No CTA",
+  "type": "data"
+}

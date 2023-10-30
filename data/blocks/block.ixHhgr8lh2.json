@@ -1,0 +1,35 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "text": "Code Blocks",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "attrs": {
+            "language": null
+          },
+          "content": [
+            {
+              "text": ".ks-transition-demo--normal {\n    background-color: var(--color-brand-primary);\n    transition: background-color var(--transition-duration-normal) var(--transition-timing-default);\n}\n.ks-transition-demo--normal:hover {\n    background-color: var(--color-brand-secondary);\n}\n",
+              "type": "text"
+            }
+          ],
+          "type": "codeBlock"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "ixHhgr8lh2"
+}

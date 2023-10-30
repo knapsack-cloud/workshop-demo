@@ -1,0 +1,32 @@
+{
+  "blockType": "text-editor",
+  "data": {
+    "content": {
+      "content": [
+        {
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "text": "Animated GIFs",
+              "type": "text"
+            }
+          ],
+          "type": "heading"
+        },
+        {
+          "attrs": {
+            "alt": "",
+            "src": "https://media4.giphy.com/media/lcs5BL0NIM4WMv61a9/giphy.gif?cid=ecf05e47nuxq7wzty4iymmzqu1z604dndq4owpvzqrv9ryd0&rid=giphy.gif?h=200&w=540",
+            "title": null
+          },
+          "type": "image"
+        }
+      ],
+      "type": "doc"
+    }
+  },
+  "id": "1qNvMBLoCi",
+  "size": "medium"
+}

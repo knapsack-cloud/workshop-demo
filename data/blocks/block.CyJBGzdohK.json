@@ -1,0 +1,18 @@
+{
+  "blockType": "pattern-template-block",
+  "data": {
+    "demoId": "2ysfvm4ShE",
+    "demoSize": "landscape",
+    "hideControls": false,
+    "patternId": "button",
+    "playgroundUi": {
+      "demoSize": "landscape",
+      "showCodeSnippet": false,
+      "showSchemaForm": false
+    },
+    "showCodeSnippet": false,
+    "showSchemaForm": false,
+    "templateId": "react"
+  },
+  "id": "CyJBGzdohK"
+}
