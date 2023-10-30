@@ -104,6 +104,11 @@ byId:
     name: Workflow
     parentId: Embeds
     path: /pages/Workflow
+  accessibility:
+    id: accessibility
+    name: Accessibility
+    parentId: root
+    path: ''
   adding-design-tokens:
     id: adding-design-tokens
     name: Adding Design Tokens
@@ -276,3 +281,4 @@ order:
   - Page-Level-Prototyping
   - Page-Builders
   - one-pager
+  - accessibility
