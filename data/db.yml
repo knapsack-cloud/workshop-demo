@@ -98,13 +98,13 @@ settings:
           fontFamily: Batterson Sans
           textTransform: inherit
         headingSmall:
-          fontFamily: Inter
+          fontFamily: Batterson Sans
         headingXLarge:
           fontFamily: Batterson Sans
           fontWeight: 600
           textTransform: inherit
         headingXSmall:
-          fontFamily: Inter
+          fontFamily: Batterson Sans
         link:
           fontWeight: 600
           textColor:
@@ -113,10 +113,10 @@ settings:
           textTransform: inherit
           underline: true
         pageDescription:
-          fontFamily: Inter
+          fontFamily: Batterson Sans
           fontWeight: 400
         pageTitle:
-          fontFamily: Inter
+          fontFamily: Batterson Sans
           fontWeight: 800
           textColor:
             tokenName: color.base.red
