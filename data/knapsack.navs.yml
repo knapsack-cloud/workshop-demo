@@ -164,6 +164,11 @@ byId:
     name: Customizing the Workspace
     parentId: guidance
     path: /pages/customizing-the-workspace
+  example-page:
+    id: example-page
+    name: Example Page
+    parentId: Prototyping
+    path: /pages/example-page
   footer:
     id: footer
     name: Footer
@@ -244,7 +249,6 @@ order:
   - Simple
   - author
   - button
-  - button-poc
   - Complex
   - top-nav
   - card
@@ -276,3 +280,5 @@ order:
   - Page-Level-Prototyping
   - Page-Builders
   - one-pager
+  - button-poc
+  - example-page
