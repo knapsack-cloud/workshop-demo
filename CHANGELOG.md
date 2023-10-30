@@ -1,3 +1,16 @@
+# v0.1.63 (Mon Oct 30 2023)
+
+#### ⚠️ Pushed to `main`
+
+- `@knapsack-cloud/workshop-demo-styles`
+  - chore: Latest updates with architectural changes ([@brittanysmart](https://github.com/brittanysmart))
+
+#### Authors: 1
+
+- Brittany Smart ([@brittanysmart](https://github.com/brittanysmart))
+
+---
+
 # v0.1.62 (Wed Sep 27 2023)
 
 #### ⚠️ Pushed to `main`
