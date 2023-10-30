@@ -117,7 +117,7 @@
     }
   ],
   "statuses": {
-    "design": "ready",
+    "design": "needs-updated",
     "react": "ready",
     "twig": "ready",
     "handlebars": "ready",

@@ -12,7 +12,7 @@ settings:
       tokenName: color.base.white
     backgroundColor:
       type: design-token
-      tokenName: color.brand.black
+      tokenName: color.brand.primary
   hideTableOfContents: true
 description: Browse all available components and understand current status
 blockIds:
