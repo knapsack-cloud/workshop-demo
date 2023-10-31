@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export type CardProps = {
   /**
-   * Content to fill out ONE paragraph
+   * Content to fill out JUST ONE paragraph
    */
   body?: string;
   imgSrc?: string;
