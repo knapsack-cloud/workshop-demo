@@ -3,7 +3,7 @@ import * as React from 'react';
 export interface ButtonProps {
   url?: string;
   mode?: 'info' | 'success' | 'warning' | 'danger' | 'alert' | 'special';
-  size?: 'small' | 'medium' | 'large';
+  size?: 'small' | 'medium' | 'large' | 'grande';
   type?: 'solid' | 'outline';
   lightMode?: boolean;
   children: React.ReactNode;
