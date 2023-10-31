@@ -1,3 +1,21 @@
+# v0.1.64 (Tue Oct 31 2023)
+
+#### ⚠️ Pushed to `main`
+
+- test commit ([@trv-rverma33](https://github.com/trv-rverma33))
+
+#### 📝 Documentation
+
+- Batterson Sans Globally, Adding accessibility section - Karissa Wingate [#13](https://github.com/knapsack-cloud/workshop-demo/pull/13) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+- Status board and font updates - Karissa Wingate [#12](https://github.com/knapsack-cloud/workshop-demo/pull/12) ([@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot]))
+
+#### Authors: 2
+
+- [@knapsack-cloud[bot]](https://github.com/knapsack-cloud[bot])
+- [@trv-rverma33](https://github.com/trv-rverma33)
+
+---
+
 # v0.1.63 (Mon Oct 30 2023)
 
 #### ⚠️ Pushed to `main`
