@@ -9,7 +9,7 @@ yarn
 yarn start
 ```
 
-### Build Client + components
+### Build Client + components + TRV commit test
 
 ```bash
 yarn build
