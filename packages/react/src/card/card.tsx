@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export type CardProps = {
   /**
-   * Content to fill out JUST ONE paragraph
+   * Content to fill out ONE paragraph
    */
   body?: string;
   imgSrc?: string;
@@ -32,7 +32,6 @@ export const Card: React.FC<CardProps> = ({
         <div className="flex-1">
           {label && (
             <p className="text-sm font-medium text-brand-primary dark:text-indigo-300">
-              Label:
               <a href="#" className="hover:underline">
                 {label}
               </a>
