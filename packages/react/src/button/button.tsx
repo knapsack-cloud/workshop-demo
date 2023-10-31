@@ -3,7 +3,7 @@ import * as React from 'react';
 export interface ButtonProps {
   url?: string;
   mode?: 'info' | 'success' | 'warning' | 'danger' | 'alert' | 'special';
-  size?: 'small' | 'medium' | 'large';
+  size?: 'small' | 'medium' | 'largish';
   type?: 'solid' | 'outline';
   lightMode?: boolean;
   children: React.ReactNode;
@@ -44,7 +44,7 @@ export const Button: React.FC<ButtonProps> = ({
     case 'medium':
       buttonSize = 'px-9 py-2.5 text-lg';
       break;
-    case 'large':
+    case 'largish':
       buttonSize = 'px-10 py-4 text-xl';
       break;
   }
