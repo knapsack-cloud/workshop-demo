@@ -139,6 +139,26 @@ byId:
     name: Brand Colors
     parentId: colors
     path: /pages/brand-colors
+  brand-esmkgxerlq:
+    id: brand-esmkgxerlq
+    name: Brand
+    parentId: root
+    path: /pages/brand-esmkgxerlq
+  brand-values:
+    id: brand-values
+    name: Our Brand Promise
+    parentId: brand-esmkgxerlq
+    path: /pages/brand-values
+  brand-values-rsbe0x5tkm:
+    id: brand-values-rsbe0x5tkm
+    name: Brand Values
+    parentId: brand-values
+    path: /pages/brand-values-rsbe0x5tkm
+  branded-templates:
+    id: branded-templates
+    name: Branded Templates
+    parentId: brand-esmkgxerlq
+    path: /pages/branded-templates
   button:
     id: button
     name: Button
@@ -169,6 +189,11 @@ byId:
     name: Customizing the Workspace
     parentId: guidance
     path: /pages/customizing-the-workspace
+  design-principles:
+    id: design-principles
+    name: Design Principles
+    parentId: brand-values
+    path: /pages/design-principles
   footer:
     id: footer
     name: Footer
@@ -204,6 +229,11 @@ byId:
     name: Layout
     parentId: Layout
     path: /pattern/layout
+  logo-use:
+    id: logo-use
+    name: Logo Use
+    parentId: brand-values
+    path: /pages/logo-use
   message:
     id: message
     name: Message
@@ -214,21 +244,46 @@ byId:
     name: One-Pager
     parentId: Page-Builders
     path: /pattern/one-pager
+  photography:
+    id: photography
+    name: Photography
+    parentId: brand-values
+    path: /pages/photography
   proposed-patterns:
     id: proposed-patterns
     name: Proposed Patterns
     parentId: Components-aPh3G1bbrX
     path: ''
+  sonification:
+    id: sonification
+    name: Sonification
+    parentId: brand-values
+    path: /pages/sonification
   spacing:
     id: spacing
     name: Spacing
     parentId: Design-Tokens-lNWaUqkDSo
     path: /pages/spacing
+  spacing-guide:
+    id: spacing-guide
+    name: Spacing Guide
+    parentId: brand-values
+    path: /pages/spacing-guide
+  support:
+    id: support
+    name: Support
+    parentId: root
+    path: /pages/support
   top-nav:
     id: top-nav
     name: Top Nav
     parentId: Complex
     path: /pattern/top-nav
+  utilities:
+    id: utilities
+    name: Utilities
+    parentId: root
+    path: /pages/utilities
   welcome-to-tds:
     id: welcome-to-tds
     name: Welcome to TDS
@@ -244,6 +299,15 @@ order:
   - adding-documentation
   - connecting-coded-components
   - customizing-the-workspace
+  - brand-esmkgxerlq
+  - brand-values
+  - brand-values-rsbe0x5tkm
+  - design-principles
+  - logo-use
+  - photography
+  - sonification
+  - spacing-guide
+  - branded-templates
   - Components-aPh3G1bbrX
   - Components-Overview
   - Simple
@@ -260,6 +324,9 @@ order:
   - proposed-patterns
   - message
   - input-field
+  - utilities
+  - accessibility
+  - support
   - Documentation
   - Design-System
   - Static-Content
@@ -281,4 +348,3 @@ order:
   - Page-Level-Prototyping
   - Page-Builders
   - one-pager
-  - accessibility

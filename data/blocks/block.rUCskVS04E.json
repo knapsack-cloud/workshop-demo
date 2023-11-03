@@ -1,9 +1,21 @@
 {
-  "id": "WpQrghavuN",
+  "id": "rUCskVS04E",
   "data": {
     "content": {
       "type": "doc",
       "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": "left"
+          },
+          "content": [
+            {
+              "text": "To help maintain a consistent brand voice and personality, please keep the following attributes in mind when creating content for any of our channels.",
+              "type": "text"
+            }
+          ]
+        },
         {
           "type": "heading",
           "attrs": {
@@ -12,19 +24,7 @@
           },
           "content": [
             {
-              "text": "Design",
-              "type": "text"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": "left"
-          },
-          "content": [
-            {
-              "text": "Build Better Together. Create a central source of truth, collaborate seamlessly, and accelerate your velocity. Click here to get started.",
+              "text": "We should always strive to be",
               "type": "text"
             }
           ]
