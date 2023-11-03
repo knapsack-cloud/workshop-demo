@@ -15,16 +15,9 @@
       "alias": "Button",
       "templateLanguageId": "react",
       "spec": {
-        "slots": {
-          "children": {
-            "title": "children",
-            "isRequired": true
-          }
-        },
         "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "",
           "type": "object",
+          "$schema": "http://json-schema.org/draft-07/schema",
           "required": [],
           "properties": {
             "url": {
@@ -45,7 +38,7 @@
               "title": "Button Mode"
             },
             "size": {
-              "enum": ["small", "medium", "large"],
+              "enum": ["small", "medium", "Moo"],
               "type": "string",
               "title": "Size"
             },
@@ -55,6 +48,13 @@
               "title": "Button Type",
               "default": "solid"
             }
+          },
+          "description": ""
+        },
+        "slots": {
+          "children": {
+            "title": "children",
+            "isRequired": true
           }
         }
       },

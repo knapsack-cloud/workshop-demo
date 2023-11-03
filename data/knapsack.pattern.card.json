@@ -44,6 +44,14 @@
     {
       "id": "react",
       "type": "template"
+    },
+    {
+      "id": "GSW4Nv0oJu",
+      "type": "subPage"
+    },
+    {
+      "id": "0zDmr-1Lob",
+      "type": "subPage"
     }
   ],
   "subPages": [
@@ -61,6 +69,16 @@
       "id": "Figma",
       "title": "Figma",
       "blockIds": ["Hn3xvYmDXj"]
+    },
+    {
+      "id": "GSW4Nv0oJu",
+      "title": "Release Notes",
+      "blockIds": []
+    },
+    {
+      "id": "0zDmr-1Lob",
+      "title": "Research",
+      "blockIds": ["5AO7mds5jC"]
     }
   ]
 }

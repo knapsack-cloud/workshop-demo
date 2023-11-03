@@ -189,11 +189,21 @@ byId:
     name: Hero
     parentId: Layout
     path: /pattern/hero
+  icons:
+    id: icons
+    name: Icons
+    parentId: Components-Overview
+    path: /pattern/icons
   input-field:
     id: input-field
     name: Input Field
     parentId: proposed-patterns
     path: /pattern/input-field
+  kaltura:
+    id: kaltura
+    name: Kaltura
+    parentId: Embeds
+    path: /pages/kaltura
   knapsack's-publishing-workflow:
     id: knapsack's-publishing-workflow
     name: Knapsack's Publishing Workflow
@@ -282,3 +292,5 @@ order:
   - Page-Builders
   - one-pager
   - accessibility
+  - kaltura
+  - icons

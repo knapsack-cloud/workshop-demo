@@ -28,6 +28,14 @@
       "yellow": {
         "$type": "color",
         "$value": "#FCD02A"
+      },
+      "c-error": {
+        "$type": "color",
+        "$value": "rgb(239, 122, 0)"
+      },
+      "c-data-viz-basil": {
+        "$type": "color",
+        "$value": "rgb(39, 165, 85)"
       }
     },
     "dark": {
@@ -328,5 +336,9 @@
         "$value": "150ms"
       }
     }
+  },
+  "style dictionary import": {
+    "type": "string",
+    "description": ""
   }
 }
