@@ -189,6 +189,12 @@ byId:
     name: Hero
     parentId: Layout
     path: /pattern/hero
+  hidden:
+    id: hidden
+    minRoleNeeded: ADMIN
+    name: HIDDEN
+    parentId: customizing-the-workspace
+    path: /pages/hidden
   input-field:
     id: input-field
     name: Input Field
@@ -282,3 +288,4 @@ order:
   - Page-Builders
   - one-pager
   - accessibility
+  - hidden
