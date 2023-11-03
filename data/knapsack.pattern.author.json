@@ -19,7 +19,8 @@
     "twig": "ready",
     "react": "ready",
     "handlebars": "ready",
-    "web-components": "ready"
+    "web-components": "ready",
+    "FwqXksqRED": "needs-dev"
   },
   "subPages": [],
   "templates": [
@@ -53,7 +54,7 @@
       "alias": "Author",
       "title": "React",
       "templateLanguageId": "react",
-      "demoIds": ["gsI4PO5HfP", "_nTCiQ1984", "hGfcj0Ksms"],
+      "demoIds": ["gsI4PO5HfP", "_nTCiQ1984", "hGfcj0Ksms", "-Przu_vnOQ"],
       "blockIds": []
     },
     {

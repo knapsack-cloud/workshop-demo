@@ -1,18 +1,20 @@
 {
-  "blockType": "pattern-template-block",
+  "id": "dsiSgOXHIC",
   "data": {
     "demoId": "jIkrNzJ0cO",
     "demoSize": "landscape",
-    "hideControls": false,
     "patternId": "one-pager",
+    "templateId": "react",
+    "hideControls": false,
     "playgroundUi": {
       "demoSize": "landscape",
-      "showCodeSnippet": false,
-      "showSchemaForm": false
+      "allowResizing": false,
+      "showSchemaForm": false,
+      "showCodeSnippet": false
     },
-    "showCodeSnippet": false,
+    "allowResizing": false,
     "showSchemaForm": false,
-    "templateId": "react"
+    "showCodeSnippet": false
   },
-  "id": "dsiSgOXHIC"
+  "blockType": "pattern-template-block"
 }
