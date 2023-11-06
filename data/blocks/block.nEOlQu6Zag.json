@@ -1,0 +1,24 @@
+{
+  "id": "nEOlQu6Zag",
+  "data": {
+    "content": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "codeBlock",
+          "attrs": {
+            "language": null
+          },
+          "content": [
+            {
+              "text": "<div class=\"tds-card tds-card--small tds-card--level-5\">\n  <img class=\"tds-card__image--top\" src=\"https://www.travelers.com/iw-images/tools-resources/car/buying-selling/medium/electric-hybrid-car-pros-cons-Medium.jpg\" alt=\"\">\n  <div class=\"tds-card__body\">\n    <div class=\"tds-card__body-title tds-h6\">Travelers Garage</div>\n    <div class=\"tds-card__body-header tds-h4\">Electric Cars and Hybrid Cars: Pros and Cons</div>\n    <p class=\"tds-small\">If you're considering going with an electric or hybrid car for your next vehicle, research\n      your options carefully and review the pros and cons.</p>\n  </div>\n  <div class=\"tds-card__footer\">\n    <a class=\"tds-button--tertiary tds-button--small\" href=\"#\">See the Research</a>\n  </div>\n</div>",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "size": null,
+  "blockType": "code-snippet"
+}

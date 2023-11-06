@@ -274,6 +274,11 @@ byId:
     name: Support
     parentId: root
     path: /pages/support
+  test:
+    id: test
+    name: Card
+    parentId: root
+    path: /pattern/test
   top-nav:
     id: top-nav
     name: Top Nav
@@ -348,3 +353,4 @@ order:
   - Page-Level-Prototyping
   - Page-Builders
   - one-pager
+  - test

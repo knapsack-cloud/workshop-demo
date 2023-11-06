@@ -1,0 +1,68 @@
+{
+  "id": "test",
+  "tabs": [
+    {
+      "id": "9aENqMeiR0",
+      "type": "subPage"
+    },
+    {
+      "id": "bw6x6MVl0g",
+      "type": "subPage"
+    },
+    {
+      "id": "_OVQ3c6qg3",
+      "type": "subPage"
+    },
+    {
+      "id": "mkmlVrQSKe",
+      "type": "subPage"
+    },
+    {
+      "id": "overview",
+      "type": "subPage"
+    }
+  ],
+  "title": "Card",
+  "statuses": {},
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Usage",
+      "blockIds": ["pK5RRZR8g9"]
+    },
+    {
+      "id": "bw6x6MVl0g",
+      "title": "CSS/JS",
+      "blockIds": []
+    },
+    {
+      "id": "_OVQ3c6qg3",
+      "title": "React & Web Components",
+      "blockIds": []
+    },
+    {
+      "id": "mkmlVrQSKe",
+      "title": "Accessibility",
+      "blockIds": []
+    },
+    {
+      "id": "9aENqMeiR0",
+      "title": "HTML",
+      "blockIds": [
+        "pe4BfKmVPa",
+        "BIivdc9pHV",
+        "HYvI1HdF8m",
+        "iXs_1i5unv",
+        "mvYWROtxiW",
+        "wHobnhqfLD",
+        "f2nhnS_cO1",
+        "S-M4YvzjUY",
+        "Qn0rWaov-D",
+        "nEOlQu6Zag",
+        "qlnaZicLH7"
+      ]
+    }
+  ],
+  "templates": [],
+  "description": "A card contains content about a single subject. It provides a way for a user to access more detailed information. We group cards to make it easier for a user to scan and take action."
+}

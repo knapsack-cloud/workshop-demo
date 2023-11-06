@@ -1,0 +1,24 @@
+{
+  "id": "BIivdc9pHV",
+  "data": {
+    "content": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "codeBlock",
+          "attrs": {
+            "language": null
+          },
+          "content": [
+            {
+              "text": "<div class=\"tds-card tds-card--small tds-card--level-5\">\n  <div class=\"tds-card__body\">\n    <p>Card Example</p>\n  </div>\n</div>",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "size": null,
+  "blockType": "code-snippet"
+}
